@@ -1,0 +1,54 @@
+[
+    {
+        "name": "Krow's Nest - hint",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "{}"
+        ],
+        "sections": [
+            {
+                "name": "Clear - hint",
+                "access_rules": [],
+                "visibility_rules": [
+                    "krow's_nest_clear"
+                ],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Krow's Nest",
+                "x": "2339",
+                "y": "2071",
+                "size": 12
+            }
+        ]
+    },
+    {
+        "name": "Krow's Nest",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "sections": [
+            {
+                "name": "Clear",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Krow's Nest",
+                "x": "2339",
+                "y": "2071",
+                "size": 6
+            }
+        ]
+    }
+]

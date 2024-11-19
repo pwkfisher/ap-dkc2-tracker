@@ -1,0 +1,110 @@
+[
+    {
+        "name": "Gusty Glade - hint",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "{}"
+        ],
+        "sections": [
+            {
+                "name": "Clear - hint",
+                "access_rules": [],
+                "visibility_rules": [
+                    "gusty_glade_clear"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "DK Coin - hint",
+                "access_rules": [],
+                "visibility_rules": [
+                    "gusty_glade_dk_coin"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "KONG - hint",
+                "access_rules": [],
+                "visibility_rules": [
+                    "gusty_glade_kong"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Bonus #1 - hint",
+                "access_rules": [],
+                "visibility_rules": [
+                    "gusty_glade_bonus_#1"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Bonus #2 - hint",
+                "access_rules": [],
+                "visibility_rules": [
+                    "gusty_glade_bonus_#2"
+                ],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Gusty Glade",
+                "x": "1072",
+                "y": "134",
+                "size": 12
+            }
+        ]
+    },
+    {
+        "name": "Gusty Glade",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "sections": [
+            {
+                "name": "Clear",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "DK Coin",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "KONG",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Bonus #1",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Bonus #2",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Gusty Glade",
+                "x": "1072",
+                "y": "134",
+                "size": 6
+            }
+        ]
+    }
+]

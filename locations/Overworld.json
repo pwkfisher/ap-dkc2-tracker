@@ -1,0 +1,3262 @@
+[
+    {
+        "name": "Overworld Hints",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Animal Antics - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Animal Antics - Clear - hint",
+                        "ref": "Animal Antics - hint/Clear - hint"
+                    },
+                    {
+                        "name": "Animal Antics - DK Coin - hint",
+                        "ref": "Animal Antics - hint/DK Coin - hint"
+                    },
+                    {
+                        "name": "Animal Antics - KONG - hint",
+                        "ref": "Animal Antics - hint/KONG - hint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "715",
+                        "y": "2125",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Arctic Abyss - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Arctic Abyss - Clear - hint",
+                        "ref": "Arctic Abyss - hint/Clear - hint"
+                    },
+                    {
+                        "name": "Arctic Abyss - DK Coin - hint",
+                        "ref": "Arctic Abyss - hint/DK Coin - hint"
+                    },
+                    {
+                        "name": "Arctic Abyss - KONG - hint",
+                        "ref": "Arctic Abyss - hint/KONG - hint"
+                    },
+                    {
+                        "name": "Arctic Abyss - Bonus #1 - hint",
+                        "ref": "Arctic Abyss - hint/Bonus #1 - hint"
+                    },
+                    {
+                        "name": "Arctic Abyss - Bonus #2 - hint",
+                        "ref": "Arctic Abyss - hint/Bonus #2 - hint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "2222",
+                        "y": "828",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Barrel Bayou - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Barrel Bayou - Clear - hint",
+                        "ref": "Barrel Bayou - hint/Clear - hint"
+                    },
+                    {
+                        "name": "Barrel Bayou - DK Coin - hint",
+                        "ref": "Barrel Bayou - hint/DK Coin - hint"
+                    },
+                    {
+                        "name": "Barrel Bayou - KONG - hint",
+                        "ref": "Barrel Bayou - hint/KONG - hint"
+                    },
+                    {
+                        "name": "Barrel Bayou - Bonus #1 - hint",
+                        "ref": "Barrel Bayou - hint/Bonus #1 - hint"
+                    },
+                    {
+                        "name": "Barrel Bayou - Bonus #2 - hint",
+                        "ref": "Barrel Bayou - hint/Bonus #2 - hint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "2267",
+                        "y": "2357",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Black Ice Battle - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Black Ice Battle - Clear - hint",
+                        "ref": "Black Ice Battle - hint/Clear - hint"
+                    },
+                    {
+                        "name": "Black Ice Battle - DK Coin - hint",
+                        "ref": "Black Ice Battle - hint/DK Coin - hint"
+                    },
+                    {
+                        "name": "Black Ice Battle - KONG - hint",
+                        "ref": "Black Ice Battle - hint/KONG - hint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "258",
+                        "y": "2341",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Bramble Blast - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Bramble Blast - Clear - hint",
+                        "ref": "Bramble Blast - hint/Clear - hint"
+                    },
+                    {
+                        "name": "Bramble Blast - DK Coin - hint",
+                        "ref": "Bramble Blast - hint/DK Coin - hint"
+                    },
+                    {
+                        "name": "Bramble Blast - KONG - hint",
+                        "ref": "Bramble Blast - hint/KONG - hint"
+                    },
+                    {
+                        "name": "Bramble Blast - Bonus #1 - hint",
+                        "ref": "Bramble Blast - hint/Bonus #1 - hint"
+                    },
+                    {
+                        "name": "Bramble Blast - Bonus #2 - hint",
+                        "ref": "Bramble Blast - hint/Bonus #2 - hint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "774",
+                        "y": "1906",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Bramble Scramble - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Bramble Scramble - Clear - hint",
+                        "ref": "Bramble Scramble - hint/Clear - hint"
+                    },
+                    {
+                        "name": "Bramble Scramble - DK Coin - hint",
+                        "ref": "Bramble Scramble - hint/DK Coin - hint"
+                    },
+                    {
+                        "name": "Bramble Scramble - KONG - hint",
+                        "ref": "Bramble Scramble - hint/KONG - hint"
+                    },
+                    {
+                        "name": "Bramble Scramble - Bonus #1 - hint",
+                        "ref": "Bramble Scramble - hint/Bonus #1 - hint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "1018",
+                        "y": "1536",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Castle Crush - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Castle Crush - Clear - hint",
+                        "ref": "Castle Crush - hint/Clear - hint"
+                    },
+                    {
+                        "name": "Castle Crush - DK Coin - hint",
+                        "ref": "Castle Crush - hint/DK Coin - hint"
+                    },
+                    {
+                        "name": "Castle Crush - KONG - hint",
+                        "ref": "Castle Crush - hint/KONG - hint"
+                    },
+                    {
+                        "name": "Castle Crush - Bonus #1 - hint",
+                        "ref": "Castle Crush - hint/Bonus #1 - hint"
+                    },
+                    {
+                        "name": "Castle Crush - Bonus #2 - hint",
+                        "ref": "Castle Crush - hint/Bonus #2 - hint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "2443",
+                        "y": "498",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Chain Link Chamber - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Chain Link Chamber - Clear - hint",
+                        "ref": "Chain Link Chamber - hint/Clear - hint"
+                    },
+                    {
+                        "name": "Chain Link Chamber - DK Coin - hint",
+                        "ref": "Chain Link Chamber - hint/DK Coin - hint"
+                    },
+                    {
+                        "name": "Chain Link Chamber - KONG - hint",
+                        "ref": "Chain Link Chamber - hint/KONG - hint"
+                    },
+                    {
+                        "name": "Chain Link Chamber - Bonus #1 - hint",
+                        "ref": "Chain Link Chamber - hint/Bonus #1 - hint"
+                    },
+                    {
+                        "name": "Chain Link Chamber - Bonus #2 - hint",
+                        "ref": "Chain Link Chamber - hint/Bonus #2 - hint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "1223",
+                        "y": "2126",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Clapper's Cavern - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Clapper's Cavern - Clear - hint",
+                        "ref": "Clapper's Cavern - hint/Clear - hint"
+                    },
+                    {
+                        "name": "Clapper's Cavern - DK Coin - hint",
+                        "ref": "Clapper's Cavern - hint/DK Coin - hint"
+                    },
+                    {
+                        "name": "Clapper's Cavern - KONG - hint",
+                        "ref": "Clapper's Cavern - hint/KONG - hint"
+                    },
+                    {
+                        "name": "Clapper's Cavern - Bonus #1 - hint",
+                        "ref": "Clapper's Cavern - hint/Bonus #1 - hint"
+                    },
+                    {
+                        "name": "Clapper's Cavern - Bonus #2 - hint",
+                        "ref": "Clapper's Cavern - hint/Bonus #2 - hint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "1900",
+                        "y": "1483",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Fiery Furnace - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Fiery Furnace - Clear - hint",
+                        "ref": "Fiery Furnace - hint/Clear - hint"
+                    },
+                    {
+                        "name": "Fiery Furnace - DK Coin - hint",
+                        "ref": "Fiery Furnace - hint/DK Coin - hint"
+                    },
+                    {
+                        "name": "Fiery Furnace - KONG - hint",
+                        "ref": "Fiery Furnace - hint/KONG - hint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "345",
+                        "y": "1022",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Gangplank Galley - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Gangplank Galley - Clear - hint",
+                        "ref": "Gangplank Galley - hint/Clear - hint"
+                    },
+                    {
+                        "name": "Gangplank Galley - DK Coin - hint",
+                        "ref": "Gangplank Galley - hint/DK Coin - hint"
+                    },
+                    {
+                        "name": "Gangplank Galley - KONG - hint",
+                        "ref": "Gangplank Galley - hint/KONG - hint"
+                    },
+                    {
+                        "name": "Gangplank Galley - Bonus #1 - hint",
+                        "ref": "Gangplank Galley - hint/Bonus #1 - hint"
+                    },
+                    {
+                        "name": "Gangplank Galley - Bonus #2 - hint",
+                        "ref": "Gangplank Galley - hint/Bonus #2 - hint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "189",
+                        "y": "1288",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Ghostly Grove - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Ghostly Grove - Clear - hint",
+                        "ref": "Ghostly Grove - hint/Clear - hint"
+                    },
+                    {
+                        "name": "Ghostly Grove - DK Coin - hint",
+                        "ref": "Ghostly Grove - hint/DK Coin - hint"
+                    },
+                    {
+                        "name": "Ghostly Grove - KONG - hint",
+                        "ref": "Ghostly Grove - hint/KONG - hint"
+                    },
+                    {
+                        "name": "Ghostly Grove - Bonus #1 - hint",
+                        "ref": "Ghostly Grove - hint/Bonus #1 - hint"
+                    },
+                    {
+                        "name": "Ghostly Grove - Bonus #2 - hint",
+                        "ref": "Ghostly Grove - hint/Bonus #2 - hint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "55",
+                        "y": "1128",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Glimmer's Galleon - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Glimmer's Galleon - Clear - hint",
+                        "ref": "Glimmer's Galleon - hint/Clear - hint"
+                    },
+                    {
+                        "name": "Glimmer's Galleon - DK Coin - hint",
+                        "ref": "Glimmer's Galleon - hint/DK Coin - hint"
+                    },
+                    {
+                        "name": "Glimmer's Galleon - KONG - hint",
+                        "ref": "Glimmer's Galleon - hint/KONG - hint"
+                    },
+                    {
+                        "name": "Glimmer's Galleon - Bonus #1 - hint",
+                        "ref": "Glimmer's Galleon - hint/Bonus #1 - hint"
+                    },
+                    {
+                        "name": "Glimmer's Galleon - Bonus #2 - hint",
+                        "ref": "Glimmer's Galleon - hint/Bonus #2 - hint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "1030",
+                        "y": "571",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Gusty Glade - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Gusty Glade - Clear - hint",
+                        "ref": "Gusty Glade - hint/Clear - hint"
+                    },
+                    {
+                        "name": "Gusty Glade - DK Coin - hint",
+                        "ref": "Gusty Glade - hint/DK Coin - hint"
+                    },
+                    {
+                        "name": "Gusty Glade - KONG - hint",
+                        "ref": "Gusty Glade - hint/KONG - hint"
+                    },
+                    {
+                        "name": "Gusty Glade - Bonus #1 - hint",
+                        "ref": "Gusty Glade - hint/Bonus #1 - hint"
+                    },
+                    {
+                        "name": "Gusty Glade - Bonus #2 - hint",
+                        "ref": "Gusty Glade - hint/Bonus #2 - hint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "1654",
+                        "y": "242",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Haunted Hall - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Haunted Hall - Clear - hint",
+                        "ref": "Haunted Hall - hint/Clear - hint"
+                    },
+                    {
+                        "name": "Haunted Hall - DK Coin - hint",
+                        "ref": "Haunted Hall - hint/DK Coin - hint"
+                    },
+                    {
+                        "name": "Haunted Hall - KONG - hint",
+                        "ref": "Haunted Hall - hint/KONG - hint"
+                    },
+                    {
+                        "name": "Haunted Hall - Bonus #1 - hint",
+                        "ref": "Haunted Hall - hint/Bonus #1 - hint"
+                    },
+                    {
+                        "name": "Haunted Hall - Bonus #2 - hint",
+                        "ref": "Haunted Hall - hint/Bonus #2 - hint"
+                    },
+                    {
+                        "name": "Haunted Hall - Bonus #3 - hint",
+                        "ref": "Haunted Hall - hint/Bonus #3 - hint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "486",
+                        "y": "1481",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Hornet Hole - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Hornet Hole - Clear - hint",
+                        "ref": "Hornet Hole - hint/Clear - hint"
+                    },
+                    {
+                        "name": "Hornet Hole - DK Coin - hint",
+                        "ref": "Hornet Hole - hint/DK Coin - hint"
+                    },
+                    {
+                        "name": "Hornet Hole - KONG - hint",
+                        "ref": "Hornet Hole - hint/KONG - hint"
+                    },
+                    {
+                        "name": "Hornet Hole - Bonus #1 - hint",
+                        "ref": "Hornet Hole - hint/Bonus #1 - hint"
+                    },
+                    {
+                        "name": "Hornet Hole - Bonus #2 - hint",
+                        "ref": "Hornet Hole - hint/Bonus #2 - hint"
+                    },
+                    {
+                        "name": "Hornet Hole - Bonus #3 - hint",
+                        "ref": "Hornet Hole - hint/Bonus #3 - hint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "905",
+                        "y": "1105",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Hot-Head Hop - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Hot-Head Hop - Clear - hint",
+                        "ref": "Hot-Head Hop - hint/Clear - hint"
+                    },
+                    {
+                        "name": "Hot-Head Hop - DK Coin - hint",
+                        "ref": "Hot-Head Hop - hint/DK Coin - hint"
+                    },
+                    {
+                        "name": "Hot-Head Hop - KONG - hint",
+                        "ref": "Hot-Head Hop - hint/KONG - hint"
+                    },
+                    {
+                        "name": "Hot-Head Hop - Bonus #1 - hint",
+                        "ref": "Hot-Head Hop - hint/Bonus #1 - hint"
+                    },
+                    {
+                        "name": "Hot-Head Hop - Bonus #2 - hint",
+                        "ref": "Hot-Head Hop - hint/Bonus #2 - hint"
+                    },
+                    {
+                        "name": "Hot-Head Hop - Bonus #3 - hint",
+                        "ref": "Hot-Head Hop - hint/Bonus #3 - hint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "149",
+                        "y": "2179",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Jungle Jinx - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Jungle Jinx - Clear - hint",
+                        "ref": "Jungle Jinx - hint/Clear - hint"
+                    },
+                    {
+                        "name": "Jungle Jinx - DK Coin - hint",
+                        "ref": "Jungle Jinx - hint/DK Coin - hint"
+                    },
+                    {
+                        "name": "Jungle Jinx - KONG - hint",
+                        "ref": "Jungle Jinx - hint/KONG - hint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "2112",
+                        "y": "2474",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Kannon's Klaim - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Kannon's Klaim - Clear - hint",
+                        "ref": "Kannon's Klaim - hint/Clear - hint"
+                    },
+                    {
+                        "name": "Kannon's Klaim - DK Coin - hint",
+                        "ref": "Kannon's Klaim - hint/DK Coin - hint"
+                    },
+                    {
+                        "name": "Kannon's Klaim - KONG - hint",
+                        "ref": "Kannon's Klaim - hint/KONG - hint"
+                    },
+                    {
+                        "name": "Kannon's Klaim - Bonus #1 - hint",
+                        "ref": "Kannon's Klaim - hint/Bonus #1 - hint"
+                    },
+                    {
+                        "name": "Kannon's Klaim - Bonus #2 - hint",
+                        "ref": "Kannon's Klaim - hint/Bonus #2 - hint"
+                    },
+                    {
+                        "name": "Kannon's Klaim - Bonus #3 - hint",
+                        "ref": "Kannon's Klaim - hint/Bonus #3 - hint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "2483",
+                        "y": "1411",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "King Zing Sting - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "King Zing Sting - Clear - hint",
+                        "ref": "King Zing Sting - hint/Clear - hint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "283",
+                        "y": "407",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Kleever's Kiln - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Kleever's Kiln - Clear - hint",
+                        "ref": "Kleever's Kiln - hint/Clear - hint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "761",
+                        "y": "679",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Klobber Karnage - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Klobber Karnage - Clear - hint",
+                        "ref": "Klobber Karnage - hint/Clear - hint"
+                    },
+                    {
+                        "name": "Klobber Karnage - DK Coin - hint",
+                        "ref": "Klobber Karnage - hint/DK Coin - hint"
+                    },
+                    {
+                        "name": "Klobber Karnage - KONG - hint",
+                        "ref": "Klobber Karnage - hint/KONG - hint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "1655",
+                        "y": "2348",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Kreepy Krow - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Kreepy Krow - Clear - hint",
+                        "ref": "Kreepy Krow - hint/Clear - hint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "361",
+                        "y": "1125",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Krockhead Klamber - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Krockhead Klamber - Clear - hint",
+                        "ref": "Krockhead Klamber - hint/Clear - hint"
+                    },
+                    {
+                        "name": "Krockhead Klamber - DK Coin - hint",
+                        "ref": "Krockhead Klamber - hint/DK Coin - hint"
+                    },
+                    {
+                        "name": "Krockhead Klamber - KONG - hint",
+                        "ref": "Krockhead Klamber - hint/KONG - hint"
+                    },
+                    {
+                        "name": "Krockhead Klamber - Bonus #1 - hint",
+                        "ref": "Krockhead Klamber - hint/Bonus #1 - hint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "2075",
+                        "y": "1590",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Krow's Nest - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Krow's Nest - Clear - hint",
+                        "ref": "Krow's Nest - hint/Clear - hint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "906",
+                        "y": "2127",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Kudgel's Kontest - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Kudgel's Kontest - Clear - hint",
+                        "ref": "Kudgel's Kontest - hint/Clear - hint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "1895",
+                        "y": "1526",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Lava Lagoon - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Lava Lagoon - Clear - hint",
+                        "ref": "Lava Lagoon - hint/Clear - hint"
+                    },
+                    {
+                        "name": "Lava Lagoon - DK Coin - hint",
+                        "ref": "Lava Lagoon - hint/DK Coin - hint"
+                    },
+                    {
+                        "name": "Lava Lagoon - KONG - hint",
+                        "ref": "Lava Lagoon - hint/KONG - hint"
+                    },
+                    {
+                        "name": "Lava Lagoon - Bonus #1 - hint",
+                        "ref": "Lava Lagoon - hint/Bonus #1 - hint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "1947",
+                        "y": "1216",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Lockjaw's Locker - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Lockjaw's Locker - Clear - hint",
+                        "ref": "Lockjaw's Locker - hint/Clear - hint"
+                    },
+                    {
+                        "name": "Lockjaw's Locker - DK Coin - hint",
+                        "ref": "Lockjaw's Locker - hint/DK Coin - hint"
+                    },
+                    {
+                        "name": "Lockjaw's Locker - KONG - hint",
+                        "ref": "Lockjaw's Locker - hint/KONG - hint"
+                    },
+                    {
+                        "name": "Lockjaw's Locker - Bonus #1 - hint",
+                        "ref": "Lockjaw's Locker - hint/Bonus #1 - hint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "1692",
+                        "y": "2244",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Mainbrace Mayhem - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Mainbrace Mayhem - Clear - hint",
+                        "ref": "Mainbrace Mayhem - hint/Clear - hint"
+                    },
+                    {
+                        "name": "Mainbrace Mayhem - DK Coin - hint",
+                        "ref": "Mainbrace Mayhem - hint/DK Coin - hint"
+                    },
+                    {
+                        "name": "Mainbrace Mayhem - KONG - hint",
+                        "ref": "Mainbrace Mayhem - hint/KONG - hint"
+                    },
+                    {
+                        "name": "Mainbrace Mayhem - Bonus #1 - hint",
+                        "ref": "Mainbrace Mayhem - hint/Bonus #1 - hint"
+                    },
+                    {
+                        "name": "Mainbrace Mayhem - Bonus #2 - hint",
+                        "ref": "Mainbrace Mayhem - hint/Bonus #2 - hint"
+                    },
+                    {
+                        "name": "Mainbrace Mayhem - Bonus #3 - hint",
+                        "ref": "Mainbrace Mayhem - hint/Bonus #3 - hint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "1276",
+                        "y": "623",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Mudhole Marsh - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Mudhole Marsh - Clear - hint",
+                        "ref": "Mudhole Marsh - hint/Clear - hint"
+                    },
+                    {
+                        "name": "Mudhole Marsh - DK Coin - hint",
+                        "ref": "Mudhole Marsh - hint/DK Coin - hint"
+                    },
+                    {
+                        "name": "Mudhole Marsh - KONG - hint",
+                        "ref": "Mudhole Marsh - hint/KONG - hint"
+                    },
+                    {
+                        "name": "Mudhole Marsh - Bonus #1 - hint",
+                        "ref": "Mudhole Marsh - hint/Bonus #1 - hint"
+                    },
+                    {
+                        "name": "Mudhole Marsh - Bonus #2 - hint",
+                        "ref": "Mudhole Marsh - hint/Bonus #2 - hint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "678",
+                        "y": "59",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Parrot Chute Panic - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Parrot Chute Panic - Clear - hint",
+                        "ref": "Parrot Chute Panic - hint/Clear - hint"
+                    },
+                    {
+                        "name": "Parrot Chute Panic - DK Coin - hint",
+                        "ref": "Parrot Chute Panic - hint/DK Coin - hint"
+                    },
+                    {
+                        "name": "Parrot Chute Panic - KONG - hint",
+                        "ref": "Parrot Chute Panic - hint/KONG - hint"
+                    },
+                    {
+                        "name": "Parrot Chute Panic - Bonus #1 - hint",
+                        "ref": "Parrot Chute Panic - hint/Bonus #1 - hint"
+                    },
+                    {
+                        "name": "Parrot Chute Panic - Bonus #2 - hint",
+                        "ref": "Parrot Chute Panic - hint/Bonus #2 - hint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "1170",
+                        "y": "904",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Pirate Panic - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Pirate Panic - Clear - hint",
+                        "ref": "Pirate Panic - hint/Clear - hint"
+                    },
+                    {
+                        "name": "Pirate Panic - DK Coin - hint",
+                        "ref": "Pirate Panic - hint/DK Coin - hint"
+                    },
+                    {
+                        "name": "Pirate Panic - KONG - hint",
+                        "ref": "Pirate Panic - hint/KONG - hint"
+                    },
+                    {
+                        "name": "Pirate Panic - Bonus #1 - hint",
+                        "ref": "Pirate Panic - hint/Bonus #1 - hint"
+                    },
+                    {
+                        "name": "Pirate Panic - Bonus #2 - hint",
+                        "ref": "Pirate Panic - hint/Bonus #2 - hint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "1107",
+                        "y": "1209",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Rambi Rumble - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Rambi Rumble - Clear - hint",
+                        "ref": "Rambi Rumble - hint/Clear - hint"
+                    },
+                    {
+                        "name": "Rambi Rumble - DK Coin - hint",
+                        "ref": "Rambi Rumble - hint/DK Coin - hint"
+                    },
+                    {
+                        "name": "Rambi Rumble - KONG - hint",
+                        "ref": "Rambi Rumble - hint/KONG - hint"
+                    },
+                    {
+                        "name": "Rambi Rumble - Bonus #1 - hint",
+                        "ref": "Rambi Rumble - hint/Bonus #1 - hint"
+                    },
+                    {
+                        "name": "Rambi Rumble - Bonus #2 - hint",
+                        "ref": "Rambi Rumble - hint/Bonus #2 - hint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "2367",
+                        "y": "823",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Rattle Battle - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Rattle Battle - Clear - hint",
+                        "ref": "Rattle Battle - hint/Clear - hint"
+                    },
+                    {
+                        "name": "Rattle Battle - DK Coin - hint",
+                        "ref": "Rattle Battle - hint/DK Coin - hint"
+                    },
+                    {
+                        "name": "Rattle Battle - KONG - hint",
+                        "ref": "Rattle Battle - hint/KONG - hint"
+                    },
+                    {
+                        "name": "Rattle Battle - Bonus #1 - hint",
+                        "ref": "Rattle Battle - hint/Bonus #1 - hint"
+                    },
+                    {
+                        "name": "Rattle Battle - Bonus #2 - hint",
+                        "ref": "Rattle Battle - hint/Bonus #2 - hint"
+                    },
+                    {
+                        "name": "Rattle Battle - Bonus #3 - hint",
+                        "ref": "Rattle Battle - hint/Bonus #3 - hint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "781",
+                        "y": "301",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Red-Hot Ride - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Red-Hot Ride - Clear - hint",
+                        "ref": "Red-Hot Ride - hint/Clear - hint"
+                    },
+                    {
+                        "name": "Red-Hot Ride - DK Coin - hint",
+                        "ref": "Red-Hot Ride - hint/DK Coin - hint"
+                    },
+                    {
+                        "name": "Red-Hot Ride - KONG - hint",
+                        "ref": "Red-Hot Ride - hint/KONG - hint"
+                    },
+                    {
+                        "name": "Red-Hot Ride - Bonus #1 - hint",
+                        "ref": "Red-Hot Ride - hint/Bonus #1 - hint"
+                    },
+                    {
+                        "name": "Red-Hot Ride - Bonus #2 - hint",
+                        "ref": "Red-Hot Ride - hint/Bonus #2 - hint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "2460",
+                        "y": "157",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Rickety Race - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Rickety Race - Clear - hint",
+                        "ref": "Rickety Race - hint/Clear - hint"
+                    },
+                    {
+                        "name": "Rickety Race - DK Coin - hint",
+                        "ref": "Rickety Race - hint/DK Coin - hint"
+                    },
+                    {
+                        "name": "Rickety Race - KONG - hint",
+                        "ref": "Rickety Race - hint/KONG - hint"
+                    },
+                    {
+                        "name": "Rickety Race - Bonus #1 - hint",
+                        "ref": "Rickety Race - hint/Bonus #1 - hint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "1491",
+                        "y": "1924",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Screech's Sprint - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Screech's Sprint - Clear - hint",
+                        "ref": "Screech's Sprint - hint/Clear - hint"
+                    },
+                    {
+                        "name": "Screech's Sprint - DK Coin - hint",
+                        "ref": "Screech's Sprint - hint/DK Coin - hint"
+                    },
+                    {
+                        "name": "Screech's Sprint - KONG - hint",
+                        "ref": "Screech's Sprint - hint/KONG - hint"
+                    },
+                    {
+                        "name": "Screech's Sprint - Bonus #1 - hint",
+                        "ref": "Screech's Sprint - hint/Bonus #1 - hint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "1501",
+                        "y": "1331",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Slime Climb - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Slime Climb - Clear - hint",
+                        "ref": "Slime Climb - hint/Clear - hint"
+                    },
+                    {
+                        "name": "Slime Climb - DK Coin - hint",
+                        "ref": "Slime Climb - hint/DK Coin - hint"
+                    },
+                    {
+                        "name": "Slime Climb - KONG - hint",
+                        "ref": "Slime Climb - hint/KONG - hint"
+                    },
+                    {
+                        "name": "Slime Climb - Bonus #1 - hint",
+                        "ref": "Slime Climb - hint/Bonus #1 - hint"
+                    },
+                    {
+                        "name": "Slime Climb - Bonus #2 - hint",
+                        "ref": "Slime Climb - hint/Bonus #2 - hint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "1461",
+                        "y": "932",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Squawks's Shaft - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Squawks's Shaft - Clear - hint",
+                        "ref": "Squawks's Shaft - hint/Clear - hint"
+                    },
+                    {
+                        "name": "Squawks's Shaft - DK Coin - hint",
+                        "ref": "Squawks's Shaft - hint/DK Coin - hint"
+                    },
+                    {
+                        "name": "Squawks's Shaft - KONG - hint",
+                        "ref": "Squawks's Shaft - hint/KONG - hint"
+                    },
+                    {
+                        "name": "Squawks's Shaft - Bonus #1 - hint",
+                        "ref": "Squawks's Shaft - hint/Bonus #1 - hint"
+                    },
+                    {
+                        "name": "Squawks's Shaft - Bonus #2 - hint",
+                        "ref": "Squawks's Shaft - hint/Bonus #2 - hint"
+                    },
+                    {
+                        "name": "Squawks's Shaft - Bonus #3 - hint",
+                        "ref": "Squawks's Shaft - hint/Bonus #3 - hint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "2274",
+                        "y": "186",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Stronghold Showdown - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Stronghold Showdown - Clear - hint",
+                        "ref": "Stronghold Showdown - hint/Clear - hint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "2350",
+                        "y": "468",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Target Terror - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Target Terror - Clear - hint",
+                        "ref": "Target Terror - hint/Clear - hint"
+                    },
+                    {
+                        "name": "Target Terror - DK Coin - hint",
+                        "ref": "Target Terror - hint/DK Coin - hint"
+                    },
+                    {
+                        "name": "Target Terror - KONG - hint",
+                        "ref": "Target Terror - hint/KONG - hint"
+                    },
+                    {
+                        "name": "Target Terror - Bonus #1 - hint",
+                        "ref": "Target Terror - hint/Bonus #1 - hint"
+                    },
+                    {
+                        "name": "Target Terror - Bonus #2 - hint",
+                        "ref": "Target Terror - hint/Bonus #2 - hint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "1417",
+                        "y": "2025",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Topsail Trouble - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Topsail Trouble - Clear - hint",
+                        "ref": "Topsail Trouble - hint/Clear - hint"
+                    },
+                    {
+                        "name": "Topsail Trouble - DK Coin - hint",
+                        "ref": "Topsail Trouble - hint/DK Coin - hint"
+                    },
+                    {
+                        "name": "Topsail Trouble - KONG - hint",
+                        "ref": "Topsail Trouble - hint/KONG - hint"
+                    },
+                    {
+                        "name": "Topsail Trouble - Bonus #1 - hint",
+                        "ref": "Topsail Trouble - hint/Bonus #1 - hint"
+                    },
+                    {
+                        "name": "Topsail Trouble - Bonus #2 - hint",
+                        "ref": "Topsail Trouble - hint/Bonus #2 - hint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "1782",
+                        "y": "987",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Toxic Tower - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Toxic Tower - Clear - hint",
+                        "ref": "Toxic Tower - hint/Clear - hint"
+                    },
+                    {
+                        "name": "Toxic Tower - DK Coin - hint",
+                        "ref": "Toxic Tower - hint/DK Coin - hint"
+                    },
+                    {
+                        "name": "Toxic Tower - KONG - hint",
+                        "ref": "Toxic Tower - hint/KONG - hint"
+                    },
+                    {
+                        "name": "Toxic Tower - Bonus #1 - hint",
+                        "ref": "Toxic Tower - hint/Bonus #1 - hint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "1688",
+                        "y": "804",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Web Woods - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Web Woods - Clear - hint",
+                        "ref": "Web Woods - hint/Clear - hint"
+                    },
+                    {
+                        "name": "Web Woods - DK Coin - hint",
+                        "ref": "Web Woods - hint/DK Coin - hint"
+                    },
+                    {
+                        "name": "Web Woods - KONG - hint",
+                        "ref": "Web Woods - hint/KONG - hint"
+                    },
+                    {
+                        "name": "Web Woods - Bonus #1 - hint",
+                        "ref": "Web Woods - hint/Bonus #1 - hint"
+                    },
+                    {
+                        "name": "Web Woods - Bonus #2 - hint",
+                        "ref": "Web Woods - hint/Bonus #2 - hint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "247",
+                        "y": "2169",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Windy Well - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Windy Well - Clear - hint",
+                        "ref": "Windy Well - hint/Clear - hint"
+                    },
+                    {
+                        "name": "Windy Well - DK Coin - hint",
+                        "ref": "Windy Well - hint/DK Coin - hint"
+                    },
+                    {
+                        "name": "Windy Well - KONG - hint",
+                        "ref": "Windy Well - hint/KONG - hint"
+                    },
+                    {
+                        "name": "Windy Well - Bonus #1 - hint",
+                        "ref": "Windy Well - hint/Bonus #1 - hint"
+                    },
+                    {
+                        "name": "Windy Well - Bonus #2 - hint",
+                        "ref": "Windy Well - hint/Bonus #2 - hint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "313",
+                        "y": "1320",
+                        "size": 12
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Overworld",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Animal Antics",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Animal Antics - Clear",
+                        "ref": "Animal Antics/Clear"
+                    },
+                    {
+                        "name": "Animal Antics - DK Coin",
+                        "ref": "Animal Antics/DK Coin"
+                    },
+                    {
+                        "name": "Animal Antics - KONG",
+                        "ref": "Animal Antics/KONG"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "715",
+                        "y": "2125",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Arctic Abyss",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Arctic Abyss - Clear",
+                        "ref": "Arctic Abyss/Clear"
+                    },
+                    {
+                        "name": "Arctic Abyss - DK Coin",
+                        "ref": "Arctic Abyss/DK Coin"
+                    },
+                    {
+                        "name": "Arctic Abyss - KONG",
+                        "ref": "Arctic Abyss/KONG"
+                    },
+                    {
+                        "name": "Arctic Abyss - Bonus #1",
+                        "ref": "Arctic Abyss/Bonus #1"
+                    },
+                    {
+                        "name": "Arctic Abyss - Bonus #2",
+                        "ref": "Arctic Abyss/Bonus #2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "2222",
+                        "y": "828",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Barrel Bayou",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Barrel Bayou - Clear",
+                        "ref": "Barrel Bayou/Clear"
+                    },
+                    {
+                        "name": "Barrel Bayou - DK Coin",
+                        "ref": "Barrel Bayou/DK Coin"
+                    },
+                    {
+                        "name": "Barrel Bayou - KONG",
+                        "ref": "Barrel Bayou/KONG"
+                    },
+                    {
+                        "name": "Barrel Bayou - Bonus #1",
+                        "ref": "Barrel Bayou/Bonus #1"
+                    },
+                    {
+                        "name": "Barrel Bayou - Bonus #2",
+                        "ref": "Barrel Bayou/Bonus #2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "2267",
+                        "y": "2357",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Black Ice Battle",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Black Ice Battle - Clear",
+                        "ref": "Black Ice Battle/Clear"
+                    },
+                    {
+                        "name": "Black Ice Battle - DK Coin",
+                        "ref": "Black Ice Battle/DK Coin"
+                    },
+                    {
+                        "name": "Black Ice Battle - KONG",
+                        "ref": "Black Ice Battle/KONG"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "258",
+                        "y": "2341",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Bramble Blast",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bramble Blast - Clear",
+                        "ref": "Bramble Blast/Clear"
+                    },
+                    {
+                        "name": "Bramble Blast - DK Coin",
+                        "ref": "Bramble Blast/DK Coin"
+                    },
+                    {
+                        "name": "Bramble Blast - KONG",
+                        "ref": "Bramble Blast/KONG"
+                    },
+                    {
+                        "name": "Bramble Blast - Bonus #1",
+                        "ref": "Bramble Blast/Bonus #1"
+                    },
+                    {
+                        "name": "Bramble Blast - Bonus #2",
+                        "ref": "Bramble Blast/Bonus #2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "774",
+                        "y": "1906",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Bramble Scramble",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bramble Scramble - Clear",
+                        "ref": "Bramble Scramble/Clear"
+                    },
+                    {
+                        "name": "Bramble Scramble - DK Coin",
+                        "ref": "Bramble Scramble/DK Coin"
+                    },
+                    {
+                        "name": "Bramble Scramble - KONG",
+                        "ref": "Bramble Scramble/KONG"
+                    },
+                    {
+                        "name": "Bramble Scramble - Bonus #1",
+                        "ref": "Bramble Scramble/Bonus #1"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "1018",
+                        "y": "1536",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Castle Crush",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Castle Crush - Clear",
+                        "ref": "Castle Crush/Clear"
+                    },
+                    {
+                        "name": "Castle Crush - DK Coin",
+                        "ref": "Castle Crush/DK Coin"
+                    },
+                    {
+                        "name": "Castle Crush - KONG",
+                        "ref": "Castle Crush/KONG"
+                    },
+                    {
+                        "name": "Castle Crush - Bonus #1",
+                        "ref": "Castle Crush/Bonus #1"
+                    },
+                    {
+                        "name": "Castle Crush - Bonus #2",
+                        "ref": "Castle Crush/Bonus #2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "2443",
+                        "y": "498",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Chain Link Chamber",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Chain Link Chamber - Clear",
+                        "ref": "Chain Link Chamber/Clear"
+                    },
+                    {
+                        "name": "Chain Link Chamber - DK Coin",
+                        "ref": "Chain Link Chamber/DK Coin"
+                    },
+                    {
+                        "name": "Chain Link Chamber - KONG",
+                        "ref": "Chain Link Chamber/KONG"
+                    },
+                    {
+                        "name": "Chain Link Chamber - Bonus #1",
+                        "ref": "Chain Link Chamber/Bonus #1"
+                    },
+                    {
+                        "name": "Chain Link Chamber - Bonus #2",
+                        "ref": "Chain Link Chamber/Bonus #2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "1223",
+                        "y": "2126",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Clapper's Cavern",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Clapper's Cavern - Clear",
+                        "ref": "Clapper's Cavern/Clear"
+                    },
+                    {
+                        "name": "Clapper's Cavern - DK Coin",
+                        "ref": "Clapper's Cavern/DK Coin"
+                    },
+                    {
+                        "name": "Clapper's Cavern - KONG",
+                        "ref": "Clapper's Cavern/KONG"
+                    },
+                    {
+                        "name": "Clapper's Cavern - Bonus #1",
+                        "ref": "Clapper's Cavern/Bonus #1"
+                    },
+                    {
+                        "name": "Clapper's Cavern - Bonus #2",
+                        "ref": "Clapper's Cavern/Bonus #2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "1900",
+                        "y": "1483",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Fiery Furnace",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Fiery Furnace - Clear",
+                        "ref": "Fiery Furnace/Clear"
+                    },
+                    {
+                        "name": "Fiery Furnace - DK Coin",
+                        "ref": "Fiery Furnace/DK Coin"
+                    },
+                    {
+                        "name": "Fiery Furnace - KONG",
+                        "ref": "Fiery Furnace/KONG"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "345",
+                        "y": "1022",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Gangplank Galley",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Gangplank Galley - Clear",
+                        "ref": "Gangplank Galley/Clear"
+                    },
+                    {
+                        "name": "Gangplank Galley - DK Coin",
+                        "ref": "Gangplank Galley/DK Coin"
+                    },
+                    {
+                        "name": "Gangplank Galley - KONG",
+                        "ref": "Gangplank Galley/KONG"
+                    },
+                    {
+                        "name": "Gangplank Galley - Bonus #1",
+                        "ref": "Gangplank Galley/Bonus #1"
+                    },
+                    {
+                        "name": "Gangplank Galley - Bonus #2",
+                        "ref": "Gangplank Galley/Bonus #2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "189",
+                        "y": "1288",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Ghostly Grove",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Ghostly Grove - Clear",
+                        "ref": "Ghostly Grove/Clear"
+                    },
+                    {
+                        "name": "Ghostly Grove - DK Coin",
+                        "ref": "Ghostly Grove/DK Coin"
+                    },
+                    {
+                        "name": "Ghostly Grove - KONG",
+                        "ref": "Ghostly Grove/KONG"
+                    },
+                    {
+                        "name": "Ghostly Grove - Bonus #1",
+                        "ref": "Ghostly Grove/Bonus #1"
+                    },
+                    {
+                        "name": "Ghostly Grove - Bonus #2",
+                        "ref": "Ghostly Grove/Bonus #2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "55",
+                        "y": "1128",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Glimmer's Galleon",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Glimmer's Galleon - Clear",
+                        "ref": "Glimmer's Galleon/Clear"
+                    },
+                    {
+                        "name": "Glimmer's Galleon - DK Coin",
+                        "ref": "Glimmer's Galleon/DK Coin"
+                    },
+                    {
+                        "name": "Glimmer's Galleon - KONG",
+                        "ref": "Glimmer's Galleon/KONG"
+                    },
+                    {
+                        "name": "Glimmer's Galleon - Bonus #1",
+                        "ref": "Glimmer's Galleon/Bonus #1"
+                    },
+                    {
+                        "name": "Glimmer's Galleon - Bonus #2",
+                        "ref": "Glimmer's Galleon/Bonus #2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "1030",
+                        "y": "571",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Gusty Glade",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Gusty Glade - Clear",
+                        "ref": "Gusty Glade/Clear"
+                    },
+                    {
+                        "name": "Gusty Glade - DK Coin",
+                        "ref": "Gusty Glade/DK Coin"
+                    },
+                    {
+                        "name": "Gusty Glade - KONG",
+                        "ref": "Gusty Glade/KONG"
+                    },
+                    {
+                        "name": "Gusty Glade - Bonus #1",
+                        "ref": "Gusty Glade/Bonus #1"
+                    },
+                    {
+                        "name": "Gusty Glade - Bonus #2",
+                        "ref": "Gusty Glade/Bonus #2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "1654",
+                        "y": "242",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Haunted Hall",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Haunted Hall - Clear",
+                        "ref": "Haunted Hall/Clear"
+                    },
+                    {
+                        "name": "Haunted Hall - DK Coin",
+                        "ref": "Haunted Hall/DK Coin"
+                    },
+                    {
+                        "name": "Haunted Hall - KONG",
+                        "ref": "Haunted Hall/KONG"
+                    },
+                    {
+                        "name": "Haunted Hall - Bonus #1",
+                        "ref": "Haunted Hall/Bonus #1"
+                    },
+                    {
+                        "name": "Haunted Hall - Bonus #2",
+                        "ref": "Haunted Hall/Bonus #2"
+                    },
+                    {
+                        "name": "Haunted Hall - Bonus #3",
+                        "ref": "Haunted Hall/Bonus #3"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "486",
+                        "y": "1481",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Hornet Hole",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Hornet Hole - Clear",
+                        "ref": "Hornet Hole/Clear"
+                    },
+                    {
+                        "name": "Hornet Hole - DK Coin",
+                        "ref": "Hornet Hole/DK Coin"
+                    },
+                    {
+                        "name": "Hornet Hole - KONG",
+                        "ref": "Hornet Hole/KONG"
+                    },
+                    {
+                        "name": "Hornet Hole - Bonus #1",
+                        "ref": "Hornet Hole/Bonus #1"
+                    },
+                    {
+                        "name": "Hornet Hole - Bonus #2",
+                        "ref": "Hornet Hole/Bonus #2"
+                    },
+                    {
+                        "name": "Hornet Hole - Bonus #3",
+                        "ref": "Hornet Hole/Bonus #3"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "905",
+                        "y": "1105",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Hot-Head Hop",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Hot-Head Hop - Clear",
+                        "ref": "Hot-Head Hop/Clear"
+                    },
+                    {
+                        "name": "Hot-Head Hop - DK Coin",
+                        "ref": "Hot-Head Hop/DK Coin"
+                    },
+                    {
+                        "name": "Hot-Head Hop - KONG",
+                        "ref": "Hot-Head Hop/KONG"
+                    },
+                    {
+                        "name": "Hot-Head Hop - Bonus #1",
+                        "ref": "Hot-Head Hop/Bonus #1"
+                    },
+                    {
+                        "name": "Hot-Head Hop - Bonus #2",
+                        "ref": "Hot-Head Hop/Bonus #2"
+                    },
+                    {
+                        "name": "Hot-Head Hop - Bonus #3",
+                        "ref": "Hot-Head Hop/Bonus #3"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "149",
+                        "y": "2179",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Jungle Jinx",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Jungle Jinx - Clear",
+                        "ref": "Jungle Jinx/Clear"
+                    },
+                    {
+                        "name": "Jungle Jinx - DK Coin",
+                        "ref": "Jungle Jinx/DK Coin"
+                    },
+                    {
+                        "name": "Jungle Jinx - KONG",
+                        "ref": "Jungle Jinx/KONG"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "2112",
+                        "y": "2474",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Kannon's Klaim",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Kannon's Klaim - Clear",
+                        "ref": "Kannon's Klaim/Clear"
+                    },
+                    {
+                        "name": "Kannon's Klaim - DK Coin",
+                        "ref": "Kannon's Klaim/DK Coin"
+                    },
+                    {
+                        "name": "Kannon's Klaim - KONG",
+                        "ref": "Kannon's Klaim/KONG"
+                    },
+                    {
+                        "name": "Kannon's Klaim - Bonus #1",
+                        "ref": "Kannon's Klaim/Bonus #1"
+                    },
+                    {
+                        "name": "Kannon's Klaim - Bonus #2",
+                        "ref": "Kannon's Klaim/Bonus #2"
+                    },
+                    {
+                        "name": "Kannon's Klaim - Bonus #3",
+                        "ref": "Kannon's Klaim/Bonus #3"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "2483",
+                        "y": "1411",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "King Zing Sting",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "King Zing Sting - Clear",
+                        "ref": "King Zing Sting/Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "283",
+                        "y": "407",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Kleever's Kiln",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Kleever's Kiln - Clear",
+                        "ref": "Kleever's Kiln/Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "761",
+                        "y": "679",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Klobber Karnage",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Klobber Karnage - Clear",
+                        "ref": "Klobber Karnage/Clear"
+                    },
+                    {
+                        "name": "Klobber Karnage - DK Coin",
+                        "ref": "Klobber Karnage/DK Coin"
+                    },
+                    {
+                        "name": "Klobber Karnage - KONG",
+                        "ref": "Klobber Karnage/KONG"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "1655",
+                        "y": "2348",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Kreepy Krow",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Kreepy Krow - Clear",
+                        "ref": "Kreepy Krow/Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "361",
+                        "y": "1125",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Krockhead Klamber",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Krockhead Klamber - Clear",
+                        "ref": "Krockhead Klamber/Clear"
+                    },
+                    {
+                        "name": "Krockhead Klamber - DK Coin",
+                        "ref": "Krockhead Klamber/DK Coin"
+                    },
+                    {
+                        "name": "Krockhead Klamber - KONG",
+                        "ref": "Krockhead Klamber/KONG"
+                    },
+                    {
+                        "name": "Krockhead Klamber - Bonus #1",
+                        "ref": "Krockhead Klamber/Bonus #1"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "2075",
+                        "y": "1590",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Krow's Nest",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Krow's Nest - Clear",
+                        "ref": "Krow's Nest/Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "906",
+                        "y": "2127",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Kudgel's Kontest",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Kudgel's Kontest - Clear",
+                        "ref": "Kudgel's Kontest/Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "1895",
+                        "y": "1526",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Lava Lagoon",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Lava Lagoon - Clear",
+                        "ref": "Lava Lagoon/Clear"
+                    },
+                    {
+                        "name": "Lava Lagoon - DK Coin",
+                        "ref": "Lava Lagoon/DK Coin"
+                    },
+                    {
+                        "name": "Lava Lagoon - KONG",
+                        "ref": "Lava Lagoon/KONG"
+                    },
+                    {
+                        "name": "Lava Lagoon - Bonus #1",
+                        "ref": "Lava Lagoon/Bonus #1"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "1947",
+                        "y": "1216",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Lockjaw's Locker",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Lockjaw's Locker - Clear",
+                        "ref": "Lockjaw's Locker/Clear"
+                    },
+                    {
+                        "name": "Lockjaw's Locker - DK Coin",
+                        "ref": "Lockjaw's Locker/DK Coin"
+                    },
+                    {
+                        "name": "Lockjaw's Locker - KONG",
+                        "ref": "Lockjaw's Locker/KONG"
+                    },
+                    {
+                        "name": "Lockjaw's Locker - Bonus #1",
+                        "ref": "Lockjaw's Locker/Bonus #1"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "1692",
+                        "y": "2244",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Mainbrace Mayhem",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Mainbrace Mayhem - Clear",
+                        "ref": "Mainbrace Mayhem/Clear"
+                    },
+                    {
+                        "name": "Mainbrace Mayhem - DK Coin",
+                        "ref": "Mainbrace Mayhem/DK Coin"
+                    },
+                    {
+                        "name": "Mainbrace Mayhem - KONG",
+                        "ref": "Mainbrace Mayhem/KONG"
+                    },
+                    {
+                        "name": "Mainbrace Mayhem - Bonus #1",
+                        "ref": "Mainbrace Mayhem/Bonus #1"
+                    },
+                    {
+                        "name": "Mainbrace Mayhem - Bonus #2",
+                        "ref": "Mainbrace Mayhem/Bonus #2"
+                    },
+                    {
+                        "name": "Mainbrace Mayhem - Bonus #3",
+                        "ref": "Mainbrace Mayhem/Bonus #3"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "1276",
+                        "y": "623",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Mudhole Marsh",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Mudhole Marsh - Clear",
+                        "ref": "Mudhole Marsh/Clear"
+                    },
+                    {
+                        "name": "Mudhole Marsh - DK Coin",
+                        "ref": "Mudhole Marsh/DK Coin"
+                    },
+                    {
+                        "name": "Mudhole Marsh - KONG",
+                        "ref": "Mudhole Marsh/KONG"
+                    },
+                    {
+                        "name": "Mudhole Marsh - Bonus #1",
+                        "ref": "Mudhole Marsh/Bonus #1"
+                    },
+                    {
+                        "name": "Mudhole Marsh - Bonus #2",
+                        "ref": "Mudhole Marsh/Bonus #2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "678",
+                        "y": "59",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Parrot Chute Panic",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Parrot Chute Panic - Clear",
+                        "ref": "Parrot Chute Panic/Clear"
+                    },
+                    {
+                        "name": "Parrot Chute Panic - DK Coin",
+                        "ref": "Parrot Chute Panic/DK Coin"
+                    },
+                    {
+                        "name": "Parrot Chute Panic - KONG",
+                        "ref": "Parrot Chute Panic/KONG"
+                    },
+                    {
+                        "name": "Parrot Chute Panic - Bonus #1",
+                        "ref": "Parrot Chute Panic/Bonus #1"
+                    },
+                    {
+                        "name": "Parrot Chute Panic - Bonus #2",
+                        "ref": "Parrot Chute Panic/Bonus #2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "1170",
+                        "y": "904",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Pirate Panic",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Pirate Panic - Clear",
+                        "ref": "Pirate Panic/Clear"
+                    },
+                    {
+                        "name": "Pirate Panic - DK Coin",
+                        "ref": "Pirate Panic/DK Coin"
+                    },
+                    {
+                        "name": "Pirate Panic - KONG",
+                        "ref": "Pirate Panic/KONG"
+                    },
+                    {
+                        "name": "Pirate Panic - Bonus #1",
+                        "ref": "Pirate Panic/Bonus #1"
+                    },
+                    {
+                        "name": "Pirate Panic - Bonus #2",
+                        "ref": "Pirate Panic/Bonus #2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "1107",
+                        "y": "1209",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Rambi Rumble",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Rambi Rumble - Clear",
+                        "ref": "Rambi Rumble/Clear"
+                    },
+                    {
+                        "name": "Rambi Rumble - DK Coin",
+                        "ref": "Rambi Rumble/DK Coin"
+                    },
+                    {
+                        "name": "Rambi Rumble - KONG",
+                        "ref": "Rambi Rumble/KONG"
+                    },
+                    {
+                        "name": "Rambi Rumble - Bonus #1",
+                        "ref": "Rambi Rumble/Bonus #1"
+                    },
+                    {
+                        "name": "Rambi Rumble - Bonus #2",
+                        "ref": "Rambi Rumble/Bonus #2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "2367",
+                        "y": "823",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Rattle Battle",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Rattle Battle - Clear",
+                        "ref": "Rattle Battle/Clear"
+                    },
+                    {
+                        "name": "Rattle Battle - DK Coin",
+                        "ref": "Rattle Battle/DK Coin"
+                    },
+                    {
+                        "name": "Rattle Battle - KONG",
+                        "ref": "Rattle Battle/KONG"
+                    },
+                    {
+                        "name": "Rattle Battle - Bonus #1",
+                        "ref": "Rattle Battle/Bonus #1"
+                    },
+                    {
+                        "name": "Rattle Battle - Bonus #2",
+                        "ref": "Rattle Battle/Bonus #2"
+                    },
+                    {
+                        "name": "Rattle Battle - Bonus #3",
+                        "ref": "Rattle Battle/Bonus #3"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "781",
+                        "y": "301",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Red-Hot Ride",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Red-Hot Ride - Clear",
+                        "ref": "Red-Hot Ride/Clear"
+                    },
+                    {
+                        "name": "Red-Hot Ride - DK Coin",
+                        "ref": "Red-Hot Ride/DK Coin"
+                    },
+                    {
+                        "name": "Red-Hot Ride - KONG",
+                        "ref": "Red-Hot Ride/KONG"
+                    },
+                    {
+                        "name": "Red-Hot Ride - Bonus #1",
+                        "ref": "Red-Hot Ride/Bonus #1"
+                    },
+                    {
+                        "name": "Red-Hot Ride - Bonus #2",
+                        "ref": "Red-Hot Ride/Bonus #2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "2460",
+                        "y": "157",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Rickety Race",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Rickety Race - Clear",
+                        "ref": "Rickety Race/Clear"
+                    },
+                    {
+                        "name": "Rickety Race - DK Coin",
+                        "ref": "Rickety Race/DK Coin"
+                    },
+                    {
+                        "name": "Rickety Race - KONG",
+                        "ref": "Rickety Race/KONG"
+                    },
+                    {
+                        "name": "Rickety Race - Bonus #1",
+                        "ref": "Rickety Race/Bonus #1"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "1491",
+                        "y": "1924",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Screech's Sprint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Screech's Sprint - Clear",
+                        "ref": "Screech's Sprint/Clear"
+                    },
+                    {
+                        "name": "Screech's Sprint - DK Coin",
+                        "ref": "Screech's Sprint/DK Coin"
+                    },
+                    {
+                        "name": "Screech's Sprint - KONG",
+                        "ref": "Screech's Sprint/KONG"
+                    },
+                    {
+                        "name": "Screech's Sprint - Bonus #1",
+                        "ref": "Screech's Sprint/Bonus #1"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "1501",
+                        "y": "1331",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Slime Climb",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Slime Climb - Clear",
+                        "ref": "Slime Climb/Clear"
+                    },
+                    {
+                        "name": "Slime Climb - DK Coin",
+                        "ref": "Slime Climb/DK Coin"
+                    },
+                    {
+                        "name": "Slime Climb - KONG",
+                        "ref": "Slime Climb/KONG"
+                    },
+                    {
+                        "name": "Slime Climb - Bonus #1",
+                        "ref": "Slime Climb/Bonus #1"
+                    },
+                    {
+                        "name": "Slime Climb - Bonus #2",
+                        "ref": "Slime Climb/Bonus #2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "1461",
+                        "y": "932",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Squawks's Shaft",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Squawks's Shaft - Clear",
+                        "ref": "Squawks's Shaft/Clear"
+                    },
+                    {
+                        "name": "Squawks's Shaft - DK Coin",
+                        "ref": "Squawks's Shaft/DK Coin"
+                    },
+                    {
+                        "name": "Squawks's Shaft - KONG",
+                        "ref": "Squawks's Shaft/KONG"
+                    },
+                    {
+                        "name": "Squawks's Shaft - Bonus #1",
+                        "ref": "Squawks's Shaft/Bonus #1"
+                    },
+                    {
+                        "name": "Squawks's Shaft - Bonus #2",
+                        "ref": "Squawks's Shaft/Bonus #2"
+                    },
+                    {
+                        "name": "Squawks's Shaft - Bonus #3",
+                        "ref": "Squawks's Shaft/Bonus #3"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "2274",
+                        "y": "186",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Stronghold Showdown",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Stronghold Showdown - Clear",
+                        "ref": "Stronghold Showdown/Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "2350",
+                        "y": "468",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Target Terror",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Target Terror - Clear",
+                        "ref": "Target Terror/Clear"
+                    },
+                    {
+                        "name": "Target Terror - DK Coin",
+                        "ref": "Target Terror/DK Coin"
+                    },
+                    {
+                        "name": "Target Terror - KONG",
+                        "ref": "Target Terror/KONG"
+                    },
+                    {
+                        "name": "Target Terror - Bonus #1",
+                        "ref": "Target Terror/Bonus #1"
+                    },
+                    {
+                        "name": "Target Terror - Bonus #2",
+                        "ref": "Target Terror/Bonus #2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "1417",
+                        "y": "2025",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Topsail Trouble",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Topsail Trouble - Clear",
+                        "ref": "Topsail Trouble/Clear"
+                    },
+                    {
+                        "name": "Topsail Trouble - DK Coin",
+                        "ref": "Topsail Trouble/DK Coin"
+                    },
+                    {
+                        "name": "Topsail Trouble - KONG",
+                        "ref": "Topsail Trouble/KONG"
+                    },
+                    {
+                        "name": "Topsail Trouble - Bonus #1",
+                        "ref": "Topsail Trouble/Bonus #1"
+                    },
+                    {
+                        "name": "Topsail Trouble - Bonus #2",
+                        "ref": "Topsail Trouble/Bonus #2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "1782",
+                        "y": "987",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Toxic Tower",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Toxic Tower - Clear",
+                        "ref": "Toxic Tower/Clear"
+                    },
+                    {
+                        "name": "Toxic Tower - DK Coin",
+                        "ref": "Toxic Tower/DK Coin"
+                    },
+                    {
+                        "name": "Toxic Tower - KONG",
+                        "ref": "Toxic Tower/KONG"
+                    },
+                    {
+                        "name": "Toxic Tower - Bonus #1",
+                        "ref": "Toxic Tower/Bonus #1"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "1688",
+                        "y": "804",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Web Woods",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Web Woods - Clear",
+                        "ref": "Web Woods/Clear"
+                    },
+                    {
+                        "name": "Web Woods - DK Coin",
+                        "ref": "Web Woods/DK Coin"
+                    },
+                    {
+                        "name": "Web Woods - KONG",
+                        "ref": "Web Woods/KONG"
+                    },
+                    {
+                        "name": "Web Woods - Bonus #1",
+                        "ref": "Web Woods/Bonus #1"
+                    },
+                    {
+                        "name": "Web Woods - Bonus #2",
+                        "ref": "Web Woods/Bonus #2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "247",
+                        "y": "2169",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Windy Well",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Windy Well - Clear",
+                        "ref": "Windy Well/Clear"
+                    },
+                    {
+                        "name": "Windy Well - DK Coin",
+                        "ref": "Windy Well/DK Coin"
+                    },
+                    {
+                        "name": "Windy Well - KONG",
+                        "ref": "Windy Well/KONG"
+                    },
+                    {
+                        "name": "Windy Well - Bonus #1",
+                        "ref": "Windy Well/Bonus #1"
+                    },
+                    {
+                        "name": "Windy Well - Bonus #2",
+                        "ref": "Windy Well/Bonus #2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "313",
+                        "y": "1320",
+                        "size": 6
+                    }
+                ]
+            }
+        ]
+    }
+]

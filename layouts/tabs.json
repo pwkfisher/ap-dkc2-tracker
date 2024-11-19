@@ -1,0 +1,822 @@
+{
+    "tabbed_maps_horizontal": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Animal Antics",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Animal Antics"
+                    ]
+                }
+            },
+            {
+                "title": "Arctic Abyss",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Arctic Abyss"
+                    ]
+                }
+            },
+            {
+                "title": "Barrel Bayou",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Barrel Bayou"
+                    ]
+                }
+            },
+            {
+                "title": "Black Ice Battle",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Black Ice Battle"
+                    ]
+                }
+            },
+            {
+                "title": "Bramble Blast",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Bramble Blast"
+                    ]
+                }
+            },
+            {
+                "title": "Bramble Scramble",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Bramble Scramble"
+                    ]
+                }
+            },
+            {
+                "title": "Castle Crush",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Castle Crush"
+                    ]
+                }
+            },
+            {
+                "title": "Chain Link Chamber",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Chain Link Chamber"
+                    ]
+                }
+            },
+            {
+                "title": "Clapper's Cavern",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Clapper's Cavern"
+                    ]
+                }
+            },
+            {
+                "title": "Fiery Furnace",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Fiery Furnace"
+                    ]
+                }
+            },
+            {
+                "title": "Gangplank Galley",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Gangplank Galley"
+                    ]
+                }
+            },
+            {
+                "title": "Ghostly Grove",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Ghostly Grove"
+                    ]
+                }
+            },
+            {
+                "title": "Glimmer's Galleon",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Glimmer's Galleon"
+                    ]
+                }
+            },
+            {
+                "title": "Gusty Glade",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Gusty Glade"
+                    ]
+                }
+            },
+            {
+                "title": "Haunted Hall",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Haunted Hall"
+                    ]
+                }
+            },
+            {
+                "title": "Hornet Hole",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Hornet Hole"
+                    ]
+                }
+            },
+            {
+                "title": "Hot-Head Hop",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Hot-Head Hop"
+                    ]
+                }
+            },
+            {
+                "title": "Jungle Jinx",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Jungle Jinx"
+                    ]
+                }
+            },
+            {
+                "title": "Kannon's Klaim",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Kannon's Klaim"
+                    ]
+                }
+            },
+            {
+                "title": "King Zing Sting",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "King Zing Sting"
+                    ]
+                }
+            },
+            {
+                "title": "Kleever's Kiln",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Kleever's Kiln"
+                    ]
+                }
+            },
+            {
+                "title": "Klobber Karnage",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Klobber Karnage"
+                    ]
+                }
+            },
+            {
+                "title": "Kreepy Krow",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Kreepy Krow"
+                    ]
+                }
+            },
+            {
+                "title": "Krockhead Klamber",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Krockhead Klamber"
+                    ]
+                }
+            },
+            {
+                "title": "Krow's Nest",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Krow's Nest"
+                    ]
+                }
+            },
+            {
+                "title": "Kudgel's Kontest",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Kudgel's Kontest"
+                    ]
+                }
+            },
+            {
+                "title": "Lava Lagoon",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Lava Lagoon"
+                    ]
+                }
+            },
+            {
+                "title": "Lockjaw's Locker",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Lockjaw's Locker"
+                    ]
+                }
+            },
+            {
+                "title": "Mainbrace Mayhem",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Mainbrace Mayhem"
+                    ]
+                }
+            },
+            {
+                "title": "Mudhole Marsh",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Mudhole Marsh"
+                    ]
+                }
+            },
+            {
+                "title": "Parrot Chute Panic",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Parrot Chute Panic"
+                    ]
+                }
+            },
+            {
+                "title": "Pirate Panic",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Pirate Panic"
+                    ]
+                }
+            },
+            {
+                "title": "Rambi Rumble",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Rambi Rumble"
+                    ]
+                }
+            },
+            {
+                "title": "Rattle Battle",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Rattle Battle"
+                    ]
+                }
+            },
+            {
+                "title": "Red-Hot Ride",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Red-Hot Ride"
+                    ]
+                }
+            },
+            {
+                "title": "Rickety Race",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Rickety Race"
+                    ]
+                }
+            },
+            {
+                "title": "Screech's Sprint",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Screech's Sprint"
+                    ]
+                }
+            },
+            {
+                "title": "Slime Climb",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Slime Climb"
+                    ]
+                }
+            },
+            {
+                "title": "Squawks's Shaft",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Squawks's Shaft"
+                    ]
+                }
+            },
+            {
+                "title": "Stronghold Showdown",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Stronghold Showdown"
+                    ]
+                }
+            },
+            {
+                "title": "Target Terror",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Target Terror"
+                    ]
+                }
+            },
+            {
+                "title": "Topsail Trouble",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Topsail Trouble"
+                    ]
+                }
+            },
+            {
+                "title": "Toxic Tower",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Toxic Tower"
+                    ]
+                }
+            },
+            {
+                "title": "Web Woods",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Web Woods"
+                    ]
+                }
+            },
+            {
+                "title": "Windy Well",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Windy Well"
+                    ]
+                }
+            }
+        ]
+    },
+    "tabbed_maps_vertical": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Animal Antics",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Animal Antics"
+                    ]
+                }
+            },
+            {
+                "title": "Arctic Abyss",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Arctic Abyss"
+                    ]
+                }
+            },
+            {
+                "title": "Barrel Bayou",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Barrel Bayou"
+                    ]
+                }
+            },
+            {
+                "title": "Black Ice Battle",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Black Ice Battle"
+                    ]
+                }
+            },
+            {
+                "title": "Bramble Blast",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Bramble Blast"
+                    ]
+                }
+            },
+            {
+                "title": "Bramble Scramble",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Bramble Scramble"
+                    ]
+                }
+            },
+            {
+                "title": "Castle Crush",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Castle Crush"
+                    ]
+                }
+            },
+            {
+                "title": "Chain Link Chamber",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Chain Link Chamber"
+                    ]
+                }
+            },
+            {
+                "title": "Clapper's Cavern",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Clapper's Cavern"
+                    ]
+                }
+            },
+            {
+                "title": "Fiery Furnace",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Fiery Furnace"
+                    ]
+                }
+            },
+            {
+                "title": "Gangplank Galley",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Gangplank Galley"
+                    ]
+                }
+            },
+            {
+                "title": "Ghostly Grove",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Ghostly Grove"
+                    ]
+                }
+            },
+            {
+                "title": "Glimmer's Galleon",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Glimmer's Galleon"
+                    ]
+                }
+            },
+            {
+                "title": "Gusty Glade",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Gusty Glade"
+                    ]
+                }
+            },
+            {
+                "title": "Haunted Hall",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Haunted Hall"
+                    ]
+                }
+            },
+            {
+                "title": "Hornet Hole",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Hornet Hole"
+                    ]
+                }
+            },
+            {
+                "title": "Hot-Head Hop",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Hot-Head Hop"
+                    ]
+                }
+            },
+            {
+                "title": "Jungle Jinx",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Jungle Jinx"
+                    ]
+                }
+            },
+            {
+                "title": "Kannon's Klaim",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Kannon's Klaim"
+                    ]
+                }
+            },
+            {
+                "title": "King Zing Sting",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "King Zing Sting"
+                    ]
+                }
+            },
+            {
+                "title": "Kleever's Kiln",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Kleever's Kiln"
+                    ]
+                }
+            },
+            {
+                "title": "Klobber Karnage",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Klobber Karnage"
+                    ]
+                }
+            },
+            {
+                "title": "Kreepy Krow",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Kreepy Krow"
+                    ]
+                }
+            },
+            {
+                "title": "Krockhead Klamber",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Krockhead Klamber"
+                    ]
+                }
+            },
+            {
+                "title": "Krow's Nest",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Krow's Nest"
+                    ]
+                }
+            },
+            {
+                "title": "Kudgel's Kontest",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Kudgel's Kontest"
+                    ]
+                }
+            },
+            {
+                "title": "Lava Lagoon",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Lava Lagoon"
+                    ]
+                }
+            },
+            {
+                "title": "Lockjaw's Locker",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Lockjaw's Locker"
+                    ]
+                }
+            },
+            {
+                "title": "Mainbrace Mayhem",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Mainbrace Mayhem"
+                    ]
+                }
+            },
+            {
+                "title": "Mudhole Marsh",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Mudhole Marsh"
+                    ]
+                }
+            },
+            {
+                "title": "Parrot Chute Panic",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Parrot Chute Panic"
+                    ]
+                }
+            },
+            {
+                "title": "Pirate Panic",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Pirate Panic"
+                    ]
+                }
+            },
+            {
+                "title": "Rambi Rumble",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Rambi Rumble"
+                    ]
+                }
+            },
+            {
+                "title": "Rattle Battle",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Rattle Battle"
+                    ]
+                }
+            },
+            {
+                "title": "Red-Hot Ride",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Red-Hot Ride"
+                    ]
+                }
+            },
+            {
+                "title": "Rickety Race",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Rickety Race"
+                    ]
+                }
+            },
+            {
+                "title": "Screech's Sprint",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Screech's Sprint"
+                    ]
+                }
+            },
+            {
+                "title": "Slime Climb",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Slime Climb"
+                    ]
+                }
+            },
+            {
+                "title": "Squawks's Shaft",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Squawks's Shaft"
+                    ]
+                }
+            },
+            {
+                "title": "Stronghold Showdown",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Stronghold Showdown"
+                    ]
+                }
+            },
+            {
+                "title": "Target Terror",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Target Terror"
+                    ]
+                }
+            },
+            {
+                "title": "Topsail Trouble",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Topsail Trouble"
+                    ]
+                }
+            },
+            {
+                "title": "Toxic Tower",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Toxic Tower"
+                    ]
+                }
+            },
+            {
+                "title": "Web Woods",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Web Woods"
+                    ]
+                }
+            },
+            {
+                "title": "Windy Well",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Windy Well"
+                    ]
+                }
+            }
+        ]
+    }
+}

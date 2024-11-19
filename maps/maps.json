@@ -1,0 +1,272 @@
+[
+    {
+        "name": "Animal Antics",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Animal Antics.png"
+    },
+    {
+        "name": "Arctic Abyss",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Arctic Abyss.png"
+    },
+    {
+        "name": "Barrel Bayou",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Barrel Bayou.png"
+    },
+    {
+        "name": "Black Ice Battle",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Black Ice Battle.png"
+    },
+    {
+        "name": "Bramble Blast",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Bramble Blast.png"
+    },
+    {
+        "name": "Bramble Scramble",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Bramble Scramble.png"
+    },
+    {
+        "name": "Castle Crush",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Castle Crush.png"
+    },
+    {
+        "name": "Chain Link Chamber",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Chain Link Chamber.png"
+    },
+    {
+        "name": "Clapper's Cavern",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Clapper's Cavern.png"
+    },
+    {
+        "name": "Fiery Furnace",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Fiery Furnace.png"
+    },
+    {
+        "name": "Gangplank Galley",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Gangplank Galley.png"
+    },
+    {
+        "name": "Ghostly Grove",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Ghostly Grove.png"
+    },
+    {
+        "name": "Glimmer's Galleon",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Glimmer's Galleon.png"
+    },
+    {
+        "name": "Gusty Glade",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Gusty Glade.png"
+    },
+    {
+        "name": "Haunted Hall",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Haunted Hall.png"
+    },
+    {
+        "name": "Hornet Hole",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Hornet Hole.png"
+    },
+    {
+        "name": "Hot-Head Hop",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Hot-Head Hop.png"
+    },
+    {
+        "name": "Jungle Jinx",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Jungle Jinx.png"
+    },
+    {
+        "name": "Kannon's Klaim",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Kannon's Klaim.png"
+    },
+    {
+        "name": "King Zing Sting",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/King Zing Sting.png"
+    },
+    {
+        "name": "Kleever's Kiln",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Kleever's Kiln.png"
+    },
+    {
+        "name": "Klobber Karnage",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Klobber Karnage.png"
+    },
+    {
+        "name": "Kreepy Krow",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Kreepy Krow.png"
+    },
+    {
+        "name": "Krockhead Klamber",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Krockhead Klamber.png"
+    },
+    {
+        "name": "Krow's Nest",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Krow's Nest.png"
+    },
+    {
+        "name": "Kudgel's Kontest",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Kudgel's Kontest.png"
+    },
+    {
+        "name": "Lava Lagoon",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Lava Lagoon.png"
+    },
+    {
+        "name": "Lockjaw's Locker",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Lockjaw's Locker.png"
+    },
+    {
+        "name": "Mainbrace Mayhem",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Mainbrace Mayhem.png"
+    },
+    {
+        "name": "Mudhole Marsh",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Mudhole Marsh.png"
+    },
+    {
+        "name": "Parrot Chute Panic",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Parrot Chute Panic.png"
+    },
+    {
+        "name": "Pirate Panic",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Pirate Panic.png"
+    },
+    {
+        "name": "Rambi Rumble",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Rambi Rumble.png"
+    },
+    {
+        "name": "Rattle Battle",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Rattle Battle.png"
+    },
+    {
+        "name": "Red-Hot Ride",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Red-Hot Ride.png"
+    },
+    {
+        "name": "Rickety Race",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Rickety Race.png"
+    },
+    {
+        "name": "Screech's Sprint",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Screech's Sprint.png"
+    },
+    {
+        "name": "Slime Climb",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Slime Climb.png"
+    },
+    {
+        "name": "Squawks's Shaft",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Squawks's Shaft.png"
+    },
+    {
+        "name": "Stronghold Showdown",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Stronghold Showdown.png"
+    },
+    {
+        "name": "Target Terror",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Target Terror.png"
+    },
+    {
+        "name": "Topsail Trouble",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Topsail Trouble.png"
+    },
+    {
+        "name": "Toxic Tower",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Toxic Tower.png"
+    },
+    {
+        "name": "Web Woods",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Web Woods.png"
+    },
+    {
+        "name": "Windy Well",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Windy Well.png"
+    }
+]

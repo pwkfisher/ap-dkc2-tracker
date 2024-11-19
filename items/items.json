@@ -1,0 +1,275 @@
+[
+    {
+        "name": "climb",
+        "type": "toggle",
+        "img": "images/items/climb.png",
+        "img_mods": "",
+        "codes": "climb"
+    },
+    {
+        "name": "theflyingkrockaccess",
+        "type": "toggle",
+        "img": "images/items/theflyingkrockaccess.png",
+        "img_mods": "",
+        "codes": "theflyingkrockaccess"
+    },
+    {
+        "name": "squawks",
+        "type": "toggle",
+        "img": "images/items/squawks.png",
+        "img_mods": "",
+        "codes": "squawks"
+    },
+    {
+        "name": "reversetrap",
+        "type": "toggle",
+        "img": "images/items/reversetrap.png",
+        "img_mods": "",
+        "codes": "reversetrap"
+    },
+    {
+        "name": "freezetrap",
+        "type": "toggle",
+        "img": "images/items/freezetrap.png",
+        "img_mods": "",
+        "codes": "freezetrap"
+    },
+    {
+        "name": "glimmer",
+        "type": "toggle",
+        "img": "images/items/glimmer.png",
+        "img_mods": "",
+        "codes": "glimmer"
+    },
+    {
+        "name": "swim",
+        "type": "toggle",
+        "img": "images/items/swim.png",
+        "img_mods": "",
+        "codes": "swim"
+    },
+    {
+        "name": "diddy",
+        "type": "toggle",
+        "img": "images/items/diddy.png",
+        "img_mods": "",
+        "codes": "diddy"
+    },
+    {
+        "name": "lostworldaccess(kremquay)",
+        "type": "toggle",
+        "img": "images/items/lostworldaccess(kremquay).png",
+        "img_mods": "",
+        "codes": "lostworldaccess(kremquay)"
+    },
+    {
+        "name": "teamattack",
+        "type": "toggle",
+        "img": "images/items/teamattack.png",
+        "img_mods": "",
+        "codes": "teamattack"
+    },
+    {
+        "name": "rambi",
+        "type": "toggle",
+        "img": "images/items/rambi.png",
+        "img_mods": "",
+        "codes": "rambi"
+    },
+    {
+        "name": "rattly",
+        "type": "toggle",
+        "img": "images/items/rattly.png",
+        "img_mods": "",
+        "codes": "rattly"
+    },
+    {
+        "name": "cartwheel",
+        "type": "toggle",
+        "img": "images/items/cartwheel.png",
+        "img_mods": "",
+        "codes": "cartwheel"
+    },
+    {
+        "name": "helicopterspin",
+        "type": "toggle",
+        "img": "images/items/helicopterspin.png",
+        "img_mods": "",
+        "codes": "helicopterspin"
+    },
+    {
+        "name": "k.rool'skeepaccess",
+        "type": "toggle",
+        "img": "images/items/k.rool'skeepaccess.png",
+        "img_mods": "",
+        "codes": "k.rool'skeepaccess"
+    },
+    {
+        "name": "skullkart",
+        "type": "toggle",
+        "img": "images/items/skullkart.png",
+        "img_mods": "",
+        "codes": "skullkart"
+    },
+    {
+        "name": "lostworldaccess(krazykremland)",
+        "type": "toggle",
+        "img": "images/items/lostworldaccess(krazykremland).png",
+        "img_mods": "",
+        "codes": "lostworldaccess(krazykremland)"
+    },
+    {
+        "name": "kremquayaccess",
+        "type": "toggle",
+        "img": "images/items/kremquayaccess.png",
+        "img_mods": "",
+        "codes": "kremquayaccess"
+    },
+    {
+        "name": "dkcoin",
+        "type": "toggle",
+        "img": "images/items/dkcoin.png",
+        "img_mods": "",
+        "codes": "dkcoin"
+    },
+    {
+        "name": "lostworldrock",
+        "type": "toggle",
+        "img": "images/items/lostworldrock.png",
+        "img_mods": "",
+        "codes": "lostworldrock"
+    },
+    {
+        "name": "gangplankgalleonaccess",
+        "type": "toggle",
+        "img": "images/items/gangplankgalleonaccess.png",
+        "img_mods": "",
+        "codes": "gangplankgalleonaccess"
+    },
+    {
+        "name": "cling",
+        "type": "toggle",
+        "img": "images/items/cling.png",
+        "img_mods": "",
+        "codes": "cling"
+    },
+    {
+        "name": "exclamationbarrels",
+        "type": "toggle",
+        "img": "images/items/exclamationbarrels.png",
+        "img_mods": "",
+        "codes": "exclamationbarrels"
+    },
+    {
+        "name": "controllablebarrels",
+        "type": "toggle",
+        "img": "images/items/controllablebarrels.png",
+        "img_mods": "",
+        "codes": "controllablebarrels"
+    },
+    {
+        "name": "lostworldaccess(gloomygulch)",
+        "type": "toggle",
+        "img": "images/items/lostworldaccess(gloomygulch).png",
+        "img_mods": "",
+        "codes": "lostworldaccess(gloomygulch)"
+    },
+    {
+        "name": "enguarde",
+        "type": "toggle",
+        "img": "images/items/enguarde.png",
+        "img_mods": "",
+        "codes": "enguarde"
+    },
+    {
+        "name": "lostworldaccess(k.rool'skeep)",
+        "type": "toggle",
+        "img": "images/items/lostworldaccess(k.rool'skeep).png",
+        "img_mods": "",
+        "codes": "lostworldaccess(k.rool'skeep)"
+    },
+    {
+        "name": "lostworldaccess(crocodilecauldron)",
+        "type": "toggle",
+        "img": "images/items/lostworldaccess(crocodilecauldron).png",
+        "img_mods": "",
+        "codes": "lostworldaccess(crocodilecauldron)"
+    },
+    {
+        "name": "dixie",
+        "type": "toggle",
+        "img": "images/items/dixie.png",
+        "img_mods": "",
+        "codes": "dixie"
+    },
+    {
+        "name": "kremkoins",
+        "type": "toggle",
+        "img": "images/items/kremkoins.png",
+        "img_mods": "",
+        "codes": "kremkoins"
+    },
+    {
+        "name": "kongbarrels",
+        "type": "toggle",
+        "img": "images/items/kongbarrels.png",
+        "img_mods": "",
+        "codes": "kongbarrels"
+    },
+    {
+        "name": "warpbarrels",
+        "type": "toggle",
+        "img": "images/items/warpbarrels.png",
+        "img_mods": "",
+        "codes": "warpbarrels"
+    },
+    {
+        "name": "clapper",
+        "type": "toggle",
+        "img": "images/items/clapper.png",
+        "img_mods": "",
+        "codes": "clapper"
+    },
+    {
+        "name": "krazykremlandaccess",
+        "type": "toggle",
+        "img": "images/items/krazykremlandaccess.png",
+        "img_mods": "",
+        "codes": "krazykremlandaccess"
+    },
+    {
+        "name": "barrelkannons",
+        "type": "toggle",
+        "img": "images/items/barrelkannons.png",
+        "img_mods": "",
+        "codes": "barrelkannons"
+    },
+    {
+        "name": "gloomygulchaccess",
+        "type": "toggle",
+        "img": "images/items/gloomygulchaccess.png",
+        "img_mods": "",
+        "codes": "gloomygulchaccess"
+    },
+    {
+        "name": "carry",
+        "type": "toggle",
+        "img": "images/items/carry.png",
+        "img_mods": "",
+        "codes": "carry"
+    },
+    {
+        "name": "squitter",
+        "type": "toggle",
+        "img": "images/items/squitter.png",
+        "img_mods": "",
+        "codes": "squitter"
+    },
+    {
+        "name": "crocodilecauldronaccess",
+        "type": "toggle",
+        "img": "images/items/crocodilecauldronaccess.png",
+        "img_mods": "",
+        "codes": "crocodilecauldronaccess"
+    },
+]

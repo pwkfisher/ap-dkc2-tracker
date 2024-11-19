@@ -1,0 +1,54 @@
+[
+    {
+        "name": "King Zing Sting - hint",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "{}"
+        ],
+        "sections": [
+            {
+                "name": "Clear - hint",
+                "access_rules": [],
+                "visibility_rules": [
+                    "king_zing_sting_clear"
+                ],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "King Zing Sting",
+                "x": "1514",
+                "y": "569",
+                "size": 12
+            }
+        ]
+    },
+    {
+        "name": "King Zing Sting",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "sections": [
+            {
+                "name": "Clear",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "King Zing Sting",
+                "x": "1514",
+                "y": "569",
+                "size": 6
+            }
+        ]
+    }
+]
