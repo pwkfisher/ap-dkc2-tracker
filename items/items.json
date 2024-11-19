@@ -100,7 +100,7 @@
     {
         "name": "k.rool'skeepaccess",
         "type": "toggle",
-        "img": "images/items/k.rool'skeepaccess.png",
+        "img": "images/items/k.roolskeepaccess.png",
         "img_mods": "",
         "codes": "k.rool'skeepaccess"
     },
@@ -134,9 +134,14 @@
     },
     {
         "name": "lostworldrock",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/lostworldrock.png",
         "img_mods": "",
+        "initial_quantity": 0,
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "overlay_font_size": 14,
         "codes": "lostworldrock"
     },
     {
@@ -184,7 +189,7 @@
     {
         "name": "lostworldaccess(k.rool'skeep)",
         "type": "toggle",
-        "img": "images/items/lostworldaccess(k.rool'skeep).png",
+        "img": "images/items/lostworldaccess(k.roolskeep).png",
         "img_mods": "",
         "codes": "lostworldaccess(k.rool'skeep)"
     },
@@ -271,5 +276,5 @@
         "img": "images/items/crocodilecauldronaccess.png",
         "img_mods": "",
         "codes": "crocodilecauldronaccess"
-    },
+    }
 ]
