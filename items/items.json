@@ -1,20 +1,20 @@
 [
     {
-        "name": "climb",
+        "name": "Climb",
         "type": "toggle",
         "img": "images/items/climb.png",
         "img_mods": "",
         "codes": "climb"
     },
     {
-        "name": "theflyingkrockaccess",
+        "name": "The Flying Krock Access",
         "type": "toggle",
         "img": "images/items/theflyingkrockaccess.png",
         "img_mods": "",
         "codes": "theflyingkrockaccess"
     },
     {
-        "name": "squawks",
+        "name": "Squawks",
         "type": "toggle",
         "img": "images/items/squawks.png",
         "img_mods": "",
@@ -35,91 +35,91 @@
         "codes": "freezetrap"
     },
     {
-        "name": "glimmer",
+        "name": "Glimmer",
         "type": "toggle",
         "img": "images/items/glimmer.png",
         "img_mods": "",
         "codes": "glimmer"
     },
     {
-        "name": "swim",
+        "name": "Swim",
         "type": "toggle",
         "img": "images/items/swim.png",
         "img_mods": "",
         "codes": "swim"
     },
     {
-        "name": "diddy",
+        "name": "Diddy",
         "type": "toggle",
         "img": "images/items/diddy.png",
         "img_mods": "",
         "codes": "diddy"
     },
     {
-        "name": "lostworldaccess(kremquay)",
+        "name": "Lost World Access (Krem Quay)",
         "type": "toggle",
         "img": "images/items/lostworldaccess(kremquay).png",
         "img_mods": "",
         "codes": "lostworldaccess(kremquay)"
     },
     {
-        "name": "teamattack",
+        "name": "Team Attack",
         "type": "toggle",
         "img": "images/items/teamattack.png",
         "img_mods": "",
         "codes": "teamattack"
     },
     {
-        "name": "rambi",
+        "name": "Rambi",
         "type": "toggle",
         "img": "images/items/rambi.png",
         "img_mods": "",
         "codes": "rambi"
     },
     {
-        "name": "rattly",
+        "name": "Rattly",
         "type": "toggle",
         "img": "images/items/rattly.png",
         "img_mods": "",
         "codes": "rattly"
     },
     {
-        "name": "cartwheel",
+        "name": "Cartwheel",
         "type": "toggle",
         "img": "images/items/cartwheel.png",
         "img_mods": "",
         "codes": "cartwheel"
     },
     {
-        "name": "helicopterspin",
+        "name": "Helicopter Spin",
         "type": "toggle",
         "img": "images/items/helicopterspin.png",
         "img_mods": "",
         "codes": "helicopterspin"
     },
     {
-        "name": "k.rool'skeepaccess",
+        "name": "K. Rool's Keep Access",
         "type": "toggle",
         "img": "images/items/k.roolskeepaccess.png",
         "img_mods": "",
         "codes": "k.rool'skeepaccess"
     },
     {
-        "name": "skullkart",
+        "name": "Skull Kart",
         "type": "toggle",
         "img": "images/items/skullkart.png",
         "img_mods": "",
         "codes": "skullkart"
     },
     {
-        "name": "lostworldaccess(krazykremland)",
+        "name": "Lost World Access (Krazy Kremland)",
         "type": "toggle",
         "img": "images/items/lostworldaccess(krazykremland).png",
         "img_mods": "",
         "codes": "lostworldaccess(krazykremland)"
     },
     {
-        "name": "kremquayaccess",
+        "name": "Krem Quay Access",
         "type": "toggle",
         "img": "images/items/kremquayaccess.png",
         "img_mods": "",
@@ -133,7 +133,7 @@
         "codes": "dkcoin"
     },
     {
-        "name": "lostworldrock",
+        "name": "Lost World Rock",
         "type": "consumable",
         "img": "images/items/lostworldrock.png",
         "img_mods": "",
@@ -145,63 +145,63 @@
         "codes": "lostworldrock"
     },
     {
-        "name": "gangplankgalleonaccess",
+        "name": "Gangplank Galleon Access",
         "type": "toggle",
         "img": "images/items/gangplankgalleonaccess.png",
         "img_mods": "",
         "codes": "gangplankgalleonaccess"
     },
     {
-        "name": "cling",
+        "name": "Cling",
         "type": "toggle",
         "img": "images/items/cling.png",
         "img_mods": "",
         "codes": "cling"
     },
     {
-        "name": "exclamationbarrels",
+        "name": "Exclamation Barrels",
         "type": "toggle",
         "img": "images/items/exclamationbarrels.png",
         "img_mods": "",
         "codes": "exclamationbarrels"
     },
     {
-        "name": "controllablebarrels",
+        "name": "Controllable Barrels",
         "type": "toggle",
         "img": "images/items/controllablebarrels.png",
         "img_mods": "",
         "codes": "controllablebarrels"
     },
     {
-        "name": "lostworldaccess(gloomygulch)",
+        "name": "Lost World Access (Gloomy Gulch)",
         "type": "toggle",
         "img": "images/items/lostworldaccess(gloomygulch).png",
         "img_mods": "",
         "codes": "lostworldaccess(gloomygulch)"
     },
     {
-        "name": "enguarde",
+        "name": "Enguarde",
         "type": "toggle",
         "img": "images/items/enguarde.png",
         "img_mods": "",
         "codes": "enguarde"
     },
     {
-        "name": "lostworldaccess(k.rool'skeep)",
+        "name": "Lost World Access (K. Rool's Keep)",
         "type": "toggle",
         "img": "images/items/lostworldaccess(k.roolskeep).png",
         "img_mods": "",
         "codes": "lostworldaccess(k.rool'skeep)"
     },
     {
-        "name": "lostworldaccess(crocodilecauldron)",
+        "name": "Lost World Access (Crocodile Cauldron)",
         "type": "toggle",
         "img": "images/items/lostworldaccess(crocodilecauldron).png",
         "img_mods": "",
         "codes": "lostworldaccess(crocodilecauldron)"
     },
     {
-        "name": "dixie",
+        "name": "Dixie",
         "type": "toggle",
         "img": "images/items/dixie.png",
         "img_mods": "",
@@ -215,63 +215,63 @@
         "codes": "kremkoins"
     },
     {
-        "name": "kongbarrels",
+        "name": "Kong Barrels",
         "type": "toggle",
         "img": "images/items/kongbarrels.png",
         "img_mods": "",
         "codes": "kongbarrels"
     },
     {
-        "name": "warpbarrels",
+        "name": "Warp Barrels",
         "type": "toggle",
         "img": "images/items/warpbarrels.png",
         "img_mods": "",
         "codes": "warpbarrels"
     },
     {
-        "name": "clapper",
+        "name": "Clapper",
         "type": "toggle",
         "img": "images/items/clapper.png",
         "img_mods": "",
         "codes": "clapper"
     },
     {
-        "name": "krazykremlandaccess",
+        "name": "Krazy Kremland Access",
         "type": "toggle",
         "img": "images/items/krazykremlandaccess.png",
         "img_mods": "",
         "codes": "krazykremlandaccess"
     },
     {
-        "name": "barrelkannons",
+        "name": "Barrel Kannons",
         "type": "toggle",
         "img": "images/items/barrelkannons.png",
         "img_mods": "",
         "codes": "barrelkannons"
     },
     {
-        "name": "gloomygulchaccess",
+        "name": "Gloomy Gulch Access",
         "type": "toggle",
         "img": "images/items/gloomygulchaccess.png",
         "img_mods": "",
         "codes": "gloomygulchaccess"
     },
     {
-        "name": "carry",
+        "name": "Carry",
         "type": "toggle",
         "img": "images/items/carry.png",
         "img_mods": "",
         "codes": "carry"
     },
     {
-        "name": "squitter",
+        "name": "Squitter",
         "type": "toggle",
         "img": "images/items/squitter.png",
         "img_mods": "",
         "codes": "squitter"
     },
     {
-        "name": "crocodilecauldronaccess",
+        "name": "Crocodile Cauldron Access",
         "type": "toggle",
         "img": "images/items/crocodilecauldronaccess.png",
         "img_mods": "",

@@ -1,49 +1,55 @@
 [
     {
+        "name": "World Map",
+        "location_size": 10,
+        "location_border_thickness": 1,
+        "img": "images/maps/world_map.png"
+    },
+    {
         "name": "Gangplank Galleon",
-        "location_size": 6,
+        "location_size": 10,
         "location_border_thickness": 1,
         "img": "images/maps/gangplank_galleon.png"
     },
     {
         "name": "Crocodile Cauldron",
-        "location_size": 6,
+        "location_size": 10,
         "location_border_thickness": 1,
         "img": "images/maps/crocodile_cauldron.png"
     },
     {
         "name": "Krem Quay",
-        "location_size": 6,
+        "location_size": 10,
         "location_border_thickness": 1,
         "img": "images/maps/krem_quay.png"
     },
     {
-        "name": "Krazy_Kremland",
-        "location_size": 6,
+        "name": "Krazy Kremland",
+        "location_size": 10,
         "location_border_thickness": 1,
         "img": "images/maps/krazy_kremland.png"
     },
     {
         "name": "Gloomy Gulch",
-        "location_size": 6,
+        "location_size": 10,
         "location_border_thickness": 1,
         "img": "images/maps/gloomy_gulch.png"
     },
     {
         "name": "K. Rool's Keep",
-        "location_size": 6,
+        "location_size": 10,
         "location_border_thickness": 1,
         "img": "images/maps/krools_keep.png"
     },
     {
         "name": "The Flying Krock",
-        "location_size": 6,
+        "location_size": 10,
         "location_border_thickness": 1,
         "img": "images/maps/flying_krock.png"
     },
     {
         "name": "Lost World",
-        "location_size": 6,
+        "location_size": 10,
         "location_border_thickness": 1,
         "img": "images/maps/lost_world.png"
     }

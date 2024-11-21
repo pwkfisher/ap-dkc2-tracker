@@ -15,66 +15,55 @@
                         "h_alignment": "left",
                         "item_h_alignment": "center",
                         "item_v_alignment": "center",
-                        "item_height": 36,
-                        "item_width": 36,
+                        "item_height": 44,
+                        "item_width": 44,
                         "rows": [
                             [
                                 "climb",
-                                "theflyingkrockaccess",
-                                "squawks",
-                                "reversetrap",
-                                "freezetrap",
-                                "glimmer",
-                                "swim"
+                                "swim",
+                                "teamattack",
+                                "cartwheel",
+                                "helicopterspin",
+                                "cling",
+                                "carry"
                             ],
                             [
                                 "diddy",
-                                "lostworldaccess(kremquay)",
-                                "teamattack",
-                                "rambi",
-                                "rattly",
-                                "cartwheel",
-                                "helicopterspin"
-                            ],
-                            [
-                                "1-up",
-                                "k.rool'skeepaccess",
-                                "skullkart",
-                                "lostworldaccess(krazykremland)",
-                                "kremquayaccess",
-                                "dkcoin",
-                                "lostworldrock"
-                            ],
-                            [
-                                "gangplankgalleonaccess",
-                                "cling",
+                                "dixie",
+                                "barrelkannons",
                                 "exclamationbarrels",
                                 "controllablebarrels",
-                                "lostworldaccess(gloomygulch)",
-                                "enguarde",
-                                "lostworldaccess(k.rool'skeep)"
+                                "kongbarrels",
+                                "warpbarrels"
                             ],
                             [
-                                "lostworldaccess(crocodilecauldron)",
-                                "dixie",
-                                "kremkoins",
-                                "kongbarrels",
-                                "warpbarrels",
-                                "bananacoin",
+                                "rambi",
+                                "enguarde",
+                                "squitter",
+                                "rattly",
+                                "squawks",
+                                "glimmer",
                                 "clapper"
                             ],
                             [
+                                "gangplankgalleonaccess",
+                                "crocodilecauldronaccess",
+                                "kremquayaccess",
                                 "krazykremlandaccess",
-                                "barrelkannons",
                                 "gloomygulchaccess",
-                                "donkeykong",
-                                "carry",
-                                "squitter",
-                                "crocodilecauldronaccess"
+                                "k.rool'skeepaccess",
+                                "theflyingkrockaccess"
                             ],
                             [
-                                "update"
+                                "skullkart",
+                                "lostworldaccess(crocodilecauldron)",
+                                "lostworldaccess(kremquay)",
+                                "lostworldaccess(krazykremland)",
+                                "lostworldaccess(gloomygulch)",
+                                "lostworldaccess(k.rool'skeep)",
+                                "lostworldrock"
                             ]
+
                         ]
                     }
                 ]

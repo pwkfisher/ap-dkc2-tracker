@@ -1,0 +1,61 @@
+[
+    {
+        "name": "Gangplank Galley",
+        "access_rules": [
+            " "
+        ],
+        "visibility_rules": [
+            ""
+        ],
+        "sections": [
+            {
+                "name": "Clear",
+                "access_rules": [],
+                "chest_unopened_img": "images/checks/clear_disabled.png",
+                "chest_opened_img": "images/checks/clear.png",
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "DK Coin",
+                "access_rules": [],
+                "chest_unopened_img": "images/checks/dkcoin_disabled.png",
+                "chest_opened_img": "images/checks/dkcoin.png",
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "KONG",
+                "access_rules": [],
+                "chest_unopened_img": "images/checks/kong_disabled.png",
+                "chest_opened_img": "images/checks/kong.png",
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Bonus #1",
+                "access_rules": [],
+                "chest_unopened_img": "images/checks/kremkoin_disabled.png",
+                "chest_opened_img": "images/checks/kremkoin.png",
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Bonus #2",
+                "access_rules": [],
+                "chest_unopened_img": "images/checks/kremkoin_disabled.png",
+                "chest_opened_img": "images/checks/kremkoin.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Gangplank Galleon",
+                "x": "328",
+                "y": "151",
+                "size": 6
+            }
+        ]
+    }
+]

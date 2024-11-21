@@ -2,12 +2,14 @@
 local variant = Tracker.ActiveVariantUID
 
 -- Items
+Tracker:AddItems("items/items.json")
 ScriptHost:LoadScript("scripts/items_import.lua")
 
 -- Logic
 ScriptHost:LoadScript("scripts/logic/logic_helper.lua")
 ScriptHost:LoadScript("scripts/logic/logic_main.lua")
 ScriptHost:LoadScript("scripts/logic_import.lua")
+
 
 -- Maps
 if Tracker.ActiveVariantUID == "maps-u" then

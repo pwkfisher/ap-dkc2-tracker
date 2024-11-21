@@ -1,3 +1,6 @@
+ScriptHost:LoadScript("scripts/autotracking/settings.lua")
+-- loads the AP autotracking code
+ScriptHost:LoadScript("scripts/autotracking/archipelago.lua")
 
 -- Configuration --------------------------------------
 AUTOTRACKER_ENABLE_DEBUG_LOGGING = true and ENABLE_DEBUG_LOG
@@ -17,9 +20,7 @@ end
 print("---------------------------------------------------------------------")
 print("")
 
-ScriptHost:LoadScript("scripts/autotracking/settings.lua")
--- loads the AP autotracking code
-ScriptHost:LoadScript("scripts/autotracking/archipelago.lua")
+
 
 
         
