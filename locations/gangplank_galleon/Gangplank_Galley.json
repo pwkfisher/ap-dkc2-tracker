@@ -52,9 +52,9 @@
         "map_locations": [
             {
                 "map": "Gangplank Galleon",
-                "x": "328",
-                "y": "151",
-                "size": 6
+                "x": "447",
+                "y": "278",
+                "size": 20
             }
         ]
     }

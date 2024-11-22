@@ -1,7 +1,7 @@
 LOCATION_MAPPING = {
-	[12517376] = {"@Pirate Panic/Clear", "@Map/Gangplank Galleon/Pirate Panic Clear"},
-	[12517377] = {"@Mainbrace Mayhem/Clear", "@Map/Gangplank Galleon/Mainbrace Mayhem Clear"},
-	[12517378] = {"@Gangplank Galley/Clear", "@Map/Gangplank Galleon/Gangplank Galley Clear"},
+	[12517376] = {"@Gangplank Galleon/Pirate Panic/Clear"},
+	[12517377] = {"@Mainbrace Mayhem/Clear", "@Gangplank Galleon/Mainbrace Mayhem/Clear"},
+	[12517378] = {"@Gangplank Galley/Clear"},
 	[12517379] = {"@Lockjaw's Locker/Clear", "@Map/Gangplank Galleon/Lockjaw's Locker Clear"},
 	[12517380] = {"@Topsail Trouble/Clear", "@Map/Gangplank Galleon/Topsail Trouble Clear"},
 	[12517381] = {"@Krow's Nest/Clear", "@Map/Gangplank Galleon/Krow's Nest Clear"},
