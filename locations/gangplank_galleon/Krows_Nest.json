@@ -14,7 +14,7 @@
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
+            }
         ],
         "map_locations": [
             {
