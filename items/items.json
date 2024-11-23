@@ -276,5 +276,28 @@
         "img": "images/items/crocodilecauldronaccess.png",
         "img_mods": "",
         "codes": "crocodilecauldronaccess"
-    }
+    },
+    {
+        "name": "Difficulty",
+        "initial_stage_idx": 0,
+        "allow_disabled": "false",
+        "type": "progressive",
+        "stages": [
+          {
+            "img": "images/settings/easy.png",
+            "inherit_codes": "false",
+            "codes": "EASY"
+          },
+          {
+            "img": "images/settings/normal.png",
+            "inherit_codes": "false",
+            "codes": "NORMAL"
+          },
+          {
+            "img": "images/settings/hard.png",
+            "inherit_codes": "false",
+            "codes": "HARD"
+          }
+        ]
+      }
 ]

@@ -1,16 +1,12 @@
 [
     {
         "name": "Gangplank Galley",
-        "access_rules": [
-            " "
-        ],
-        "visibility_rules": [
-            ""
-        ],
+        "access_rules": [" "],
+        "visibility_rules": [""],
         "sections": [
             {
                 "name": "Clear",
-                "access_rules": ["EASY, cling", "NORMAL, cling", "HARD, cling", "HARD, teamattack, warpbarrels", "HARD, teamattack, helicopterspin"],
+                "access_rules": [],
                 "chest_unopened_img": "images/checks/clear_disabled.png",
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
@@ -18,7 +14,7 @@
             },
             {
                 "name": "DK Coin",
-                "access_rules": ["EASY, cling, helicopterspin", "EASY, cling, cartwheel", "NORMAL, cling, helicopterspin", "NORMAL, cling, cartwheel", "HARD, cartwheel, cling", "HARD, cartwheel, helicopterspin"],
+                "access_rules": [],
                 "chest_unopened_img": "images/checks/dkcoin_disabled.png",
                 "chest_opened_img": "images/checks/dkcoin.png",
                 "visibility_rules": [],
@@ -26,7 +22,7 @@
             },
             {
                 "name": "KONG",
-                "access_rules": ["EASY, cling, carry, teamattack, barrelkannons", "NORMAL, cling, carry, teamattack", "HARD, carry, teamattack, cling", "HARD, carry, teamattack, helicopterspin"],
+                "access_rules": [],
                 "chest_unopened_img": "images/checks/kong_disabled.png",
                 "chest_opened_img": "images/checks/kong.png",
                 "visibility_rules": [],
@@ -34,7 +30,7 @@
             },
             {
                 "name": "Bonus #1",
-                "access_rules": ["EASY, carry", "NORMAL, carry", "HARD, carry"],
+                "access_rules": [],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
@@ -42,7 +38,7 @@
             },
             {
                 "name": "Bonus #2",
-                "access_rules": ["EASY, cling, exclamationbarrels", "NORMAL, cling, exclamationbarrels", "HARD, cling, invincibility", "HARD, cling, teamattack", "HARD, helicopterspin, invincibility", "HARD, helicopterspin, teamattack"],
+                "access_rules": [],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
