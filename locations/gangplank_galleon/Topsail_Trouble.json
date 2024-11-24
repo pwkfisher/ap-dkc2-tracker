@@ -6,7 +6,7 @@
         "sections": [
             {
                 "name": "Clear",
-                "access_rules": [],
+                "access_rules": ["EASY, climb, teamattack, dixie, diddy", "EASY, climb, rattly", "EASY, climb, cling, barrelkannons", "NORMAL, climb, teamattack, dixie, diddy", "NORMAL, climb, rattly", "NORMAL, climb, warpbarrels, cartwheel", "HARD, climb, teamattack, dixie, diddy", "HARD, climb, rattly", "HARD, climb, cling, barrelkannons", "HARD, climb, warpbarrels, cartwheel", "HARD, climb, warpbarrels, helicopterspin, dixie"],
                 "chest_unopened_img": "images/checks/clear_disabled.png",
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
@@ -14,7 +14,7 @@
             },
             {
                 "name": "DK Coin",
-                "access_rules": [],
+                "access_rules": ["EASY, climb, teamattack, dixie, diddy", "EASY, climb, rattly", "EASY, climb, cling, barrelkannons", "NORMAL, climb, teamattack, dixie, diddy", "NORMAL, climb, rattly", "HARD, climb, teamattack, dixie, diddy", "HARD, climb, rattly", "HARD, climb, cling, barrelkannons", "HARD, climb, warpbarrels, cartwheel", "HARD, climb, warpbarrels, helicopterspin, dixie"],
                 "chest_unopened_img": "images/checks/dkcoin_disabled.png",
                 "chest_opened_img": "images/checks/dkcoin.png",
                 "visibility_rules": [],
@@ -22,15 +22,15 @@
             },
             {
                 "name": "KONG",
-                "access_rules": [],
+                "access_rules": ["EASY, climb, teamattack, dixie, diddy", "EASY, climb, rattly", "EASY, climb, cling, barrelkannons", "NORMAL, climb, teamattack, dixie, diddy", "NORMAL, climb, rattly", "HARD, climb, teamattack, dixie, diddy", "HARD, climb, rattly", "HARD, climb, cling, barrelkannons", "HARD, climb, warpbarrels, cartwheel", "HARD, climb, warpbarrels, helicopterspin, dixie"],
                 "chest_unopened_img": "images/checks/kong_disabled.png",
                 "chest_opened_img": "images/checks/kong.png",
                 "visibility_rules": [],
                 "item_count": 1
             },
             {
-                "name": "Bonus #1",
-                "access_rules": [],
+                "name": "Bonus #1", 
+                "access_rules": ["EASY, rattly", "EASY, teamattack, dixie, diddy, cling", "NORMAL, teamattack, dixie, diddy", "NORMAL, rattly", "HARD, cartwheel, warpbarrels", "HARD, teamattack, dixie, diddy, warpbarrels", "HARD, rattly, warpbarrels", "HARD, helicopterspin, dixie, warpbarrels"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
@@ -38,7 +38,7 @@
             },
             {
                 "name": "Bonus #2",
-                "access_rules": [],
+                "access_rules": ["EASY, climb, teamattack, dixie, diddy", "EASY, climb, rattly", "EASY, climb, cling, barrelkannons", "NORMAL, climb, teamattack, dixie, diddy", "NORMAL, climb, rattly", "HARD, climb, teamattack, dixie, diddy", "HARD, climb, rattly", "HARD, climb, cling, barrelkannons", "HARD, climb, warpbarrels, cartwheel", "HARD, climb, warpbarrels, helicopterspin, dixie"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],

@@ -1,0 +1,45 @@
+[
+    {
+        "name": "Jungle Jinx",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "sections": [
+            {
+                "name": "Clear",
+                "access_rules": ["EASY, cartwheel, barrelkannons", "NORMAL, cartwheel, barrelkannons", "HARD, barrelkannons", "HARD, helicopterspin, dixie"],
+                "chest_unopened_img": "images/checks/clear_disabled.png",
+                "chest_opened_img": "images/checks/clear.png",
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "DK Coin",
+                "access_rules": ["EASY, cartwheel, teamattack, diddy, dixie", "NORMAL, cartwheel, teamattack, diddy, dixie", "HARD, teamattack, diddy, dixie, cartwheel", "HARD, teamattack, diddy, dixie, helicopterspin"],
+                "chest_unopened_img": "images/checks/dkcoin_disabled.png",
+                "chest_opened_img": "images/checks/dkcoin.png",
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "KONG",
+                "access_rules": ["EASY, cartwheel, barrelkannons, carry", "NORMAL, cartwheel, barrelkannons, carry", "HARD, carry, cartwheel, barrelkannons", "HARD, carry, cartwheel, helicopterspin, dixie"],
+                "chest_unopened_img": "images/checks/kong_disabled.png",
+                "chest_opened_img": "images/checks/kong.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Lost World",
+                "x": "299",
+                "y": "279",
+                "size": 20
+            }
+        ]
+    }
+]

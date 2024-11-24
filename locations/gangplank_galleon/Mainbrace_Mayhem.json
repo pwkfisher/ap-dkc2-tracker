@@ -13,7 +13,7 @@
                 },
                 {
                     "name": "DK Coin",
-                    "access_rules": ["EASY, climb, teamattack", "NORMAL, climb, teamattack", "HARD, cartwheel, warpbarrels", "HARD, climb, teamattack"],
+                    "access_rules": ["EASY, climb, teamattack, dixie, diddy", "NORMAL, climb, teamattack, dixie, diddy", "HARD, cartwheel, warpbarrels", "HARD, climb, teamattack, dixie, diddy"],
                     "chest_unopened_img": "images/checks/dkcoin_disabled.png",
                     "chest_opened_img": "images/checks/dkcoin.png",
                     "item_count": 1
@@ -27,7 +27,7 @@
                 },
                 {
                     "name": "Bonus #1",
-                    "access_rules": ["EASY, climb, helicopterspin", "EASY, climb, cartwheel", "NORMAL, climb, helicopterspin", "NORMAL, climb, cartwheel", "HARD, climb, helicopterspin", "HARD, climb, cartwheel"],
+                    "access_rules": ["EASY, climb, helicopterspin, dixie", "EASY, climb, cartwheel", "NORMAL, climb, helicopterspin, dixie", "NORMAL, climb, cartwheel", "HARD, climb, helicopterspin, dixie", "HARD, climb, cartwheel"],
                     "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                     "chest_opened_img": "images/checks/kremkoin.png",
                     "item_count": 1
@@ -41,7 +41,8 @@
                 },
                 {
                     "name": "Bonus #3",
-                    "access_rules": ["EASY, climb, teamattack", "NORMAL, climb, teamattack", "HARD, warpbarrels, cartwheel", "HARD, warpbarrels, helicopterspin", "HARD, warpbarrels, teamattack", "HARD, climb, teamattack"],                    "chest_unopened_img": "images/checks/kremkoin_disabled.png",
+                    "access_rules": ["EASY, climb, teamattack, dixie, diddy", "NORMAL, climb, teamattack, dixie, diddy", "HARD, warpbarrels, cartwheel", "HARD, warpbarrels, helicopterspin, dixie", "HARD, warpbarrels, teamattack, dixie, diddy", "HARD, climb, teamattack, dixie, diddy"],                    
+                    "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                     "chest_opened_img": "images/checks/kremkoin.png",
                     "item_count": 1
                 }

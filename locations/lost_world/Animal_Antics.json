@@ -1,0 +1,41 @@
+[
+    {
+        "name": "Animal Antics - hint",
+        "access_rules": [" "],
+        "visibility_rules": [""],
+        "sections": [
+            {
+                "name": "Clear",
+                "access_rules": ["EASY, squawks, rambi, squitter, rattly, enguarde, swim, barrelkannons", "NORMAL, squawks, rambi, squitter, rattly, enguarde, swim, barrelkannons", "HARD, swim, barrelkannons, squitter, enguarde, rambi", "HARD, swim, barrelkannons, squitter, enguarde, diddy, dixie, teamattack, helicopterspin"],
+                "chest_unopened_img": "images/checks/clear_disabled.png",
+                "chest_opened_img": "images/checks/clear.png",
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "DK Coin",
+                "access_rules": ["EASY, squawks, rambi, squitter, enguarde, swim", "NORMAL, squawks, rambi, squitter, enguarde, swim", "HARD, swim, barrelkannons, squitter, enguarde, rambi", "HARD, swim, barrelkannons, squitter, enguarde, diddy, dixie, teamattack, helicopterspin"],
+                "chest_unopened_img": "images/checks/dkcoin_disabled.png",
+                "chest_opened_img": "images/checks/dkcoin.png",
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "KONG",
+                "access_rules": ["EASY, squawks, rambi, squitter, rattly, enguarde, swim, barrelkannons", "NORMAL, squawks, rambi, squitter, rattly, enguarde, swim, barrelkannons", "HARD, swim, barrelkannons, squitter, enguarde, rambi", "HARD, swim, barrelkannons, squitter, enguarde, diddy, dixie, teamattack, helicopterspin"],
+                "chest_unopened_img": "images/checks/kong_disabled.png",
+                "chest_opened_img": "images/checks/kong.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Lost World",
+                "x": "695",
+                "y": "340",
+                "size": 20
+            }
+        ]
+    }
+]

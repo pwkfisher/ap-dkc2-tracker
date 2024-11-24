@@ -1,75 +1,6 @@
 [
     {
-        "name": "Squawks's Shaft - hint",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            "{}"
-        ],
-        "sections": [
-            {
-                "name": "Clear - hint",
-                "access_rules": [],
-                "visibility_rules": [
-                    "squawks's_shaft_clear"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "DK Coin - hint",
-                "access_rules": [],
-                "visibility_rules": [
-                    "squawks's_shaft_dk_coin"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "KONG - hint",
-                "access_rules": [],
-                "visibility_rules": [
-                    "squawks's_shaft_kong"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Bonus #1 - hint",
-                "access_rules": [],
-                "visibility_rules": [
-                    "squawks's_shaft_bonus_#1"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Bonus #2 - hint",
-                "access_rules": [],
-                "visibility_rules": [
-                    "squawks's_shaft_bonus_#2"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Bonus #3 - hint",
-                "access_rules": [],
-                "visibility_rules": [
-                    "squawks's_shaft_bonus_#3"
-                ],
-                "item_count": 1
-            }
-        ],
-        "map_locations": [
-            {
-                "map": "Squawks's Shaft",
-                "x": "2139",
-                "y": "55",
-                "size": 12
-            }
-        ]
-    },
-    {
         "name": "Squawks's Shaft",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -77,47 +8,59 @@
         "sections": [
             {
                 "name": "Clear",
-                "access_rules": [],
+                "access_rules": ["EASY, barrelkannons, squawks", "NORMAL, barrelkannons, squawks", "HARD, barrelkannons, squawks", "HARD, warpbarrels, cartwheel", "HARD, warpbarrels, helicopterspin, dixie"],
+                "chest_unopened_img": "images/checks/clear_disabled.png",
+                "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
                 "item_count": 1
             },
             {
                 "name": "DK Coin",
-                "access_rules": [],
+                "access_rules": ["EASY, barrelkannons, squawks", "NORMAL, barrelkannons, squawks", "HARD, barrelkannons, squawks"],
+                "chest_unopened_img": "images/checks/dkcoin_disabled.png",
+                "chest_opened_img": "images/checks/dkcoin.png",
                 "visibility_rules": [],
                 "item_count": 1
             },
             {
                 "name": "KONG",
-                "access_rules": [],
+                "access_rules": ["EASY, barrelkannons, squawks, carry", "NORMAL, barrelkannons, squawks, carry", "HARD, barrelkannons, squawks, carry"],
+                "chest_unopened_img": "images/checks/kong_disabled.png",
+                "chest_opened_img": "images/checks/kong.png",
                 "visibility_rules": [],
                 "item_count": 1
             },
             {
                 "name": "Bonus #1",
-                "access_rules": [],
+                "access_rules": ["EASY, barrelkannons, carry, cartwheel", "EASY, barrelkannons, carry, helicopterspin", "NORMAL, barrelkannons, carry, cartwheel", "NORMAL, barrelkannons, carry, helicopterspin, dixie", "HARD, barrelkannons, carry, cartwheel", "HARD, barrelkannons, carry, helicopterspin, dixie"],
+                "chest_unopened_img": "images/checks/kremkoin_disabled.png",
+                "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
                 "item_count": 1
             },
             {
                 "name": "Bonus #2",
-                "access_rules": [],
+                "access_rules": ["EASY, barrelkannons, teamattack, dixie, diddy", "NORMAL, barrelkannons, teamattack, dixie, diddy", "HARD, barrelkannons, teamattack, dixie, diddy", "HARD, barrelkannons, cartwheel", "HARD, barrelkannons, helicopterspin, dixie"],
+                "chest_unopened_img": "images/checks/kremkoin_disabled.png",
+                "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
                 "item_count": 1
             },
             {
                 "name": "Bonus #3",
-                "access_rules": [],
+                "access_rules": ["EASY, barrelkannons, squawks", "NORMAL, barrelkannons, squawks", "HARD, barrelkannons, squawks"],
+                "chest_unopened_img": "images/checks/kremkoin_disabled.png",
+                "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
                 "item_count": 1
             }
         ],
         "map_locations": [
             {
-                "map": "Squawks's Shaft",
-                "x": "2139",
-                "y": "55",
-                "size": 6
+                "map": "Crocodile Cauldron",
+                "x": "477",
+                "y": "111",
+                "size": 20
             }
         ]
     }

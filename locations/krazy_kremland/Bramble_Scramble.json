@@ -1,12 +1,12 @@
 [
     {
-        "name": "Gangplank Galley",
+        "name": "Bramble Scramble",
         "access_rules": [" "],
         "visibility_rules": [""],
         "sections": [
             {
                 "name": "Clear",
-                "access_rules": [],
+                "access_rules": ["EASY, helicopterspin, dixie, climb, squawks", "NORMAL, helicopterspin, dixie, climb, squawks", "HARD, climb, squawks"],
                 "chest_unopened_img": "images/checks/clear_disabled.png",
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
@@ -14,7 +14,7 @@
             },
             {
                 "name": "DK Coin",
-                "access_rules": [],
+                "access_rules": ["EASY, helicopterspin, dixie, cartwheel, climb, squawks, barrelkannons, squitter", "NORMAL, helicopterspin, dixie, cartwheel, climb, squawks, barrelkannons, squitter", "HARD, climb, cartwheel, squawks, squitter"],
                 "chest_unopened_img": "images/checks/dkcoin_disabled.png",
                 "chest_opened_img": "images/checks/dkcoin.png",
                 "visibility_rules": [],
@@ -22,7 +22,7 @@
             },
             {
                 "name": "KONG",
-                "access_rules": [],
+                "access_rules": ["EASY, helicopterspin, dixie, climb, squawks", "NORMAL, helicopterspin, dixie, climb, squawks", "HARD, climb, squawks"],
                 "chest_unopened_img": "images/checks/kong_disabled.png",
                 "chest_opened_img": "images/checks/kong.png",
                 "visibility_rules": [],
@@ -30,15 +30,7 @@
             },
             {
                 "name": "Bonus #1",
-                "access_rules": [],
-                "chest_unopened_img": "images/checks/kremkoin_disabled.png",
-                "chest_opened_img": "images/checks/kremkoin.png",
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Bonus #2",
-                "access_rules": [],
+                "access_rules": ["EASY, helicopterspin, dixie, cartwheel, teamattack, diddy, climb, squawks, barrelkannons, exclamationbarrels", "NORMAL, helicopterspin, dixie, cartwheel, teamattack, diddy, climb, squawks, barrelkannons, exclamationbarrels", "HARD, climb, squawks, teamattack, diddy, dixie, exclamationbarrels", "HARD, climb, squawks, helicopterspin, barrelkannons, diddy, dixie"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
@@ -47,9 +39,9 @@
         ],
         "map_locations": [
             {
-                "map": "Gangplank Galleon",
-                "x": "447",
-                "y": "278",
+                "map": "Krazy Kremland",
+                "x": "646",
+                "y": "80",
                 "size": 20
             }
         ]

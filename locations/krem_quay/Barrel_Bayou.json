@@ -1,12 +1,12 @@
 [
     {
-        "name": "Ghostly Grove",        
+        "name": "Barrel Bayou",
         "access_rules": [" "],
         "visibility_rules": [""],
         "sections": [
             {
                 "name": "Clear",
-                "access_rules": ["EASY, climb", "NORMAL, climb", "HARD, climb"],
+                "access_rules": ["EASY, controllablebarrels, rambi, barrelkannons", "NORMAL, controllablebarrels, barrelkannons", "HARD, controllablebarrels, barrelkannons"],
                 "chest_unopened_img": "images/checks/clear_disabled.png",
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
@@ -14,7 +14,7 @@
             },
             {
                 "name": "DK Coin",
-                "access_rules": ["EASY, climb, barrelkannons, cartwheel", "EASY, climb, barrelkannons, helicopterspin, dixie", "NORMAL, climb, barrelkannons, cartwheel", "NORMAL, climb, barrelkannons, helicopterspin, dixie", "HARD, cartwheel, climb, teamattack, diddy, dixie"],
+                "access_rules": ["EASY, controllablebarrels, rambi", "NORMAL, controllablebarrels, rambi", "HARD, controllablebarrels, rambi"],
                 "chest_unopened_img": "images/checks/dkcoin_disabled.png",
                 "chest_opened_img": "images/checks/dkcoin.png",
                 "visibility_rules": [],
@@ -22,7 +22,7 @@
             },
             {
                 "name": "KONG",
-                "access_rules": ["EASY, climb, teamattack, diddy, dixie, carry", "NORMAL, climb, teamattack, diddy, dixie, carry", "HARD, climb, carry"],
+                "access_rules": ["EASY, controllablebarrels, rambi, barrelkannons, cartwheel", "NORMAL, controllablebarrels, barrelkannons, cartwheel", "HARD, controllablebarrels, barrelkannons, cartwheel", "HARD, controllablebarrels, barrelkannons, teamattack, diddy, dixie"],
                 "chest_unopened_img": "images/checks/kong_disabled.png",
                 "chest_opened_img": "images/checks/kong.png",
                 "visibility_rules": [],
@@ -30,7 +30,7 @@
             },
             {
                 "name": "Bonus #1",
-                "access_rules": ["EASY, climb, carry", "NORMAL, climb, carry", "HARD, carry, climb, teamattack, diddy, dixie"],
+                "access_rules": ["EASY, controllablebarrels, rambi, carry", "NORMAL, controllablebarrels, rambi, carry", "HARD, controllablebarrels, carry"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
@@ -38,7 +38,7 @@
             },
             {
                 "name": "Bonus #2",
-                "access_rules": ["EASY, climb", "NORMAL, climb", "HARD, climb"],
+                "access_rules": ["EASY, controllablebarrels, rambi, barrelkannons, teamattack, diddy, dixie", "NORMAL, controllablebarrels, rambi, barrelkannons, teamattack, diddy, dixie", "HARD, controllablebarrels, barrelkannons"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
@@ -47,9 +47,9 @@
         ],
         "map_locations": [
             {
-                "map": "Gloomy Gulch",
-                "x": "324",
-                "y": "286",
+                "map": "Krem Quay",
+                "x": "106",
+                "y": "381",
                 "size": 20
             }
         ]

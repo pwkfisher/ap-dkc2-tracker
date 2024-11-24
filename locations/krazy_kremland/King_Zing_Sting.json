@@ -1,14 +1,12 @@
 [
     {
-        "name": "Kleever's Kiln",
-        "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ],
+        "name": "King Zing Sting",
+        "access_rules": [" "],
+        "visibility_rules": [""],
         "sections": [
             {
                 "name": "Clear",
-                "access_rules": ["EASY, carry, cling", "HARD, carry, cling", "NORMAL, carry, cling"],
+                "access_rules": ["EASY, squawks", "NORMAL, squawks", "HARD, squawks"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
@@ -17,9 +15,9 @@
         ],
         "map_locations": [
             {
-                "map": "Crocodile Cauldron",
-                "x": "513",
-                "y": "32",
+                "map": "Krazy Kremland",
+                "x": "406",
+                "y": "304",
                 "size": 20
             }
         ]

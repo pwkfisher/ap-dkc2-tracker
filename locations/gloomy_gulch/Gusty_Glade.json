@@ -1,109 +1,56 @@
 [
     {
-        "name": "Gusty Glade - hint",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            "{}"
-        ],
-        "sections": [
-            {
-                "name": "Clear - hint",
-                "access_rules": [],
-                "visibility_rules": [
-                    "gusty_glade_clear"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "DK Coin - hint",
-                "access_rules": [],
-                "visibility_rules": [
-                    "gusty_glade_dk_coin"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "KONG - hint",
-                "access_rules": [],
-                "visibility_rules": [
-                    "gusty_glade_kong"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Bonus #1 - hint",
-                "access_rules": [],
-                "visibility_rules": [
-                    "gusty_glade_bonus_#1"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Bonus #2 - hint",
-                "access_rules": [],
-                "visibility_rules": [
-                    "gusty_glade_bonus_#2"
-                ],
-                "item_count": 1
-            }
-        ],
-        "map_locations": [
-            {
-                "map": "Gusty Glade",
-                "x": "1072",
-                "y": "134",
-                "size": 12
-            }
-        ]
-    },
-    {
         "name": "Gusty Glade",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ],
+        "access_rules": [" "],
+        "visibility_rules": [""],
         "sections": [
             {
                 "name": "Clear",
-                "access_rules": [],
+                "access_rules": ["EASY, cling, barrelkannons", "NORMAL, cling, barrelkannons", "HARD, cling, barrelkannons"],
+                "chest_unopened_img": "images/checks/clear_disabled.png",
+                "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
                 "item_count": 1
             },
             {
                 "name": "DK Coin",
-                "access_rules": [],
+                "access_rules": ["EASY, cling, barrelkannons, helicopterspin, dixie", "NORMAL, cling, barrelkannons, helicoptersping, dixie", "NORMAL, cling, barrelkannons, helicopterspin, dixie"],
+                "chest_unopened_img": "images/checks/dkcoin_disabled.png",
+                "chest_opened_img": "images/checks/dkcoin.png",
                 "visibility_rules": [],
                 "item_count": 1
             },
             {
                 "name": "KONG",
-                "access_rules": [],
+                "access_rules": ["EASY, cling, barrelkannons, carry, cartwheel", "NORMAL, cling, barrelkannons, carry, cartwheel", "HARD, cling, barrelkannons, carry, cartwheel"],
+                "chest_unopened_img": "images/checks/kong_disabled.png",
+                "chest_opened_img": "images/checks/kong.png",
                 "visibility_rules": [],
                 "item_count": 1
             },
             {
                 "name": "Bonus #1",
-                "access_rules": [],
+                "access_rules": ["EASY, cling, teamattack, diddy, dixie", "NORMAL, cling, teamattack, diddy, dixie", "HARD, cling, teamattack, diddy, dixie"],
+                "chest_unopened_img": "images/checks/kremkoin_disabled.png",
+                "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
                 "item_count": 1
             },
             {
                 "name": "Bonus #2",
-                "access_rules": [],
+                "access_rules": ["EASY, cling, barrelkannons, carry", "NORMAL, cling, carry, barrelkannons", "HARD, cling, carry, barrelkannons"],
+                "chest_unopened_img": "images/checks/kremkoin_disabled.png",
+                "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
                 "item_count": 1
             }
         ],
         "map_locations": [
             {
-                "map": "Gusty Glade",
-                "x": "1072",
-                "y": "134",
-                "size": 6
+                "map": "Gloomy Gulch",
+                "x": "635",
+                "y": "378",
+                "size": 20
             }
         ]
     }

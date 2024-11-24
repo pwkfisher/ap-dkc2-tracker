@@ -1,0 +1,25 @@
+[
+    {
+        "name": "Kudgel's Kontest",
+        "access_rules": [" "],
+        "visibility_rules": [""],
+        "sections": [
+            {
+                "name": "Clear",
+                "access_rules": ["EASY, cartwheel, hover, diddy, dixie, carry", "NORMAL, carry", "HARD, carry"],
+                "chest_unopened_img": "images/checks/clear_disabled.png",
+                "chest_opened_img": "images/checks/clear.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Krem Quay",
+                "x": "914",
+                "y": "240",
+                "size": 20
+            }
+        ]
+    }
+]

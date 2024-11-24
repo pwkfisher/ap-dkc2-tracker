@@ -1,53 +1,24 @@
 [
     {
-        "name": "Kreepy Krow - hint",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            "{}"
-        ],
-        "sections": [
-            {
-                "name": "Clear - hint",
-                "access_rules": [],
-                "visibility_rules": [
-                    "kreepy_krow_clear"
-                ],
-                "item_count": 1
-            }
-        ],
-        "map_locations": [
-            {
-                "map": "Kreepy Krow",
-                "x": "1187",
-                "y": "2494",
-                "size": 12
-            }
-        ]
-    },
-    {
         "name": "Kreepy Krow",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ],
+        "access_rules": [" "],
+        "visibility_rules": [""],
         "sections": [
             {
                 "name": "Clear",
-                "access_rules": [],
+                "access_rules": ["EASY, barrelkannons, climb, cling, carry", "HARD, barrelkannons, climb, cling, carry", "HARD, barrelkannons, climb, cling, carry"],
+                "chest_unopened_img": "images/checks/kremkoin_disabled.png",
+                "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
                 "item_count": 1
             }
         ],
         "map_locations": [
             {
-                "map": "Kreepy Krow",
-                "x": "1187",
-                "y": "2494",
-                "size": 6
+                "map": "Gloomy Gulch",
+                "x": "357",
+                "y": "91",
+                "size": 20
             }
         ]
     }
