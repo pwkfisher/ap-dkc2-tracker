@@ -38,7 +38,7 @@
             },
             {
                 "name": "Bonus #2",
-                "access_rules": ["EASY, rambi, cartwheel, carry, squawks", "NORMAL, cartwheel", "NORMAL, squawks, carry", "HARD, carry, squawks, diddy, dixie", "HARD, carry, squawks, cartwheel", "HARD, carry, squawks, rambi"],
+                "access_rules": ["EASY, rambi, cartwheel, carry, squawks", "NORMAL, cartwheel, carry, squawks", "HARD, carry, squawks, diddy, dixie", "HARD, carry, squawks, cartwheel", "HARD, carry, squawks, rambi"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
