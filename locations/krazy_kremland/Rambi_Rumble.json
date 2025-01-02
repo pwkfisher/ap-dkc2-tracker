@@ -6,7 +6,7 @@
         "sections": [
             {
                 "name": "Clear",
-                "access_rules": ["EASY, cling, barrelkannons, rambi", "NORMAL, cling, barrelkannons, rambi", "HARD, cling, barrelkannons, rambi"],
+                "access_rules": ["EASY, cling, barrelkannons, rambi, helicopterspin, dixie", "NORMAL, cling, barrelkannons, rambi", "HARD, cling, barrelkannons, rambi"],
                 "chest_unopened_img": "images/checks/clear_disabled.png",
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
@@ -14,7 +14,7 @@
             },
             {
                 "name": "DK Coin",
-                "access_rules": ["EASY, cling, barrelkannons", "NORMAL, cling, barrelkannons", "HARD, cling, barrelkannons"],
+                "access_rules": ["EASY, cling, barrelkannons, helicopterspin, dixie", "NORMAL, cling, barrelkannons", "HARD, cling, barrelkannons"],
                 "chest_unopened_img": "images/checks/dkcoin_disabled.png",
                 "chest_opened_img": "images/checks/dkcoin.png",
                 "visibility_rules": [],
@@ -22,7 +22,7 @@
             },
             {
                 "name": "KONG",
-                "access_rules": ["EASY, cling, barrelkannons, rambi, cartwheel", "NORMAL, cling, barrelkannons, rambi, cartwheel", "HARD, cling, barrelkannons, rambi, cartwheel"],
+                "access_rules": ["EASY, cling, barrelkannons, rambi, cartwheel, helicopterspin, dixie", "NORMAL, cling, barrelkannons, rambi, cartwheel", "HARD, cling, barrelkannons, rambi, cartwheel", "HARD, cling, barrelkannons, rambi, teamattack, diddy, dixie"],
                 "chest_unopened_img": "images/checks/kong_disabled.png",
                 "chest_opened_img": "images/checks/kong.png",
                 "visibility_rules": [],
@@ -30,7 +30,7 @@
             },
             {
                 "name": "Bonus #1",
-                "access_rules": ["EASY, cling, barrelkannons, teamattack, diddy, dixie", "NORMAL, cling, barrelkannons, teamattack, diddy, dixie", "HARD, cling, barrelkannons"],
+                "access_rules": ["EASY, cling, barrelkannons, teamattack, diddy, helicopterspin, dixie", "NORMAL, cling, barrelkannons, teamattack, diddy, dixie", "HARD, cling, barrelkannons"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
@@ -38,7 +38,7 @@
             },
             {
                 "name": "Bonus #2",
-                "access_rules": ["EASY, cling, barrelkannons, rambi", "NORMAL, cling, barrelkannons, rambi", "HARD, cling, barrelkannons, rambi"],
+                "access_rules": ["EASY, cling, barrelkannons, rambi, helicopterspin, dixie", "NORMAL, cling, barrelkannons, rambi", "HARD, cling, barrelkannons, rambi"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],

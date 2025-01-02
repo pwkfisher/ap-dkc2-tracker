@@ -38,7 +38,7 @@
             },
             {
                 "name": "Bonus #2",
-                "access_rules": ["EASY, carry, rambi, helicopterspin, dixie", "NORMAL", "HARD"],
+                "access_rules": ["EASY, carry, rambi", "NORMAL", "HARD"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],

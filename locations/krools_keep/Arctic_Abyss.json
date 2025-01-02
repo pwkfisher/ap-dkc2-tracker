@@ -22,7 +22,7 @@
             },
             {
                 "name": "KONG",
-                "access_rules": ["EASY, swim, enguarde, cartwheel", "EASY, swim, enguarde, helicopterspin, dixie", "NORMAL, swim, enguarde, cartwheel", "NORMAL, swim, enguarde, helicopterspin, dixie", "HARD, swim", "HARD, enguarde, cartwheel", "HARD, enguarde, helicopterspin, dixie"],
+                "access_rules": ["EASY, swim, enguarde, cartwheel, diddy", "EASY, swim, enguarde, helicopterspin, dixie", "NORMAL, swim, enguarde, cartwheel", "NORMAL, swim, enguarde, helicopterspin, dixie", "HARD, swim", "HARD, enguarde, cartwheel", "HARD, enguarde, helicopterspin, dixie"],
                 "chest_unopened_img": "images/checks/kong_disabled.png",
                 "chest_opened_img": "images/checks/kong.png",
                 "visibility_rules": [],

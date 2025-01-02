@@ -8,7 +8,15 @@
         "sections": [
             {
                 "name": "Clear",
-                "access_rules": ["EASY, carry, cling", "HARD, carry, cling", "NORMAL, carry, cling"],
+                "access_rules": ["EASY, carry, cling, diddy, dixie", "HARD, carry, cling", "NORMAL, carry, cling"],
+                "chest_unopened_img": "images/checks/clear_disabled.png",
+                "chest_opened_img": "images/checks/clear.png",
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Defeated",
+                "access_rules": ["EASY, carry, cling, diddy, dixie", "HARD, carry, cling", "NORMAL, carry, cling"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],

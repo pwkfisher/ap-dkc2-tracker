@@ -30,7 +30,7 @@
             },
             {
                 "name": "Bonus #1",
-                "access_rules": ["EASY, controllablebarrels, rambi, carry", "NORMAL, controllablebarrels, rambi, carry", "HARD, controllablebarrels, carry"],
+                "access_rules": ["EASY, controllablebarrels, rambi, carry", "NORMAL, controllablebarrels, carry", "HARD, controllablebarrels, carry"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
@@ -38,7 +38,7 @@
             },
             {
                 "name": "Bonus #2",
-                "access_rules": ["EASY, controllablebarrels, rambi, barrelkannons, teamattack, diddy, dixie", "NORMAL, controllablebarrels, rambi, barrelkannons, teamattack, diddy, dixie", "HARD, controllablebarrels, barrelkannons"],
+                "access_rules": ["EASY, controllablebarrels, rambi, barrelkannons, teamattack, diddy, dixie", "NORMAL, controllablebarrels, barrelkannons, teamattack, diddy, dixie", "HARD, controllablebarrels, barrelkannons"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],

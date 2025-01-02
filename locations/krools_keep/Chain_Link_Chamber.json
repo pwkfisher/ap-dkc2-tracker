@@ -38,7 +38,7 @@
             },
             {
                 "name": "Bonus #2",
-                "access_rules": ["EASY, climb, cling, barrelkannons, controllablebarrels, exclamationbarrels, cartwheel", "NORMAL, climb, controllablebarrels, cling, cartwheel", "NORMAL, climb, controllablebarrels, cling, teamattack, diddy, dixie", "NORMAL, climb, controllablebarrels, barrelkannons, cartwheel", "NORMAL, climb, controllablebarrels, barrelkannons, teamattack, diddy, dixie"],
+                "access_rules": ["EASY, climb, cling, barrelkannons, controllablebarrels, exclamationbarrels, cartwheel", "NORMAL, climb, controllablebarrels, cling, cartwheel", "NORMAL, climb, controllablebarrels, cling, teamattack, diddy, dixie", "NORMAL, climb, controllablebarrels, barrelkannons, cartwheel", "NORMAL, climb, controllablebarrels, barrelkannons, teamattack, diddy, dixie", "HARD, climb, controllablebarrels, cling, cartwheel", "HARD, climb, controllablebarrels, cling, teamattack, diddy, dixie", "HARD, climb, controllablebarrels, barrelkannons, cartwheel", "HARD, climb, controllablebarrels, barrelkannons, teamattack, diddy, dixie"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],

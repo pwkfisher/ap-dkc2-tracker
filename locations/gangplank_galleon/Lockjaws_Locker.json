@@ -6,7 +6,7 @@
         "sections": [
             {
                 "name": "Clear",
-                "access_rules": ["EASY, swim", "NORMAL, swim", "HARD, swim", "HARD, warpbarrels, teamattack, dixie, diddy"],
+                "access_rules": ["EASY, swim", "NORMAL, swim", "HARD, swim"],
                 "chest_unopened_img": "images/checks/clear_disabled.png",
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
@@ -14,7 +14,7 @@
             },
             {
                 "name": "DK Coin",
-                "access_rules": ["EASY, swim, enguarde", "NORMAL, swim", "HARD, swim", "HARD, warpbarrels, teamattack, dixie, diddy"],
+                "access_rules": ["EASY, swim, enguarde", "NORMAL, swim", "HARD, swim"],
                 "chest_unopened_img": "images/checks/dkcoin_disabled.png",
                 "chest_opened_img": "images/checks/dkcoin.png",
                 "visibility_rules": [],

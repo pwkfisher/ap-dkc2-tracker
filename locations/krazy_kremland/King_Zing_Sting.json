@@ -6,7 +6,15 @@
         "sections": [
             {
                 "name": "Clear",
-                "access_rules": ["EASY, squawks", "NORMAL, squawks", "HARD, squawks"],
+                "access_rules": ["EASY, squawks, diddy, dixie", "NORMAL, squawks", "HARD, squawks"],
+                "chest_unopened_img": "images/checks/clear_disabled.png",
+                "chest_opened_img": "images/checks/clear.png",
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Defeated",
+                "access_rules": ["EASY, squawks, diddy, dixie", "NORMAL, squawks", "HARD, squawks"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],

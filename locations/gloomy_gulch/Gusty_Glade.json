@@ -14,7 +14,7 @@
             },
             {
                 "name": "DK Coin",
-                "access_rules": ["EASY, cling, barrelkannons, helicopterspin, dixie", "NORMAL, cling, barrelkannons, helicoptersping, dixie", "NORMAL, cling, barrelkannons, helicopterspin, dixie"],
+                "access_rules": ["EASY, cling, barrelkannons, helicopterspin, dixie", "NORMAL, cling, barrelkannons, helicoptersping, dixie", "NORMAL, cling, barrelkannons"],
                 "chest_unopened_img": "images/checks/dkcoin_disabled.png",
                 "chest_opened_img": "images/checks/dkcoin.png",
                 "visibility_rules": [],

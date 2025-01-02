@@ -6,7 +6,7 @@
         "sections": [
             {
                 "name": "Clear",
-                "access_rules": ["EASY, swim, clapper, exclamationbarrels, barrelkannons, enguarde", "NORMAL, swim, clapper, barrelkannons, enguarde", "HARD, clapper, swim", "HARD, teamattack, dixie, diddy, warpbarrels"],
+                "access_rules": ["EASY, swim, clapper, exclamationbarrels, barrelkannons, enguarde", "NORMAL, swim, clapper, barrelkannons, enguarde", "HARD, clapper, swim"],
                 "chest_unopened_img": "images/checks/clear_disabled.png",
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],

@@ -6,7 +6,7 @@
         "sections": [
             {
                 "name": "Clear",
-                "access_rules": ["EASY, swim, glimmer, barrelkannons", "NORMAL, swim, barrelkannons", "HARD, swim, barrelkannons"],
+                "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
                 "chest_unopened_img": "images/checks/clear_disabled.png",
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],

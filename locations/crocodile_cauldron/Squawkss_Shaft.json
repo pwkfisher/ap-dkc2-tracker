@@ -8,7 +8,7 @@
         "sections": [
             {
                 "name": "Clear",
-                "access_rules": ["EASY, barrelkannons, squawks", "NORMAL, barrelkannons, squawks", "HARD, barrelkannons, squawks", "HARD, warpbarrels, cartwheel", "HARD, warpbarrels, helicopterspin, dixie"],
+                "access_rules": ["EASY, barrelkannons, squawks", "NORMAL, barrelkannons, squawks", "HARD, barrelkannons, squawks"],
                 "chest_unopened_img": "images/checks/clear_disabled.png",
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],

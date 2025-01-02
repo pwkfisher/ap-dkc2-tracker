@@ -26,7 +26,7 @@
             },
             {
                 "name": "KONG",
-                "access_rules": ["EASY, cartwheel, barrelkannons, carry", "NORMAL, cartwheel, barrelkannons, carry", "HARD, carry, cartwheel, barrelkannons", "HARD, carry, cartwheel, helicopterspin, dixie"],
+                "access_rules": ["EASY, cartwheel, barrelkannons, carry", "NORMAL, cartwheel, barrelkannons, carry", "HARD, cartwheel, barrelkannons, carry", "HARD, cartwheel, barrelkannons, diddy, dixie", "HARD, cartwheel, helicopterspin, dixie, diddy", "HARD, cartwheel, helicopterspin, dixie, carry"],
                 "chest_unopened_img": "images/checks/kong_disabled.png",
                 "chest_opened_img": "images/checks/kong.png",
                 "visibility_rules": [],

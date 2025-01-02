@@ -6,7 +6,7 @@
         "sections": [
             {
                 "name": "Clear",
-                "access_rules": ["EASY, carry", "NORMAL, carry", "HARD, carry"],
+                "access_rules": ["EASY, carry", "NORMAL", "HARD"],
                 "chest_unopened_img": "images/checks/clear_disabled.png",
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],

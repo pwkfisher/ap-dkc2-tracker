@@ -5,7 +5,7 @@
     "sections": [
         {
             "name": "Clear",
-            "access_rules": ["EASY, barrelkannons", "NORMAL, barrelkannons", "NORMAL, squitter", "HARD, barrelkannons", "HARD, squitter", "HARD, teamattack, dixie, diddy, warpbarrels", "HARD, teamattack, dixie, diddy, helicopterspin"],
+            "access_rules": ["EASY, barrelkannons", "NORMAL, barrelkannons", "NORMAL, squitter", "HARD, barrelkannons", "HARD, squitter", "HARD, teamattack, dixie, diddy, helicopterspin"],
             "chest_unopened_img": "images/checks/clear_disabled.png",
             "chest_opened_img": "images/checks/clear.png",
             "visibility_rules": [],
