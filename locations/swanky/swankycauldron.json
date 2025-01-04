@@ -1,0 +1,43 @@
+[
+    {
+        "name": "Swanky at Crocodile Cauldron",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "visibility_rules": ["swankychecks"],
+        "sections": [
+            {
+                "name": "Easy",
+                "access_rules": [],
+                "chest_unopened_img": "images/checks/swanky1_disabled.png",
+                "chest_opened_img": "images/checks/swanky1.png",
+                "visibility_rules": ["swankychecks"],
+                "item_count": 1
+            },
+            {
+                "name": "Medium",
+                "access_rules": [],
+                "chest_unopened_img": "images/checks/swanky2_disabled.png",
+                "chest_opened_img": "images/checks/swanky2.png",
+                "visibility_rules": ["swankychecks"],
+                "item_count": 1
+            },
+            {
+                "name": "Hard",
+                "access_rules": [],
+                "chest_unopened_img": "images/checks/swanky3_disabled.png",
+                "chest_opened_img": "images/checks/swanky3.png",
+                "visibility_rules": ["swankychecks"],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Crocodile Cauldron",
+                "x": "661",
+                "y": "392",
+                "size": 20
+            }
+        ]
+    }
+]

@@ -25,7 +25,7 @@
                 "access_rules": ["EASY, carry, controllablebarrels, kongbarrels, barrelkannons, diddy, dixie", "NORMAL, carry, controllablebarrels, kongbarrels, barrelkannons, diddy, dixie", "HARD, carry, controllablebarrels, kongbarrels, barrelkannons, diddy, dixie", "HARD, teamattack, barrelkannons, controllablebarrels, kongbarrels, diddy, dixie"],
                 "chest_unopened_img": "images/checks/kong_disabled.png",
                 "chest_opened_img": "images/checks/kong.png",
-                "visibility_rules": [],
+                "visibility_rules": ["kongchecks"],
                 "item_count": 1
             }
         ],

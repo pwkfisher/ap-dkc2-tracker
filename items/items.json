@@ -145,6 +145,18 @@
         "codes": "lostworldrock"
     },
     {
+        "name": "Boss Tokens",
+        "type": "consumable",
+        "img": "images/checks/kremkoin.png",
+        "img_mods": "",
+        "initial_quantity": 0,
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "overlay_font_size": 14,
+        "codes": "bosstokens"
+    },
+    {
         "name": "Gangplank Galleon Access",
         "type": "toggle",
         "img": "images/items/gangplankgalleonaccess.png",
@@ -299,5 +311,73 @@
             "codes": "HARD"
           }
         ]
-      }
+      },
+      {
+        "name": "Swanky Checks On",
+        "type": "toggle",
+        "img": "images/settings/swankycheck.png",
+        "inherit_codes": "false",
+        "codes": "swankychecks"
+      },
+      {
+        "name": "KONG Checks On",
+        "type": "toggle",
+        "img": "images/settings/kongcheck.png",
+        "inherit_codes": "false",
+        "codes": "kongchecks"
+      },
+      {
+        "name": "DK Coin Checks On",
+        "type": "toggle",
+        "img": "images/settings/dkcoincheck.png",
+        "inherit_codes": "false",
+        "codes": "dkcoinchecks"
+      },
+      {
+        "name": "Goal",
+        "codes": "goal",
+        "allow_disabled": "false",
+        "type": "progressive",
+        "stages": [
+          {
+            "img": "images/settings/kroolgoal.png",
+            "inherit_codes": "false",
+            "codes": "flyingkrockgoal"
+          },
+          {
+            "img": "images/settings/lostworldgoal.png",
+            "inherit_codes": "false",
+            "codes": "lostworldgoal"
+          },
+          {
+            "img": "images/settings/kompletionist.png",
+            "inherit_codes": "false",
+            "codes": "kompletionist"
+          }
+        ]
+      },
+      {
+        "name": "Lost World Rocks Needed",
+        "type": "consumable",
+        "img": "images/items/lostworldrock.png",
+        "img_mods": "",
+        "initial_quantity": 0,
+        "min_quantity": 0,
+        "max_quantity": 11,
+        "increment": 1,
+        "overlay_font_size": 14,
+        "codes": "lostworldrocksrequired"
+    },
+    {
+        "name": "Boss Tokens Needed",
+        "type": "consumable",
+        "img": "images/settings/bosstokencheck.png",
+        "img_mods": "",
+        "initial_quantity": 0,
+        "min_quantity": 0,
+        "max_quantity": 6,
+        "increment": 1,
+        "overlay_font_size": 14,
+        "codes": "bosstokensrequired"
+    }
 ]

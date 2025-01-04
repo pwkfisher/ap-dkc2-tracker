@@ -134,6 +134,31 @@ function onClear(slot_data)
 			end
 		end
 	end
+	if slot_data["lost_world_rocks"] then
+        Tracker:FindObjectForCode("lostworldrocksrequired").AcquiredCount = slot_data["lost_world_rocks"]
+	end
+	if slot_data["krock_boss_tokens"] then
+		Tracker:FindObjectForCode("bosstokensrequired").AcquiredCount = slot_data["krock_boss_tokens"]
+	end
+	if slot_data["dk_coin_checks"] == 1 then
+		Tracker:FindObjectForCode("dkcoinchecks").Active = true
+	end
+	if slot_data["swanky_checks"] == 1 then
+		Tracker:FindObjectForCode("swankychecks").Active = true
+	end
+	if slot_data["kong_checks"] == 1 then
+		Tracker:FindObjectForCode("kongchecks").Active = true
+	end
+    if slot_data["goal"] then
+        if slot_data["goal"] == 1 then
+            Tracker:FindObjectForCode("goal").CurrentStage = 0
+        elseif slot_data["goal"] == 2 then
+            Tracker:FindObjectForCode("goal").CurrentStage = 1
+        elseif slot_data["goal"] == 3 then
+            Tracker:FindObjectForCode("goal").CurrentStage = 2
+        end
+    end
+
 	apply_slot_data(slot_data)
 	LOCAL_ITEMS = {}
 	GLOBAL_ITEMS = {}

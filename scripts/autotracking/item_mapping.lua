@@ -1,5 +1,6 @@
 ITEM_MAPPING = {
 	[12517376] = {{"donkeykong", "toggle"}},
+	[12517423] = {{"bosstoken", "consumable"}},
 	[12517384] = {{"lostworldrock", "consumable"}},
 	[12517377] = {{"gangplankgalleonaccess", "toggle"}},
 	[12517378] = {{"crocodilecauldronaccess", "toggle"}},

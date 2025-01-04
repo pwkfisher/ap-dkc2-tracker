@@ -17,7 +17,7 @@
                 "access_rules": ["EASY, climb, cling, exclamationbarrels, helicopterspin, dixie", "NORMAL, climb, cling, helicopterspin, dixie", "HARD, cling, helicopterspin, dixie", "HARD, cling, climb"],
                 "chest_unopened_img": "images/checks/dkcoin_disabled.png",
                 "chest_opened_img": "images/checks/dkcoin.png",
-                "visibility_rules": [],
+                "visibility_rules": ["dkcoinchecks"],
                 "item_count": 1
             },
             {
@@ -25,7 +25,7 @@
                 "access_rules": ["EASY, climb, cling, exclamationbarrels, carry, teamattack, diddy, dixie", "NORMAL, climb, cling, carry, teamattack, diddy, dixie", "HARD, cling, carry, helicopterspin, dixie", "HARD, cling, carry, climb"],
                 "chest_unopened_img": "images/checks/kong_disabled.png",
                 "chest_opened_img": "images/checks/kong.png",
-                "visibility_rules": [],
+                "visibility_rules": ["kongchecks"],
                 "item_count": 1
             },
             {
