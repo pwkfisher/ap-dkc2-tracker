@@ -38,7 +38,7 @@
                         "item_width": 44,
                         "rows": [
                             ["EASY", "goal"],
-                            ["bosstokensrequired", "bosstokens"],
+                            ["bosstokensrequired", "bosstoken"],
                             ["lostworldrocksrequired", "lostworldrock"],
                             ["dkcoinchecks", "kongchecks"],
                             ["swankychecks"]
