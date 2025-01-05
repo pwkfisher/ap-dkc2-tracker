@@ -154,7 +154,7 @@
         "max_quantity": 10,
         "increment": 1,
         "overlay_font_size": 14,
-        "codes": "bosstokens"
+        "codes": "bosstoken"
     },
     {
         "name": "Gangplank Galleon Access",

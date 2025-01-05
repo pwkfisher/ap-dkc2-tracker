@@ -16,7 +16,7 @@
                 "item_count": 1
             },
             {
-                "name": "Defeated",
+                "name": "Defeat",
                 "access_rules": ["EASY, carry, diddy, dixie", "NORMAL, carry", "HARD, carry"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",

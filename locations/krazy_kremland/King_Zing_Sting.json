@@ -13,7 +13,7 @@
                 "item_count": 1
             },
             {
-                "name": "Defeated",
+                "name": "Defeat",
                 "access_rules": ["EASY, squawks, diddy, dixie", "NORMAL, squawks", "HARD, squawks"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
