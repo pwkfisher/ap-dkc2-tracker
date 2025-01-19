@@ -30,7 +30,7 @@
             },
             {
                 "name": "Bonus #1",
-                "access_rules": ["EASY, swim, enguarde", "NORMAL, swim, enguarde", "HARD, swim", "HARD, enguarde, cartwheel", "HARD, enguarde, helicopterspin, dixie"],
+                "access_rules": ["EASY, swim, enguarde", "NORMAL, swim, enguarde", "HARD, enguarde, swim", "HARD, enguarde, cartwheel", "HARD, enguarde, helicopterspin, dixie"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],

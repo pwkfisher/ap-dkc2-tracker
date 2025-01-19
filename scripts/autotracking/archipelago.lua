@@ -113,7 +113,7 @@ function onClear(slot_data)
 				elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
 					print(string.format("onClear: skipping location_table with no location_code"))
 				end
-			elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+			elseif AUTOTRACKER_ENABL	E_DEBUG_LOGGING_AP then
 				print(string.format("onClear: skipping empty location_table"))
 			end
 		end
@@ -134,21 +134,27 @@ function onClear(slot_data)
 			end
 		end
 	end
+	-- code for checking lost world rocks required
 	if slot_data["lost_world_rocks"] then
         Tracker:FindObjectForCode("lostworldrocksrequired").AcquiredCount = slot_data["lost_world_rocks"]
 	end
+	-- code for checking flying krock access boss tokens required
 	if slot_data["krock_boss_tokens"] then
 		Tracker:FindObjectForCode("bosstokensrequired").AcquiredCount = slot_data["krock_boss_tokens"]
 	end
+	-- code for checking dk coin checks required
 	if slot_data["dk_coin_checks"] == 1 then
 		Tracker:FindObjectForCode("dkcoinchecks").Active = true
 	end
+	-- code for checking if swanky checks are required
 	if slot_data["swanky_checks"] == 1 then
 		Tracker:FindObjectForCode("swankychecks").Active = true
 	end
+	-- code for checking if kong letter checks are required
 	if slot_data["kong_checks"] == 1 then
 		Tracker:FindObjectForCode("kongchecks").Active = true
 	end
+	-- code for checking what the goal is
     if slot_data["goal"] then
         if slot_data["goal"] == 1 then
             Tracker:FindObjectForCode("goal").CurrentStage = 0
