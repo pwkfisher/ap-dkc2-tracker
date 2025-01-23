@@ -14,7 +14,7 @@
             },
             {
                 "name": "DK Coin",
-                "access_rules": ["EASY, helicopterspin, dixie, cartwheel, climb, squawks, barrelkannons, squitter", "NORMAL, helicopterspin, dixie, cartwheel, climb, squawks, barrelkannons, squitter", "HARD, climb, cartwheel, squawks, squitter"],
+                "access_rules": ["EASY, helicopterspin, dixie, cartwheel, climb, squawks, barrelkannons, squitter", "NORMAL, helicopterspin, dixie, cartwheel, climb, squawks, barrelkannons, squitter", "HARD, climb, cartwheel, squawks, squitter", "HARD, climb, squawks, diddy, dixie"],
                 "chest_unopened_img": "images/checks/dkcoin_disabled.png",
                 "chest_opened_img": "images/checks/dkcoin.png",
                 "visibility_rules": ["dkcoinchecks"],

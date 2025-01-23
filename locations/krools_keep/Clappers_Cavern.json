@@ -38,7 +38,7 @@
             },
             {
                 "name": "Bonus #2",
-                "access_rules": ["NORMAL, clapper, swim, barrelkannons, enguarde", "EASY, clapper, swim, barrelkannons, enguarde", "HARD, clapper, barrelkannons, enguarde"],
+                "access_rules": ["NORMAL, clapper, swim, barrelkannons, enguarde", "EASY, clapper, swim, barrelkannons, enguarde", "HARD, barrelkannons, clapper, enguarde", "HARD, barrelkannons, helicopterspin, dixie, swim, enguarde"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],

@@ -14,7 +14,7 @@
             },
             {
                 "name": "DK Coin",
-                "access_rules": ["EASY, helicopterspin, dixie, cartwheel, diddy", "NORMAL, helicopterspin, dixie", "NORMAL, cartwheel", "HARD, helicopterspin, dixie", "HARD, cartwheel"],
+                "access_rules": ["EASY, helicopterspin, dixie", "NORMAL, helicopterspin, dixie", "NORMAL, cartwheel", "HARD, helicopterspin, dixie", "HARD, cartwheel"],
                 "chest_unopened_img": "images/checks/dkcoin_disabled.png",
                 "chest_opened_img": "images/checks/dkcoin.png",
                 "visibility_rules": ["dkcoinchecks"],
@@ -30,7 +30,7 @@
             },
             {
                 "name": "Bonus #1",
-                "access_rules": ["EASY, kongbarrels, diddy, dixie, helicopterspin", "NORMAL, kongbarrels, diddy, dixie, helicopterspin", "HARD, kongbarrels, diddy, dixie, cartwheel"],
+                "access_rules": ["EASY, kongbarrels, diddy, dixie, helicopterspin", "EASY, kongbarrels, diddy, dixie, cartwheel", "NORMAL, kongbarrels, diddy, dixie, helicopterspin", "HARD, kongbarrels, diddy, dixie, cartwheel"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
