@@ -46,7 +46,7 @@
             },
             {
                 "name": "Bonus #3",
-                "access_rules": ["EASY, helicopterspin, teamattack, diddy, dixie, squitter, barrelkannons, cling", "NORMAL, cling, squitter, teamattack, diddy, dixie", "HARD, cling, teamattack, diddy, dixie, squitter"],
+                "access_rules": ["EASY, helicopterspin, teamattack, diddy, dixie, squitter, barrelkannons, cling", "NORMAL, cling, squitter, teamattack, diddy, dixie", "HARD, cling, teamattack, diddy, dixie, squitter", "HARD, teamattack, squitter, diddy, dixie"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],

@@ -30,7 +30,7 @@
             },
             {
                 "name": "Bonus #1",
-                "access_rules": ["EASY, kongbarrels, diddy, dixie, helicopterspin", "EASY, kongbarrels, diddy, dixie, cartwheel", "NORMAL, kongbarrels, diddy, dixie, helicopterspin", "HARD, kongbarrels, diddy, dixie, cartwheel"],
+                "access_rules": ["EASY, kongbarrels, diddy, dixie, helicopterspin", "EASY, kongbarrels, diddy, dixie, cartwheel", "NORMAL, kongbarrels, diddy, dixie, helicopterspin", "NORMAL, kongbarrels, diddy, dixie, cartwheel", "HARD, kongbarrels, diddy, dixie, cartwheel"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
