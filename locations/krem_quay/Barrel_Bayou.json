@@ -43,6 +43,54 @@
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
                 "item_count": 1
+            },
+            {
+                "name": "Banana Bunch #1 (First Kloak)",
+                "access_rules": ["EASY, teamattack, diddy, dixie"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Coin #1 (Next to Zinger)",
+                "access_rules": ["EASY, controllablebarrels, rambi"],
+                "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                "chest_opened_img": "images/checks/bananacoin.png",
+                "visibility_rules": ["coinsanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Bunch #2 (Kloak after yellow Klobber)",
+                "access_rules": ["EASY, controllablebarrels, rambi"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Green Balloon (Chest from Kloak behind N)",
+                "access_rules": ["EASY, controllablebarrels, rambi, carry"],
+                "chest_unopened_img": "images/checks/swanky2_disabled.png",
+                "chest_opened_img": "images/checks/swanky2.png",
+                "visibility_rules": ["balloonsanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Coin #2 (Behind Zinger after Klobber duo)",
+                "access_rules": ["EASY, controllablebarrels, rambi"],
+                "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                "chest_opened_img": "images/checks/bananacoin.png",
+                "visibility_rules": ["coinsanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Bunch #3 (Above Kloak)",
+                "access_rules": ["EASY, controllablebarrels, rambi, barrelkannons, teamattack, diddy, dixie"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
             }
         ],
         "map_locations": [

@@ -43,6 +43,102 @@
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
                 "item_count": 1
+            },
+            {
+                "name": "Banana Bunch #1 (Start)",
+                "access_rules": ["EASY, teamattack, diddy, dixie"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Bunch #2 (Initial barrel group)",
+                "access_rules": ["EASY, barrelkannons", "NORMAL, barrelkannons", "HARD, barrelkannons"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Bunch #3 (After rotating Zinger)",
+                "access_rules": ["EASY, barrelkannons", "NORMAL, barrelkannons", "HARD, barrelkannons"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Coin #1 (After rotating Zinger)",
+                "access_rules": ["EASY, barrelkannons", "NORMAL, barrelkannons", "HARD, barrelkannons"],
+                "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                "chest_opened_img": "images/checks/bananacoin.png",
+                "visibility_rules": ["coinsanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Bunch #4 (After rotating Zinger)",
+                "access_rules": ["EASY, barrelkannons", "NORMAL, barrelkannons", "HARD, barrelkannons"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Bunch #5 (After rotating Zinger)",
+                "access_rules": ["EASY, barrelkannons", "NORMAL, barrelkannons", "HARD, barrelkannons"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Coin #2 (After first big barrel maze)",
+                "access_rules": ["EASY, barrelkannons", "NORMAL, barrelkannons", "HARD, barrelkannons"],
+                "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                "chest_opened_img": "images/checks/bananacoin.png",
+                "visibility_rules": ["coinsanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Red Balloon (After N)",
+                "access_rules": ["EASY, barrelkannons", "NORMAL, barrelkannons", "HARD, barrelkannons"],
+                "chest_unopened_img": "images/checks/swanky1_disabled.png",
+                "chest_opened_img": "images/checks/swanky1.png",
+                "visibility_rules": ["balloonsanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Bunch #6 (After Click-Clack duo)",
+                "access_rules": ["EASY, barrelkannons", "NORMAL, barrelkannons", "HARD, barrelkannons"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Bunch #7 (Squawks area)",
+                "access_rules": ["EASY, barrelkannons, squawks", "NORMAL, barrelkannons, squawks", "HARD, barrelkannons, squawks"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Bunch #8 (Squawks area)",
+                "access_rules": ["EASY, barrelkannons, squawks", "NORMAL, barrelkannons, squawks", "HARD, barrelkannons, squawks"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Bunch #9 (Squawks sign on Bonus #2)",
+                "access_rules": ["EASY, barrelkannons, squawks", "NORMAL, barrelkannons, squawks", "HARD, barrelkannons, squawks"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
             }
         ],
         "map_locations": [

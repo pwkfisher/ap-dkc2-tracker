@@ -43,6 +43,206 @@
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
                 "item_count": 1
+            },
+            {
+                "name": "Banana Coin #1 (Hidden passage on top left corner)",
+                "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
+                "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                "chest_opened_img": "images/checks/bananacoin.png",
+                "visibility_rules": ["coinsanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Coin #2 (Hidden passage on top left corner)",
+                "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
+                "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                "chest_opened_img": "images/checks/bananacoin.png",
+                "visibility_rules": ["coinsanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Bunch #1 (Hidden passage above Bonus #1 entrance)",
+                "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Bunch #2 (Hidden passage above Bonus #1 entrance)",
+                "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Bunch #3 (Hidden passage above Bonus #1 entrance)",
+                "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Red Balloon (Alone banana above Glimmer spawn)",
+                "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
+                "chest_unopened_img": "images/checks/swanky1_disabled.png",
+                "chest_opened_img": "images/checks/swanky1.png",
+                "visibility_rules": ["balloonsanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Bunch #4 (Above green Flotsam duo)",
+                "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Coin #3 (Middle crates after left banana arrow)",
+                "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
+                "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                "chest_opened_img": "images/checks/bananacoin.png",
+                "visibility_rules": ["coinsanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Bunch #5 (Next to Lockjaw near up banana arrow)",
+                "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Coin #4 (Hidden passage near Lockjaw duo)",
+                "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
+                "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                "chest_opened_img": "images/checks/bananacoin.png",
+                "visibility_rules": ["coinsanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Bunch #6 (Hidden passage near Lockjaw duo)",
+                "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Bunch #7 (Hidden passage near Lockjaw duo)",
+                "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Coin #5 (Hidden passage near Lockjaw duo)",
+                "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
+                "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                "chest_opened_img": "images/checks/bananacoin.png",
+                "visibility_rules": ["coinsanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Bunch #8 (Near Lockjaw and blue Flotsam duo)",
+                "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Coin #6 (Near Lockjaw and blue Flotsam duo)",
+                "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
+                "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                "chest_opened_img": "images/checks/bananacoin.png",
+                "visibility_rules": ["coinsanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Bunch #9 (Near exploding Puftup after midpoint)",
+                "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Bunch #10 (Near exploding Puftup before N)",
+                "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Bunch #11 (Near exploding Puftup before N)",
+                "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Bunch #12 (Next to N)",
+                "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Coin #7 (Hidden passage near Shuri and blue Flotsam)",
+                "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
+                "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                "chest_opened_img": "images/checks/bananacoin.png",
+                "visibility_rules": ["coinsanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Coin #8 (Hidden passage near Shuri and blue Flotsam)",
+                "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
+                "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                "chest_opened_img": "images/checks/bananacoin.png",
+                "visibility_rules": ["coinsanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Bunch #13 (All way up after multiple Shuri section)",
+                "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Coin #9 (Next to G)",
+                "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
+                "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                "chest_opened_img": "images/checks/bananacoin.png",
+                "visibility_rules": ["coinsanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Bunch #14 (Next to G)",
+                "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Coin #10 (Before exit barrel)",
+                "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
+                "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                "chest_opened_img": "images/checks/bananacoin.png",
+                "visibility_rules": ["coinsanity"],
+                "item_count": 1
             }
         ],
         "map_locations": [

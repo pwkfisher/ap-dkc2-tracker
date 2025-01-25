@@ -21,7 +21,7 @@
         },
         {
             "name": "KONG",
-            "access_rules": ["EASY, carry, teamattack", "EASY, carry, squitter", "NORMAL, carry, teamattack", "NORMAL, carry, squitter", "HARD, carry"],
+            "access_rules": ["EASY, carry, teamattack, diddy, dixie", "EASY, carry, squitter", "NORMAL, carry, teamattack, diddy, dixie", "NORMAL, carry, squitter", "HARD, carry"],
             "chest_unopened_img": "images/checks/kong_disabled.png",
             "chest_opened_img": "images/checks/kong.png",
             "visibility_rules": ["kongchecks"],
@@ -49,6 +49,78 @@
             "chest_unopened_img": "images/checks/kremkoin_disabled.png",
             "chest_opened_img": "images/checks/kremkoin.png",
             "visibility_rules": [],
+            "item_count": 1
+        },
+        {
+            "name": "Green Balloon (Chest above start)",
+            "access_rules": ["EASY, carry, teamattack, diddy, dixie"],
+            "chest_unopened_img": "images/checks/swanky2_disabled.png",
+            "chest_opened_img": "images/checks/swanky2.png",
+            "visibility_rules": ["balloonsanity"],
+            "item_count": 1
+        },
+        {
+            "name": "Banana Coin #1 (Chest after first brown Krochead)",
+            "access_rules": ["EASY, carry"],
+            "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+            "chest_opened_img": "images/checks/bananacoin.png",
+            "visibility_rules": ["coinsanity"],
+            "item_count": 1
+        },
+        {
+            "name": "Banana Bunch #1 (Chest next to cannon)",
+            "access_rules": ["EASY, carry"],
+            "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+            "chest_opened_img": "images/checks/bananabunch.png",
+            "visibility_rules": ["bananasanity"],
+            "item_count": 1
+        },
+        {
+            "name": "Banana Coin #2 (Above A bananas)",
+            "access_rules": ["EASY, squitter"],
+            "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+            "chest_opened_img": "images/checks/bananacoin.png",
+            "visibility_rules": ["coinsanity"],
+            "item_count": 1
+        },
+        {
+            "name": "Banana Bunch #2 (Above G)",
+            "access_rules": ["EASY, squitter"],
+            "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+            "chest_opened_img": "images/checks/bananabunch.png",
+            "visibility_rules": ["bananasanity"],
+            "item_count": 1
+        },
+        {
+            "name": "Banana Bunch #3 (Above G)",
+            "access_rules": ["EASY, squitter"],
+            "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+            "chest_opened_img": "images/checks/bananabunch.png",
+            "visibility_rules": ["bananasanity"],
+            "item_count": 1
+        },
+        {
+            "name": "Banana Coin #3 (Between Zingers)",
+            "access_rules": ["EASY, squitter"],
+            "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+            "chest_opened_img": "images/checks/bananacoin.png",
+            "visibility_rules": ["coinsanity"],
+            "item_count": 1
+        },
+        {
+            "name": "Banana Coin #4 (Between Zingers)",
+            "access_rules": ["EASY, squitter"],
+            "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+            "chest_opened_img": "images/checks/bananacoin.png",
+            "visibility_rules": ["coinsanity"],
+            "item_count": 1
+        },
+        {
+            "name": "Red Balloon (Squitter sign)",
+            "access_rules": ["EASY, squitter, barrelkannons"],
+            "chest_unopened_img": "images/checks/swanky1_disabled.png",
+            "chest_opened_img": "images/checks/swanky1.png",
+            "visibility_rules": ["balloonsanity"],
             "item_count": 1
         }
     ],
