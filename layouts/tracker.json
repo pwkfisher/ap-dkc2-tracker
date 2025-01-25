@@ -40,8 +40,8 @@
                             ["EASY", "goal"],
                             ["bosstokensrequired", "bosstoken"],
                             ["lostworldrocksrequired", "lostworldrock"],
-                            ["dkcoinchecks", "kongchecks"],
-                            ["swankychecks"]
+                            ["dkcoinchecks", "kongchecks", "swankychecks"],
+                            ["coinsanity", "balloonsanity", "bananasanity"]
                         ]
                         }
                     ]

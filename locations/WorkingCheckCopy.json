@@ -1,0 +1,40 @@
+                {
+                    "name": "Banana Coin",
+                    "access_rules": [],
+                    "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                    "chest_opened_img": "images/checks/bananacoin.png",
+                    "visibility_rules": ["coinsanity"],
+                    "item_count": 1
+                },
+                {
+                    "name": "Banana Bunch",
+                    "access_rules": [],
+                    "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                    "chest_opened_img": "images/checks/bananabunch.png",
+                    "visibility_rules": ["bananasanity"],
+                    "item_count": 1
+                },
+                {
+                    "name": "Red Balloon",
+                    "access_rules": [],
+                    "chest_unopened_img": "images/checks/swanky1_disabled.png",
+                    "chest_opened_img": "images/checks/swanky1.png",
+                    "visibility_rules": ["balloonsanity"],
+                    "item_count": 1
+                },
+                {
+                    "name": "Green Balloon",
+                    "access_rules": [],
+                    "chest_unopened_img": "images/checks/swanky2_disabled.png",
+                    "chest_opened_img": "images/checks/swanky2.png",
+                    "visibility_rules": ["balloonsanity"],
+                    "item_count": 1
+                },
+                {
+                    "name": "Blue Balloon",
+                    "access_rules": [],
+                    "chest_unopened_img": "images/checks/swanky3_disabled.png",
+                    "chest_opened_img": "images/checks/swanky3.png",
+                    "visibility_rules": ["balloonsanity"],
+                    "item_count": 1
+                },

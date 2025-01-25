@@ -47,6 +47,62 @@
                     "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                     "chest_opened_img": "images/checks/kremkoin.png",
                     "item_count": 1
+                },
+                {
+                    "name": "Banana Bunch #1 (Before Bonus #1)",
+                    "access_rules": ["EASY, climb, helicopterspin, dixie", "EASY, climb, cartwheel"],
+                    "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                    "chest_opened_img": "images/checks/bananabunch.png",
+                    "visibility_rules": ["bananasanity"],
+                    "item_count": 1
+                },
+                {
+                    "name": "Banana Coin #1 (Next to Klinger)",
+                    "access_rules": ["EASY, climb"],
+                    "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                    "chest_opened_img": "images/checks/bananacoin.png",
+                    "visibility_rules": ["coinsanity"],
+                    "item_count": 1
+                },
+                {
+                    "name": "Banana Coin #2 (Below Click-Clack)",
+                    "access_rules": ["EASY, climb"],
+                    "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                    "chest_opened_img": "images/checks/bananacoin.png",
+                    "visibility_rules": ["coinsanity"],
+                    "item_count": 1
+                },
+                {
+                    "name": "Green Balloon (Above banana trail on rope)",
+                    "access_rules": ["EASY, climb"],
+                    "chest_unopened_img": "images/checks/swanky2_disabled.png",
+                    "chest_opened_img": "images/checks/swanky2.png",
+                    "visibility_rules": ["balloonsanity"],
+                    "item_count": 1
+                },
+                {
+                    "name": "Banana Bunch #2 (After Bonus #3)",
+                    "access_rules": ["EASY, climb, teamattack, dixie, diddy"],
+                    "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                    "chest_opened_img": "images/checks/bananabunch.png",
+                    "visibility_rules": ["bananasanity"],
+                    "item_count": 1
+                },
+                {
+                    "name": "Banana Coin #3 (After Bonus #3)",
+                    "access_rules": ["EASY, climb, teamattack, dixie, diddy"],
+                    "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                    "chest_opened_img": "images/checks/bananacoin.png",
+                    "visibility_rules": ["coinsanity"],
+                    "item_count": 1
+                },
+                {
+                    "name": "Banana Bunch #3 (After Bonus #3)",
+                    "access_rules": ["EASY, climb, teamattack, dixie, diddy"],
+                    "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                    "chest_opened_img": "images/checks/bananabunch.png",
+                    "visibility_rules": ["bananasanity"],
+                    "item_count": 1
                 }
             ],
         "map_locations": [

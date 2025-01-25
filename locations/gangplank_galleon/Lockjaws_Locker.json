@@ -35,6 +35,110 @@
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
                 "item_count": 1
+            },
+            {
+                "name": "Banana Coin #1 (Right on start)",
+                "access_rules": [""],
+                "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                "chest_opened_img": "images/checks/bananacoin.png",
+                "visibility_rules": ["coinsanity"],
+                "item_count": 1
+            },
+                        {
+                "name": "Banana Bunch #1 (Right on start)",
+                "access_rules": [""],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            },            
+            {
+                "name": "Banana Coin #2 (Right on start)",
+                "access_rules": [""],
+                "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                "chest_opened_img": "images/checks/bananacoin.png",
+                "visibility_rules": ["coinsanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Bunch #2 (Above K)",
+                "access_rules": ["EASY, swim"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            },               
+            {
+                "name": "Banana Coin #3 (Above Banana Bunch)",
+                "access_rules": ["EASY, swim"],
+                "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                "chest_opened_img": "images/checks/bananacoin.png",
+                "visibility_rules": ["coinsanity"],
+                "item_count": 1
+            },       
+            {
+                "name": "Banana Coin #4 (Passage below Flotsam)",
+                "access_rules": ["EASY, swim"],
+                "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                "chest_opened_img": "images/checks/bananacoin.png",
+                "visibility_rules": ["coinsanity"],
+                "item_count": 1
+            },            
+            {
+                "name": "Banana Coin #5 (Passage below Flotsam)",
+                "access_rules": ["EASY, swim"],
+                "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                "chest_opened_img": "images/checks/bananacoin.png",
+                "visibility_rules": ["coinsanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Bunch #3 (After Enguarde)",
+                "access_rules": ["EASY, swim"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Red Balloon (Enguarde sign #1)",
+                "access_rules": ["EASY, swim, enguarde"],
+                "chest_unopened_img": "images/checks/swanky1_disabled.png",
+                "chest_opened_img": "images/checks/swanky1.png",
+                "visibility_rules": ["balloonsanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Coin #6 (Behind Lockjaw near Enguarde)",
+                "access_rules": ["EASY, swim, enguarde"],
+                "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                "chest_opened_img": "images/checks/bananacoin.png",
+                "visibility_rules": ["coinsanity"],
+                "item_count": 1
+            },            
+            {
+                "name": "Banana Coin #7 (Behind Lockjaw near Enguarde)",
+                "access_rules": ["EASY, swim, enguarde"],
+                "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                "chest_opened_img": "images/checks/bananacoin.png",
+                "visibility_rules": ["coinsanity"],
+                "item_count": 1
+            },            
+            {
+                "name": "Banana Coin #8 (Behind Lockjaw near DK Barrel)",
+                "access_rules": ["EASY, swim"],
+                "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                "chest_opened_img": "images/checks/bananacoin.png",
+                "visibility_rules": ["coinsanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Bunch #4 (Enguarde sign #2)",
+                "access_rules": ["EASY, swim, enguarde"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
             }
         ],
         "map_locations": [

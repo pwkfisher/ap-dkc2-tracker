@@ -149,6 +149,15 @@ function onClear(slot_data)
 	if slot_data["kong_checks"] == 1 then
 		Tracker:FindObjectForCode("kongchecks").Active = true
 	end
+	if slot_data["bananasanity"] == 1 then
+		Tracker:FindObjectForCode("bananasanity").Active = true
+	end
+	if slot_data["coinsanity"] == 1 then
+		Tracker:FindObjectForCode("coinsanity").Active = true
+	end
+	if slot_data["balloonsanity"] == 1 then
+		Tracker:FindObjectForCode("balloonsanity").Active = true
+	end
     if slot_data["goal"] then
         if slot_data["goal"] == 1 then
             Tracker:FindObjectForCode("goal").CurrentStage = 0
@@ -156,6 +165,15 @@ function onClear(slot_data)
             Tracker:FindObjectForCode("goal").CurrentStage = 1
         elseif slot_data["goal"] == 3 then
             Tracker:FindObjectForCode("goal").CurrentStage = 2
+        end
+    end
+	if slot_data["logic"] then
+        if slot_data["logic"] == 0 then
+            Tracker:FindObjectForCode("logic").CurrentStage = 0
+        elseif slot_data["logic"] == 1 then
+            Tracker:FindObjectForCode("logic").CurrentStage = 1
+        elseif slot_data["logic"] == 2 then
+            Tracker:FindObjectForCode("logic").CurrentStage = 2
         end
     end
 
@@ -281,6 +299,28 @@ function onBounce(json)
 		print(string.format("called onBounce: %s", dump_table(json)))
 	end
 	-- your code goes here
+end
+
+function updateEvents(value)
+	if value ~= nil then
+	    print(string.format("updateEvents %x",value))
+		local tabswitch = Tracker:FindObjectForCode("tab_switch")
+		Tracker:FindObjectForCode("cur_level_id").CurrentStage = value
+		if tabswitch.Active then
+			if TAB_MAPPING[value] then
+				CURRENT_ROOM = TAB_MAPPING[value]
+                for str in string.gmatch(CURRENT_ROOM, "([^/]+)") do
+				    print(string.format("Updating ID %x to Tab %s",value,str))
+                    Tracker:UiHint("ActivateTab", str)
+                end
+				print(string.format("Updating ID %x to Tab %s",value,CURRENT_ROOM))
+			else
+				--CURRENT_ROOM = TAB_MAPPING[0x00]
+				print(string.format("Failed to find ID %x",value))
+                --Tracker:UiHint("ActivateTab", CURRENT_ROOM)
+			end
+		end
+	end
 end
 
 -- add AP callbacks

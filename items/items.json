@@ -291,6 +291,7 @@
     },
     {
         "name": "Difficulty",
+        "codes": "Logic",
         "initial_stage_idx": 0,
         "allow_disabled": "false",
         "type": "progressive",
@@ -379,5 +380,26 @@
         "increment": 1,
         "overlay_font_size": 14,
         "codes": "bosstokensrequired"
-    }
+    },
+    {
+        "name": "Banana Coin Checks On",
+        "type": "toggle",
+        "img": "images/settings/coinsanity.png",
+        "inherit_codes": "false",
+        "codes": "coinsanity"
+      },
+      {
+        "name": "Balloon Checks On",
+        "type": "toggle",
+        "img": "images/settings/balloonsanity.png",
+        "inherit_codes": "false",
+        "codes": "balloonsanity"
+      },
+      {
+        "name": "Banana Bunch Checks On",
+        "type": "toggle",
+        "img": "images/settings/bananasanity.png",
+        "inherit_codes": "false",
+        "codes": "bananasanity"
+      }
 ]

@@ -43,6 +43,86 @@
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
                 "item_count": 1
+            },
+            {
+                "name": "Red Balloon #1 (Near first DK Barrel)",
+                "access_rules": ["EASY, rattly", "EASY, teamattack, dixie, diddy, cling"],
+                "chest_unopened_img": "images/checks/swanky1_disabled.png",
+                "chest_opened_img": "images/checks/swanky1.png",
+                "visibility_rules": ["balloonsanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Red Balloon #2 (Chest after O)",
+                "access_rules": ["EASY, carry, rattly", "EASY, carry, teamattack, dixie, diddy, cling"],
+                "chest_unopened_img": "images/checks/swanky1_disabled.png",
+                "chest_opened_img": "images/checks/swanky1.png",
+                "visibility_rules": ["balloonsanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Bunch #1 (Below Zinger)",
+                "access_rules": ["EASY, climb, carry, teamattack, diddy, dixie", "EASY, climb, carry, rattly", "EASY, climb, carry, cling, barrelkannons"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Bunch #2 (Before Rattly sign)",
+                "access_rules": ["EASY, rattly", "EASY, teamattack, dixie, diddy, cling"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Coin #1 (Before Rattly sign)",
+                "access_rules": ["EASY, rattly", "EASY, teamattack, dixie, diddy, cling"],
+                "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                "chest_opened_img": "images/checks/bananacoin.png",
+                "visibility_rules": ["coinsanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Coin #2 (Rattly sign)",
+                "access_rules": ["EASY, rattly"],
+                "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                "chest_opened_img": "images/checks/bananacoin.png",
+                "visibility_rules": ["coinsanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Bunch #3 (Near banana trail on rope)",
+                "access_rules": ["EASY, climb, teamattack, dixie, diddy", "EASY, climb, rattly", "EASY, climb, cling, barrelkannons"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Coin #3 (Near banana trail on rope)",
+                "access_rules": ["EASY, climb, teamattack, dixie, diddy", "EASY, climb, rattly", "EASY, climb, cling, barrelkannons"],
+                "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                "chest_opened_img": "images/checks/bananacoin.png",
+                "visibility_rules": ["coinsanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Coin #4 (Behind Zinger)",
+                "access_rules": ["EASY, climb, teamattack, dixie, diddy", "EASY, climb, rattly", "EASY, climb, cling, barrelkannons"],
+                "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                "chest_opened_img": "images/checks/bananacoin.png",
+                "visibility_rules": ["coinsanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Blue Balloon (After goal)",
+                "access_rules": ["EASY, climb, teamattack, diddy, dixie"],
+                "chest_unopened_img": "images/checks/swanky3_disabled.png",
+                "chest_opened_img": "images/checks/swanky3.png",
+                "visibility_rules": ["balloonsanity"],
+                "item_count": 1
             }
         ],
         "map_locations": [
