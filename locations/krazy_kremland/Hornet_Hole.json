@@ -51,6 +51,94 @@
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
                 "item_count": 1
+            },
+            {
+                "name": "Banana Bunch #1(Hooks above start)",
+                "access_rules": ["EASY, teamattack, diddy, dixie, cling"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Coin #1 (Hooks above start)",
+                "access_rules": ["EASY, teamattack, diddy, dixie, cling"],
+                "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                "chest_opened_img": "images/checks/bananacoin.png",
+                "visibility_rules": ["coinsanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Bunch #2(Hooks above start)",
+                "access_rules": ["EASY, teamattack, diddy, dixie, cling"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Coin #2 (Pillar)",
+                "access_rules": [""],
+                "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                "chest_opened_img": "images/checks/bananacoin.png",
+                "visibility_rules": ["coinsanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Green Balloon (Chest after K)",
+                "access_rules": ["EASY, carry"],
+                "chest_unopened_img": "images/checks/swanky2_disabled.png",
+                "chest_opened_img": "images/checks/swanky2.png",
+                "visibility_rules": ["balloonsanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Coin #3 (Zinger after midpoint)",
+                "access_rules": ["EASY, helicopterspin, teamattack, diddy, dixie, squitter, barrelkannons, cling"],
+                "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                "chest_opened_img": "images/checks/bananacoin.png",
+                "visibility_rules": ["coinsanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Bunch #3 (Following banana guides)",
+                "access_rules": ["EASY, helicopterspin, teamattack, diddy, dixie, squitter, barrelkannons, cling"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Coin #4 (Following banana guides)",
+                "access_rules": ["EASY, helicopterspin, teamattack, diddy, dixie, squitter, barrelkannons, cling"],
+                "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                "chest_opened_img": "images/checks/bananacoin.png",
+                "visibility_rules": ["coinsanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Bunch #4 (Following banana guides)",
+                "access_rules": ["EASY, helicopterspin, teamattack, diddy, dixie, squitter, barrelkannons, cling"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Bunch #5 (Above DK Barrel)",
+                "access_rules": ["EASY, helicopterspin, teamattack, diddy, dixie, squitter, barrelkannons, cling"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Red Balloon (Squitter sign)",
+                "access_rules": ["EASY, helicopterspin, teamattack, diddy, dixie, squitter, barrelkannons, cling"],
+                "chest_unopened_img": "images/checks/swanky1_disabled.png",
+                "chest_opened_img": "images/checks/swanky1.png",
+                "visibility_rules": ["balloonsanity"],
+                "item_count": 1
             }
         ],
         "map_locations": [

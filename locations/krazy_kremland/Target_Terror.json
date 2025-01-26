@@ -43,6 +43,30 @@
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
                 "item_count": 1
+            },
+            {
+                "name": "Banana Bunch #1 (Start)",
+                "access_rules": ["EASY, skullkart, barrelkannons", "NORMAL, skullkart, barrelkannons", "HARD, skullkart, barrelkannons"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Bunch #2 (Squawks sign on Bonus #1)",
+                "access_rules": ["EASY, skullkart, barrelkannons, squawks", "NORMAL, skullkart, barrelkannons, squawks", "HARD, skullkart, barrelkannons, squawks"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Red Balloon (Above last X barrel)",
+                "access_rules": ["EASY, skullkart, barrelkannons", "NORMAL, skullkart, barrelkannons", "HARD, skullkart, barrelkannons"],
+                "chest_unopened_img": "images/checks/swanky1_disabled.png",
+                "chest_opened_img": "images/checks/swanky1.png",
+                "visibility_rules": ["balloonsanity"],
+                "item_count": 1
             }
         ],
         "map_locations": [

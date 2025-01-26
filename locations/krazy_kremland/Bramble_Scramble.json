@@ -35,6 +35,126 @@
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
                 "item_count": 1
+            },
+            {
+                "name": "Banana Bunch #1 (Next to K)",
+                "access_rules": ["EASY, barrelkannons"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Bunch #2 (Behind Zinger)",
+                "access_rules": ["EASY, carry, diddy, dixie, climb"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Coin #1 (Above Bonus #1 barrel)",
+                "access_rules": ["EASY, helicopterspin, dixie, climb, teamattack, diddy, exclamationbarrels, barrelkannons"],
+                "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                "chest_opened_img": "images/checks/bananacoin.png",
+                "visibility_rules": ["coinsanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Coin #2 (Squawks sign on Bonus #1)",
+                "access_rules": ["EASY, helicopterspin, dixie, climb, teamattack, diddy, exclamationbarrels, barrelkannons, squawks"],
+                "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                "chest_opened_img": "images/checks/bananacoin.png",
+                "visibility_rules": ["coinsanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Coin #3 (Below Flitters)",
+                "access_rules": ["EASY, helicopterspin, dixie, climb, squawks", "NORMAL, helicopterspin, dixie, climb, squawks", "HARD, climb, squawks"],
+                "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                "chest_opened_img": "images/checks/bananacoin.png",
+                "visibility_rules": ["coinsanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Bunch #3 (After red Zinger duo)",
+                "access_rules": ["EASY, helicopterspin, dixie, climb, squawks", "NORMAL, helicopterspin, dixie, climb, squawks", "HARD, climb, squawks"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Bunch #4 (Above Kannon)",
+                "access_rules": ["EASY, helicopterspin, dixie, climb, squawks", "NORMAL, helicopterspin, dixie, climb, squawks", "HARD, climb, squawks"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Coin #4 (Behind Krook)",
+                "access_rules": ["EASY, helicopterspin, dixie, climb, squawks", "NORMAL, helicopterspin, dixie, climb, squawks", "HARD, climb, squawks"],
+                "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                "chest_opened_img": "images/checks/bananacoin.png",
+                "visibility_rules": ["coinsanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Coin #5 (Behind Krook)",
+                "access_rules": ["EASY, helicopterspin, dixie, climb, squawks", "NORMAL, helicopterspin, dixie, climb, squawks", "HARD, climb, squawks"],
+                "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                "chest_opened_img": "images/checks/bananacoin.png",
+                "visibility_rules": ["coinsanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Bunch #5 (Squawks sign)",
+                "access_rules": ["EASY, helicopterspin, dixie, climb, squawks", "NORMAL, helicopterspin, dixie, climb, squawks", "HARD, climb, squawks"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Coin #6 (Wall of bananas)",
+                "access_rules": ["EASY, helicopterspin, dixie, cartwheel, climb, squawks, barrelkannons, squitter"],
+                "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                "chest_opened_img": "images/checks/bananacoin.png",
+                "visibility_rules": ["coinsanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Coin #7 (Wall of bananas)",
+                "access_rules": ["EASY, helicopterspin, dixie, cartwheel, climb, squawks, barrelkannons, squitter"],
+                "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                "chest_opened_img": "images/checks/bananacoin.png",
+                "visibility_rules": ["coinsanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Coin #8 (Near DK Coin)",
+                "access_rules": ["EASY, helicopterspin, dixie, cartwheel, climb, squawks, barrelkannons, squitter"],
+                "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                "chest_opened_img": "images/checks/bananacoin.png",
+                "visibility_rules": ["coinsanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Blue Balloon (Near DK Coin)",
+                "access_rules": ["EASY, helicopterspin, dixie, cartwheel, climb, squawks, barrelkannons, squitter"],
+                "chest_unopened_img": "images/checks/swanky3_disabled.png",
+                "chest_opened_img": "images/checks/swanky3.png",
+                "visibility_rules": ["balloonsanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Red Balloon (Squitter sign)",
+                "access_rules": ["EASY, helicopterspin, dixie, cartwheel, climb, squawks, barrelkannons, squitter"],
+                "chest_unopened_img": "images/checks/swanky1_disabled.png",
+                "chest_opened_img": "images/checks/swanky1.png",
+                "visibility_rules": ["balloonsanity"],
+                "item_count": 1
             }
         ],
         "map_locations": [
