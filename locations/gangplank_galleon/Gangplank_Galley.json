@@ -50,7 +50,7 @@
             },
             {
                 "name": "Banana Bunch #1 (Hook before DK Coin)",
-                "access_rules": ["EASY, cling, helicopterspin, dixie", "EASY, cling, cartwheel, diddy"],
+                "access_rules": ["EASY, cling, helicopterspin, dixie", "EASY, cling, cartwheel, diddy", "NORMAL, cling, helicopterspin, dixie", "NORMAL, cling, cartwheel, diddy", "HARD, helicopterspin, dixie", "HARD, cling, cartwheel, diddy", "HARD, cling, teamattack, diddy, dixie"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -58,7 +58,7 @@
             },
             {
                 "name": "Banana Bunch #2 (First chest)",
-                "access_rules": ["EASY, carry"],
+                "access_rules": ["EASY, carry", "NORMAL, carry", "HARD, carry"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -66,7 +66,7 @@
             },
             {
                 "name": "Red Balloon #1 (Chest before Neek)",
-                "access_rules": ["EASY, carry"],
+                "access_rules": ["EASY, carry", "NORMAL, carry", "HARD, carry"],
                 "chest_unopened_img": "images/checks/swanky1_disabled.png",
                 "chest_opened_img": "images/checks/swanky1.png",
                 "visibility_rules": ["balloonsanity"],
@@ -74,7 +74,7 @@
             },
             {
                 "name": "Banana Bunch #3 (Hook before O)",
-                "access_rules": ["EASY, cling, teamattack, dixie, diddy, barrelkannons"],
+                "access_rules": ["EASY, cling, teamattack, dixie, diddy, barrelkannons", "NORMAL, teamattack, dixie, diddy, barrelkannons", "HARD, teamattack, diddy, dixie"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -82,7 +82,7 @@
             },
             {
                 "name": "Banana Coin #1 (Chest before midpoint)",
-                "access_rules": ["EASY, carry"],
+                "access_rules": ["EASY, carry", "NORMAL, carry", "HARD, carry"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -90,7 +90,7 @@
             },
             {
                 "name": "Banana Bunch #4 (Chest before Kruncha trio)",
-                "access_rules": ["EASY, cling, barrelkannons"],
+                "access_rules": ["EASY, cling, barrelkannons", "NORMAL, cling, barrelkannons", "HARD, helicopterspin, dixie", "HARD, barrelkannons"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -98,7 +98,7 @@
             },
             {
                 "name": "Banana Coin #2 (Below Kruncha trio)",
-                "access_rules": ["EASY, cling, barrelkannons"],
+                "access_rules": ["EASY, cling, barrelkannons", "NORMAL, cling, barrelkannons", "HARD, barrelkannons"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -106,7 +106,7 @@
             },
             {
                 "name": "Banana Bunch #5 (Below Kruncha trio)",
-                "access_rules": ["EASY, cling, barrelkannons"],
+                "access_rules": ["EASY, cling, barrelkannons", "NORMAL, cling, barrelkannons", "HARD, barrelkannons", "HARD, helicopterspin, dixie"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -114,7 +114,7 @@
             },
             {
                 "name": "Banana Bunch #6 (Below Kruncha trio)",
-                "access_rules": ["EASY, cling, carry"],
+                "access_rules": ["EASY, cling, carry", "NORMAL, carry, cling", "NORMAL, carry, helicopterspin, dixie", "NORMAL, carry, cartwheel", "HARD, carry, cling", "HARD, carry, cartwheel", "HARD, carry, helicopterspin, dixie"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -122,7 +122,7 @@
             },
             {
                 "name": "Banana Bunch #7 (After G chest)",
-                "access_rules": ["EASY, cling"],
+                "access_rules": ["EASY, cling", "NORMAL, cling", "NORMAL, dixie, helicopterspin", "HARD, dixie, helicopterspin", "HARD, cling"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -130,7 +130,7 @@
             },
             {
                 "name": "Red Balloon #2 (Chest on barrel between Krunchas)",
-                "access_rules": ["EASY, cling, exclamationbarrels, carry"],
+                "access_rules": ["EASY, cling, exclamationbarrels, carry", "NORMAL, cling, carry, teamattack, diddy, dixie", "NORMAL, cling, exclamationbarrels, carry", "HARD, carry, helicopterspin, dixie", "HARD, carry, cling"],
                 "chest_unopened_img": "images/checks/swanky1_disabled.png",
                 "chest_opened_img": "images/checks/swanky1.png",
                 "visibility_rules": ["balloonsanity"],

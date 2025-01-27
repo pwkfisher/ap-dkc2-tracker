@@ -54,7 +54,7 @@
             },
             {
                 "name": "Banana Bunch #1 (Near hook)",
-                "access_rules": ["EASY, barrelkannons, cling, dixie, helicopterspin"],
+                "access_rules": ["EASY, barrelkannons, cling, dixie, helicopterspin", "NORMAL, barrelkannons, cling", "HARD, barrelkannons", "HARD, teamattack, dixie, diddy"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -62,7 +62,7 @@
             },
             {
                 "name": "Banana Coin #1 (After Flitter)",
-                "access_rules": ["EASY, carry, barrelkannons"],
+                "access_rules": ["EASY, carry, barrelkannons", "NORMAL, barrelkannons", "HARD, barrelkannons"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -70,7 +70,7 @@
             },
             {
                 "name": "Banana Coin #2 (Above arrow barrels)",
-                "access_rules": ["EASY, carry, barrelkannons, helicopterspin, dixie"],
+                "access_rules": ["EASY, carry, barrelkannons, helicopterspin, dixie", "NORMAL, barrelkannons, cartwheel", "NORMAL, barrelkannons, helicopterspin, dixie", "HARD, barrelkannons, teamattack, diddy, dixie", "HARD, barrelkannons, cartwheel"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -78,7 +78,7 @@
             },
             {
                 "name": "Banana Coin #3 (Diddy barrel)",
-                "access_rules": ["EASY, carry, barrelkannons, kongbarrels, diddy"],
+                "access_rules": ["EASY, carry, barrelkannons, kongbarrels, diddy", "NORMAL, barrelkannons, kongbarrels, diddy", "HARD, barrelkannons"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],

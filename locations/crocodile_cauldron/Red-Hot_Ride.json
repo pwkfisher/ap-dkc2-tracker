@@ -70,7 +70,7 @@
             },
             {
                 "name": "Banana Bunch #2 (After K)",
-                "access_rules": ["EASY, carry"],
+                "access_rules": ["EASY, carry", "NORMAL, carry", "HARD"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -78,7 +78,7 @@
             },
             {
                 "name": "Banana Coin #3 (Behind Zinger after Rambi)",
-                "access_rules": ["EASY, carry, rambi"],
+                "access_rules": ["EASY, carry, rambi", "NORMAL, carry", "NORMAL, rambi", "HARD"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -86,7 +86,7 @@
             },
             {
                 "name": "Banana Bunch #3 (Above Zinger)",
-                "access_rules": ["EASY, carry, rambi", "EASY, teamattack, diddy, dixie, rambi"],
+                "access_rules": ["EASY, carry, rambi", "EASY, teamattack, diddy, dixie, rambi", "NORMAL", "HARD"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -94,7 +94,7 @@
             },
             {
                 "name": "Banana Coin #4 (Above Kruncha)",
-                "access_rules": ["EASY, carry, rambi", "EASY, teamattack, diddy, dixie, rambi"],
+                "access_rules": ["EASY, carry, rambi", "EASY, teamattack, diddy, dixie, rambi", "NORMAL", "HARD"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -102,7 +102,7 @@
             },
             {
                 "name": "Banana Coin #5 (Rambi sign)",
-                "access_rules": ["EASY, carry, rambi"],
+                "access_rules": ["EASY, carry, rambi", "NORMAL, rambi", "HARD, rambi"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -110,7 +110,7 @@
             },
             {
                 "name": "Banana Coin #6 (Behind Zinger after TNT barrel)",
-                "access_rules": ["EASY, carry, rambi"],
+                "access_rules": ["EASY, carry, rambi", "NORMAL, carry", "HARD"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -118,7 +118,7 @@
             },
             {
                 "name": "Banana Bunch #4 (Above Flitter)",
-                "access_rules": ["EASY, carry, rambi"],
+                "access_rules": ["EASY, carry, rambi", "NORMAL", "HARD"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],

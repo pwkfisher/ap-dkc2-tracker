@@ -53,7 +53,7 @@
         },
         {
             "name": "Green Balloon (Chest above start)",
-            "access_rules": ["EASY, carry, teamattack, diddy, dixie"],
+            "access_rules": ["EASY, carry, teamattack, diddy, dixie", "NORMAL, carry, teamattack, diddy, dixie", "HARD, carry"],
             "chest_unopened_img": "images/checks/swanky2_disabled.png",
             "chest_opened_img": "images/checks/swanky2.png",
             "visibility_rules": ["balloonsanity"],
@@ -61,7 +61,7 @@
         },
         {
             "name": "Banana Coin #1 (Chest after first brown Krochead)",
-            "access_rules": ["EASY, carry"],
+            "access_rules": ["EASY, carry", "NORMAL, carry", "HARD, carry"],
             "chest_unopened_img": "images/checks/bananacoin_disabled.png",
             "chest_opened_img": "images/checks/bananacoin.png",
             "visibility_rules": ["coinsanity"],
@@ -69,7 +69,7 @@
         },
         {
             "name": "Banana Bunch #1 (Chest next to cannon)",
-            "access_rules": ["EASY, carry"],
+            "access_rules": ["EASY, carry", "NORMAL, carry", "HARD, carry"],    
             "chest_unopened_img": "images/checks/bananabunch_disabled.png",
             "chest_opened_img": "images/checks/bananabunch.png",
             "visibility_rules": ["bananasanity"],
@@ -77,7 +77,7 @@
         },
         {
             "name": "Banana Coin #2 (Above A bananas)",
-            "access_rules": ["EASY, squitter"],
+            "access_rules": ["EASY, squitter", "NORMAL, squitter", "NORMAL, teamattack, diddy, dixie", "HARD, squitter", "HARD, teamattack, dixie, diddy", "HARD, carry"],
             "chest_unopened_img": "images/checks/bananacoin_disabled.png",
             "chest_opened_img": "images/checks/bananacoin.png",
             "visibility_rules": ["coinsanity"],
@@ -85,7 +85,7 @@
         },
         {
             "name": "Banana Bunch #2 (Above G)",
-            "access_rules": ["EASY, squitter"],
+            "access_rules": ["EASY, squitter", "NORMAL, squitter", "HARD, squitter"],
             "chest_unopened_img": "images/checks/bananabunch_disabled.png",
             "chest_opened_img": "images/checks/bananabunch.png",
             "visibility_rules": ["bananasanity"],
@@ -93,7 +93,7 @@
         },
         {
             "name": "Banana Bunch #3 (Above G)",
-            "access_rules": ["EASY, squitter"],
+            "access_rules": ["EASY, squitter", "NORMAL, squitter", "HARD, squitter"],
             "chest_unopened_img": "images/checks/bananabunch_disabled.png",
             "chest_opened_img": "images/checks/bananabunch.png",
             "visibility_rules": ["bananasanity"],
@@ -101,7 +101,7 @@
         },
         {
             "name": "Banana Coin #3 (Between Zingers)",
-            "access_rules": ["EASY, squitter"],
+            "access_rules": ["EASY, squitter", "NORMAL, squitter", "HARD, squitter", "HARD, dixie, helicopterspin", "HARD, diddy, dixie"],
             "chest_unopened_img": "images/checks/bananacoin_disabled.png",
             "chest_opened_img": "images/checks/bananacoin.png",
             "visibility_rules": ["coinsanity"],
@@ -109,7 +109,7 @@
         },
         {
             "name": "Banana Coin #4 (Between Zingers)",
-            "access_rules": ["EASY, squitter"],
+            "access_rules": ["EASY, squitter", "NORMAL, squitter", "HARD, squitter", "HARD, helicopterspin, dixie", "HARD, barrelkannons, dixie, diddy", "HARD, barrelkannons, cartwheel"],
             "chest_unopened_img": "images/checks/bananacoin_disabled.png",
             "chest_opened_img": "images/checks/bananacoin.png",
             "visibility_rules": ["coinsanity"],
@@ -117,7 +117,7 @@
         },
         {
             "name": "Red Balloon (Squitter sign)",
-            "access_rules": ["EASY, squitter, barrelkannons"],
+            "access_rules": ["EASY, squitter, barrelkannons", "NORMAL, squitter", "HARD, squitter"],
             "chest_unopened_img": "images/checks/swanky1_disabled.png",
             "chest_opened_img": "images/checks/swanky1.png",
             "visibility_rules": ["balloonsanity"],

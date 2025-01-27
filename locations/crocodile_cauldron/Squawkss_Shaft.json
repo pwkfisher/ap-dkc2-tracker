@@ -56,7 +56,7 @@
             },
             {
                 "name": "Banana Coin #1 (Below Klomp)",
-                "access_rules": ["EASY, cartwheel"],
+                "access_rules": ["EASY, cartwheel", "NORMAL, cartwheel", "HARD"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -64,7 +64,7 @@
             },
             {
                 "name": "Banana Bunch #1 (After Krook duo)",
-                "access_rules": ["EASY, barrelkannons"],
+                "access_rules": ["EASY, barrelkannons", "NORMAL, barrelkannons", "HARD, teamattack, diddy, dixie", "HARD, barrelkannons"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -72,7 +72,7 @@
             },
             {
                 "name": "Banana Coin #2 (Inside Bonus #1)",
-                "access_rules": ["EASY, barrelkannons, carry, cartwheel", "EASY, barrelkannons, carry, helicopterspin, dixie"],
+                "access_rules": ["EASY, barrelkannons, carry, cartwheel", "EASY, barrelkannons, carry, helicopterspin, dixie", "NORMAL, barrelkannons, carry, cartwheel", "NORMAL, barrelkannons, carry, helicopterspin, dixie", "HARD, carry, barrelkannons"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -80,7 +80,7 @@
             },
             {
                 "name": "Banana Bunch #2 (Next to Krook)",
-                "access_rules": ["EASY, barrelkannons"],
+                "access_rules": ["EASY, barrelkannons", "NORMAL, barrelkannons", "HARD, barrelkannons"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -88,7 +88,7 @@
             },
             {
                 "name": "Red Balloon #1 (Chest behind Krook)",
-                "access_rules": ["EASY, barrelkannons, carry, cartwheel"],
+                "access_rules": ["EASY, barrelkannons, carry, cartwheel", "NORMAL, barrelkannons, carry, cartwheel", "HARD, barrelkannons, carry"],
                 "chest_unopened_img": "images/checks/swanky1_disabled.png",
                 "chest_opened_img": "images/checks/swanky1.png",
                 "visibility_rules": ["balloonsanity"],
@@ -96,7 +96,7 @@
             },
             {
                 "name": "Banana Coin #3 (Dixie barrel)",
-                "access_rules": ["EASY, barrelkannons, kongbarrels, dixie"],
+                "access_rules": ["EASY, barrelkannons, kongbarrels, dixie", "NORMAL, barrelkannons, kongbarrels, dixie", "HARD, barrelkannons"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -104,7 +104,7 @@
             },
             {
                 "name": "Banana Coin #4 (Dixie barrel)",
-                "access_rules": ["EASY, barrelkannons, kongbarrels, dixie"],
+                "access_rules": ["EASY, barrelkannons, kongbarrels, dixie", "NORMAL, barrelkannons, kongbarrels, dixie", "HARD, barrelkannons"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -112,7 +112,7 @@
             },
             {
                 "name": "Banana Coin #5 (Hidden pasage behind Krook duo)",
-                "access_rules": ["EASY, barrelkannons, squawks"],
+                "access_rules": ["EASY, barrelkannons, squawks", "NORMAL, barrelkannons, squawks", "HARD, barrelkannons, squawks"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -120,7 +120,7 @@
             },
             {
                 "name": "Banana Coin #6 (Hidden next to Bonus #3 barrel)",
-                "access_rules": ["EASY, barrelkannons, squawks"],
+                "access_rules": ["EASY, barrelkannons, squawks", "NORMAL, barrelkannons, squawks", "HARD, barrelkannons, squawks"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -128,7 +128,7 @@
             },
             {
                 "name": "Banana Coin #7 (Hidden next to Bonus #3 barrel)",
-                "access_rules": ["EASY, barrelkannons, squawks"],
+                "access_rules": ["EASY, barrelkannons, squawks", "NORMAL, barrelkannons, squawks", "HARD, barrelkannons, squawks"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -136,7 +136,7 @@
             },
             {
                 "name": "Banana Bunch #3 (Between Zingers)",
-                "access_rules": ["EASY, barrelkannons, squawks"],
+                "access_rules": ["EASY, barrelkannons, squawks", "NORMAL, barrelkannons, squawks", "HARD, barrelkannons, squawks"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -144,7 +144,7 @@
             },
             {
                 "name": "Banana Bunch #4 (Squawks sign)",
-                "access_rules": ["EASY, barrelkannons, squawks"],
+                "access_rules": ["EASY, barrelkannons, squawks", "NORMAL, barrelkannons, squawks", "HARD, barrelkannons, squawks"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],

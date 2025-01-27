@@ -50,7 +50,7 @@
                 },
                 {
                     "name": "Banana Bunch #1 (Before Bonus #1)",
-                    "access_rules": ["EASY, climb, helicopterspin, dixie", "EASY, climb, cartwheel"],
+                    "access_rules": ["EASY, climb, helicopterspin, dixie", "EASY, climb, cartwheel", "NORMAL, climb, cartwheel", "NORMAL, climb, helicopterspin, dixie", "HARD, cartwheel"],
                     "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                     "chest_opened_img": "images/checks/bananabunch.png",
                     "visibility_rules": ["bananasanity"],
@@ -58,7 +58,7 @@
                 },
                 {
                     "name": "Banana Coin #1 (Next to Klinger)",
-                    "access_rules": ["EASY, climb"],
+                    "access_rules": ["EASY, climb", "NORMAL, climb", "HARD, climb", "HARD, teamattack, diddy, dixie"],
                     "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                     "chest_opened_img": "images/checks/bananacoin.png",
                     "visibility_rules": ["coinsanity"],
@@ -66,7 +66,7 @@
                 },
                 {
                     "name": "Banana Coin #2 (Below Click-Clack)",
-                    "access_rules": ["EASY, climb"],
+                    "access_rules": ["EASY, climb", "NORMAL, climb", "HARD, climb", "HARD, teamattack, diddy, dixie"],
                     "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                     "chest_opened_img": "images/checks/bananacoin.png",
                     "visibility_rules": ["coinsanity"],
@@ -74,7 +74,7 @@
                 },
                 {
                     "name": "Green Balloon (Above banana trail on rope)",
-                    "access_rules": ["EASY, climb"],
+                    "access_rules": ["EASY, climb", "NORMAL, climb", "HARD, climb"],
                     "chest_unopened_img": "images/checks/swanky2_disabled.png",
                     "chest_opened_img": "images/checks/swanky2.png",
                     "visibility_rules": ["balloonsanity"],
@@ -82,7 +82,7 @@
                 },
                 {
                     "name": "Banana Bunch #2 (After Bonus #3)",
-                    "access_rules": ["EASY, climb, teamattack, dixie, diddy"],
+                    "access_rules": ["EASY, climb, teamattack, dixie, diddy", "NORMAL, climb, teamattack, dixie, diddy", "HARD, climb, teamattack, dixie, diddy"],
                     "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                     "chest_opened_img": "images/checks/bananabunch.png",
                     "visibility_rules": ["bananasanity"],
@@ -90,7 +90,7 @@
                 },
                 {
                     "name": "Banana Coin #3 (After Bonus #3)",
-                    "access_rules": ["EASY, climb, teamattack, dixie, diddy"],
+                    "access_rules": ["EASY, climb, teamattack, dixie, diddy", "NORMAL, climb, teamattack, dixie, diddy", "HARD, climb, teamattack, dixie, diddy"],
                     "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                     "chest_opened_img": "images/checks/bananacoin.png",
                     "visibility_rules": ["coinsanity"],
@@ -98,7 +98,7 @@
                 },
                 {
                     "name": "Banana Bunch #3 (After Bonus #3)",
-                    "access_rules": ["EASY, climb, teamattack, dixie, diddy"],
+                    "access_rules": ["EASY, climb, teamattack, dixie, diddy", "NORMAL, climb, teamattack, dixie, diddy", "HARD, climb, teamattack, dixie, diddy"],
                     "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                     "chest_opened_img": "images/checks/bananabunch.png",
                     "visibility_rules": ["bananasanity"],

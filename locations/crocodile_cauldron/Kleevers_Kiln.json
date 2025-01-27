@@ -24,7 +24,7 @@
             },
             {
                 "name": "Banana Coin #1 (Top left corner)",
-                "access_rules": ["EASY, carry, cling, diddy, dixie, helicopterspin"],
+                "access_rules": ["EASY, carry, cling, diddy, dixie, helicopterspin", "NORMAL, cling, carry, helicopterspin, dixie", "HARD, cling, carry, helicopterspin, dixie"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -32,7 +32,7 @@
             },
             {
                 "name": "Banana Coin #2 (Top left corner)",
-                "access_rules": ["EASY, carry, cling, diddy, dixie, helicopterspin"],
+                "access_rules": ["EASY, carry, cling, diddy, dixie, helicopterspin", "NORMAL, cling, carry, helicopterspin, dixie", "HARD, cling, carry, helicopterspin, dixie"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],

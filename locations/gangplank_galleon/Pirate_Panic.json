@@ -43,23 +43,7 @@
                 },
                 {
                     "name": "Banana Coin #1 (Above start banana trail)",
-                    "access_rules": ["EASY, teamattack, diddy, dixie, barrelkannons"],
-                    "chest_unopened_img": "images/checks/bananacoin_disabled.png",
-                    "chest_opened_img": "images/checks/bananacoin.png",
-                    "visibility_rules": ["coinsanity"],
-                    "item_count": 1
-                },
-                {
-                    "name": "Banana Coin #2 (Team Attack bananas)",
-                    "access_rules": ["EASY, teamattack, diddy, dixie"],
-                    "chest_unopened_img": "images/checks/bananacoin_disabled.png",
-                    "chest_opened_img": "images/checks/bananacoin.png",
-                    "visibility_rules": ["coinsanity"],
-                    "item_count": 1
-                },
-                {
-                    "name": "Banana Coin #3 (Inside Bonus #1)",
-                    "access_rules": [],
+                    "access_rules": ["EASY, teamattack, diddy, dixie, barrelkannons", "NORMAL, teamattack, diddy, dixie, barrelkannons", "HARD, teamattack, diddy, dixie, barrelkannons"],
                     "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                     "chest_opened_img": "images/checks/bananacoin.png",
                     "visibility_rules": ["coinsanity"],
@@ -67,7 +51,7 @@
                 },
                 {
                     "name": "Banana Bunch #1 (Above Klomp)",
-                    "access_rules": [],
+                    "access_rules": [""],
                     "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                     "chest_opened_img": "images/checks/bananabunch.png",
                     "visibility_rules": ["bananasanity"],
@@ -82,8 +66,24 @@
                     "item_count": 1
                 },
                 {
-                    "name": "Green Balloon (Rambi sign)",
+                    "name": "Banana Coin #2 (Team Attack bananas)",
+                    "access_rules": ["EASY, teamattack, diddy, dixie", "NORMAL, teamattack, diddy, dixie", "HARD, teamattack, diddy, dixie", "HARD, rambi", "HARD, carry"],
+                    "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                    "chest_opened_img": "images/checks/bananacoin.png",
+                    "visibility_rules": ["coinsanity"],
+                    "item_count": 1
+                },
+                {
+                    "name": "Banana Coin #3 (Inside Bonus #1)",
                     "access_rules": [],
+                    "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                    "chest_opened_img": "images/checks/bananacoin.png",
+                    "visibility_rules": ["coinsanity"],
+                    "item_count": 1
+                },
+                {
+                    "name": "Green Balloon (Rambi sign)",
+                    "access_rules": ["EASY, rambi", "NORMAL, rambi", "HARD, rambi"],
                     "chest_unopened_img": "images/checks/swanky2_disabled.png",
                     "chest_opened_img": "images/checks/swanky2.png",
                     "visibility_rules": ["balloonsanity"],

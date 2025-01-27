@@ -25,7 +25,7 @@
             },
             {
                 "name": "Banana Coin #1 (Above nest)",
-                "access_rules": ["EASY, teamattack, diddy, dixie"],
+                "access_rules": ["EASY, teamattack, diddy, dixie", "NORMAL, teamattack, diddy, dixie", "HARD"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -33,7 +33,7 @@
             },
             {
                 "name": "Banana Coin #2 (Above nest)",
-                "access_rules": ["EASY, teamattack, diddy, dixie"],
+                "access_rules": ["EASY, teamattack, diddy, dixie", "NORMAL, teamattack, diddy, dixie", "HARD"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
