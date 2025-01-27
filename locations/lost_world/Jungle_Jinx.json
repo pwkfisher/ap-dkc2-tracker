@@ -31,6 +31,62 @@
                 "chest_opened_img": "images/checks/kong.png",
                 "visibility_rules": ["kongchecks"],
                 "item_count": 1
+            },
+            {
+                "name": "Banana Bunch #1 (Start)",
+                "access_rules": [],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Bunch #2 (Above Zinger)",
+                "access_rules": [],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Coin #1 (Between Zingers)",
+                "access_rules": ["EASY, helicopterspin, dixie"],
+                "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                "chest_opened_img": "images/checks/bananacoin.png",
+                "visibility_rules": ["coinsanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Coin #2 (Above Zinger)",
+                "access_rules": ["EASY, cartwheel"],
+                "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                "chest_opened_img": "images/checks/bananacoin.png",
+                "visibility_rules": ["coinsanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Coin #3 (Arrow barrel)",
+                "access_rules": ["EASY, cartwheel, barrelkannons"],
+                "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                "chest_opened_img": "images/checks/bananacoin.png",
+                "visibility_rules": ["coinsanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Coin #4 (On top of banana trail)",
+                "access_rules": ["EASY, cartwheel, teamattack, diddy, dixie, barrelkannons"],
+                "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                "chest_opened_img": "images/checks/bananacoin.png",
+                "visibility_rules": ["coinsanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Coin #5 (Banana trail before Klobber)",
+                "access_rules": ["EASY, cartwheel, barrelkannons"],
+                "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                "chest_opened_img": "images/checks/bananacoin.png",
+                "visibility_rules": ["coinsanity"],
+                "item_count": 1
             }
         ],
         "map_locations": [

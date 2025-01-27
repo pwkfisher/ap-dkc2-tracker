@@ -43,6 +43,78 @@
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
                 "item_count": 1
+            },
+            {
+                "name": "Banana Coin #1 (Below Zinger duo)",
+                "access_rules": ["EASY, clapper"],
+                "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                "chest_opened_img": "images/checks/bananacoin.png",
+                "visibility_rules": ["coinsanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Bunch #1 (Behind Shuri)",
+                "access_rules": ["EASY, clapper, swim, barrelkannons, enguarde"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Bunch #2 (Behind Shuri)",
+                "access_rules": ["EASY, clapper, swim, barrelkannons, enguarde"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Bunch #3 (Behind Shuri)",
+                "access_rules": ["EASY, clapper, swim, barrelkannons, enguarde"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Coin #2 (Next to Bonus #2 entrance)",
+                "access_rules": ["EASY, clapper, swim, barrelkannons, enguarde"],
+                "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                "chest_opened_img": "images/checks/bananacoin.png",
+                "visibility_rules": ["coinsanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Bunch #4 (Enguarde sign)",
+                "access_rules": ["EASY, clapper, swim, barrelkannons, enguarde"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Coin #3 (Below ! Barrel)",
+                "access_rules": ["EASY, clapper, swim, barrelkannons, enguarde, exclamationbarrels, teamattack, diddy, dixie"],
+                "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                "chest_opened_img": "images/checks/bananacoin.png",
+                "visibility_rules": ["coinsanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Coin #4 (Below ! Barrel)",
+                "access_rules": ["EASY, clapper, swim, barrelkannons, enguarde, exclamationbarrels, teamattack, diddy, dixie"],
+                "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                "chest_opened_img": "images/checks/bananacoin.png",
+                "visibility_rules": ["coinsanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Coin #5 (Below ! Barrel)",
+                "access_rules": ["EASY, clapper, swim, barrelkannons, enguarde, exclamationbarrels, teamattack, diddy, dixie"],
+                "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                "chest_opened_img": "images/checks/bananacoin.png",
+                "visibility_rules": ["coinsanity"],
+                "item_count": 1
             }
         ],
         "map_locations": [

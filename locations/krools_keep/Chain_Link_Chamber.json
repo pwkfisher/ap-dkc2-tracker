@@ -43,6 +43,70 @@
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
                 "item_count": 1
+            },
+            {
+                "name": "Banana Coin #1 (Above Klobber)",
+                "access_rules": ["EASY, climb"],
+                "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                "chest_opened_img": "images/checks/bananacoin.png",
+                "visibility_rules": ["coinsanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Bunch #1 (Above Klinger)",
+                "access_rules": ["EASY, climb"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Bunch #2 (Behind Krook)",
+                "access_rules": ["EASY, climb"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Bunch #3 (Inside Bonus #1)",
+                "access_rules": ["EASY, climb, carry"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Coin #2 (Near midpoint)",
+                "access_rules": ["EASY, climb, cling, barrelkannons, controllablebarrels, exclamationbarrels"],
+                "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                "chest_opened_img": "images/checks/bananacoin.png",
+                "visibility_rules": ["coinsanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Bunch #4 (After Mini-Neckys path)",
+                "access_rules": ["EASY, climb, cling, barrelkannons, controllablebarrels, exclamationbarrels"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Coin #3 (Left bottom Mini-Necky spot)",
+                "access_rules": ["EASY, climb, cling, barrelkannons, controllablebarrels, exclamationbarrels"],
+                "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                "chest_opened_img": "images/checks/bananacoin.png",
+                "visibility_rules": ["coinsanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Coin #4 (Top right Mini-Necky spot)",
+                "access_rules": ["EASY, climb, cling, barrelkannons, controllablebarrels, exclamationbarrels"],
+                "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                "chest_opened_img": "images/checks/bananacoin.png",
+                "visibility_rules": ["coinsanity"],
+                "item_count": 1
             }
         ],
         "map_locations": [
