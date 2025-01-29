@@ -54,7 +54,7 @@
             },
             {
                 "name": "Banana Bunch #1 (Triple Chest)",
-                "access_rules": ["EASY, cling, carry"],
+                "access_rules": ["EASY, cling, carry", "NORMAL, cling, carry", "HARD, carry, cling, climb, helicopterspin, dixie", "HARD, carry, helicopterspin, teamattack, diddy, dixie"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -62,7 +62,7 @@
             },
             {
                 "name": "Banana Coin #2 (Chest after O)",
-                "access_rules": ["EASY, carry, cling, exclamationbarrels, teamattack, diddy, dixie"],
+                "access_rules": ["EASY, carry, cling, exclamationbarrels, teamattack, diddy, dixie", "NORMAL, cling, carry, teamattack, diddy, dixie, exclamationbarrels", "HARD, carry, cling, climb", "HARD, carry, cling, dixie, helicopterspin", "HARD, carry, dixie, diddy, helicopterspin, teamattack, cartwheel"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -70,7 +70,7 @@
             },
             {
                 "name": "Banana Coin #3 (Above Zinger)",
-                "access_rules": ["EASY, climb, cling, exclamationbarrels, carry, teamattack, diddy, dixie"],
+                "access_rules": ["EASY, climb, cling, exclamationbarrels, carry, teamattack, diddy, dixie", "NORMAL, cling, carry, teamattack, diddy, dixie, climb", "HARD, carry, cling, climb", "HARD, carry, cling, dixie, helicopterspin", "HARD, carry, dixie, diddy, helicopterspin, teamattack, cartwheel"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -78,7 +78,7 @@
             },
             {
                 "name": "Banana Coin #4 (Below Flitter)",
-                "access_rules": ["EASY, carry, cling, exclamationbarrels, teamattack, diddy, dixie, cartwheel"],
+                "access_rules": ["EASY, carry, cling, exclamationbarrels, teamattack, diddy, dixie, cartwheel", "NORMAL, climb, cling, carry, teamattack, diddy, dixie, cartwheel", "HARD, carry, cling, climb", "HARD, carry, cling, dixie, helicopterspin", "HARD, carry, dixie, diddy, helicopterspin, teamattack, cartwheel"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -86,7 +86,7 @@
             },
             {
                 "name": "Banana Coin #5 (Next to G)",
-                "access_rules": ["EASY, carry, cling, exclamationbarrels, teamattack, diddy, dixie, cartwheel"],
+                "access_rules": ["EASY, carry, cling, exclamationbarrels, teamattack, diddy, dixie, cartwheel", "NORMAL, cling, carry, teamattack, diddy, dixie, climb", "HARD, carry, cling, climb", "HARD, carry, cling, dixie, helicopterspin", "HARD, carry, dixie, diddy, helicopterspin, teamattack, cartwheel"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],

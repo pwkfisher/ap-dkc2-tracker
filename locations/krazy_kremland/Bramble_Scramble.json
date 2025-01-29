@@ -38,7 +38,7 @@
             },
             {
                 "name": "Banana Bunch #1 (Next to K)",
-                "access_rules": ["EASY, barrelkannons"],
+                "access_rules": ["EASY, barrelkannons", "NORMAL", "HARD"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -46,7 +46,7 @@
             },
             {
                 "name": "Banana Bunch #2 (Behind Zinger)",
-                "access_rules": ["EASY, carry, diddy, dixie, climb"],
+                "access_rules": ["EASY, carry, diddy, dixie, climb", "NORMAL, carry, diddy, dixie, climb", "HARD, carry, diddy, dixie, climb"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -54,7 +54,7 @@
             },
             {
                 "name": "Banana Coin #1 (Above Bonus #1 barrel)",
-                "access_rules": ["EASY, helicopterspin, dixie, climb, teamattack, diddy, exclamationbarrels, barrelkannons"],
+                "access_rules": ["EASY, helicopterspin, dixie, climb, teamattack, diddy, exclamationbarrels, barrelkannons", "NORMAL, climb, teamattack, exclamationbarrels, barrelkannons", "HARD, climb, barrelkannons, teamattack, diddy, dixie, exclamationbarrels", "HARD, climb, squawks, barrelkannons, diddy, dixie, helicopterspin"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -118,7 +118,7 @@
             },
             {
                 "name": "Banana Coin #6 (Wall of bananas)",
-                "access_rules": ["EASY, helicopterspin, dixie, cartwheel, climb, squawks, barrelkannons, squitter"],
+                "access_rules": ["EASY, helicopterspin, dixie, cartwheel, climb, squawks, barrelkannons, squitter", "NORMAL, cartwheel, climb, squitter, squawks", "HARD, climb, squawks, diddy, dixie", "HARD, climb, squawks, cartwheel, squitter"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -126,7 +126,7 @@
             },
             {
                 "name": "Banana Coin #7 (Wall of bananas)",
-                "access_rules": ["EASY, helicopterspin, dixie, cartwheel, climb, squawks, barrelkannons, squitter"],
+                "access_rules": ["EASY, helicopterspin, dixie, cartwheel, climb, squawks, barrelkannons, squitter", "NORMAL, cartwheel, climb, squitter, squawks", "HARD, climb, squawks, diddy, dixie", "HARD, climb, squawks, cartwheel, squitter"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -134,7 +134,7 @@
             },
             {
                 "name": "Banana Coin #8 (Near DK Coin)",
-                "access_rules": ["EASY, helicopterspin, dixie, cartwheel, climb, squawks, barrelkannons, squitter"],
+                "access_rules": ["EASY, helicopterspin, dixie, cartwheel, climb, squawks, barrelkannons, squitter", "NORMAL, cartwheel, climb, squitter, squawks", "HARD, climb, squawks, diddy, dixie", "HARD, climb, squawks, cartwheel, squitter"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -142,7 +142,7 @@
             },
             {
                 "name": "Blue Balloon (Near DK Coin)",
-                "access_rules": ["EASY, helicopterspin, dixie, cartwheel, climb, squawks, barrelkannons, squitter"],
+                "access_rules": ["EASY, helicopterspin, dixie, cartwheel, climb, squawks, barrelkannons, squitter", "NORMAL, cartwheel, climb, squitter, squawks", "HARD, climb, squawks, diddy, dixie", "HARD, climb, squawks, cartwheel, squitter"],
                 "chest_unopened_img": "images/checks/swanky3_disabled.png",
                 "chest_opened_img": "images/checks/swanky3.png",
                 "visibility_rules": ["balloonsanity"],
@@ -150,7 +150,7 @@
             },
             {
                 "name": "Red Balloon (Squitter sign)",
-                "access_rules": ["EASY, helicopterspin, dixie, cartwheel, climb, squawks, barrelkannons, squitter"],
+                "access_rules": ["EASY, helicopterspin, dixie, cartwheel, climb, squawks, barrelkannons, squitter", "NORMAL, cartwheel, climb, squitter, squawks", "HARD, climb, squawks, diddy, dixie", "HARD, climb, squawks, cartwheel, squitter"],
                 "chest_unopened_img": "images/checks/swanky1_disabled.png",
                 "chest_opened_img": "images/checks/swanky1.png",
                 "visibility_rules": ["balloonsanity"],

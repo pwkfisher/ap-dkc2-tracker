@@ -46,7 +46,7 @@
             },
             {
                 "name": "Banana Coin #1 (Above Rattly)",
-                "access_rules": ["EASY, teamattack, diddy, dixie"],
+                "access_rules": ["EASY, teamattack, diddy, dixie", "NORMAL, teamattack, diddy, dixie", "HARD, teamattack, diddy, dixie"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -54,7 +54,7 @@
             },
             {
                 "name": "Banana Coin #2 (Pit)",
-                "access_rules": ["EASY, cartwheel"],
+                "access_rules": ["EASY, cartwheel", "NORMAL, cartwheel", "HARD"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -62,7 +62,7 @@
             },
             {
                 "name": "Blue Balloon (Rattly sign)",
-                "access_rules": ["EASY, teamattack, diddy, dixie, rattly"],
+                "access_rules": ["EASY, teamattack, diddy, dixie, rattly", "NORMAL, teamattack, diddy, dixie, rattly", "HARD, teamattack, diddy, dixie, rattly"],
                 "chest_unopened_img": "images/checks/swanky3_disabled.png",
                 "chest_opened_img": "images/checks/swanky3.png",
                 "visibility_rules": ["balloonsanity"],
@@ -70,7 +70,7 @@
             },
             {
                 "name": "Banana Coin #3 (Below Kannon)",
-                "access_rules": ["EASY, cling, barrelkannons, cartwheel"],
+                "access_rules": ["EASY, cling, barrelkannons, cartwheel", "NORMAL, cling, barrelkannons, cartwheel", "HARD, cling, barrelkannons"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],

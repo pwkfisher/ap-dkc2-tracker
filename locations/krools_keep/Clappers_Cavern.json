@@ -46,7 +46,7 @@
             },
             {
                 "name": "Banana Coin #1 (Below Zinger duo)",
-                "access_rules": ["EASY, clapper"],
+                "access_rules": ["EASY, clapper", "NORMAL, clapper", "HARD, clapper", "HARD, helicopterspin, dixie, swim"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -54,7 +54,7 @@
             },
             {
                 "name": "Banana Bunch #1 (Behind Shuri)",
-                "access_rules": ["EASY, clapper, swim, barrelkannons, enguarde"],
+                "access_rules": ["EASY, clapper, swim, barrelkannons, enguarde", "NORMAL, clapper, swim, barrelkannons", "HARD, barrelkannons, clapper, swim", "HARD, barrelkannons, clapper, enguarde", "HARD, barrelkannons, helicopterspin, dixie, swim", "HARD, barrelkannons, helicopterspin, swim, enguarde"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -62,7 +62,7 @@
             },
             {
                 "name": "Banana Bunch #2 (Behind Shuri)",
-                "access_rules": ["EASY, clapper, swim, barrelkannons, enguarde"],
+                "access_rules": ["EASY, clapper, swim, barrelkannons, enguarde", "NORMAL, clapper, swim, barrelkannons", "HARD, barrelkannons, clapper, swim", "HARD, barrelkannons, clapper, enguarde", "HARD, barrelkannons, helicopterspin, dixie, swim", "HARD, barrelkannons, helicopterspin, swim, enguarde"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -70,7 +70,7 @@
             },
             {
                 "name": "Banana Bunch #3 (Behind Shuri)",
-                "access_rules": ["EASY, clapper, swim, barrelkannons, enguarde"],
+                "access_rules": ["EASY, clapper, swim, barrelkannons, enguarde", "NORMAL, clapper, swim, barrelkannons", "HARD, barrelkannons, clapper, swim", "HARD, barrelkannons, clapper, enguarde", "HARD, barrelkannons, helicopterspin, dixie, swim", "HARD, barrelkannons, helicopterspin, swim, enguarde"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -78,7 +78,7 @@
             },
             {
                 "name": "Banana Coin #2 (Next to Bonus #2 entrance)",
-                "access_rules": ["EASY, clapper, swim, barrelkannons, enguarde"],
+                "access_rules": ["EASY, clapper, swim, barrelkannons, enguarde", "NORMAL, clapper, swim, barrelkannons", "HARD, barrelkannons, clapper, swim", "HARD, barrelkannons, clapper, enguarde", "HARD, barrelkannons, helicopterspin, dixie, swim", "HARD, barrelkannons, helicopterspin, swim, enguarde"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -86,7 +86,7 @@
             },
             {
                 "name": "Banana Bunch #4 (Enguarde sign)",
-                "access_rules": ["EASY, clapper, swim, barrelkannons, enguarde"],
+                "access_rules": ["EASY, clapper, swim, barrelkannons, enguarde", "NORMAL, clapper, swim, barrelkannons, enguarde", "HARD, barrelkannons, clapper, enguarde", "HARD, barrelkannons, helicopterspin, swim, enguarde"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -94,7 +94,7 @@
             },
             {
                 "name": "Banana Coin #3 (Below ! Barrel)",
-                "access_rules": ["EASY, clapper, swim, barrelkannons, enguarde, exclamationbarrels, teamattack, diddy, dixie"],
+                "access_rules": ["EASY, clapper, swim, barrelkannons, enguarde, exclamationbarrels, teamattack, diddy, dixie", "NORMAL, clapper, swim, barrelkannons, teamattack, diddy, dixie, exclamationbarrels", "HARD, barrelkannons, clapper, swim, teamattack, diddy, dixie, exclamationbarrels", "HARD, barrelkannons, clapper, swim, diddy, dixie", "HARD, barrelkannons, clapper, enguarde, teamattack, diddy, dixie, exclamationbarrels", "HARD, barrelkannons, clapper, enguarde, diddy, dixie", "HARD, barrelkannons, helicopterspin, dixie, swim, teamattack, diddy, exclamationbarrels", "HARD, barrelkannons, helicopterspin, dixie, swim, diddy", "HARD, barrelkannons, helicopterspin, dixie, swim, enguarde, teamattack, diddy, exclamationbarrels"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -102,7 +102,7 @@
             },
             {
                 "name": "Banana Coin #4 (Below ! Barrel)",
-                "access_rules": ["EASY, clapper, swim, barrelkannons, enguarde, exclamationbarrels, teamattack, diddy, dixie"],
+                "access_rules": ["EASY, clapper, swim, barrelkannons, enguarde, exclamationbarrels, teamattack, diddy, dixie", "NORMAL, clapper, swim, barrelkannons, teamattack, diddy, dixie, exclamationbarrels", "HARD, barrelkannons, clapper, swim, teamattack, diddy, dixie, exclamationbarrels", "HARD, barrelkannons, clapper, swim, diddy, dixie", "HARD, barrelkannons, clapper, enguarde, teamattack, diddy, dixie, exclamationbarrels", "HARD, barrelkannons, clapper, enguarde, diddy, dixie", "HARD, barrelkannons, helicopterspin, dixie, swim, teamattack, diddy, exclamationbarrels", "HARD, barrelkannons, helicopterspin, dixie, swim, diddy", "HARD, barrelkannons, helicopterspin, dixie, swim, enguarde, teamattack, diddy, exclamationbarrels"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -110,7 +110,7 @@
             },
             {
                 "name": "Banana Coin #5 (Below ! Barrel)",
-                "access_rules": ["EASY, clapper, swim, barrelkannons, enguarde, exclamationbarrels, teamattack, diddy, dixie"],
+                "access_rules": ["EASY, clapper, swim, barrelkannons, enguarde, exclamationbarrels, teamattack, diddy, dixie", "NORMAL, clapper, swim, barrelkannons, teamattack, diddy, dixie, exclamationbarrels", "HARD, barrelkannons, clapper, swim, teamattack, diddy, dixie, exclamationbarrels", "HARD, barrelkannons, clapper, swim, diddy, dixie", "HARD, barrelkannons, clapper, enguarde, teamattack, diddy, dixie, exclamationbarrels", "HARD, barrelkannons, clapper, enguarde, diddy, dixie", "HARD, barrelkannons, helicopterspin, dixie, swim, teamattack, diddy, exclamationbarrels", "HARD, barrelkannons, helicopterspin, dixie, swim, diddy", "HARD, barrelkannons, helicopterspin, dixie, swim, enguarde, teamattack, diddy, exclamationbarrels"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],

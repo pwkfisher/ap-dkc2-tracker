@@ -70,7 +70,7 @@
             },
             {
                 "name": "Banana Coin #1 (Below second hook)",
-                "access_rules": ["EASY, cartwheel"],
+                "access_rules": ["EASY, cartwheel", "NORMAL, cartwheel", "HARD"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -78,7 +78,7 @@
             },
             {
                 "name": "Banana Coin #2 (Green kackle)",
-                "access_rules": ["EASY, skullkart"],
+                "access_rules": ["EASY, skullkart", "NORMAL, skullkart", "HARD, skullkart"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -86,7 +86,7 @@
             },
             {
                 "name": "Banana Coin #3 (Yellow kackle)",
-                "access_rules": ["EASY, skullkart"],
+                "access_rules": ["EASY, skullkart", "NORMAL, skullkart", "HARD, skullkart"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],

@@ -1,7 +1,7 @@
 [
     {
         "name": "Glimmer's Galleon",
-        "access_rules": [" "],
+        "access_rules": [""],
         "visibility_rules": [""],
         "sections": [
             {

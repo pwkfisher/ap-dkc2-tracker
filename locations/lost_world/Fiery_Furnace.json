@@ -30,7 +30,7 @@
             },
             {
                 "name": "Banana Bunch #1 (Above start)",
-                "access_rules": ["EASY, teamattack, diddy, dixie"],
+                "access_rules": ["EASY, teamattack, diddy, dixie", "NORMAL, teamattack, diddy, dixie", "HARD, teamattack, diddy, dixie", "HARD, cartwheel, helicopterspin, dixie"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -38,7 +38,7 @@
             },
             {
                 "name": "Banana Bunch #2 (Above start)",
-                "access_rules": ["EASY, teamattack, diddy, dixie"],
+                "access_rules": ["EASY, teamattack, diddy, dixie", "NORMAL, teamattack, diddy, dixie", "HARD, teamattack, diddy, dixie", "HARD, cartwheel, helicopterspin, dixie"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -46,7 +46,7 @@
             },
             {
                 "name": "Banana Bunch #3 (Above start)",
-                "access_rules": ["EASY, teamattack, diddy, dixie"],
+                "access_rules": ["EASY, teamattack, diddy, dixie", "NORMAL, teamattack, diddy, dixie", "HARD, teamattack, diddy, dixie", "HARD, cartwheel, helicopterspin, dixie"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -54,7 +54,7 @@
             },
             {
                 "name": "Banana Bunch #4 (Below Zinger duo)",
-                "access_rules": ["EASY, controllablebarrels, teamattack, diddy, dixie"],
+                "access_rules": ["EASY, controllablebarrels, teamattack, diddy, dixie", "NORMAL, controllablebarrels, teamattack, diddy, dixie", "HARD, cartwheel", "HARD, controllablebarrels", "HARD, helicopterspin, dixie"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -62,7 +62,7 @@
             },
             {
                 "name": "Banana Coin #1 (Near Controllable Barrel)",
-                "access_rules": ["EASY, cartwheel, controllablebarrels, teamattack, diddy, dixie"],
+                "access_rules": ["EASY, cartwheel, controllablebarrels, teamattack, diddy, dixie", "NORMAL, controllablebarrels, teamattack, diddy, dixie, cartwheel", "HARD, controllablebarrels"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -70,7 +70,7 @@
             },
             {
                 "name": "Banana Coin #2 (Ledge before Kutlass",
-                "access_rules": ["EASY, cartwheel, controllablebarrels, teamattack, diddy, dixie"],
+                "access_rules": ["EASY, cartwheel, controllablebarrels, teamattack, diddy, dixie", "NORMAL, controllablebarrels, teamattack, diddy, dixie, cartwheel", "HARD, controllablebarrels"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -78,7 +78,7 @@
             },
             {
                 "name": "Banana Bunch #5 (Between moving Zingers)",
-                "access_rules": ["EASY, cartwheel, controllablebarrels, teamattack, diddy, dixie"],
+                "access_rules": ["EASY, cartwheel, controllablebarrels, teamattack, diddy, dixie", "NORMAL, controllablebarrels, cartwheel, teamattack, diddy, dixie", "HARD, cartwheel", "HARD, controllablebarrels", "HARD, helicopterspin, dixie"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],

@@ -70,7 +70,7 @@
             },
             {
                 "name": "Banana Coin #1 (Pit)",
-                "access_rules": ["EASY, climb, carry"],
+                "access_rules": ["EASY, climb, carry", "NORMAL, climb, cartwheel", "HARD, climb, dixie, helicopterspin", "HARD, teamattack, diddy, dixie, helicopterspin", "HARD, diddy, dixie, helicopterspin"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -78,7 +78,7 @@
             },
             {
                 "name": "Banana Bunch #3 (Between Ghost Ropes)",
-                "access_rules": ["EASY, climb"],
+                "access_rules": ["EASY, climb", "NORMAL, climb", "HARD, climb"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -86,7 +86,7 @@
             },
             {
                 "name": "Banana Bunch #4 (On Ghost Rope)",
-                "access_rules": ["EASY, climb"],
+                "access_rules": ["EASY, climb", "NORMAL, climb", "HARD, climb", "HARD, teamattack, diddy, dixie, helicopterspin"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -94,7 +94,7 @@
             },
             {
                 "name": "Banana Coin #2 (On Ghost Rope)",
-                "access_rules": ["EASY, climb"],
+                "access_rules": ["EASY, climb", "NORMAL, climb", "HARD, climb"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],

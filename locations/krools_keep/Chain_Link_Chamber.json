@@ -46,7 +46,7 @@
             },
             {
                 "name": "Banana Coin #1 (Above Klobber)",
-                "access_rules": ["EASY, climb"],
+                "access_rules": ["EASY, climb", "NORMAL, climb", "HARD, climb"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -54,7 +54,7 @@
             },
             {
                 "name": "Banana Bunch #1 (Above Klinger)",
-                "access_rules": ["EASY, climb"],
+                "access_rules": ["EASY, climb", "NORMAL, climb", "HARD, climb"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -62,7 +62,7 @@
             },
             {
                 "name": "Banana Bunch #2 (Behind Krook)",
-                "access_rules": ["EASY, climb"],
+                "access_rules": ["EASY, climb", "NORMAL, climb", "HARD, climb"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -70,7 +70,7 @@
             },
             {
                 "name": "Banana Bunch #3 (Inside Bonus #1)",
-                "access_rules": ["EASY, climb, carry"],
+                "access_rules": ["EASY, climb, carry", "NORMAL, climb, carry", "HARD, climb, carry"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -78,7 +78,7 @@
             },
             {
                 "name": "Banana Coin #2 (Near midpoint)",
-                "access_rules": ["EASY, climb, cling, barrelkannons, controllablebarrels, exclamationbarrels"],
+                "access_rules": ["EASY, climb, cling, barrelkannons, controllablebarrels, exclamationbarrels", "NORMAL, climb, cling", "NORMAL, climb, controllablebarrels, barrelkannons", "HARD, climb, cling", "HARD, climb, controllablebarrels, barrelkannons"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -86,7 +86,7 @@
             },
             {
                 "name": "Banana Bunch #4 (After Mini-Neckys path)",
-                "access_rules": ["EASY, climb, cling, barrelkannons, controllablebarrels, exclamationbarrels"],
+                "access_rules": ["EASY, climb, cling, barrelkannons, controllablebarrels, exclamationbarrels", "NORMAL, climb, cling", "NORMAL, climb, controllablebarrels, barrelkannons", "HARD, climb, cling", "HARD, climb, controllablebarrels, barrelkannons"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -94,7 +94,7 @@
             },
             {
                 "name": "Banana Coin #3 (Left bottom Mini-Necky spot)",
-                "access_rules": ["EASY, climb, cling, barrelkannons, controllablebarrels, exclamationbarrels"],
+                "access_rules": ["EASY, climb, cling, barrelkannons, controllablebarrels, exclamationbarrels", "NORMAL, climb, cling", "NORMAL, climb, controllablebarrels, barrelkannons", "HARD, climb, cling", "HARD, climb, controllablebarrels, barrelkannons"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -102,7 +102,7 @@
             },
             {
                 "name": "Banana Coin #4 (Top right Mini-Necky spot)",
-                "access_rules": ["EASY, climb, cling, barrelkannons, controllablebarrels, exclamationbarrels"],
+                "access_rules": ["EASY, climb, cling, barrelkannons, controllablebarrels, exclamationbarrels", "NORMAL, climb, cling", "NORMAL, climb, controllablebarrels, barrelkannons", "HARD, climb, cling", "HARD, climb, controllablebarrels, barrelkannons"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],

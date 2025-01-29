@@ -1,7 +1,7 @@
 [
     {
         "name": "Kudgel's Kontest",
-        "access_rules": [" "],
+        "access_rules": [""],
         "visibility_rules": [""],
         "sections": [
             {

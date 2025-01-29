@@ -46,7 +46,7 @@
             },
             {
                 "name": "Banana Coin #1 (Next to K)",
-                "access_rules": ["EASY, teamattack, diddy, dixie, cartwheel", "EASY, teamattack, diddy, dixie, helicopterspin"],
+                "access_rules": ["EASY, teamattack, diddy, dixie, cartwheel", "EASY, teamattack, diddy, dixie, helicopterspin", "NORMAL, teamattack, diddy, dixie, cartwheel", "NORMAL, teamattack, diddy, dixie, helicopterspin", "HARD, diddy, cartwheel", "HARD, dixie, helicopterspin"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -54,7 +54,7 @@
             },
             {
                 "name": "Banana Bunch #1 (Next to K)",
-                "access_rules": ["EASY, teamattack, diddy, dixie, cartwheel", "EASY, teamattack, diddy, dixie, helicopterspin"],
+                "access_rules": ["EASY, teamattack, diddy, dixie, cartwheel", "EASY, teamattack, diddy, dixie, helicopterspin", "NORMAL, teamattack, diddy, dixie, cartwheel", "NORMAL, teamattack, diddy, dixie, helicopterspin", "HARD, diddy, cartwheel", "HARD, dixie, helicopterspin"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -62,7 +62,7 @@
             },
             {
                 "name": "Banana Bunch #2 (Next to K)",
-                "access_rules": ["EASY, teamattack, diddy, dixie, cartwheel", "EASY, teamattack, diddy, dixie, helicopterspin"],
+                "access_rules": ["EASY, teamattack, diddy, dixie, cartwheel", "EASY, teamattack, diddy, dixie, helicopterspin", "NORMAL, teamattack, diddy, dixie, cartwheel", "NORMAL, teamattack, diddy, dixie, helicopterspin", "HARD, diddy, cartwheel", "HARD, dixie, helicopterspin"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -70,7 +70,7 @@
             },
             {
                 "name": "Banana Bunch #3 (Next to K)",
-                "access_rules": ["EASY, teamattack, diddy, dixie, cartwheel", "EASY, teamattack, diddy, dixie, helicopterspin"],
+                "access_rules": ["EASY, teamattack, diddy, dixie, cartwheel", "EASY, teamattack, diddy, dixie, helicopterspin", "NORMAL, teamattack, diddy, dixie, cartwheel", "NORMAL, teamattack, diddy, dixie, helicopterspin", "HARD, diddy, cartwheel", "HARD, dixie, helicopterspin"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -78,7 +78,7 @@
             },
             {
                 "name": "Banana Bunch #4 (Above Puftup)",
-                "access_rules": ["EASY, swim"],
+                "access_rules": ["EASY, swim", "NORMAL, swim", "HARD, swim", "HARD, enguarde, diddy, cartwheel", "HARD, enguarde, dixie, helicopterspin"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -86,7 +86,7 @@
             },
             {
                 "name": "Banana Coin #2 (Below Enguarde)",
-                "access_rules": ["EASY, swim, enguarde"],
+                "access_rules": ["EASY, swim, enguarde", "NORMAL, swim, enguarde", "HARD, swim", "HARD, enguarde, diddy, cartwheel", "HARD, enguarde, dixie, helicopterspin"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -94,7 +94,7 @@
             },
             {
                 "name": "Banana Coin #3 (Below Enguarde)",
-                "access_rules": ["EASY, swim, enguarde"],
+                "access_rules": ["EASY, swim, enguarde", "NORMAL, swim, enguarde", "HARD, swim", "HARD, enguarde, diddy, cartwheel", "HARD, enguarde, dixie, helicopterspin"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -102,7 +102,7 @@
             },
             {
                 "name": "Banana Coin #4 (Below Enguarde)",
-                "access_rules": ["EASY, swim, enguarde"],
+                "access_rules": ["EASY, swim, enguarde", "NORMAL, swim, enguarde", "HARD, swim", "HARD, enguarde, diddy, cartwheel", "HARD, enguarde, dixie, helicopterspin"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -110,7 +110,7 @@
             },
             {
                 "name": "Banana Bunch #5 (Behind Shuri duo)",
-                "access_rules": ["EASY, swim, enguarde"],
+                "access_rules": ["EASY, swim, enguarde", "NORMAL, swim, enguarde", "HARD, swim", "HARD, enguarde, diddy, cartwheel", "HARD, enguarde, dixie, helicopterspin"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -118,7 +118,7 @@
             },
             {
                 "name": "Banana Coin #5 (Behind Shuri duo)",
-                "access_rules": ["EASY, swim, enguarde"],
+                "access_rules": ["EASY, swim, enguarde", "NORMAL, swim, enguarde", "HARD, swim", "HARD, enguarde, diddy, cartwheel", "HARD, enguarde, dixie, helicopterspin"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -126,7 +126,7 @@
             },
             {
                 "name": "Banana Bunch #6 (Behind Shuri duo)",
-                "access_rules": ["EASY, swim, enguarde"],
+                "access_rules": ["EASY, swim, enguarde", "NORMAL, swim, enguarde", "HARD, swim", "HARD, enguarde, diddy, cartwheel", "HARD, enguarde, dixie, helicopterspin"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -134,7 +134,7 @@
             },
             {
                 "name": "Banana Bunch #7 (Near G)",
-                "access_rules": ["EASY, swim, enguarde"],
+                "access_rules": ["EASY, swim, enguarde", "NORMAL, swim, enguarde", "HARD, swim", "HARD, enguarde, diddy, cartwheel", "HARD, enguarde, dixie, helicopterspin"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -142,7 +142,7 @@
             },
             {
                 "name": "Red Balloon #1 (After exploding Puftup trio)",
-                "access_rules": ["EASY, swim, enguarde"],
+                "access_rules": ["EASY, swim, enguarde", "NORMAL, swim, enguarde", "HARD, swim", "HARD, enguarde, diddy, cartwheel", "HARD, enguarde, dixie, helicopterspin"],
                 "chest_unopened_img": "images/checks/swanky1_disabled.png",
                 "chest_opened_img": "images/checks/swanky1.png",
                 "visibility_rules": ["balloonsanity"],
@@ -150,7 +150,7 @@
             },
             {
                 "name": "Red Balloon #2 (Enguarde sign)",
-                "access_rules": ["EASY, swim, enguarde"],
+                "access_rules": ["EASY, swim, enguarde", "NORMAL, swim, enguarde", "HARD, swim", "HARD, enguarde, diddy, cartwheel", "HARD, enguarde, dixie, helicopterspin"],
                 "chest_unopened_img": "images/checks/swanky1_disabled.png",
                 "chest_opened_img": "images/checks/swanky1.png",
                 "visibility_rules": ["balloonsanity"],

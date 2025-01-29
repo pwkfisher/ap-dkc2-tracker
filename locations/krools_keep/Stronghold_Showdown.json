@@ -14,7 +14,7 @@
             },
             {
                 "name": "Banana Coin #1 (Above start)",
-                "access_rules": ["EASY, teamattack, diddy, dixie"],
+                "access_rules": ["EASY, teamattack, diddy, dixie", "NORMAL, teamattack, diddy, dixie", "HARD, teamattack, diddy, dixie"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -22,7 +22,7 @@
             },
             {
                 "name": "Red Balloon (Above start)",
-                "access_rules": ["EASY, teamattack, diddy, dixie"],
+                "access_rules": ["EASY, teamattack, diddy, dixie", "NORMAL, teamattack, diddy, dixie", "HARD, teamattack, diddy, dixie"],
                 "chest_unopened_img": "images/checks/swanky1_disabled.png",
                 "chest_opened_img": "images/checks/swanky1.png",
                 "visibility_rules": ["balloonsanity"],
@@ -30,7 +30,7 @@
             },
             {
                 "name": "Banana Coin #2 (Above start)",
-                "access_rules": ["EASY, teamattack, diddy, dixie"],
+                "access_rules": ["EASY, teamattack, diddy, dixie", "NORMAL, teamattack, diddy, dixie", "HARD, teamattack, diddy, dixie"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],

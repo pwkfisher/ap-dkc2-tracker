@@ -46,7 +46,7 @@
             },
             {
                 "name": "Banana Coin #1 (Above K)",
-                "access_rules": ["EASY, teamattack, dixie, diddy"],
+                "access_rules": ["EASY, teamattack, dixie, diddy", "NORMAL, teamattack, diddy, dixie", "HARD, teamattack, diddy, dixie", "HARD, diddy, cartwheel", "HARD, dixie, helicopterspin"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -54,7 +54,7 @@
             },
             {
                 "name": "Banana Coin #2 (Chest after K)",
-                "access_rules": ["EASY, teamattack, dixie, diddy, carry"],
+                "access_rules": ["EASY, teamattack, dixie, diddy, carry", "NORMAL, teamattack, diddy, dixie, carry", "HARD, teamattack, diddy, dixie, carry", "HARD, diddy, cartwheel, carry", "HARD, dixie, helicopterspin, carry"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -62,7 +62,7 @@
             },
             {
                 "name": "Green Balloon #1 (Chest below Zinger)",
-                "access_rules": ["EASY, teamattack, dixie, diddy, carry, barrelkannons"],
+                "access_rules": ["EASY, teamattack, dixie, diddy, carry, barrelkannons", "NORMAL, teamattack, diddy, dixie, carry, barrelkannons", "HARD, carry, teamattack, diddy, dixie", "HARD, carry, barrelkannons"],
                 "chest_unopened_img": "images/checks/swanky2_disabled.png",
                 "chest_opened_img": "images/checks/swanky2.png",
                 "visibility_rules": ["balloonsanity"],
@@ -70,7 +70,7 @@
             },
             {
                 "name": "Banana Bunch #1 (Pit)",
-                "access_rules": ["EASY, carry"],
+                "access_rules": ["EASY, cartwheel", "NORMAL, cartwheel", "HARD"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -78,7 +78,7 @@
             },
             {
                 "name": "Banana Bunch #2 (Behind Zinger)",
-                "access_rules": ["EASY, cartwheel"],
+                "access_rules": ["EASY, carry", "NORMAL, carry", "HARD"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -118,7 +118,7 @@
             },
             {
                 "name": "Green Balloon #2 (After goal)",
-                "access_rules": ["EASY, squitter, teamattack, dixie, diddy"],
+                "access_rules": ["EASY, squitter, teamattack, dixie, diddy", "NORMAL, squitter, teamattack, diddy, dixie", "HARD, teamattack, diddy, dixie, squitter"],
                 "chest_unopened_img": "images/checks/swanky2_disabled.png",
                 "chest_opened_img": "images/checks/swanky2.png",
                 "visibility_rules": ["balloonsanity"],

@@ -46,7 +46,7 @@
             },
             {
                 "name": "Banana Coin #1 (After K)",
-                "access_rules": ["EASY, squawks, carry"],
+                "access_rules": ["EASY, squawks, carry", "NORMAL, squawks, carry", "HARD, carry", "HARD, teamattack, diddy, dixie"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -54,7 +54,7 @@
             },
             {
                 "name": "Banana Coin #2 (Between Zingers)",
-                "access_rules": ["EASY, squawks"],
+                "access_rules": ["EASY, squawks", "NORMAL, squawks", "HARD, squawks", "HARD, helicopterspin, dixie, diddy"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -62,7 +62,7 @@
             },
             {
                 "name": "Banana Bunch #1 (After O)",
-                "access_rules": ["EASY, squawks"],
+                "access_rules": ["EASY, squawks", "NORMAL, squawks", "HARD, squawks", "HARD, helicopterspin, dixie, diddy"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -70,7 +70,7 @@
             },
             {
                 "name": "Banana Coin #3 (2-path after N)",
-                "access_rules": ["EASY, squawks"],
+                "access_rules": ["EASY, squawks", "NORMAL, squawks", "HARD, squawks"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -78,7 +78,7 @@
             },
             {
                 "name": "Banana Bunch #2 (2-path after N)",
-                "access_rules": ["EASY, squawks"],
+                "access_rules": ["EASY, squawks", "NORMAL, squawks", "HARD, squawks"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -86,7 +86,7 @@
             },
             {
                 "name": "Banana Coin #4 (2-path after N)",
-                "access_rules": ["EASY, squawks"],
+                "access_rules": ["EASY, squawks", "NORMAL, squawks", "HARD, squawks"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -94,7 +94,7 @@
             },
             {
                 "name": "Banana Coin #5 (Barrel)",
-                "access_rules": ["EASY, squawks, controllablebarrels, teamattack, diddy, dixie"],
+                "access_rules": ["EASY, squawks, controllablebarrels, teamattack, diddy, dixie", "NORMAL, squawks, controllablebarrels, teamattack, diddy, dixie", "NORMAL, squawks, controllablebarrels, cartwheel", "HARD, squawks, controllablebarrels, teamattack, diddy, dixie", "NORMAL, squawks, controllablebarrels, cartwheel"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],

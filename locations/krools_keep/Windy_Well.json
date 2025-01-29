@@ -46,7 +46,7 @@
             },
             {
                 "name": "Banana Coin #1 (After Kutlass)",
-                "access_rules": ["EASY, carry"],
+                "access_rules": ["EASY, carry", "NORMAL", "HARD"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -54,7 +54,7 @@
             },
             {
                 "name": "Banana Coin #2 (Between Zingers)",
-                "access_rules": ["EASY, cling, carry"],
+                "access_rules": ["EASY, cling, carry", "NORMAL, cling", "HARD, cling"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -62,7 +62,7 @@
             },
             {
                 "name": "Banana Coin #3 (Above Bonus #1 barrel)",
-                "access_rules": ["EASY, cling, carry"],
+                "access_rules": ["EASY, cling, carry", "NORMAL, cling", "HARD, cling"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -70,7 +70,7 @@
             },
             {
                 "name": "Banana Bunch #1 (Next to Klampon)",
-                "access_rules": ["EASY, cling, barrelkannons, carry, cartwheel"],
+                "access_rules": ["EASY, cling, barrelkannons, carry, cartwheel", "NORMAL, barrelkannons, cling, carry", "HARD, cling, barrelkannons", "HARD, cling, teamattack, diddy, dixie"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -78,7 +78,7 @@
             },
             {
                 "name": "Banana Bunch #2 (Next to Klampon)",
-                "access_rules": ["EASY, cling, barrelkannons, carry, cartwheel"],
+                "access_rules": ["EASY, cling, barrelkannons, carry, cartwheel", "NORMAL, barrelkannons, cling, carry", "HARD, cling, barrelkannons", "HARD, cling, teamattack, diddy, dixie"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -86,7 +86,7 @@
             },
             {
                 "name": "Banana Coin #4 (Rotating Zinger)",
-                "access_rules": ["EASY, cling, barrelkannons, carry"],
+                "access_rules": ["EASY, cling, barrelkannons, carry", "NORMAL, cling, carry", "HARD, cling"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -94,7 +94,7 @@
             },
             {
                 "name": "Banana Bunch #3 (Rotating Zinger)",
-                "access_rules": ["EASY, cling, barrelkannons, carry"],
+                "access_rules": ["EASY, cling, barrelkannons, carry", "NORMAL, cling, carry", "HARD, cling"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -102,7 +102,7 @@
             },
             {
                 "name": "Red Balloon (Before N)",
-                "access_rules": ["EASY, cling, barrelkannons, carry, diddy, dixie"],
+                "access_rules": ["EASY, cling, barrelkannons, carry, diddy, dixie", "NORMAL, cling, carry", "HARD, cling"],
                 "chest_unopened_img": "images/checks/swanky1_disabled.png",
                 "chest_opened_img": "images/checks/swanky1.png",
                 "visibility_rules": ["balloonsanity"],
@@ -110,7 +110,7 @@
             },
             {
                 "name": "Banana Bunch #4 (Squawks sign)",
-                "access_rules": ["EASY, cling, barrelkannons, carry, squawks, diddy, dixie"],
+                "access_rules": ["EASY, cling, barrelkannons, carry, squawks, diddy, dixie", "NORMAL, cling, carry, squawks", "HARD, cling, carry, squawks"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],

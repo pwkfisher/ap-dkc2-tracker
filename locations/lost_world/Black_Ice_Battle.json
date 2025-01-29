@@ -30,7 +30,7 @@
             },
             {
                 "name": "Banana Bunch #1 (Behind Krook)",
-                "access_rules": ["EASY, carry, cartwheel"],
+                "access_rules": ["EASY, carry, cartwheel", "NORMAL, carry, cartwheel", "HARD, carry", "HARD, helicopterspin, dixie", "HARD, diddy, dixie", "HARD, cartwheel"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -38,7 +38,7 @@
             },
             {
                 "name": "Red Balloon #1 (Above Klobber)",
-                "access_rules": ["EASY, carry"],
+                "access_rules": ["EASY, carry", "NORMAL", "HARD"],
                 "chest_unopened_img": "images/checks/swanky1_disabled.png",
                 "chest_opened_img": "images/checks/swanky1.png",
                 "visibility_rules": ["balloonsanity"],
@@ -46,7 +46,7 @@
             },
             {
                 "name": "Red Balloon #2 (Above Klobber)",
-                "access_rules": ["EASY, carry"],
+                "access_rules": ["EASY, carry", "NORMAL", "HARD"],
                 "chest_unopened_img": "images/checks/swanky1_disabled.png",
                 "chest_opened_img": "images/checks/swanky1.png",
                 "visibility_rules": ["balloonsanity"],
@@ -54,7 +54,7 @@
             },
             {
                 "name": "Red Balloon #3 (Chest behind Klobber)",
-                "access_rules": ["EASY, carry"],
+                "access_rules": ["EASY, carry", "NORMAL, carry", "HARD, carry"],
                 "chest_unopened_img": "images/checks/swanky1_disabled.png",
                 "chest_opened_img": "images/checks/swanky1.png",
                 "visibility_rules": ["balloonsanity"],
@@ -62,7 +62,7 @@
             },
             {
                 "name": "Banana Bunch #2 (4-path left)",
-                "access_rules": ["EASY, carry"],
+                "access_rules": ["EASY, carry", "NORMAL", "HARD"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -70,7 +70,7 @@
             },
             {
                 "name": "Banana Coin #1 (4-path right)",
-                "access_rules": ["EASY, carry"],
+                "access_rules": ["EASY, carry", "NORMAL", "HARD"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -78,7 +78,7 @@
             },
             {
                 "name": "Banana Bunch #3 (Next to G)",
-                "access_rules": ["EASY, carry, teamattack, diddy, dixie"],
+                "access_rules": ["EASY, carry, teamattack, diddy, dixie", "NORMAL, carry", "HARD, carry", "HARD, diddy, dixie"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],

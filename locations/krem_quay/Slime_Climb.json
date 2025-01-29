@@ -46,7 +46,7 @@
             },
             {
                 "name": "Banana Coin #1 (After first Click-Clack)",
-                "access_rules": ["EASY, cartwheel"],
+                "access_rules": ["EASY, cartwheel", "NORMAL, cartwheel", "HARD"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -54,7 +54,7 @@
             },
             {
                 "name": "Banana Coin #2 (After first Klomp)",
-                "access_rules": ["EASY, climb, swim, carry, cartwheel"],
+                "access_rules": ["EASY, climb, swim, carry, cartwheel", "NORMAL, climb, swim, cartwheel", "HARD, climb"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -62,7 +62,7 @@
             },
             {
                 "name": "Banana Bunch #1 (Before midpoint)",
-                "access_rules": ["EASY, climb, swim, carry, cartwheel"],
+                "access_rules": ["EASY, climb, swim, carry, cartwheel", "NORMAL, climb, swim, cartwheel", "HARD, climb"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -70,7 +70,7 @@
             },
             {
                 "name": "Banana Bunch #2 (Flitter)",
-                "access_rules": ["EASY, climb, swim, carry, cartwheel"],
+                "access_rules": ["EASY, climb, swim, carry, cartwheel", "NORMAL, climb, swim, cartwheel", "HARD, climb"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -78,7 +78,7 @@
             },
             {
                 "name": "Banana Coin #3 (After Flitter)",
-                "access_rules": ["EASY, climb, swim, carry, cartwheel"],
+                "access_rules": ["EASY, climb, swim, carry, cartwheel", "NORMAL, climb, swim, cartwheel", "HARD, climb"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -86,7 +86,7 @@
             },
             {
                 "name": "Banana Bunch #3 (Next to G)",
-                "access_rules": ["EASY, climb, swim, carry, cartwheel, dixie, helicopterspin"],
+                "access_rules": ["EASY, climb, swim, carry, cartwheel, dixie, helicopterspin", "NORMAL, climb, swim, cartwheel, dixie, helicopterspin", "HARD, climb, diddy, dixie", "HARD, climb, swim"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -94,7 +94,7 @@
             },
             {
                 "name": "Banana Bunch #4 (Next to G)",
-                "access_rules": ["EASY, climb, swim, carry, cartwheel, dixie, helicopterspin"],
+                "access_rules": ["EASY, climb, swim, carry, cartwheel, dixie, helicopterspin", "NORMAL, climb, swim, cartwheel, dixie, helicopterspin", "HARD, climb, diddy, dixie", "HARD, climb, swim"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],

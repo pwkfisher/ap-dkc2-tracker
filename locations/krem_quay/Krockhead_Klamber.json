@@ -38,7 +38,7 @@
             },
             {
                 "name": "Red Balloon #1 (Chest behind start)",
-                "access_rules": ["EASY, teamattack, diddy, dixie, carry"],
+                "access_rules": ["EASY, teamattack, diddy, dixie, carry", "NORMAL, teamattack, diddy, dixie, carry", "HARD, diddy, dixie, carry"],
                 "chest_unopened_img": "images/checks/swanky1_disabled.png",
                 "chest_opened_img": "images/checks/swanky1.png",
                 "visibility_rules": ["balloonsanity"],
@@ -46,7 +46,7 @@
             },
             {
                 "name": "Banana Coin #1 (Behind start between Zingers)",
-                "access_rules": ["EASY, teamattack, diddy, dixie, cartwheel"],
+                "access_rules": ["EASY, teamattack, diddy, dixie, cartwheel", "NORMAL, teamattack, diddy, dixie, cartwheel", "HARD, carry, cartwheel, diddy, dixie"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -54,7 +54,7 @@
             },
             {
                 "name": "Banana Coin #2 (Flitter)",
-                "access_rules": ["EASY, climb"],
+                "access_rules": ["EASY, climb", "NORMAL, climb", "HARD, climb", "HARD, cartwheel, helicopterspin, diddy, dixie"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -62,7 +62,7 @@
             },
             {
                 "name": "Red Balloon #2 (Squitter sign)",
-                "access_rules": ["EASY, climb, barrelkannons, teamattack, diddy, dixie, squitter"],
+                "access_rules": ["EASY, climb, barrelkannons, teamattack, diddy, dixie, squitter", "NORMAL, climb, teamattack, diddy, dixie, squitter", "HARD, climb, teamattack, diddy, dixie, squitter"],
                 "chest_unopened_img": "images/checks/swanky1_disabled.png",
                 "chest_opened_img": "images/checks/swanky1.png",
                 "visibility_rules": ["balloonsanity"],
@@ -70,7 +70,7 @@
             },
             {
                 "name": "Banana Coin #3 (Zinger)",
-                "access_rules": ["EASY, climb, barrelkannons"],
+                "access_rules": ["EASY, climb, barrelkannons", "NORMAL, climb", "HARD, climb"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],

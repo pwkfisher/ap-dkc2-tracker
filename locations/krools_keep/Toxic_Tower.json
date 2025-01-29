@@ -38,7 +38,7 @@
             },
             {
                 "name": "Banana Bunch #1 (Left wall before first Zingers)",
-                "access_rules": ["EASY, rattly"],
+                "access_rules": ["EASY, rattly", "NORMAL, rattly", "HARD, rattly", "HARD, teamattack, diddy, dixie"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -46,7 +46,7 @@
             },
             {
                 "name": "Banana Bunch #2 (Left wall before first Zingers)",
-                "access_rules": ["EASY, rattly"],
+                "access_rules": ["EASY, rattly", "NORMAL, rattly", "HARD, rattly", "HARD, teamattack, diddy, dixie"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -54,7 +54,7 @@
             },
             {
                 "name": "Banana Bunch #3 (Left wall before first Zingers)",
-                "access_rules": ["EASY, rattly"],
+                "access_rules": ["EASY, rattly", "NORMAL, rattly", "HARD, rattly", "HARD, teamattack, diddy, dixie"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -62,7 +62,7 @@
             },
             {
                 "name": "Banana Bunch #4 (Left of banana guides)",
-                "access_rules": ["EASY, rattly"],
+                "access_rules": ["EASY, rattly", "NORMAL, rattly", "HARD, rattly", "HARD, teamattack, diddy, dixie"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -70,7 +70,7 @@
             },
             {
                 "name": "Banana Bunch #5 (Left of banana guides)",
-                "access_rules": ["EASY, rattly"],
+                "access_rules": ["EASY, rattly", "NORMAL, rattly", "HARD, rattly", "HARD, teamattack, diddy, dixie"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -78,7 +78,7 @@
             },
             {
                 "name": "Banana Bunch #6 (Left of banana guides)",
-                "access_rules": ["EASY, rattly"],
+                "access_rules": ["EASY, rattly", "NORMAL, rattly", "HARD, rattly"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -86,7 +86,7 @@
             },
             {
                 "name": "Banana Bunch #7 (Passage after Zinger trio)",
-                "access_rules": ["EASY, rattly"],
+                "access_rules": ["EASY, rattly", "NORMAL, rattly", "HARD, rattly"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -94,7 +94,7 @@
             },
             {
                 "name": "Banana Coin #1 (Passage after Zinger trio)",
-                "access_rules": ["EASY, rattly"],
+                "access_rules": ["EASY, rattly", "NORMAL, rattly", "HARD, rattly"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -102,7 +102,7 @@
             },
             {
                 "name": "Banana Coin #2 (Passage after Zinger trio)",
-                "access_rules": ["EASY, rattly"],
+                "access_rules": ["EASY, rattly", "NORMAL, rattly", "HARD, rattly"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -110,7 +110,7 @@
             },
             {
                 "name": "Banana Coin #3 (Corner before Zinger 2-path)",
-                "access_rules": ["EASY, rattly"],
+                "access_rules": ["EASY, rattly", "NORMAL, rattly", "HARD, rattly"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -118,7 +118,7 @@
             },
             {
                 "name": "Banana Coin #4 (Passage below Zinger)",
-                "access_rules": ["EASY, rattly, squawks, barrelkannons"],
+                "access_rules": ["EASY, rattly, squawks, barrelkannons", "NORMAL, rattly, squawks", "HARD, rattly, squawks"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -126,7 +126,7 @@
             },
             {
                 "name": "Banana Coin #5 (Passage below Zinger)",
-                "access_rules": ["EASY, rattly, squawks, barrelkannons"],
+                "access_rules": ["EASY, rattly, squawks, barrelkannons", "NORMAL, rattly, squawks", "HARD, rattly, squawks"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -134,7 +134,7 @@
             },
             {
                 "name": "Banana Bunch #8 (Passage below Zinger)",
-                "access_rules": ["EASY, rattly, squawks, barrelkannons"],
+                "access_rules": ["EASY, rattly, squawks, barrelkannons", "NORMAL, rattly, squawks", "HARD, rattly, squawks"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -142,7 +142,7 @@
             },
             {
                 "name": "Banana Bunch #9 (Passage below Zinger)",
-                "access_rules": ["EASY, rattly, squawks, barrelkannons"],
+                "access_rules": ["EASY, rattly, squawks, barrelkannons", "NORMAL, rattly, squawks", "HARD, rattly, squawks"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -150,7 +150,7 @@
             },
             {
                 "name": "Green Balloon (Below goal)",
-                "access_rules": ["EASY, rattly, squawks, barrelkannons, squitter"],
+                "access_rules": ["EASY, rattly, squawks, barrelkannons, squitter", "NORMAL, rattly, squawks, climb", "NORMAL, rattly, squawks, diddy", "HARD, rattly, squawks, climb", "HARD, rattly, squawks, diddy"],
                 "chest_unopened_img": "images/checks/swanky2_disabled.png",
                 "chest_opened_img": "images/checks/swanky2.png",
                 "visibility_rules": ["balloonsanity"],

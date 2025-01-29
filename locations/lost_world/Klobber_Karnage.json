@@ -38,7 +38,7 @@
             },
             {
                 "name": "Banana Bunch #1 (Above spikes)",
-                "access_rules": ["EASY, cartwheel"],
+                "access_rules": ["EASY, cartwheel", "NORMAL, cartwheel", "HARD"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -46,7 +46,7 @@
             },
             {
                 "name": "Banana Bunch #2 (Ledge between spikes)",
-                "access_rules": ["EASY, cartwheel"],
+                "access_rules": ["EASY, cartwheel", "NORMAL, cartwheel", "HARD"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -54,7 +54,7 @@
             },
             {
                 "name": "Banana Coin #2 (Above spikes)",
-                "access_rules": ["EASY, cartwheel"],
+                "access_rules": ["EASY, cartwheel", "NORMAL, cartwheel", "HARD"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -62,7 +62,7 @@
             },
             {
                 "name": "Banana Bunch #3 (Above spikes after Kong barrels)",
-                "access_rules": ["EASY, cartwheel"],
+                "access_rules": ["EASY, cartwheel", "NORMAL, cartwheel", "HARD"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -70,7 +70,7 @@
             },
             {
                 "name": "Banana Coin #3 (First Diddy barrel)",
-                "access_rules": ["EASY, kongbarrels, diddy, controllablebarrels"],
+                "access_rules": ["EASY, kongbarrels, diddy, controllablebarrels", "NORMAL, kongbarrels, diddy, controllablebarrels, cartwheel", "HARD"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -78,7 +78,7 @@
             },
             {
                 "name": "Banana Bunch #4 (After O)",
-                "access_rules": ["EASY, kongbarrels, diddy, dixie, controllablebarrels"],
+                "access_rules": ["EASY, kongbarrels, diddy, dixie, controllablebarrels", "NORMAL, kongbarrels, diddy, controllablebarrels, cartwheel", "HARD, controllablebarrels"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -86,7 +86,7 @@
             },
             {
                 "name": "Banana Bunch #5 (Dixie barrel on split path)",
-                "access_rules": ["EASY, kongbarrels, diddy, dixie, controllablebarrels, barrelkannons"],
+                "access_rules": ["EASY, kongbarrels, diddy, dixie, controllablebarrels, barrelkannons", "NORMAL, cartwheel, diddy, dixie, kongbarrels, controllablebarrels, barrelkannons", "HARD, controllablebarrels, diddy, dixie", "HARD, controllablebarrels, dixie, diddy, kongbarrels"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -94,7 +94,7 @@
             },
             {
                 "name": "Banana Bunch #6 (Dixie barrel on split path)",
-                "access_rules": ["EASY, kongbarrels, diddy, dixie, controllablebarrels, barrelkannons"],
+                "access_rules": ["EASY, kongbarrels, diddy, dixie, controllablebarrels, barrelkannons", "NORMAL, cartwheel, diddy, dixie, kongbarrels, controllablebarrels, barrelkannons", "HARD, controllablebarrels, diddy, dixie", "HARD, controllablebarrels, dixie, diddy, kongbarrels"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -102,7 +102,7 @@
             },
             {
                 "name": "Banana Bunch #7 (After N)",
-                "access_rules": ["EASY, kongbarrels, diddy, dixie, controllablebarrels, barrelkannons"],
+                "access_rules": ["EASY, kongbarrels, diddy, dixie, controllablebarrels, barrelkannons", "NORMAL, cartwheel, diddy, dixie, kongbarrels, controllablebarrels, barrelkannons", "HARD, controllablebarrels, diddy, dixie", "HARD, controllablebarrels, dixie, diddy, kongbarrels"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -110,7 +110,7 @@
             },
             {
                 "name": "Banana Coin #4 (Diddy barrel after Klobber trio)",
-                "access_rules": ["EASY, kongbarrels, diddy, dixie, controllablebarrels, barrelkannons"],
+                "access_rules": ["EASY, kongbarrels, diddy, dixie, controllablebarrels, barrelkannons", "NORMAL, cartwheel, diddy, dixie, kongbarrels, controllablebarrels, barrelkannons", "HARD, controllablebarrels, diddy, dixie", "HARD, controllablebarrels, dixie, diddy, kongbarrels"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -118,7 +118,7 @@
             },
             {
                 "name": "Red Balloon (After long barrel section)",
-                "access_rules": ["EASY, kongbarrels, diddy, dixie, controllablebarrels, barrelkannons"],
+                "access_rules": ["EASY, kongbarrels, diddy, dixie, controllablebarrels, barrelkannons", "NORMAL, cartwheel, diddy, dixie, kongbarrels, controllablebarrels, barrelkannons", "HARD, controllablebarrels, cartwheel, diddy, dixie", "HARD, controllablebarrels, cartwheel, dixie, diddy, kongbarrels", "HARD, controllablebarrels, helicopterspin, diddy, dixie", "HARD, controllablebarrels, helicopterspin, dixie, diddy, kongbarrels"],
                 "chest_unopened_img": "images/checks/swanky1_disabled.png",
                 "chest_opened_img": "images/checks/swanky1.png",
                 "visibility_rules": ["balloonsanity"],
