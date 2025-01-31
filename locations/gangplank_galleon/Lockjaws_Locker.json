@@ -11,128 +11,319 @@
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "gg-lockjawslocker",
+                    "x": "2472",
+                    "y": "503"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "DK Coin",
                 "access_rules": ["EASY, swim, enguarde", "NORMAL, swim", "HARD, swim"],
                 "chest_unopened_img": "images/checks/dkcoin_disabled.png",
                 "chest_opened_img": "images/checks/dkcoin.png",
                 "visibility_rules": ["dkcoinchecks"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "gg-lockjawslocker",
+                    "x": "1919",
+                    "y": "317"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "KONG",
                 "access_rules": ["EASY, swim", "NORMAL, swim", "HARD, swim"],
                 "chest_unopened_img": "images/checks/kong_disabled.png",
                 "chest_opened_img": "images/checks/kong.png",
                 "visibility_rules": ["kongchecks"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "gg-lockjawslocker",
+                    "x": "992",
+                    "y": "1557"
+                },
+                {
+                    "map": "gg-lockjawslocker",
+                    "x": "2443",
+                    "y": "1647"
+                },
+                {
+                    "map": "gg-lockjawslocker",
+                    "x": "1713",
+                    "y": "685"
+                },
+                {
+                    "map": "gg-lockjawslocker",
+                    "x": "726",
+                    "y": "124"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Bonus #1",
                 "access_rules": ["EASY, swim, enguarde", "NORMAL, swim, enguarde", "HARD, enguarde, swim", "HARD, enguarde, teamattack, dixie, diddy, helicopterspin"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "gg-lockjawslocker",
+                    "x": "2140",
+                    "y": "1230"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #1 (Right on start)",
                 "access_rules": [""],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-                        {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "gg-lockjawslocker",
+                    "x": "239",
+                    "y": "1201"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #1 (Right on start)",
                 "access_rules": [""],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },            
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "gg-lockjawslocker",
+                    "x": "237",
+                    "y": "1250"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #2 (Right on start)",
                 "access_rules": [""],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "gg-lockjawslocker",
+                    "x": "239",
+                    "y": "1299"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #2 (Above K)",
                 "access_rules": ["EASY, swim", "NORMAL, swim", "NORMAL, helicopterspin, dixie", "NORMAL, cartwheel", "HARD, swim", "HARD, cartwheel", "HARD, helicopterspin, dixie"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },               
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "gg-lockjawslocker",
+                    "x": "1004",
+                    "y": "1404"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #3 (Above Banana Bunch)",
                 "access_rules": ["EASY, swim", "NORMAL, swim", "HARD, swim", "HARD, teamattack, diddy, dixie"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },       
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "gg-lockjawslocker",
+                    "x": "1041",
+                    "y": "1262"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #4 (Passage below Flotsam)",
                 "access_rules": ["EASY, swim", "NORMAL, swim", "HARD, swim", "HARD, teamattack, diddy, dixie, enguarde, helicopterspin"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },            
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "gg-lockjawslocker",
+                    "x": "1295",
+                    "y": "1741"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #5 (Passage below Flotsam)",
                 "access_rules": ["EASY, swim", "NORMAL, swim", "HARD, swim", "HARD, teamattack, diddy, dixie, enguarde, helicopterspin"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "gg-lockjawslocker",
+                    "x": "1391",
+                    "y": "1645"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #3 (After Enguarde)",
                 "access_rules": ["EASY, swim", "NORMAL, swim", "HARD, swim", "HARD, teamattack, diddy, dixie, enguarde, helicopterspin"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "gg-lockjawslocker",
+                    "x": "1995",
+                    "y": "1651"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Red Balloon (Enguarde sign #1)",
                 "access_rules": ["EASY, swim, enguarde", "NORMAL, swim, enguarde", "HARD, swim", "HARD, teamattack, diddy, dixie, enguarde, helicopterspin"],
                 "chest_unopened_img": "images/checks/swanky1_disabled.png",
                 "chest_opened_img": "images/checks/swanky1.png",
                 "visibility_rules": ["balloonsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "gg-lockjawslocker",
+                    "x": "1995",
+                    "y": "820"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #6 (Behind Lockjaw near Enguarde)",
                 "access_rules": ["EASY, swim, enguarde", "NORMAL, swim", "HARD, swim"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },            
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "gg-lockjawslocker",
+                    "x": "849",
+                    "y": "1103"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #7 (Behind Lockjaw near Enguarde)",
                 "access_rules": ["EASY, swim, enguarde", "NORMAL, swim", "HARD, swim"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },            
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "gg-lockjawslocker",
+                    "x": "849",
+                    "y": "1007"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #8 (Behind Lockjaw near DK Barrel)",
                 "access_rules": ["EASY, swim", "NORMAL, swim", "HARD, swim"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "gg-lockjawslocker",
+                    "x": "1193",
+                    "y": "333"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #4 (Enguarde sign #2)",
                 "access_rules": ["EASY, swim, enguarde", "NORMAL, swim, enguarde", "HARD, swim, enguarde"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
@@ -141,13 +332,12 @@
                 "item_count": 1
             }
         ],
-        "map_locations": [
-            {
-                "map": "Gangplank Galleon",
-                "x": "549",
-                "y": "385",
-                "size": 20
-            }
-        ]
-    }
-]
+            "map_locations": [
+                {
+                    "map": "gg-lockjawslocker",
+                    "x": "2259",
+                    "y": "466"
+                }
+            ]
+        }
+    ]

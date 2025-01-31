@@ -14,24 +14,50 @@
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "gg-krowsnest",
+                    "x": "175",
+                    "y": "156"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Defeat",
                 "access_rules": ["EASY, carry, diddy, dixie", "NORMAL, carry", "HARD, carry"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ]        
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #1 (Above nest)",
                 "access_rules": ["EASY, teamattack, diddy, dixie", "NORMAL, teamattack, diddy, dixie", "HARD"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "gg-krowsnest",
+                    "x": "159",
+                    "y": "14"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #2 (Above nest)",
                 "access_rules": ["EASY, teamattack, diddy, dixie", "NORMAL, teamattack, diddy, dixie", "HARD"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
@@ -40,13 +66,13 @@
                 "item_count": 1
             }
         ],
-        "map_locations": [
-            {
-                "map": "Gangplank Galleon",
-                "x": "621",
-                "y": "62",
-                "size": 20
-            }
-        ]
+            "map_locations": [
+                {
+                    "map": "gg-krowsnest",
+                    "x": "189",
+                    "y": "14"
+                }
+            ]
     }
 ]
+    

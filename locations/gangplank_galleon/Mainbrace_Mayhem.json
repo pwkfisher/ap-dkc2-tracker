@@ -3,6 +3,8 @@
         "name": "Mainbrace Mayhem",
         "access_rules": [""],
         "visibility_rules": [""],
+        "children": [
+            {
         "sections": [
                 {
                     "name": "Clear",
@@ -10,93 +12,240 @@
                     "chest_unopened_img": "images/checks/clear_disabled.png",
                     "chest_opened_img": "images/checks/clear.png",
                     "item_count": 1
-                },
-                {
+                }
+            ],
+                "map_locations": [
+                    {
+                        "map": "gg-mainbracemayhem",
+                        "x": "1437",
+                        "y": "513"
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
                     "name": "DK Coin",
                     "access_rules": ["EASY, climb, teamattack, dixie, diddy", "NORMAL, climb, teamattack, dixie, diddy", "HARD, climb, teamattack, dixie, diddy"],
                     "chest_unopened_img": "images/checks/dkcoin_disabled.png",
                     "chest_opened_img": "images/checks/dkcoin.png",
                     "visibility_rules": ["dkcoinchecks"],
                     "item_count": 1
-                },
-                {
+                }
+            ],
+                "map_locations": [
+                    {
+                        "map": "gg-mainbracemayhem",
+                        "x": "1512",
+                        "y": "156"
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
                     "name": "KONG",
                     "access_rules": ["EASY, climb", "NORMAL, climb", "HARD, climb"],
                     "chest_unopened_img": "images/checks/kong_disabled.png",
                     "chest_opened_img": "images/checks/kong.png",
                     "visibility_rules": ["kongchecks"],
                     "item_count": 1
-                },
-                {
+                }
+            ],
+                "map_locations": [
+                    {
+                        "map": "gg-mainbracemayhem",
+                        "x": "735",
+                        "y": "768"
+                    },
+                    {
+                        "map": "gg-mainbracemayhem",
+                        "x": "368",
+                        "y": "510"
+                    },
+                    {
+                        "map": "gg-mainbracemayhem",
+                        "x": "1508",
+                        "y": "1152"
+                    },
+                    {
+                        "map": "gg-mainbracemayhem",
+                        "x": "1106",
+                        "y": "632"
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
                     "name": "Bonus #1",
                     "access_rules": ["EASY, climb, helicopterspin, dixie", "EASY, climb, cartwheel", "NORMAL, climb, helicopterspin, dixie", "NORMAL, climb, cartwheel", "HARD, climb, helicopterspin, dixie", "HARD, climb, cartwheel"],
                     "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                     "chest_opened_img": "images/checks/kremkoin.png",
                     "item_count": 1
-                },
-                {
+                }
+            ],
+                "map_locations": [
+                    {
+                        "map": "gg-mainbracemayhem",
+                        "x": "717",
+                        "y": "1308"
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
                     "name": "Bonus #2",
                     "access_rules": ["EASY, climb, carry", "NORMAL, climb, carry", "HARD, climb, carry"],
                     "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                     "chest_opened_img": "images/checks/kremkoin.png",
                     "item_count": 1
-                },
-                {
+                }
+            ],
+                "map_locations": [
+                    {
+                        "map": "gg-mainbracemayhem",
+                        "x": "790",
+                        "y": "750"
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
                     "name": "Bonus #3",
                     "access_rules": ["EASY, climb, teamattack, dixie, diddy", "NORMAL, climb, teamattack, dixie, diddy", "HARD, climb, teamattack, dixie, diddy"],                    
                     "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                     "chest_opened_img": "images/checks/kremkoin.png",
                     "item_count": 1
-                },
-                {
+                }
+            ],
+                "map_locations": [
+                    {
+                        "map": "gg-mainbracemayhem",
+                        "x": "796",
+                        "y": "248"
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
                     "name": "Banana Bunch #1 (Before Bonus #1)",
                     "access_rules": ["EASY, climb, helicopterspin, dixie", "EASY, climb, cartwheel", "NORMAL, climb, cartwheel", "NORMAL, climb, helicopterspin, dixie", "HARD, cartwheel"],
                     "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                     "chest_opened_img": "images/checks/bananabunch.png",
                     "visibility_rules": ["bananasanity"],
                     "item_count": 1
-                },
-                {
+                }
+            ],
+                "map_locations": [
+                    {
+                        "map": "gg-mainbracemayhem",
+                        "x": "577",
+                        "y": "1312"
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
                     "name": "Banana Coin #1 (Next to Klinger)",
                     "access_rules": ["EASY, climb", "NORMAL, climb", "HARD, climb", "HARD, teamattack, diddy, dixie"],
                     "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                     "chest_opened_img": "images/checks/bananacoin.png",
                     "visibility_rules": ["coinsanity"],
                     "item_count": 1
-                },
-                {
+                }
+            ],
+                "map_locations": [
+                    {
+                        "map": "gg-mainbracemayhem",
+                        "x": "16",
+                        "y": "702"
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
                     "name": "Banana Coin #2 (Below Click-Clack)",
                     "access_rules": ["EASY, climb", "NORMAL, climb", "HARD, climb", "HARD, teamattack, diddy, dixie"],
                     "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                     "chest_opened_img": "images/checks/bananacoin.png",
                     "visibility_rules": ["coinsanity"],
                     "item_count": 1
-                },
-                {
+                }
+            ],
+                "map_locations": [
+                    {
+                        "map": "gg-mainbracemayhem",
+                        "x": "666",
+                        "y": "625"
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
                     "name": "Green Balloon (Above banana trail on rope)",
                     "access_rules": ["EASY, climb", "NORMAL, climb", "HARD, climb"],
                     "chest_unopened_img": "images/checks/swanky2_disabled.png",
                     "chest_opened_img": "images/checks/swanky2.png",
                     "visibility_rules": ["balloonsanity"],
                     "item_count": 1
-                },
-                {
+                }
+            ],
+                "map_locations": [
+                    {
+                        "map": "gg-mainbracemayhem",
+                        "x": "798",
+                        "y": "900"
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
                     "name": "Banana Bunch #2 (After Bonus #3)",
                     "access_rules": ["EASY, climb, teamattack, dixie, diddy", "NORMAL, climb, teamattack, dixie, diddy", "HARD, climb, teamattack, dixie, diddy"],
                     "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                     "chest_opened_img": "images/checks/bananabunch.png",
                     "visibility_rules": ["bananasanity"],
                     "item_count": 1
-                },
-                {
+                }
+            ],
+                "map_locations": [
+                    {
+                        "map": "gg-mainbracemayhem",
+                        "x": "1168",
+                        "y": "144"
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
                     "name": "Banana Coin #3 (After Bonus #3)",
                     "access_rules": ["EASY, climb, teamattack, dixie, diddy", "NORMAL, climb, teamattack, dixie, diddy", "HARD, climb, teamattack, dixie, diddy"],
                     "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                     "chest_opened_img": "images/checks/bananacoin.png",
                     "visibility_rules": ["coinsanity"],
                     "item_count": 1
-                },
-                {
+                }
+            ],
+                "map_locations": [
+                    {
+                        "map": "gg-mainbracemayhem",
+                        "x": "1214",
+                        "y": "139"
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
                     "name": "Banana Bunch #3 (After Bonus #3)",
                     "access_rules": ["EASY, climb, teamattack, dixie, diddy", "NORMAL, climb, teamattack, dixie, diddy", "HARD, climb, teamattack, dixie, diddy"],
                     "chest_unopened_img": "images/checks/bananabunch_disabled.png",
@@ -105,13 +254,15 @@
                     "item_count": 1
                 }
             ],
-        "map_locations": [
-            {
-                "map": "Gangplank Galleon",
-                "x": "471",
-                "y": "96",
-                "size": 20
+                "map_locations": [
+                    {
+                        "map": "gg-mainbracemayhem",
+                        "x": "1262",
+                        "y": "144"
+                    }
+                ]
             }
+
         ]
     }
 ]

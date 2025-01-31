@@ -3,100 +3,230 @@
         "name": "Pirate Panic",
         "access_rules": [""],
         "visibility_rules": [""],
-        "sections": [
+        "children": [
+            {
+            "sections": [
                 {
-                    "name": "Clear",
-                    "access_rules": [],
-                    "chest_unopened_img": "images/checks/clear_disabled.png",
-                    "chest_opened_img": "images/checks/clear.png",
-                    "item_count": 1
-                },
-                {
-                    "name": "DK Coin",
-                    "access_rules": [],
-                    "chest_unopened_img": "images/checks/dkcoin_disabled.png",
-                    "chest_opened_img": "images/checks/dkcoin.png",
-                    "visibility_rules": ["dkcoinchecks"],
-                    "item_count": 1
-                },
-                {
-                    "name": "KONG",
-                    "access_rules": [],
-                    "chest_unopened_img": "images/checks/kong_disabled.png",
-                    "chest_opened_img": "images/checks/kong.png",
-                    "visibility_rules": ["kongchecks"],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bonus #1",
-                    "access_rules": [],
-                    "chest_unopened_img": "images/checks/kremkoin_disabled.png",
-                    "chest_opened_img": "images/checks/kremkoin.png",
-                    "item_count": 1
-                },
-                {
-                    "name": "Bonus #2",
-                    "access_rules": ["EASY, carry", "EASY, rambi","NORMAL, carry", "NORMAL, rambi","HARD, carry", "HARD, rambi"],
-                    "chest_unopened_img": "images/checks/kremkoin_disabled.png",
-                    "chest_opened_img": "images/checks/kremkoin.png",
-                    "item_count": 1
-                },
-                {
-                    "name": "Banana Coin #1 (Above start banana trail)",
-                    "access_rules": ["EASY, teamattack, diddy, dixie, barrelkannons", "NORMAL, teamattack, diddy, dixie, barrelkannons", "HARD, teamattack, diddy, dixie, barrelkannons"],
-                    "chest_unopened_img": "images/checks/bananacoin_disabled.png",
-                    "chest_opened_img": "images/checks/bananacoin.png",
-                    "visibility_rules": ["coinsanity"],
-                    "item_count": 1
-                },
-                {
-                    "name": "Banana Bunch #1 (Above Klomp)",
-                    "access_rules": [""],
-                    "chest_unopened_img": "images/checks/bananabunch_disabled.png",
-                    "chest_opened_img": "images/checks/bananabunch.png",
-                    "visibility_rules": ["bananasanity"],
-                    "item_count": 1
-                },
-                {
-                    "name": "Red Balloon (Kabin)",
-                    "access_rules": [],
-                    "chest_unopened_img": "images/checks/swanky1_disabled.png",
-                    "chest_opened_img": "images/checks/swanky1.png",
-                    "visibility_rules": ["balloonsanity"],
-                    "item_count": 1
-                },
-                {
-                    "name": "Banana Coin #2 (Team Attack bananas)",
-                    "access_rules": ["EASY, teamattack, diddy, dixie", "NORMAL, teamattack, diddy, dixie", "HARD, teamattack, diddy, dixie", "HARD, rambi", "HARD, carry"],
-                    "chest_unopened_img": "images/checks/bananacoin_disabled.png",
-                    "chest_opened_img": "images/checks/bananacoin.png",
-                    "visibility_rules": ["coinsanity"],
-                    "item_count": 1
-                },
-                {
-                    "name": "Banana Coin #3 (Inside Bonus #1)",
-                    "access_rules": [],
-                    "chest_unopened_img": "images/checks/bananacoin_disabled.png",
-                    "chest_opened_img": "images/checks/bananacoin.png",
-                    "visibility_rules": ["coinsanity"],
-                    "item_count": 1
-                },
-                {
-                    "name": "Green Balloon (Rambi sign)",
-                    "access_rules": ["EASY, rambi", "NORMAL, rambi", "HARD, rambi"],
-                    "chest_unopened_img": "images/checks/swanky2_disabled.png",
-                    "chest_opened_img": "images/checks/swanky2.png",
-                    "visibility_rules": ["balloonsanity"],
-                    "item_count": 1
+                "name": "Clear",
+                "access_rules": [],
+                "chest_unopened_img": "images/checks/clear_disabled.png",
+                "chest_opened_img": "images/checks/clear.png",
+                "item_count": 1
                 }
             ],
-        "map_locations": [
+                "map_locations": [
+                    {
+                        "map": "gg-piratepanic",
+                        "x": "2224",
+                        "y": "940"
+                    }
+                ]
+            },
             {
-                "map": "Gangplank Galleon",
-                "x": "328",
-                "y": "151",
-                "size": 20
-            }
+                "sections": [
+                    {
+                        "name": "DK Coin",
+                        "access_rules": [],
+                        "chest_unopened_img": "images/checks/dkcoin_disabled.png",
+                        "chest_opened_img": "images/checks/dkcoin.png",
+                        "visibility_rules": ["dkcoinchecks"],
+                        "item_count": 1
+                    }                        
+            ],
+                        "map_locations": [
+                            {
+                                "map": "gg-piratepanic",
+                                "x": "961",
+                                "y": "894"
+                            }
+                        ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "KONG",
+                        "access_rules": [],
+                        "chest_unopened_img": "images/checks/kong_disabled.png",
+                        "chest_opened_img": "images/checks/kong.png",
+                        "visibility_rules": ["kongchecks"],
+                        "item_count": 1
+                    }                        
+              ],
+                        "map_locations": [
+                            {
+                                "map": "gg-piratepanic",
+                                "x": "1744",
+                                "y": "186"
+                            },
+                            {
+                                "map": "gg-piratepanic",
+                                "x": "344",
+                                "y": "649"
+                            },
+                            {
+                                "map": "gg-piratepanic",
+                                "x": "1521",
+                                "y": "573"
+                            },
+                            {
+                                "map": "gg-piratepanic",
+                                "x": "1465",
+                                "y": "875"
+                            }
+                        ]
+                },
+                {
+                        "sections": [
+                            {
+                        
+                        "name": "Bonus #1",
+                        "access_rules": [],
+                        "chest_unopened_img": "images/checks/kremkoin_disabled.png",
+                        "chest_opened_img": "images/checks/kremkoin.png",
+                        "item_count": 1
+                    }                        
+            ],
+                        "map_locations": [
+                            {
+                                "map": "gg-piratepanic",
+                                "x": "1520",
+                                "y": "702"
+                            }
+                        ]
+                },
+                {
+                        "sections": [
+                            {
+                        "name": "Bonus #2",
+                        "access_rules": ["EASY, carry", "EASY, rambi","NORMAL, carry", "NORMAL, rambi","HARD, carry", "HARD, rambi"],
+                        "chest_unopened_img": "images/checks/kremkoin_disabled.png",
+                        "chest_opened_img": "images/checks/kremkoin.png",
+                        "item_count": 1
+                    }                        
+            ],
+                        "map_locations": [
+                            {
+                                "map": "gg-piratepanic",
+                                "x": "232",
+                                "y": "1145"
+                            }
+                        ]
+                },
+                {
+                        "sections": [
+                            {
+                        "name": "Banana Coin #1 (Above start banana trail)",
+                        "access_rules": ["EASY, teamattack, diddy, dixie, barrelkannons", "NORMAL, teamattack, diddy, dixie, barrelkannons", "HARD, teamattack, diddy, dixie, barrelkannons"],
+                        "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                        "chest_opened_img": "images/checks/bananacoin.png",
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }                        
+            ],
+                        "map_locations": [
+                            {
+                                "map": "gg-piratepanic",
+                                "x": "807",
+                                "y": "46"
+                            }
+                        ]
+                },
+                {
+                        "sections": [
+                            {
+                        "name": "Red Balloon (Kabin)",
+                        "access_rules": [],
+                        "chest_unopened_img": "images/checks/swanky1_disabled.png",
+                        "chest_opened_img": "images/checks/swanky1.png",
+                        "visibility_rules": ["balloonsanity"],
+                        "item_count": 1
+                    }                        
+            ],
+                        "map_locations": [
+                            {
+                                "map": "gg-piratepanic",
+                                "x": "302",
+                                "y": "249"
+                            }
+                        ]
+                },
+                {
+                        "sections": [
+                            {
+                        "name": "Banana Bunch #1 (Above Klomp)",
+                        "access_rules": [""],
+                        "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                        "chest_opened_img": "images/checks/bananabunch.png",
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }                        
+            ],
+                        "map_locations": [
+                            {
+                                "map": "gg-piratepanic",
+                                "x": "1243",
+                                "y": "126"
+                            }
+                        ]
+                },
+                {
+                        "sections": [
+                            {
+                        "name": "Banana Coin #2 (Team Attack bananas)",
+                        "access_rules": ["EASY, teamattack, diddy, dixie", "NORMAL, teamattack, diddy, dixie", "HARD, teamattack, diddy, dixie", "HARD, rambi", "HARD, carry"],
+                        "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                        "chest_opened_img": "images/checks/bananacoin.png",
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }                        
+            ],
+                        "map_locations": [
+                            {
+                                "map": "gg-piratepanic",
+                                "x": "38",
+                                "y": "442"
+                            }
+                        ]
+                },
+                {
+                        "sections": [
+                            {
+                        "name": "Banana Coin #3 (Inside Bonus #1)",
+                        "access_rules": [],
+                        "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                        "chest_opened_img": "images/checks/bananacoin.png",
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }                        
+            ],
+                        "map_locations": [
+                            {
+                                "map": "gg-piratepanic",
+                                "x": "1490",
+                                "y": "702"
+                            }
+                        ]
+                },
+                {
+                        "sections": [
+                            {
+                        "name": "Green Balloon (Rambi sign)",
+                        "access_rules": ["EASY, rambi", "NORMAL, rambi", "HARD, rambi"],
+                        "chest_unopened_img": "images/checks/swanky2_disabled.png",
+                        "chest_opened_img": "images/checks/swanky2.png",
+                        "visibility_rules": ["balloonsanity"],
+                        "item_count": 1
+                    }                        
+            ],
+                        "map_locations": [
+                            {
+                                "map": "gg-piratepanic",
+                                "x": "1896",
+                                "y": "903"
+                            }
+                        ]
+                }
         ]
+
     }
 ]

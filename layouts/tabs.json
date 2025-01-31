@@ -3,74 +3,144 @@
         "type": "tabbed",
         "tabs": [
             {
+                "title": "World Map",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                        "title": "Gangplank Galleon",
+                        "content": {
+                            "type": "map",
+                            "maps": [
+                            "Gangplank Galleon"
+                                    ]
+                        }
+                        },
+                        {
+                        "title": "Crocodile Cauldron",
+                        "content": {
+                            "type": "map",
+                            "maps": [
+                                "Crocodile Cauldron"
+                                    ]
+                        }
+                        },
+                        {
+                        "title": "Krem Quay",
+                        "content": {
+                            "type": "map",
+                            "maps": [
+                                "Krem Quay"
+                            ]
+                        }
+                    },
+                    {
+                        "title": "Krazy Kremland",
+                        "content": {
+                            "type": "map",
+                            "maps": [
+                                "Krazy Kremland"
+                            ]
+                        }
+                    },
+                    {
+                        "title": "Gloomy Gulch",
+                        "content": {
+                            "type": "map",
+                            "maps": [
+                                "Gloomy Gulch"
+                            ]
+                        }
+                    },
+                    {
+                        "title": "K. Rool's Keep",
+                        "content": {
+                            "type": "map",
+                            "maps": [
+                                "K. Rool's Keep"
+                            ]
+                        }
+                    },
+                    {
+                        "title": "The Flying Krock",
+                        "content": {
+                            "type": "map",
+                            "maps": [
+                                "The Flying Krock"
+                            ]
+                        }
+                    },
+                    {
+                        "title": "Lost World",
+                        "content": {
+                            "type": "map",
+                            "maps": [
+                                "Lost World"
+                            ]
+                        }
+                    }
+                ]
+            }
+            },
+            {
                 "title": "Gangplank Galleon",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "Gangplank Galleon"
-                    ]
-                }
-            },
-            {
-                "title": "Crocodile Cauldron",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Crocodile Cauldron"
-                    ]
-                }
-            },
-            {
-                "title": "Krem Quay",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Krem Quay"
-                    ]
-                }
-            },
-            {
-                "title": "Krazy Kremland",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Krazy Kremland"
-                    ]
-                }
-            },
-            {
-                "title": "Gloomy Gulch",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Gloomy Gulch"
-                    ]
-                }
-            },
-            {
-                "title": "K. Rool's Keep",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "K. Rool's Keep"
-                    ]
-                }
-            },
-            {
-                "title": "The Flying Krock",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "The Flying Krock"
-                    ]
-                }
-            },
-            {
-                "title": "Lost World",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Lost World"
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                        "title": "Pirate Panic",
+                        "content": {
+                        "type": "map",
+                        "maps": [
+                            "gg-piratepanic"
+                                ]
+                        }
+                        },
+                        {
+                            "title": "Mainbrace Mayhem",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "gg-mainbracemayhem"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Gangplank Galley",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "gg-gangplankgalley"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Lockjaw's Locker",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "gg-lockjawslocker"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Topsail Trouble",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "gg-topsailtrouble"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Krow's Nest",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "gg-krowsnest"
+                                    ]
+                        }
+                        }
                     ]
                 }
             }

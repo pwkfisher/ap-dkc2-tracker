@@ -11,112 +11,281 @@
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "gg-topsailtrouble",
+                    "x": "1104",
+                    "y": "418"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "DK Coin",
                 "access_rules": ["EASY, climb, teamattack, dixie, diddy", "EASY, climb, rattly", "EASY, climb, cling, barrelkannons", "NORMAL, climb, teamattack, dixie, diddy", "NORMAL, climb, rattly", "HARD, climb, teamattack, dixie, diddy", "HARD, climb, rattly", "HARD, climb, cling, barrelkannons"],
                 "chest_unopened_img": "images/checks/dkcoin_disabled.png",
                 "chest_opened_img": "images/checks/dkcoin.png",
                 "visibility_rules": ["dkcoinchecks"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "gg-topsailtrouble",
+                    "x": "1507",
+                    "y": "587"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "KONG",
                 "access_rules": ["EASY, climb, teamattack, dixie, diddy", "EASY, climb, rattly", "EASY, climb, cling, barrelkannons", "NORMAL, climb, teamattack, dixie, diddy", "NORMAL, climb, rattly", "HARD, climb, teamattack, dixie, diddy", "HARD, climb, rattly", "HARD, climb, cling, barrelkannons"],
                 "chest_unopened_img": "images/checks/kong_disabled.png",
                 "chest_opened_img": "images/checks/kong.png",
                 "visibility_rules": ["kongchecks"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "gg-topsailtrouble",
+                    "x": "287",
+                    "y": "1687"
+                },
+                {
+                    "map": "gg-topsailtrouble",
+                    "x": "206",
+                    "y": "510"
+                },
+                {
+                    "map": "gg-topsailtrouble",
+                    "x": "1056",
+                    "y": "1578"
+                },
+                {
+                    "map": "gg-topsailtrouble",
+                    "x": "1150",
+                    "y": "300"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Bonus #1", 
                 "access_rules": ["EASY, rattly", "EASY, teamattack, dixie, diddy, cling", "NORMAL, teamattack, dixie, diddy", "NORMAL, rattly", "HARD, cartwheel, warpbarrels", "HARD, teamattack, dixie, diddy, warpbarrels", "HARD, rattly, warpbarrels", "HARD, helicopterspin, dixie, warpbarrels"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "gg-topsailtrouble",
+                    "x": "718",
+                    "y": "716"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Bonus #2",
                 "access_rules": ["EASY, climb, teamattack, dixie, diddy", "EASY, climb, rattly", "EASY, climb, cling, barrelkannons", "NORMAL, climb, teamattack, dixie, diddy", "NORMAL, climb, rattly", "HARD, climb, teamattack, dixie, diddy", "HARD, climb, rattly", "HARD, climb, cling, barrelkannons"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "gg-topsailtrouble",
+                    "x": "791",
+                    "y": "916"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Red Balloon #1 (Near first DK Barrel)",
                 "access_rules": ["EASY, rattly", "EASY, teamattack, dixie, diddy, cling", "NORMAL, rattly", "NORMAL, teamattack, dixie, diddy", "NORMAL, cling", "HARD, rattly", "HARD, teamattack, diddy, dixie", "HARD, cling"],
                 "chest_unopened_img": "images/checks/swanky1_disabled.png",
                 "chest_opened_img": "images/checks/swanky1.png",
                 "visibility_rules": ["balloonsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "gg-topsailtrouble",
+                    "x": "46",
+                    "y": "1275"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Red Balloon #2 (Chest after O)",
                 "access_rules": ["EASY, carry, rattly", "EASY, carry, teamattack, dixie, diddy, cling", "NORMAL, carry, rattly", "NORMAL, carry, teamattack, dixie, diddy", "NORMAL, carry, cling", "HARD, carry, rattly", "HARD, carry, teamattack, diddy, dixie", "HARD, carry, cling"],
                 "chest_unopened_img": "images/checks/swanky1_disabled.png",
                 "chest_opened_img": "images/checks/swanky1.png",
                 "visibility_rules": ["balloonsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "gg-topsailtrouble",
+                    "x": "368",
+                    "y": "536"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #1 (Below Zinger)",
                 "access_rules": ["EASY, climb, carry, teamattack, diddy, dixie", "EASY, climb, carry, rattly", "EASY, climb, carry, cling, barrelkannons", "NORMAL, carry, teamattack, dixie, diddy", "NORMAL, carry, rattly", "NORMAL, carry, cling, barrelkannons", "HARD, rattly", "HARD, teamattack, diddy, dixie", "HARD, cling, barrelkannons"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "gg-topsailtrouble",
+                    "x": "499",
+                    "y": "188"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #2 (Before Rattly sign)",
                 "access_rules": ["EASY, rattly", "EASY, teamattack, dixie, diddy, cling", "NORMAL, rattly", "NORMAL, teamattack, dixie, diddy", "HARD, rattly", "HARD, teamattack, diddy, dixie"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "gg-topsailtrouble",
+                    "x": "813",
+                    "y": "1788"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #1 (Before Rattly sign)",
                 "access_rules": ["EASY, rattly", "EASY, teamattack, dixie, diddy, cling", "NORMAL, rattly", "NORMAL, teamattack, dixie, diddy", "HARD, rattly", "HARD, teamattack, diddy, dixie"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "gg-topsailtrouble",
+                    "x": "813",
+                    "y": "1738"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #2 (Rattly sign)",
                 "access_rules": ["EASY, rattly", "NORMAL, rattly", "HARD, rattly"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "gg-topsailtrouble",
+                    "x": "177",
+                    "y": "96"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #3 (Near banana trail on rope)",
                 "access_rules": ["EASY, climb, teamattack, dixie, diddy", "EASY, climb, rattly", "EASY, climb, cling, barrelkannons", "NORMAL, climb, teamattack, dixie, diddy", "NORMAL, climb, rattly", "NORMAL, climb, cling, barrelkannons", "HARD, climb, rattly", "HARD, climb, teamattack, dixie, diddy", "HARD, climb, cling, barrelkannons"],                
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "gg-topsailtrouble",
+                    "x": "1516",
+                    "y": "1433"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #3 (Near banana trail on rope)",
                 "access_rules": ["EASY, climb, teamattack, dixie, diddy", "EASY, climb, rattly", "EASY, climb, cling, barrelkannons", "NORMAL, climb, teamattack, dixie, diddy", "NORMAL, climb, rattly", "NORMAL, climb, cling, barrelkannons", "HARD, climb, rattly", "HARD, climb, teamattack, dixie, diddy", "HARD, climb, cling, barrelkannons"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "gg-topsailtrouble",
+                    "x": "1518",
+                    "y": "1393"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #4 (Behind Zinger)",
                 "access_rules": ["EASY, climb, teamattack, dixie, diddy", "EASY, climb, rattly", "EASY, climb, cling, barrelkannons", "NORMAL, climb, teamattack, dixie, diddy", "NORMAL, climb, rattly", "NORMAL, climb, cling, barrelkannons", "HARD, climb, rattly", "HARD, climb, teamattack, dixie, diddy", "HARD, climb, cling, barrelkannons"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "gg-topsailtrouble",
+                    "x": "870",
+                    "y": "1420"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Blue Balloon (After goal)",
                 "access_rules": ["EASY, climb, teamattack, diddy, dixie", "NORMAL, climb, teamattack, diddy, dixie", "HARD, climb, teamattack, dixie, diddy", "HARD, climb, diddy, dixie, helicopterspin, rattly", "HARD, climb, diddy, dixie, helicopterspin, cling, barrelkannons"],
                 "chest_unopened_img": "images/checks/swanky3_disabled.png",
@@ -125,13 +294,13 @@
                 "item_count": 1
             }
         ],
-        "map_locations": [
-            {
-                "map": "Gangplank Galleon",
-                "x": "617",
-                "y": "202",
-                "size": 20
-            }
-        ]
-    }
-]
+            "map_locations": [
+                {
+                    "map": "gg-topsailtrouble",
+                    "x": "1343",
+                    "y": "278"
+                }
+            ]
+        }
+    ]
+    
