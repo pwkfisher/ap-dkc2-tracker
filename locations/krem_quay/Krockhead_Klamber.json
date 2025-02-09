@@ -3,6 +3,8 @@
         "name": "Krockhead Klamber",
         "access_rules": [" "],
         "visibility_rules": [""],
+        "children": [
+            {
         "sections": [
             {
                 "name": "Clear",
@@ -11,64 +13,167 @@
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kq-krockheadklamber",
+                    "x": "2442",
+                    "y": "1164"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "DK Coin",
                 "access_rules": ["EASY, teamattack, diddy, dixie, carry, cartwheel", "NORMAL, teamattack, diddy, dixie, carry, cartwheel", "HARD, carry, cartwheel, diddy, dixie"],
                 "chest_unopened_img": "images/checks/dkcoin_disabled.png",
                 "chest_opened_img": "images/checks/dkcoin.png",
                 "visibility_rules": ["dkcoinchecks"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kq-krockheadklamber",
+                    "x": "85",
+                    "y": "152"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "KONG",
                 "access_rules": ["EASY, climb, barrelkannons, carry", "NORMAL, climb, barrelkannons", "HARD, climb"],
                 "chest_unopened_img": "images/checks/kong_disabled.png",
                 "chest_opened_img": "images/checks/kong.png",
                 "visibility_rules": ["kongchecks"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kq-krockheadklamber",
+                    "x": "2275",
+                    "y": "182"
+                },
+                {
+                    "map": "kq-krockheadklamber",
+                    "x": "1489",
+                    "y": "501"
+                },
+                {
+                    "map": "kq-krockheadklamber",
+                    "x": "1890",
+                    "y": "668"
+                },
+                {
+                    "map": "kq-krockheadklamber",
+                    "x": "2487",
+                    "y": "1048"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Bonus #1",
                 "access_rules": ["EASY, climb, barrelkannons, teamattack, diddy, dixie, squitter", "NORMAL, climb, teamattack, diddy, dixie, squitter", "HARD, climb, teamattack, diddy, dixie, squitter"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kq-krockheadklamber",
+                    "x": "2256",
+                    "y": "339"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Red Balloon #1 (Chest behind start)",
                 "access_rules": ["EASY, teamattack, diddy, dixie, carry", "NORMAL, teamattack, diddy, dixie, carry", "HARD, diddy, dixie, carry"],
                 "chest_unopened_img": "images/checks/swanky1_disabled.png",
                 "chest_opened_img": "images/checks/swanky1.png",
                 "visibility_rules": ["balloonsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kq-krockheadklamber",
+                    "x": "791",
+                    "y": "152"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #1 (Behind start between Zingers)",
                 "access_rules": ["EASY, teamattack, diddy, dixie, cartwheel", "NORMAL, teamattack, diddy, dixie, cartwheel", "HARD, carry, cartwheel, diddy, dixie"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kq-krockheadklamber",
+                    "x": "174",
+                    "y": "153"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #2 (Flitter)",
                 "access_rules": ["EASY, climb", "NORMAL, climb", "HARD, climb", "HARD, cartwheel, helicopterspin, diddy, dixie"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kq-krockheadklamber",
+                    "x": "249",
+                    "y": "475"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Red Balloon #2 (Squitter sign)",
                 "access_rules": ["EASY, climb, barrelkannons, teamattack, diddy, dixie, squitter", "NORMAL, climb, teamattack, diddy, dixie, squitter", "HARD, climb, teamattack, diddy, dixie, squitter"],
                 "chest_unopened_img": "images/checks/swanky1_disabled.png",
                 "chest_opened_img": "images/checks/swanky1.png",
                 "visibility_rules": ["balloonsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kq-krockheadklamber",
+                    "x": "2349",
+                    "y": "472"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #3 (Zinger)",
                 "access_rules": ["EASY, climb, barrelkannons", "NORMAL, climb", "HARD, climb"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
@@ -77,13 +182,14 @@
                 "item_count": 1
             }
         ],
-        "map_locations": [
-            {
-                "map": "Krem Quay",
-                "x": "559",
-                "y": "369",
-                "size": 20
-            }
+            "map_locations": [
+                {
+                    "map": "kq-krockheadklamber",
+                    "x": "334",
+                    "y": "760"
+                }
+            ]
+        }
         ]
     }
 ]

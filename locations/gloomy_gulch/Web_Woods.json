@@ -1,8 +1,10 @@
 [
     {
         "name": "Web Woods",
-        "access_rules": [" "],
+        "access_rules": [""],
         "visibility_rules": [""],
+        "children": [
+            {
         "sections": [
             {
                 "name": "Clear",
@@ -11,112 +13,281 @@
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "glg-webwoods",
+                    "x": "3812",
+                    "y": "1294"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "DK Coin",
                 "access_rules": ["EASY, squitter, barrelkannons", "NORMAL, squitter, barrelkannons", "HARD, squitter"],
                 "chest_unopened_img": "images/checks/dkcoin_disabled.png",
                 "chest_opened_img": "images/checks/dkcoin.png",
                 "visibility_rules": ["dkcoinchecks"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "glg-webwoods",
+                    "x": "3856",
+                    "y": "1169"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "KONG",
                 "access_rules": ["EASY, squitter, teamattack, dixie, diddy", "NORMAL, squitter, teamattack, diddy, dixie", "HARD, squitter cartwheel", "HARD, teamattack, diddy, dixie"],
                 "chest_unopened_img": "images/checks/kong_disabled.png",
                 "chest_opened_img": "images/checks/kong.png",
                 "visibility_rules": ["kongchecks"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "glg-webwoods",
+                    "x": "1087",
+                    "y": "196"
+                },
+                {
+                    "map": "glg-webwoods",
+                    "x": "2109",
+                    "y": "778"
+                },
+                {
+                    "map": "glg-webwoods",
+                    "x": "3877",
+                    "y": "731"
+                },
+                {
+                    "map": "glg-webwoods",
+                    "x": "3592",
+                    "y": "1258"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Bonus #1",
                 "access_rules": ["EASY, squitter", "NORMAL, squitter", "HARD, squitter"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "glg-webwoods",
+                    "x": "118",
+                    "y": "1373"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Bonus #2",
                 "access_rules": ["EASY, squitter", "NORMAL, squitter", "HARD, squitter"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "glg-webwoods",
+                    "x": "2426",
+                    "y": "1273"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #1 (Above K)",
                 "access_rules": ["EASY, teamattack, dixie, diddy", "NORMAL, teamattack, diddy, dixie", "HARD, teamattack, diddy, dixie", "HARD, diddy, cartwheel", "HARD, dixie, helicopterspin"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "glg-webwoods",
+                    "x": "1087",
+                    "y": "93"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #2 (Chest after K)",
                 "access_rules": ["EASY, teamattack, dixie, diddy, carry", "NORMAL, teamattack, diddy, dixie, carry", "HARD, teamattack, diddy, dixie, carry", "HARD, diddy, cartwheel, carry", "HARD, dixie, helicopterspin, carry"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "glg-webwoods",
+                    "x": "1352",
+                    "y": "155"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Green Balloon #1 (Chest below Zinger)",
                 "access_rules": ["EASY, teamattack, dixie, diddy, carry, barrelkannons", "NORMAL, teamattack, diddy, dixie, carry, barrelkannons", "HARD, carry, teamattack, diddy, dixie", "HARD, carry, barrelkannons"],
                 "chest_unopened_img": "images/checks/swanky2_disabled.png",
                 "chest_opened_img": "images/checks/swanky2.png",
                 "visibility_rules": ["balloonsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "glg-webwoods",
+                    "x": "2072",
+                    "y": "123"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #1 (Pit)",
                 "access_rules": ["EASY, cartwheel", "NORMAL, cartwheel", "HARD"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "glg-webwoods",
+                    "x": "1505",
+                    "y": "425"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #2 (Behind Zinger)",
                 "access_rules": ["EASY, carry", "NORMAL, carry", "HARD"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "glg-webwoods",
+                    "x": "2319",
+                    "y": "337"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #3 (Below Zinger)",
                 "access_rules": ["EASY, squitter", "NORMAL, squitter", "HARD, squitter"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "glg-webwoods",
+                    "x": "2740",
+                    "y": "401"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #3 (Wall after Kaboings)",
                 "access_rules": ["EASY, squitter", "NORMAL, squitter", "HARD, squitter"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "glg-webwoods",
+                    "x": "81",
+                    "y": "950"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #4 (Above midpoint)",
                 "access_rules": ["EASY, squitter", "NORMAL, squitter", "HARD, squitter"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "glg-webwoods",
+                    "x": "1302",
+                    "y": "627"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #5 (Next to Red Zinger)",
                 "access_rules": ["EASY, squitter", "NORMAL, squitter", "HARD, squitter"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "glg-webwoods",
+                    "x": "2159",
+                    "y": "1169"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Green Balloon #2 (After goal)",
                 "access_rules": ["EASY, squitter, teamattack, dixie, diddy", "NORMAL, squitter, teamattack, diddy, dixie", "HARD, teamattack, diddy, dixie, squitter"],
                 "chest_unopened_img": "images/checks/swanky2_disabled.png",
@@ -125,13 +296,14 @@
                 "item_count": 1
             }
         ],
-        "map_locations": [
-            {
-                "map": "Gloomy Gulch",
-                "x": "485",
-                "y": "152",
-                "size": 20
-            }
+            "map_locations": [
+                {
+                    "map": "glg-webwoods",
+                    "x": "3996",
+                    "y": "1087"
+                }
+            ]
+        }
         ]
     }
 ]

@@ -3,6 +3,8 @@
         "name": "Parrot Chute Panic",        
         "access_rules": [" "],
         "visibility_rules": [""],
+        "children": [
+            {
         "sections": [
             {
                 "name": "Clear",
@@ -11,88 +13,234 @@
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "glg-parrotchutepanic",
+                    "x": "2846",
+                    "y": "2091"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "DK Coin",
                 "access_rules": ["EASY, helicopterspin, dixie", "NORMAL, helicopterspin, dixie", "HARD"],
                 "chest_unopened_img": "images/checks/dkcoin_disabled.png",
                 "chest_opened_img": "images/checks/dkcoin.png",
                 "visibility_rules": ["dkcoinchecks"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "glg-parrotchutepanic",
+                    "x": "126",
+                    "y": "524"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "KONG",
                 "access_rules": ["EASY, squawks", "NORMAL, squawks", "HARD, squawks", "HARD, helicopterspin, dixie"],
                 "chest_unopened_img": "images/checks/kong_disabled.png",
                 "chest_opened_img": "images/checks/kong.png",
                 "visibility_rules": ["kongchecks"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "glg-parrotchutepanic",
+                    "x": "447",
+                    "y": "2076"
+                },
+                {
+                    "map": "glg-parrotchutepanic",
+                    "x": "658",
+                    "y": "231"
+                },
+                {
+                    "map": "glg-parrotchutepanic",
+                    "x": "958",
+                    "y": "2151"
+                },
+                {
+                    "map": "glg-parrotchutepanic",
+                    "x": "1167",
+                    "y": "226"
+                },
+                {
+                    "map": "glg-parrotchutepanic",
+                    "x": "1706",
+                    "y": "1169"
+                },
+                {
+                    "map": "glg-parrotchutepanic",
+                    "x": "2687",
+                    "y": "1179"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Bonus #1",
                 "access_rules": ["EASY, squawks", "NORMAL, squawks", "HARD, squawks", "HARD, teamattack, diddy, dixie, helicopterspin"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "glg-parrotchutepanic",
+                    "x": "563",
+                    "y": "1905"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Bonus #2",
                 "access_rules": ["EASY, squawks, helicopterspin, dixie", "NORMAL, squawks, cartwheel, carry", "HARD, squawks, cartwheel", "HARD, squawks, helicopterspin, dixie", "HARD, squawks, diddy, dixie"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "glg-parrotchutepanic",
+                    "x": "1733",
+                    "y": "690"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #1 (After K)",
                 "access_rules": ["EASY, squawks, carry", "NORMAL, squawks, carry", "HARD, carry", "HARD, teamattack, diddy, dixie"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "glg-parrotchutepanic",
+                    "x": "829",
+                    "y": "541"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #2 (Between Zingers)",
                 "access_rules": ["EASY, squawks", "NORMAL, squawks", "HARD, squawks", "HARD, helicopterspin, dixie, diddy"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "glg-parrotchutepanic",
+                    "x": "725",
+                    "y": "1413"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #1 (After O)",
                 "access_rules": ["EASY, squawks", "NORMAL, squawks", "HARD, squawks", "HARD, helicopterspin, dixie, diddy"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "glg-parrotchutepanic",
+                    "x": "1246",
+                    "y": "896"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #3 (2-path after N)",
                 "access_rules": ["EASY, squawks", "NORMAL, squawks", "HARD, squawks"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "glg-parrotchutepanic",
+                    "x": "2334",
+                    "y": "14"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #2 (2-path after N)",
                 "access_rules": ["EASY, squawks", "NORMAL, squawks", "HARD, squawks"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "glg-parrotchutepanic",
+                    "x": "2334",
+                    "y": "54"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #4 (2-path after N)",
                 "access_rules": ["EASY, squawks", "NORMAL, squawks", "HARD, squawks"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "glg-parrotchutepanic",
+                    "x": "2334",
+                    "y": "94"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #5 (Barrel)",
                 "access_rules": ["EASY, squawks, controllablebarrels, teamattack, diddy, dixie", "NORMAL, squawks, controllablebarrels, teamattack, diddy, dixie", "NORMAL, squawks, controllablebarrels, cartwheel", "HARD, squawks, controllablebarrels, teamattack, diddy, dixie", "NORMAL, squawks, controllablebarrels, cartwheel"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
@@ -101,13 +249,14 @@
                 "item_count": 1
             }
         ],
-        "map_locations": [
-            {
-                "map": "Gloomy Gulch",
-                "x": "666",
-                "y": "185",
-                "size": 20
-            }
+            "map_locations": [
+                {
+                    "map": "glg-parrotchutepanic",
+                    "x": "2496",
+                    "y": "707"
+                }
+            ]
+        }
         ]
     }
 ]

@@ -3,6 +3,8 @@
         "name": "Chain Link Chamber",
         "access_rules": [" "],
         "visibility_rules": [""],
+        "children": [
+            {
         "sections": [
             {
                 "name": "Clear",
@@ -11,23 +13,76 @@
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-chainlinkchamber",
+                    "x": "2787",
+                    "y": "266"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "DK Coin",
                 "access_rules": ["EASY, climb, cling, barrelkannons, controllablebarrels, exclamationbarrels", "NORMAL, climb, cling", "NORMAL, climb, controllablebarrels, barrelkannons"],
                 "chest_unopened_img": "images/checks/dkcoin_disabled.png",
                 "chest_opened_img": "images/checks/dkcoin.png",
                 "visibility_rules": ["dkcoinchecks"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-chainlinkchamber",
+                    "x": "2530",
+                    "y": "1324"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "KONG",
                 "access_rules": ["EASY, climb, cling, barrelkannons, controllablebarrels, exclamationbarrels", "NORMAL, climb, cling", "NORMAL, climb, controllablebarrels, barrelkannons"],
                 "chest_unopened_img": "images/checks/kong_disabled.png",
                 "chest_opened_img": "images/checks/kong.png",
                 "visibility_rules": ["kongchecks"],
                 "item_count": 1
-            },
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-chainlinkchamber",
+                    "x": "56",
+                    "y": "1531"
+                },
+                {
+                    "map": "krk-chainlinkchamber",
+                    "x": "1054",
+                    "y": "1430"
+                },
+                {
+                    "map": "krk-chainlinkchamber",
+                    "x": "1504",
+                    "y": "1430"
+                },
+                {
+                    "map": "krk-chainlinkchamber",
+                    "x": "2354",
+                    "y": "1358"
+                },
+                {
+                    "map": "krk-chainlinkchamber",
+                    "x": "3043",
+                    "y": "28"
+                }
+            ]
+        },
+        {
+            "sections": [
             {
                 "name": "Bonus #1",
                 "access_rules": ["EASY, climb, cling, carry", "NORMAL, cling, climb, carry", "HARD, climb, cling, carry"],
@@ -37,70 +92,158 @@
                 "item_count": 1
             },
             {
-                "name": "Bonus #2",
-                "access_rules": ["EASY, climb, cling, barrelkannons, controllablebarrels, exclamationbarrels, cartwheel", "NORMAL, climb, controllablebarrels, cling, cartwheel", "NORMAL, climb, controllablebarrels, cling, teamattack, diddy, dixie", "NORMAL, climb, controllablebarrels, barrelkannons, cartwheel", "NORMAL, climb, controllablebarrels, barrelkannons, teamattack, diddy, dixie", "HARD, climb, controllablebarrels, cling, cartwheel", "HARD, climb, controllablebarrels, cling, teamattack, diddy, dixie", "HARD, climb, controllablebarrels, barrelkannons, cartwheel", "HARD, climb, controllablebarrels, barrelkannons, teamattack, diddy, dixie"],
-                "chest_unopened_img": "images/checks/kremkoin_disabled.png",
-                "chest_opened_img": "images/checks/kremkoin.png",
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Banana Coin #1 (Above Klobber)",
-                "access_rules": ["EASY, climb", "NORMAL, climb", "HARD, climb"],
-                "chest_unopened_img": "images/checks/bananacoin_disabled.png",
-                "chest_opened_img": "images/checks/bananacoin.png",
-                "visibility_rules": ["coinsanity"],
-                "item_count": 1
-            },
-            {
-                "name": "Banana Bunch #1 (Above Klinger)",
-                "access_rules": ["EASY, climb", "NORMAL, climb", "HARD, climb"],
-                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
-                "chest_opened_img": "images/checks/bananabunch.png",
-                "visibility_rules": ["bananasanity"],
-                "item_count": 1
-            },
-            {
-                "name": "Banana Bunch #2 (Behind Krook)",
-                "access_rules": ["EASY, climb", "NORMAL, climb", "HARD, climb"],
-                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
-                "chest_opened_img": "images/checks/bananabunch.png",
-                "visibility_rules": ["bananasanity"],
-                "item_count": 1
-            },
-            {
                 "name": "Banana Bunch #3 (Inside Bonus #1)",
                 "access_rules": ["EASY, climb, carry", "NORMAL, climb, carry", "HARD, climb, carry"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-chainlinkchamber",
+                    "x": "991",
+                    "y": "1262"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Bonus #2",
+                "access_rules": ["EASY, climb, cling, barrelkannons, controllablebarrels, exclamationbarrels, cartwheel", "NORMAL, climb, controllablebarrels, cling, cartwheel", "NORMAL, climb, controllablebarrels, cling, teamattack, diddy, dixie", "NORMAL, climb, controllablebarrels, barrelkannons, cartwheel", "NORMAL, climb, controllablebarrels, barrelkannons, teamattack, diddy, dixie", "HARD, climb, controllablebarrels, cling, cartwheel", "HARD, climb, controllablebarrels, cling, teamattack, diddy, dixie", "HARD, climb, controllablebarrels, barrelkannons, cartwheel", "HARD, climb, controllablebarrels, barrelkannons, teamattack, diddy, dixie"],
+                "chest_unopened_img": "images/checks/kremkoin_disabled.png",
+                "chest_opened_img": "images/checks/kremkoin.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-chainlinkchamber",
+                    "x": "2063",
+                    "y": "925"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Coin #1 (Above Klobber)",
+                "access_rules": ["EASY, climb", "NORMAL, climb", "HARD, climb"],
+                "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                "chest_opened_img": "images/checks/bananacoin.png",
+                "visibility_rules": ["coinsanity"],
+                "item_count": 1
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-chainlinkchamber",
+                    "x": "478",
+                    "y": "637"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #1 (Above Klinger)",
+                "access_rules": ["EASY, climb", "NORMAL, climb", "HARD, climb"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-chainlinkchamber",
+                    "x": "90",
+                    "y": "350"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #2 (Behind Krook)",
+                "access_rules": ["EASY, climb", "NORMAL, climb", "HARD, climb"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-chainlinkchamber",
+                    "x": "543",
+                    "y": "1345"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #2 (Near midpoint)",
                 "access_rules": ["EASY, climb, cling, barrelkannons, controllablebarrels, exclamationbarrels", "NORMAL, climb, cling", "NORMAL, climb, controllablebarrels, barrelkannons", "HARD, climb, cling", "HARD, climb, controllablebarrels, barrelkannons"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-chainlinkchamber",
+                    "x": "1432",
+                    "y": "406"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #4 (After Mini-Neckys path)",
                 "access_rules": ["EASY, climb, cling, barrelkannons, controllablebarrels, exclamationbarrels", "NORMAL, climb, cling", "NORMAL, climb, controllablebarrels, barrelkannons", "HARD, climb, cling", "HARD, climb, controllablebarrels, barrelkannons"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-chainlinkchamber",
+                    "x": "1580",
+                    "y": "429"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #3 (Left bottom Mini-Necky spot)",
                 "access_rules": ["EASY, climb, cling, barrelkannons, controllablebarrels, exclamationbarrels", "NORMAL, climb, cling", "NORMAL, climb, controllablebarrels, barrelkannons", "HARD, climb, cling", "HARD, climb, controllablebarrels, barrelkannons"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-chainlinkchamber",
+                    "x": "2687",
+                    "y": "1050"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #4 (Top right Mini-Necky spot)",
                 "access_rules": ["EASY, climb, cling, barrelkannons, controllablebarrels, exclamationbarrels", "NORMAL, climb, cling", "NORMAL, climb, controllablebarrels, barrelkannons", "HARD, climb, cling", "HARD, climb, controllablebarrels, barrelkannons"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
@@ -109,13 +252,14 @@
                 "item_count": 1
             }
         ],
-        "map_locations": [
-            {
-                "map": "K. Rool's Keep",
-                "x": "830",
-                "y": "286",
-                "size": 20
-            }
+            "map_locations": [
+                {
+                    "map": "krk-chainlinkchamber",
+                    "x": "2945",
+                    "y": "760"
+                }
+            ]
+        }
         ]
     }
 ]

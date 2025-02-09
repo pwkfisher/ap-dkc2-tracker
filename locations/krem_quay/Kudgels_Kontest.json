@@ -23,9 +23,9 @@
         ],
         "map_locations": [
             {
-                "map": "Krem Quay",
-                "x": "914",
-                "y": "240",
+                "map": "kq-kudgelskontest",
+                "x": "208",
+                "y": "86",
                 "size": 20
             }
         ]

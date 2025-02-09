@@ -14,6 +14,14 @@
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
                 "item_count": 1
+            },
+            {
+                "name": "Defeat",
+                "access_rules": ["EASY, carry, diddy, dixie", "NORMAL, carry", "HARD, carry"],
+                "chest_unopened_img": "images/checks/kremkoin_disabled.png",
+                "chest_opened_img": "images/checks/kremkoin.png",
+                "visibility_rules": [],
+                "item_count": 1
             }
         ],
             "map_locations": [
@@ -23,18 +31,6 @@
                     "y": "156"
                 }
             ]
-        },
-        {
-            "sections": [
-                {
-                "name": "Defeat",
-                "access_rules": ["EASY, carry, diddy, dixie", "NORMAL, carry", "HARD, carry"],
-                "chest_unopened_img": "images/checks/kremkoin_disabled.png",
-                "chest_opened_img": "images/checks/kremkoin.png",
-                "visibility_rules": [],
-                "item_count": 1
-            }
-        ]        
         },
         {
             "sections": [

@@ -3,6 +3,8 @@
         "name": "Arctic Abyss",
         "access_rules": [" "],
         "visibility_rules": [""],
+        "children": [
+            {
         "sections": [
             {
                 "name": "Clear",
@@ -11,144 +13,357 @@
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-arcticabyss",
+                    "x": "743",
+                    "y": "773"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "DK Coin",
                 "access_rules": ["EASY, swim, enguarde", "NORMAL, swim, enguarde", "HARD, swim", "HARD, enguarde, cartwheel", "HARD, enguarde, helicopterspin, dixie"],
                 "chest_unopened_img": "images/checks/dkcoin_disabled.png",
                 "chest_opened_img": "images/checks/dkcoin.png",
                 "visibility_rules": ["dkcoinchecks"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-arcticabyss",
+                    "x": "1629",
+                    "y": "435"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "KONG",
                 "access_rules": ["EASY, swim, enguarde, cartwheel, diddy", "EASY, swim, enguarde, helicopterspin, dixie", "NORMAL, swim, enguarde, cartwheel", "NORMAL, swim, enguarde, helicopterspin, dixie", "HARD, swim", "HARD, enguarde, cartwheel", "HARD, enguarde, helicopterspin, dixie"],
                 "chest_unopened_img": "images/checks/kong_disabled.png",
                 "chest_opened_img": "images/checks/kong.png",
                 "visibility_rules": ["kongchecks"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-arcticabyss",
+                    "x": "518",
+                    "y": "962"
+                },
+                {
+                    "map": "krk-arcticabyss",
+                    "x": "1520",
+                    "y": "829"
+                },
+                {
+                    "map": "krk-arcticabyss",
+                    "x": "2182",
+                    "y": "611"
+                },
+                {
+                    "map": "krk-arcticabyss",
+                    "x": "1761",
+                    "y": "89"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Bonus #1",
                 "access_rules": ["EASY, swim, enguarde", "NORMAL, swim, enguarde", "HARD, enguarde, swim", "HARD, enguarde, cartwheel", "HARD, enguarde, helicopterspin, dixie"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-arcticabyss",
+                    "x": "1565",
+                    "y": "1306"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Bonus #2",
                 "access_rules": ["EASY, swim, enguarde, carry", "NORMAL, swim, enguarde, carry", "HARD, swim", "HARD, enguarde, cartwheel", "HARD, enguarde, helicopterspin, dixie"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-arcticabyss",
+                    "x": "867",
+                    "y": "406"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #1 (Next to K)",
                 "access_rules": ["EASY, teamattack, diddy, dixie, cartwheel", "EASY, teamattack, diddy, dixie, helicopterspin", "NORMAL, teamattack, diddy, dixie, cartwheel", "NORMAL, teamattack, diddy, dixie, helicopterspin", "HARD, diddy, cartwheel", "HARD, dixie, helicopterspin"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-arcticabyss",
+                    "x": "638",
+                    "y": "915"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #1 (Next to K)",
                 "access_rules": ["EASY, teamattack, diddy, dixie, cartwheel", "EASY, teamattack, diddy, dixie, helicopterspin", "NORMAL, teamattack, diddy, dixie, cartwheel", "NORMAL, teamattack, diddy, dixie, helicopterspin", "HARD, diddy, cartwheel", "HARD, dixie, helicopterspin"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-arcticabyss",
+                    "x": "608",
+                    "y": "861"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #2 (Next to K)",
                 "access_rules": ["EASY, teamattack, diddy, dixie, cartwheel", "EASY, teamattack, diddy, dixie, helicopterspin", "NORMAL, teamattack, diddy, dixie, cartwheel", "NORMAL, teamattack, diddy, dixie, helicopterspin", "HARD, diddy, cartwheel", "HARD, dixie, helicopterspin"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-arcticabyss",
+                    "x": "671",
+                    "y": "651"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #3 (Next to K)",
                 "access_rules": ["EASY, teamattack, diddy, dixie, cartwheel", "EASY, teamattack, diddy, dixie, helicopterspin", "NORMAL, teamattack, diddy, dixie, cartwheel", "NORMAL, teamattack, diddy, dixie, helicopterspin", "HARD, diddy, cartwheel", "HARD, dixie, helicopterspin"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-arcticabyss",
+                    "x": "786",
+                    "y": "1029"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #4 (Above Puftup)",
                 "access_rules": ["EASY, swim", "NORMAL, swim", "HARD, swim", "HARD, enguarde, diddy, cartwheel", "HARD, enguarde, dixie, helicopterspin"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-arcticabyss",
+                    "x": "523",
+                    "y": "1192"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #2 (Below Enguarde)",
                 "access_rules": ["EASY, swim, enguarde", "NORMAL, swim, enguarde", "HARD, swim", "HARD, enguarde, diddy, cartwheel", "HARD, enguarde, dixie, helicopterspin"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-arcticabyss",
+                    "x": "919",
+                    "y": "1522"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #3 (Below Enguarde)",
                 "access_rules": ["EASY, swim, enguarde", "NORMAL, swim, enguarde", "HARD, swim", "HARD, enguarde, diddy, cartwheel", "HARD, enguarde, dixie, helicopterspin"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-arcticabyss",
+                    "x": "886",
+                    "y": "1522"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #4 (Below Enguarde)",
                 "access_rules": ["EASY, swim, enguarde", "NORMAL, swim, enguarde", "HARD, swim", "HARD, enguarde, diddy, cartwheel", "HARD, enguarde, dixie, helicopterspin"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-arcticabyss",
+                    "x": "856",
+                    "y": "1522"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #5 (Behind Shuri duo)",
                 "access_rules": ["EASY, swim, enguarde", "NORMAL, swim, enguarde", "HARD, swim", "HARD, enguarde, diddy, cartwheel", "HARD, enguarde, dixie, helicopterspin"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-arcticabyss",
+                    "x": "1848",
+                    "y": "679"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #5 (Behind Shuri duo)",
                 "access_rules": ["EASY, swim, enguarde", "NORMAL, swim, enguarde", "HARD, swim", "HARD, enguarde, diddy, cartwheel", "HARD, enguarde, dixie, helicopterspin"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-arcticabyss",
+                    "x": "1848",
+                    "y": "645"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #6 (Behind Shuri duo)",
                 "access_rules": ["EASY, swim, enguarde", "NORMAL, swim, enguarde", "HARD, swim", "HARD, enguarde, diddy, cartwheel", "HARD, enguarde, dixie, helicopterspin"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-arcticabyss",
+                    "x": "1848",
+                    "y": "615"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #7 (Near G)",
                 "access_rules": ["EASY, swim, enguarde", "NORMAL, swim, enguarde", "HARD, swim", "HARD, enguarde, diddy, cartwheel", "HARD, enguarde, dixie, helicopterspin"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-arcticabyss",
+                    "x": "1999",
+                    "y": "155"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Red Balloon #1 (After exploding Puftup trio)",
                 "access_rules": ["EASY, swim, enguarde", "NORMAL, swim, enguarde", "HARD, swim", "HARD, enguarde, diddy, cartwheel", "HARD, enguarde, dixie, helicopterspin"],
                 "chest_unopened_img": "images/checks/swanky1_disabled.png",
                 "chest_opened_img": "images/checks/swanky1.png",
                 "visibility_rules": ["balloonsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-arcticabyss",
+                    "x": "286",
+                    "y": "212"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Red Balloon #2 (Enguarde sign)",
                 "access_rules": ["EASY, swim, enguarde", "NORMAL, swim, enguarde", "HARD, swim", "HARD, enguarde, diddy, cartwheel", "HARD, enguarde, dixie, helicopterspin"],
                 "chest_unopened_img": "images/checks/swanky1_disabled.png",
@@ -157,13 +372,19 @@
                 "item_count": 1
             }
         ],
-        "map_locations": [
-            {
-                "map": "K. Rool's Keep",
-                "x": "330",
-                "y": "338",
-                "size": 20
-            }
+            "map_locations": [
+                {
+                    "map": "krk-arcticabyss",
+                    "x": "799",
+                    "y": "380"
+                },
+                {
+                    "map": "krk-arcticabyss",
+                    "x": "542",
+                    "y": "603"
+                }
+            ]
+        }
         ]
     }
 ]

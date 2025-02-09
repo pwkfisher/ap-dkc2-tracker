@@ -3,6 +3,8 @@
         "name": "Hornet Hole",
         "access_rules": [" "],
         "visibility_rules": [""],
+        "children": [
+            {
         "sections": [
             {
                 "name": "Clear",
@@ -11,128 +13,324 @@
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kk-hornethole",
+                    "x": "3101",
+                    "y": "266"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "DK Coin",
                 "access_rules": ["EASY, helicopterspin, teamattack, diddy, dixie, squitter, barrelkannons, cling", "NORMAL, cling, squitter, teamattack, diddy, dixie", "HARD, cling, teamattack, diddy, dixie, squitter"],
                 "chest_unopened_img": "images/checks/dkcoin_disabled.png",
                 "chest_opened_img": "images/checks/dkcoin.png",
                 "visibility_rules": ["dkcoinchecks"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kk-hornethole",
+                    "x": "4271",
+                    "y": "1453"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "KONG",
                 "access_rules": ["EASY, helicopterspin, teamattack, diddy, dixie, squitter, barrelkannons, cling", "NORMAL, cling, squitter, teamattack, diddy, dixie", "HARD, cling"],
                 "chest_unopened_img": "images/checks/kong_disabled.png",
                 "chest_opened_img": "images/checks/kong.png",
                 "visibility_rules": ["kongchecks"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kk-hornethole",
+                    "x": "2429",
+                    "y": "1137"
+                },
+                {
+                    "map": "kk-hornethole",
+                    "x": "3190",
+                    "y": "1456"
+                },
+                {
+                    "map": "kk-hornethole",
+                    "x": "4953",
+                    "y": "1272"
+                },
+                {
+                    "map": "kk-hornethole",
+                    "x": "5085",
+                    "y": "1057"
+                },
+                {
+                    "map": "kk-hornethole",
+                    "x": "3146",
+                    "y": "153"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Bonus #1",
                 "access_rules": ["EASY, teamattack, diddy, dixie, cling, carry", "NORMAL, cling, squitter, teamattack, diddy, dixie", "HARD, cling, teamattack, diddy, dixie, carry"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kk-hornethole",
+                    "x": "439",
+                    "y": "574"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Bonus #2",
                 "access_rules": ["EASY, teamattack, diddy, dixie, cling", "NORMAL, cling, teamattack, diddy, dixie", "HARD, cling, teamattack, diddy, dixie"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kk-hornethole",
+                    "x": "296",
+                    "y": "736"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Bonus #3",
                 "access_rules": ["EASY, helicopterspin, teamattack, diddy, dixie, squitter, barrelkannons, cling", "NORMAL, cling, squitter, teamattack, diddy, dixie", "HARD, cling, teamattack, diddy, dixie, squitter", "HARD, teamattack, squitter, diddy, dixie"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kk-hornethole",
+                    "x": "5031",
+                    "y": "401"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #1(Hooks above start)",
                 "access_rules": ["EASY, teamattack, diddy, dixie, cling", "NORMAL, cling, teamattack, diddy, dixie", "HARD, cling, teamattack, diddy, dixie"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kk-hornethole",
+                    "x": "113",
+                    "y": "450"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #1 (Hooks above start)",
                 "access_rules": ["EASY, teamattack, diddy, dixie, cling", "NORMAL, cling, teamattack, diddy, dixie", "HARD, cling, teamattack, diddy, dixie"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kk-hornethole",
+                    "x": "215",
+                    "y": "447"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #2(Hooks above start)",
                 "access_rules": ["EASY, teamattack, diddy, dixie, cling", "NORMAL, cling, teamattack, diddy, dixie", "HARD, cling, teamattack, diddy, dixie"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kk-hornethole",
+                    "x": "318",
+                    "y": "449"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #2 (Pillar)",
                 "access_rules": [""],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kk-hornethole",
+                    "x": "1438",
+                    "y": "1127"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Green Balloon (Chest after K)",
                 "access_rules": ["EASY, carry", "NORMAL, carry", "HARD, carry"],
                 "chest_unopened_img": "images/checks/swanky2_disabled.png",
                 "chest_opened_img": "images/checks/swanky2.png",
                 "visibility_rules": ["balloonsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kk-hornethole",
+                    "x": "2526",
+                    "y": "748"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #3 (Zinger after midpoint)",
                 "access_rules": ["EASY, helicopterspin, teamattack, diddy, dixie, squitter, barrelkannons, cling", "NORMAL, cling, teamattack, diddy, dixie, squitter", "HARD, cling, teamattack, diddy, dixie, squitter", "HARD, teamattack, squitter, diddy, dixie"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kk-hornethole",
+                    "x": "647",
+                    "y": "271"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #3 (Following banana guides)",
                 "access_rules": ["EASY, helicopterspin, teamattack, diddy, dixie, squitter, barrelkannons, cling", "NORMAL, cling, teamattack, diddy, dixie, squitter", "HARD, cling, teamattack, diddy, dixie, squitter", "HARD, teamattack, squitter, diddy, dixie"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kk-hornethole",
+                    "x": "2604",
+                    "y": "1067"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #4 (Following banana guides)",
                 "access_rules": ["EASY, helicopterspin, teamattack, diddy, dixie, squitter, barrelkannons, cling", "NORMAL, cling, teamattack, diddy, dixie, squitter", "HARD, cling, teamattack, diddy, dixie, squitter", "HARD, teamattack, squitter, diddy, dixie"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kk-hornethole",
+                    "x": "2607",
+                    "y": "1097"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #4 (Following banana guides)",
                 "access_rules": ["EASY, helicopterspin, teamattack, diddy, dixie, squitter, barrelkannons, cling", "NORMAL, cling, teamattack, diddy, dixie, squitter", "HARD, cling, teamattack, diddy, dixie, squitter", "HARD, teamattack, squitter, diddy, dixie"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kk-hornethole",
+                    "x": "2604",
+                    "y": "1132"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #5 (Above DK Barrel)",
                 "access_rules": ["EASY, helicopterspin, teamattack, diddy, dixie, squitter, barrelkannons, cling", "NORMAL, cling, teamattack, diddy, dixie, squitter", "HARD, cling, teamattack, diddy, dixie, squitter", "HARD, teamattack, squitter, diddy, dixie"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kk-hornethole",
+                    "x": "3545",
+                    "y": "1074"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Red Balloon (Squitter sign)",
                 "access_rules": ["EASY, helicopterspin, teamattack, diddy, dixie, squitter, barrelkannons, cling", "NORMAL, cling, teamattack, diddy, dixie, squitter", "HARD, cling, teamattack, diddy, dixie, squitter", "HARD, teamattack, squitter, diddy, dixie"],
                 "chest_unopened_img": "images/checks/swanky1_disabled.png",
@@ -141,13 +339,14 @@
                 "item_count": 1
             }
         ],
-        "map_locations": [
-            {
-                "map": "Krazy Kremland",
-                "x": "48",
-                "y": "270",
-                "size": 20
-            }
+            "map_locations": [
+                {
+                    "map": "kk-hornethole",
+                    "x": "3078",
+                    "y": "547"
+                }
+            ]
+        }
         ]
     }
 ]

@@ -3,6 +3,8 @@
         "name": "Kreepy Krow",
         "access_rules": [" "],
         "visibility_rules": [""],
+        "children": [
+            {
         "sections": [
             {
                 "name": "Clear",
@@ -19,15 +21,19 @@
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
-                "name": "Banana Coin #1 (After second phase)",
-                "access_rules": ["EASY, barrelkannons, climb, cling, carry, diddy, dixie", "NORMAL, barrelkannons, climb, cling, carry", "HARD, barrelkannons, climb, cling, carry"],
-                "chest_unopened_img": "images/checks/bananacoin_disabled.png",
-                "chest_opened_img": "images/checks/bananacoin.png",
-                "visibility_rules": ["coinsanity"],
-                "item_count": 1
-            },                {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "glg-kreepykrow",
+                    "x": "290",
+                    "y": "811"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #1 (After second phase)",
                 "access_rules": ["EASY, barrelkannons, climb, cling, carry, diddy, dixie", "NORMAL, barrelkannons, climb, cling, carry", "HARD, barrelkannons, climb, cling, carry"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
@@ -36,13 +42,33 @@
                 "item_count": 1
             }
         ],
-        "map_locations": [
-            {
-                "map": "Gloomy Gulch",
-                "x": "357",
-                "y": "91",
-                "size": 20
+            "map_locations": [
+                {
+                    "map": "glg-kreepykrow",
+                    "x": "688",
+                    "y": "51"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Coin #2 (After second phase)",
+                "access_rules": ["EASY, barrelkannons, climb, cling, carry, diddy, dixie", "NORMAL, barrelkannons, climb, cling, carry", "HARD, barrelkannons, climb, cling, carry"],
+                "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                "chest_opened_img": "images/checks/bananacoin.png",
+                "visibility_rules": ["coinsanity"],
+                "item_count": 1
             }
+        ],
+            "map_locations": [
+                {
+                    "map": "glg-kreepykrow",
+                    "x": "688",
+                    "y": "88"
+                }
+            ]
+        }
         ]
     }
 ]

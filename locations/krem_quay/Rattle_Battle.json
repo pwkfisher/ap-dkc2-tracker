@@ -3,6 +3,8 @@
         "name": "Rattle Battle",
         "access_rules": [" "],
         "visibility_rules": [""],
+        "children": [
+            {
         "sections": [
             {
                 "name": "Clear",
@@ -11,96 +13,243 @@
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kq-rattlebattle",
+                    "x": "3361",
+                    "y": "1053"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "DK Coin",
                 "access_rules": ["EASY, rattly, barrelkannons", "NORMAL, rattly, barrelkannons", "HARD, rattly, barrelkannons"],
                 "chest_unopened_img": "images/checks/dkcoin_disabled.png",
                 "chest_opened_img": "images/checks/dkcoin.png",
                 "visibility_rules": ["dkcoinchecks"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kq-rattlebattle",
+                    "x": "1860",
+                    "y": "678"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "KONG",
                 "access_rules": ["EASY, rattly", "NORMAL, rattly", "HARD, rattly"],
                 "chest_unopened_img": "images/checks/kong_disabled.png",
                 "chest_opened_img": "images/checks/kong.png",
                 "visibility_rules": ["kongchecks"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kq-rattlebattle",
+                    "x": "1112",
+                    "y": "235"
+                },
+                {
+                    "map": "kq-rattlebattle",
+                    "x": "846",
+                    "y": "662"
+                },
+                {
+                    "map": "kq-rattlebattle",
+                    "x": "3360",
+                    "y": "700"
+                },
+                {
+                    "map": "kq-rattlebattle",
+                    "x": "2017",
+                    "y": "916"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Bonus #1",
                 "access_rules": ["EASY, teamattack, diddy, dixie, helicopterspin", "NORMAL, teamattack, diddy, dixie, helicopterspin", "NORMAL, teamattack, diddy, dixie, cartwheel", "HARD, teamattack, diddy, dixie, cartwheel", "HARD, teamattack, diddy, dixie, helicopterspin"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kq-rattlebattle",
+                    "x": "332",
+                    "y": "27"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Bonus #2",
                 "access_rules": ["EASY, rattly", "NORMAL, rattly", "HARD, rattly"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kq-rattlebattle",
+                    "x": "226",
+                    "y": "678"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Bonus #3",
                 "access_rules": ["EASY, rattly", "NORMAL, rattly", "HARD, rattly"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kq-rattlebattle",
+                    "x": "288",
+                    "y": "841"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #1 (Below Bonus #1 barrel)",
                 "access_rules": ["EASY, barrelkannons", "NORMAL, barrelkannons", "HARD, barrelkannons", "HARD, teamattack, diddy, dixie"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kq-rattlebattle",
+                    "x": "312",
+                    "y": "85"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #1 (Below Bonus #1 barrel)",
                 "access_rules": ["EASY, barrelkannons", "NORMAL, barrelkannons", "HARD, barrelkannons", "HARD, teamattack, diddy, dixie"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kq-rattlebattle",
+                    "x": "358",
+                    "y": "85"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #2 (After Kaboing duo)",
                 "access_rules": ["EASY, rattly", "NORMAL, rattly", "HARD, rattly"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kq-rattlebattle",
+                    "x": "1766",
+                    "y": "25"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #2 (Behind Zinger)",
                 "access_rules": ["EASY, rattly", "NORMAL, rattly", "HARD, rattly"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kq-rattlebattle",
+                    "x": "2774",
+                    "y": "307"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #3 (Behind Kannon)",
                 "access_rules": ["EASY, rattly", "NORMAL, rattly", "HARD, rattly"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kq-rattlebattle",
+                    "x": "1281",
+                    "y": "521"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #3 (Next to Kannon)",
                 "access_rules": ["EASY, rattly", "NORMAL, rattly", "HARD, rattly"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kq-rattlebattle",
+                    "x": "2909",
+                    "y": "974"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #4 (Rattly sign)",
                 "access_rules": ["EASY, rattly", "NORMAL, rattly", "HARD, rattly"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
@@ -109,13 +258,14 @@
                 "item_count": 1
             }
         ],
-        "map_locations": [
-            {
-                "map": "Krem Quay",
-                "x": "719",
-                "y": "324",
-                "size": 20
-            }
+            "map_locations": [
+                {
+                    "map": "kq-rattlebattle",
+                    "x": "3141",
+                    "y": "1014"
+                }
+            ]
+        }
         ]
     }
 ]

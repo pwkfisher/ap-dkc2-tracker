@@ -88,5 +88,265 @@
         "location_size": 30,
         "location_border_thickness": 1,
         "img": "images/maps/gg/krowsnest.jpeg"
+    },
+    {
+        "name": "cc-hotheadhop",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/cc/hotheadhop.png"
+    },
+    {
+        "name": "cc-kannonsklaim",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/cc/kannonsklaim.png"
+    },
+    {
+        "name": "cc-lavalagoon",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/cc/lavalagoon.png"
+    },
+    {
+        "name": "cc-redhotride",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/cc/redhotride.png"
+    },
+    {
+        "name": "cc-squawksshaft",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/cc/squawksshaft.png"
+    },
+    {
+        "name": "cc-kleeverskiln",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/cc/kleeverskiln.png"
+    },
+    {
+        "name": "kq-barrelbayou",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/kq/barrelbayou.png"
+    },
+    {
+        "name": "kq-glimmersgalleon",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/kq/glimmersgalleon.png"
+    },
+    {
+        "name": "kq-krockheadklamber",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/kq/krockheadklamber.png"
+    },
+    {
+        "name": "kq-rattlebattle",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/kq/rattlebattle.png"
+    },
+    {
+        "name": "kq-slimeclimb",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/kq/slimeclimb.png"
+    },
+    {
+        "name": "kq-brambleblast",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/kq/brambleblast.png"
+    },
+    {
+        "name": "kq-kudgelskontest",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/kq/kudgelskontest.png"
+    },
+    {
+        "name": "kk-hornethole",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/kk/hornethole.png"
+    },
+    {
+        "name": "kk-targetterror",
+        "location_size": 50,
+        "location_border_thickness": 1,
+        "img": "images/maps/kk/targetterror.png"
+    },
+    {
+        "name": "kk-bramblescramble",
+        "location_size": 50,
+        "location_border_thickness": 1,
+        "img": "images/maps/kk/bramblescramble.png"
+    },
+    {
+        "name": "kk-ricketyrace",
+        "location_size": 50,
+        "location_border_thickness": 1,
+        "img": "images/maps/kk/ricketyrace.png"
+    },
+    {
+        "name": "kk-mudholemarsh",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/kk/mudholemarsh.png"
+    },
+    {
+        "name": "kk-rambirumble",
+        "location_size": 50,
+        "location_border_thickness": 1,
+        "img": "images/maps/kk/rambirumble.png"
+    },
+    {
+        "name": "kk-kingzingsting",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/kk/kingzingsting.png"
+    },
+    {
+        "name": "glg-ghostlygrove",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/glg/ghostlygrove.png"
+    },
+    {
+        "name": "glg-hauntedhall",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/glg/hauntedhall.png"
+    },
+    {
+        "name": "glg-gustyglade",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/glg/gustyglade.png"
+    },
+    {
+        "name": "glg-parrotchutepanic",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/glg/parrotchutepanic.png"
+    },
+    {
+        "name": "glg-webwoods",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/glg/webwoods.png"
+    },
+    {
+        "name": "glg-kreepykrow",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/glg/kreepykrow.png"
+    },
+    {
+        "name": "krk-arcticabyss",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/krk/arcticabyss.png"
+    },
+    {
+        "name": "krk-windywell",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/krk/windywell.png"
+    },
+    {
+        "name": "krk-castlecrush",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/krk/castlecrush.png"
+    },
+    {
+        "name": "krk-clapperscavern",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/krk/clapperscavern.png"
+    },
+    {
+        "name": "krk-chainlinkchamber",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/krk/chainlinkchamber.png"
+    },
+    {
+        "name": "krk-toxictower",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/krk/toxictower.png"
+    },
+    {
+        "name": "krk-strongholdshowdown",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/krk/strongholdshowdown.png"
+    },
+    {
+        "name": "tfk-screechssprint",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/tfk/screechssprint.png"
+    },
+    {
+        "name": "tlw-junglejinx",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/tlw/junglejinx.png"
+    },
+    {
+        "name": "tlw-blackicebattle",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/tlw/blackicebattle.png"
+    },
+    {
+        "name": "tlw-klobberkarnage",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/tlw/klobberkarnage.png"
+    },
+    {
+        "name": "tlw-fieryfurnace",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/tlw/fieryfurnace.png"
+    },
+    {
+        "name": "tlw-animalantics-1",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/tlw/animalantics-1.png"
+    },
+    {
+        "name": "tlw-animalantics-2",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/tlw/animalantics-2.png"
+    },
+    {
+        "name": "tlw-animalantics-3",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/tlw/animalantics-3.png"
+    },
+    {
+        "name": "tlw-animalantics-4",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/tlw/animalantics-4.png"
+    },
+    {
+        "name": "tlw-animalantics-5",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/tlw/animalantics-5.png"
     }
+
+    
 ]

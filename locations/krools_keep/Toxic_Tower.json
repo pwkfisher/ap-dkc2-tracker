@@ -3,6 +3,8 @@
         "name": "Toxic Tower",
         "access_rules": [" "],
         "visibility_rules": [""],
+        "children": [
+            {
         "sections": [
             {
                 "name": "Clear",
@@ -11,144 +13,357 @@
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-toxictower",
+                    "x": "2968",
+                    "y": "176"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "DK Coin",
                 "access_rules": ["EASY, rattly, barrelkannons", "NORMAL, rattly, barrelkannons", "HARD, rattly"],
                 "chest_unopened_img": "images/checks/dkcoin_disabled.png",
                 "chest_opened_img": "images/checks/dkcoin.png",
                 "visibility_rules": ["dkcoinchecks"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-toxictower",
+                    "x": "957",
+                    "y": "911"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "KONG",
                 "access_rules": ["EASY, rattly, squawks, squitter, barrelkannons", "NORMAL, rattly, squawks, squitter, barrelkannons", "HARD, rattly, squawks"],
                 "chest_unopened_img": "images/checks/kong_disabled.png",
                 "chest_opened_img": "images/checks/kong.png",
                 "visibility_rules": ["kongchecks"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-toxictower",
+                    "x": "479",
+                    "y": "90"
+                },
+                {
+                    "map": "krk-toxictower",
+                    "x": "1504",
+                    "y": "509"
+                },
+                {
+                    "map": "krk-toxictower",
+                    "x": "2510",
+                    "y": "1561"
+                },
+                {
+                    "map": "krk-toxictower",
+                    "x": "2694",
+                    "y": "1151"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Bonus #1",
                 "access_rules": ["EASY, rattly, squawks, squitter, barrelkannons", "NORMAL, rattly, squawks, squitter, barrelkannons", "HARD, rattly, squawks"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-toxictower",
+                    "x": "3054",
+                    "y": "611"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #1 (Left wall before first Zingers)",
                 "access_rules": ["EASY, rattly", "NORMAL, rattly", "HARD, rattly", "HARD, teamattack, diddy, dixie"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-toxictower",
+                    "x": "109",
+                    "y": "614"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #2 (Left wall before first Zingers)",
                 "access_rules": ["EASY, rattly", "NORMAL, rattly", "HARD, rattly", "HARD, teamattack, diddy, dixie"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-toxictower",
+                    "x": "77",
+                    "y": "614"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #3 (Left wall before first Zingers)",
                 "access_rules": ["EASY, rattly", "NORMAL, rattly", "HARD, rattly", "HARD, teamattack, diddy, dixie"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-toxictower",
+                    "x": "45",
+                    "y": "614"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #4 (Left of banana guides)",
                 "access_rules": ["EASY, rattly", "NORMAL, rattly", "HARD, rattly", "HARD, teamattack, diddy, dixie"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-toxictower",
+                    "x": "66",
+                    "y": "319"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #5 (Left of banana guides)",
                 "access_rules": ["EASY, rattly", "NORMAL, rattly", "HARD, rattly", "HARD, teamattack, diddy, dixie"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-toxictower",
+                    "x": "66",
+                    "y": "94"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #6 (Left of banana guides)",
                 "access_rules": ["EASY, rattly", "NORMAL, rattly", "HARD, rattly"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-toxictower",
+                    "x": "585",
+                    "y": "1494"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #7 (Passage after Zinger trio)",
                 "access_rules": ["EASY, rattly", "NORMAL, rattly", "HARD, rattly"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-toxictower",
+                    "x": "1062",
+                    "y": "1315"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #1 (Passage after Zinger trio)",
                 "access_rules": ["EASY, rattly", "NORMAL, rattly", "HARD, rattly"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-toxictower",
+                    "x": "1062",
+                    "y": "1354"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #2 (Passage after Zinger trio)",
                 "access_rules": ["EASY, rattly", "NORMAL, rattly", "HARD, rattly"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-toxictower",
+                    "x": "1062",
+                    "y": "1275"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #3 (Corner before Zinger 2-path)",
                 "access_rules": ["EASY, rattly", "NORMAL, rattly", "HARD, rattly"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-toxictower",
+                    "x": "1061",
+                    "y": "913"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #4 (Passage below Zinger)",
                 "access_rules": ["EASY, rattly, squawks, barrelkannons", "NORMAL, rattly, squawks", "HARD, rattly, squawks"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-toxictower",
+                    "x": "2027",
+                    "y": "418"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #5 (Passage below Zinger)",
                 "access_rules": ["EASY, rattly, squawks, barrelkannons", "NORMAL, rattly, squawks", "HARD, rattly, squawks"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-toxictower",
+                    "x": "2027",
+                    "y": "379"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #8 (Passage below Zinger)",
                 "access_rules": ["EASY, rattly, squawks, barrelkannons", "NORMAL, rattly, squawks", "HARD, rattly, squawks"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-toxictower",
+                    "x": "2027",
+                    "y": "337"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #9 (Passage below Zinger)",
                 "access_rules": ["EASY, rattly, squawks, barrelkannons", "NORMAL, rattly, squawks", "HARD, rattly, squawks"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-toxictower",
+                    "x": "2027",
+                    "y": "300"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Green Balloon (Below goal)",
                 "access_rules": ["EASY, rattly, squawks, barrelkannons, squitter", "NORMAL, rattly, squawks, climb", "NORMAL, rattly, squawks, diddy", "HARD, rattly, squawks, climb", "HARD, rattly, squawks, diddy"],
                 "chest_unopened_img": "images/checks/swanky2_disabled.png",
@@ -157,13 +372,14 @@
                 "item_count": 1
             }
         ],
-        "map_locations": [
-            {
-                "map": "K. Rool's Keep",
-                "x": "830",
-                "y": "124",
-                "size": 20
-            }
+            "map_locations": [
+                {
+                    "map": "krk-toxictower",
+                    "x": "3055",
+                    "y": "253"
+                }
+            ]
+        }
         ]
     }
 ]

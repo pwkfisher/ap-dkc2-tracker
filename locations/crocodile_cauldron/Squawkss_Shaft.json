@@ -2,9 +2,9 @@
     {
         "name": "Squawks's Shaft",
         "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ],
+        "access_rules": [" "],
+        "children": [
+            {
         "sections": [
             {
                 "name": "Clear",
@@ -13,136 +13,338 @@
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "cc-squawksshaft",
+                    "x": "3371",
+                    "y": "299"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "DK Coin",
                 "access_rules": ["EASY, barrelkannons, squawks", "NORMAL, barrelkannons, squawks", "HARD, barrelkannons, squawks"],
                 "chest_unopened_img": "images/checks/dkcoin_disabled.png",
                 "chest_opened_img": "images/checks/dkcoin.png",
                 "visibility_rules": ["dkcoinchecks"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "cc-squawksshaft",
+                    "x": "3432",
+                    "y": "1089"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "KONG",
                 "access_rules": ["EASY, barrelkannons, squawks, carry", "NORMAL, barrelkannons, squawks, carry", "HARD, barrelkannons, squawks, carry"],
                 "chest_unopened_img": "images/checks/kong_disabled.png",
                 "chest_opened_img": "images/checks/kong.png",
                 "visibility_rules": ["kongchecks"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "cc-squawksshaft",
+                    "x": "21",
+                    "y": "1209"
+                },
+                {
+                    "map": "cc-squawksshaft",
+                    "x": "2274",
+                    "y": "904"
+                },
+                {
+                    "map": "cc-squawksshaft",
+                    "x": "2437",
+                    "y": "1177"
+                },
+                {
+                    "map": "cc-squawksshaft",
+                    "x": "3417",
+                    "y": "187"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Bonus #1",
                 "access_rules": ["EASY, barrelkannons, carry, cartwheel", "EASY, barrelkannons, carry, helicopterspin, dixie", "NORMAL, barrelkannons, carry, cartwheel", "NORMAL, barrelkannons, carry, helicopterspin, dixie", "HARD, barrelkannons, carry, cartwheel", "HARD, barrelkannons, carry, helicopterspin, dixie"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "cc-squawksshaft",
+                    "x": "748",
+                    "y": "483"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Bonus #2",
                 "access_rules": ["EASY, barrelkannons, teamattack, dixie, diddy", "NORMAL, barrelkannons, teamattack, dixie, diddy", "HARD, barrelkannons, teamattack, dixie, diddy", "HARD, barrelkannons, cartwheel", "HARD, barrelkannons, helicopterspin, dixie"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "cc-squawksshaft",
+                    "x": "1563",
+                    "y": "1323"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Bonus #3",
                 "access_rules": ["EASY, barrelkannons, squawks", "NORMAL, barrelkannons, squawks", "HARD, barrelkannons, squawks"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "cc-squawksshaft",
+                    "x": "3331",
+                    "y": "1095"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #1 (Below Klomp)",
                 "access_rules": ["EASY, cartwheel", "NORMAL, cartwheel", "HARD"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "cc-squawksshaft",
+                    "x": "463",
+                    "y": "1250"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #1 (After Krook duo)",
                 "access_rules": ["EASY, barrelkannons", "NORMAL, barrelkannons", "HARD, teamattack, diddy, dixie", "HARD, barrelkannons"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "cc-squawksshaft",
+                    "x": "27",
+                    "y": "804"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #2 (Inside Bonus #1)",
                 "access_rules": ["EASY, barrelkannons, carry, cartwheel", "EASY, barrelkannons, carry, helicopterspin, dixie", "NORMAL, barrelkannons, carry, cartwheel", "NORMAL, barrelkannons, carry, helicopterspin, dixie", "HARD, carry, barrelkannons"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "cc-squawksshaft",
+                    "x": "750",
+                    "y": "508"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #2 (Next to Krook)",
                 "access_rules": ["EASY, barrelkannons", "NORMAL, barrelkannons", "HARD, barrelkannons"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "cc-squawksshaft",
+                    "x": "426",
+                    "y": "171"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Red Balloon #1 (Chest behind Krook)",
                 "access_rules": ["EASY, barrelkannons, carry, cartwheel", "NORMAL, barrelkannons, carry, cartwheel", "HARD, barrelkannons, carry"],
                 "chest_unopened_img": "images/checks/swanky1_disabled.png",
                 "chest_opened_img": "images/checks/swanky1.png",
                 "visibility_rules": ["balloonsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "cc-squawksshaft",
+                    "x": "549",
+                    "y": "183"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #3 (Dixie barrel)",
                 "access_rules": ["EASY, barrelkannons, kongbarrels, dixie", "NORMAL, barrelkannons, kongbarrels, dixie", "HARD, barrelkannons"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "cc-squawksshaft",
+                    "x": "943",
+                    "y": "1046"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #4 (Dixie barrel)",
                 "access_rules": ["EASY, barrelkannons, kongbarrels, dixie", "NORMAL, barrelkannons, kongbarrels, dixie", "HARD, barrelkannons"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "cc-squawksshaft",
+                    "x": "835",
+                    "y": "1160"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #5 (Hidden pasage behind Krook duo)",
                 "access_rules": ["EASY, barrelkannons, squawks", "NORMAL, barrelkannons, squawks", "HARD, barrelkannons, squawks"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "cc-squawksshaft",
+                    "x": "2626",
+                    "y": "181"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #6 (Hidden next to Bonus #3 barrel)",
                 "access_rules": ["EASY, barrelkannons, squawks", "NORMAL, barrelkannons, squawks", "HARD, barrelkannons, squawks"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "cc-squawksshaft",
+                    "x": "3208",
+                    "y": "1337"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #7 (Hidden next to Bonus #3 barrel)",
                 "access_rules": ["EASY, barrelkannons, squawks", "NORMAL, barrelkannons, squawks", "HARD, barrelkannons, squawks"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "cc-squawksshaft",
+                    "x": "3208",
+                    "y": "1075"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #3 (Between Zingers)",
                 "access_rules": ["EASY, barrelkannons, squawks", "NORMAL, barrelkannons, squawks", "HARD, barrelkannons, squawks"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "cc-squawksshaft",
+                    "x": "3018",
+                    "y": "775"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #4 (Squawks sign)",
                 "access_rules": ["EASY, barrelkannons, squawks", "NORMAL, barrelkannons, squawks", "HARD, barrelkannons, squawks"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
@@ -150,8 +352,16 @@
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
             }
-
         ],
+            "map_locations": [
+                {
+                    "map": "cc-squawksshaft",
+                    "x": "3185",
+                    "y": "260"
+                }
+            ]
+        },
+        {
         "map_locations": [
             {
                 "map": "Crocodile Cauldron",
@@ -161,4 +371,6 @@
             }
         ]
     }
+]
+}
 ]

@@ -8,77 +8,14 @@
                     "type": "tabbed",
                     "tabs": [
                         {
-                        "title": "Gangplank Galleon",
+                        "title": "World Map",
                         "content": {
                             "type": "map",
                             "maps": [
-                            "Gangplank Galleon"
+                            "World Map"
                                     ]
                         }
-                        },
-                        {
-                        "title": "Crocodile Cauldron",
-                        "content": {
-                            "type": "map",
-                            "maps": [
-                                "Crocodile Cauldron"
-                                    ]
                         }
-                        },
-                        {
-                        "title": "Krem Quay",
-                        "content": {
-                            "type": "map",
-                            "maps": [
-                                "Krem Quay"
-                            ]
-                        }
-                    },
-                    {
-                        "title": "Krazy Kremland",
-                        "content": {
-                            "type": "map",
-                            "maps": [
-                                "Krazy Kremland"
-                            ]
-                        }
-                    },
-                    {
-                        "title": "Gloomy Gulch",
-                        "content": {
-                            "type": "map",
-                            "maps": [
-                                "Gloomy Gulch"
-                            ]
-                        }
-                    },
-                    {
-                        "title": "K. Rool's Keep",
-                        "content": {
-                            "type": "map",
-                            "maps": [
-                                "K. Rool's Keep"
-                            ]
-                        }
-                    },
-                    {
-                        "title": "The Flying Krock",
-                        "content": {
-                            "type": "map",
-                            "maps": [
-                                "The Flying Krock"
-                            ]
-                        }
-                    },
-                    {
-                        "title": "Lost World",
-                        "content": {
-                            "type": "map",
-                            "maps": [
-                                "Lost World"
-                            ]
-                        }
-                    }
                 ]
             }
             },
@@ -138,6 +75,457 @@
                             "type": "map",
                             "maps": [
                                 "gg-krowsnest"
+                                    ]
+                        }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Crocodile Cauldron",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                        "title": "Hot-Head Hop",
+                        "content": {
+                        "type": "map",
+                        "maps": [
+                            "cc-hotheadhop"
+                                ]
+                        }
+                        },
+                        {
+                            "title": "Kannon's Klaim",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "cc-kannonsklaim"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Lava Lagoon",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "cc-lavalagoon"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Red-Hot Ride",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "cc-redhotride"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Squawk's Shaft",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "cc-squawksshaft"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Kleever's Kiln",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "cc-kleeverskiln"
+                                    ]
+                        }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Krem Quay",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                        "title": "Barrel Bayou",
+                        "content": {
+                        "type": "map",
+                        "maps": [
+                            "kq-barrelbayou"
+                                ]
+                        }
+                        },
+                        {
+                            "title": "Glimmer's Galleon",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "kq-glimmersgalleon"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Krockhead Klamber",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "kq-krockheadklamber"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Rattle Battle",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "kq-rattlebattle"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Slime Climb",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "kq-slimeclimb"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Bramble Blast",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "kq-brambleblast"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Kudgel's Kontest",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "kq-kudgelskontest"
+                                    ]
+                        }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Krazy Kremland",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                        "title": "Hornet Hole",
+                        "content": {
+                        "type": "map",
+                        "maps": [
+                            "kk-hornethole"
+                                ]
+                        }
+                        },
+                        {
+                            "title": "Target Terror",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "kk-targetterror"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Bramble Scramble",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "kk-bramblescramble"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Rickety Race",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "kk-ricketyrace"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Mudhole Marsh",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "kk-mudholemarsh"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Rambi Rumble",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "kk-rambirumble"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "King Zing Sting",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "kk-kingzingsting"
+                                    ]
+                        }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Gloomy Gulch",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                        "title": "Ghostly Grove",
+                        "content": {
+                        "type": "map",
+                        "maps": [
+                            "glg-ghostlygrove"
+                                ]
+                        }
+                        },
+                        {
+                            "title": "Haunted Hall",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "glg-hauntedhall"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Gusty Glade",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "glg-gustyglade"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Parrot Chute Panic",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "glg-parrotchutepanic"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Web Woods",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "glg-webwoods"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Kreepy Krow",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "glg-kreepykrow"
+                                    ]
+                        }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "K. Rool's Keep",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                        "title": "Arctic Abyss",
+                        "content": {
+                        "type": "map",
+                        "maps": [
+                            "krk-arcticabyss"
+                                ]
+                        }
+                        },
+                        {
+                            "title": "Windy Well",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "krk-windywell"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Castle Crush",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "krk-castlecrush"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Clapper's Cavern",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "krk-clapperscavern"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Chain Link Chamber",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "krk-chainlinkchamber"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Toxic Tower",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "krk-toxictower"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Stronghold Showdown",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "krk-strongholdshowdown"
+                                    ]
+                        }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "The Flying Krock",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                        "title": "Screech's Sprint",
+                        "content": {
+                        "type": "map",
+                        "maps": [
+                            "tfk-screechssprint"
+                                ]
+                        }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Lost World",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                        "title": "Jungle Jinx",
+                        "content": {
+                        "type": "map",
+                        "maps": [
+                            "tlw-junglejinx"
+                                ]
+                        }
+                        },
+                        {
+                            "title": "Black Ice Battle",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "tlw-blackicebattle"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Klobber Karnage",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "tlw-klobberkarnage"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Fiery Furnace",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "tlw-fieryfurnace"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Animal Antics",
+                            "content": {
+                            "type": "tabbed",
+                            "tabs": [
+                                {
+                                    "title": "Rambi Section",
+                                    "content": {
+                                    "type": "map",
+                                    "maps": [
+                                        "tlw-animalantics-1"
+                                            ]
+                                    }
+                                    },
+                                    {
+                                        "title": "Enguarde Section",
+                                        "content": {
+                                        "type": "map",
+                                        "maps": [
+                                            "tlw-animalantics-2"
+                                                ]
+                                    }
+                                    },
+                                    {
+                                        "title": "Squitter Section",
+                                        "content": {
+                                        "type": "map",
+                                        "maps": [
+                                            "tlw-animalantics-3"
+                                                ]
+                                    }
+                                    },
+                                    {
+                                        "title": "Squawks Section",
+                                        "content": {
+                                        "type": "map",
+                                        "maps": [
+                                            "tlw-animalantics-4"
+                                                ]
+                                    }
+                                    },
+                                    {
+                                        "title": "Rattly Section",
+                                        "content": {
+                                        "type": "map",
+                                        "maps": [
+                                            "tlw-animalantics-5"
+                                                ]
+                                    }
+                                    }
                                     ]
                         }
                         }

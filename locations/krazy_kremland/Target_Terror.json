@@ -3,6 +3,8 @@
         "name": "Target Terror",
         "access_rules": [" "],
         "visibility_rules": [""],
+        "children": [
+            {
         "sections": [
             {
                 "name": "Clear",
@@ -11,45 +13,77 @@
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kk-targetterror",
+                    "x": "3349",
+                    "y": "2313"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "DK Coin",
                 "access_rules": ["EASY, skullkart, barrelkannons", "NORMAL, skullkart, barrelkannons", "HARD, skullkart, barrelkannons"],
                 "chest_unopened_img": "images/checks/dkcoin_disabled.png",
                 "chest_opened_img": "images/checks/dkcoin.png",
                 "visibility_rules": ["dkcoinchecks"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kk-targetterror",
+                    "x": "1349",
+                    "y": "1551"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "KONG",
                 "access_rules": ["EASY, skullkart, barrelkannons", "NORMAL, skullkart, barrelkannons", "HARD, skullkart, barrelkannons"],
                 "chest_unopened_img": "images/checks/kong_disabled.png",
                 "chest_opened_img": "images/checks/kong.png",
                 "visibility_rules": ["kongchecks"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kk-targetterror",
+                    "x": "1973",
+                    "y": "150"
+                },
+                {
+                    "map": "kk-targetterror",
+                    "x": "958",
+                    "y": "1187"
+                },
+                {
+                    "map": "kk-targetterror",
+                    "x": "271",
+                    "y": "1626"
+                },
+                {
+                    "map": "kk-targetterror",
+                    "x": "166",
+                    "y": "2138"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Bonus #1",
                 "access_rules": ["EASY, skullkart, barrelkannons, squawks", "NORMAL, skullkart, barrelkannons, squawks", "HARD, skullkart, barrelkannons, squawks"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Bonus #2",
-                "access_rules": ["EASY, skullkart, barrelkannons", "NORMAL, skullkart, barrelkannons", "HARD, skullkart, barrelkannons"],
-                "chest_unopened_img": "images/checks/kremkoin_disabled.png",
-                "chest_opened_img": "images/checks/kremkoin.png",
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Banana Bunch #1 (Start)",
-                "access_rules": ["EASY, skullkart, barrelkannons", "NORMAL, skullkart, barrelkannons", "HARD, skullkart, barrelkannons"],
-                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
-                "chest_opened_img": "images/checks/bananabunch.png",
-                "visibility_rules": ["bananasanity"],
                 "item_count": 1
             },
             {
@@ -59,8 +93,57 @@
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kk-targetterror",
+                    "x": "323",
+                    "y": "1155"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Bonus #2",
+                "access_rules": ["EASY, skullkart, barrelkannons", "NORMAL, skullkart, barrelkannons", "HARD, skullkart, barrelkannons"],
+                "chest_unopened_img": "images/checks/kremkoin_disabled.png",
+                "chest_opened_img": "images/checks/kremkoin.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kk-targetterror",
+                    "x": "2946",
+                    "y": "1774"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #1 (Start)",
+                "access_rules": ["EASY, skullkart, barrelkannons", "NORMAL, skullkart, barrelkannons", "HARD, skullkart, barrelkannons"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kk-targetterror",
+                    "x": "980",
+                    "y": "266"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Red Balloon (Above last X barrel)",
                 "access_rules": ["EASY, skullkart, barrelkannons", "NORMAL, skullkart, barrelkannons", "HARD, skullkart, barrelkannons"],
                 "chest_unopened_img": "images/checks/swanky1_disabled.png",
@@ -69,13 +152,14 @@
                 "item_count": 1
             }
         ],
-        "map_locations": [
-            {
-                "map": "Krazy Kremland",
-                "x": "596",
-                "y": "260",
-                "size": 20
-            }
+            "map_locations": [
+                {
+                    "map": "kk-targetterror",
+                    "x": "2536",
+                    "y": "2143"
+                }
+            ]
+        }
         ]
     }
 ]

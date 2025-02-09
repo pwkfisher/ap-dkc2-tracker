@@ -2,6 +2,8 @@
     "name": "Hot-Head Hop",
     "access_rules": [""],
     "visibility_rules": [""],
+    "children": [
+        {
     "sections": [
         {
             "name": "Clear",
@@ -10,112 +12,281 @@
             "chest_opened_img": "images/checks/clear.png",
             "visibility_rules": [],
             "item_count": 1
-        },
-        {
+        }
+    ],
+        "map_locations": [
+            {
+                "map": "cc-hotheadhop",
+                "x": "2826",
+                "y": "1250"
+            }
+        ]
+    },
+    {
+        "sections": [
+            {
             "name": "DK Coin",
             "access_rules": ["EASY, squitter", "NORMAL, squitter", "HARD, squitter"],
             "chest_unopened_img": "images/checks/dkcoin_disabled.png",
             "chest_opened_img": "images/checks/dkcoin.png",
             "visibility_rules": ["dkcoinchecks"],
             "item_count": 1
-        },
-        {
+        }
+    ],
+        "map_locations": [
+            {
+                "map": "cc-hotheadhop",
+                "x": "1742",
+                "y": "548"
+            }
+        ]
+    },
+    {
+        "sections": [
+            {
             "name": "KONG",
             "access_rules": ["EASY, carry, teamattack, diddy, dixie", "EASY, carry, squitter", "NORMAL, carry, teamattack, diddy, dixie", "NORMAL, carry, squitter", "HARD, carry"],
             "chest_unopened_img": "images/checks/kong_disabled.png",
             "chest_opened_img": "images/checks/kong.png",
             "visibility_rules": ["kongchecks"],
             "item_count": 1
-        },
-        {
+        }
+    ],
+        "map_locations": [
+            {
+                "map": "cc-hotheadhop",
+                "x": "220",
+                "y": "383"
+            },
+            {
+                "map": "cc-hotheadhop",
+                "x": "2977",
+                "y": "230"
+            },
+            {
+                "map": "cc-hotheadhop",
+                "x": "2505",
+                "y": "769"
+            },
+            {
+                "map": "cc-hotheadhop",
+                "x": "1339",
+                "y": "1104"
+            }
+        ]
+    },
+    {
+        "sections": [
+            {
             "name": "Bonus #1",
             "access_rules": ["EASY, carry", "NORMAL, carry", "HARD, carry"],
             "chest_unopened_img": "images/checks/kremkoin_disabled.png",
             "chest_opened_img": "images/checks/kremkoin.png",
             "visibility_rules": [],
             "item_count": 1
-        },
-        {
+        }
+    ],
+        "map_locations": [
+            {
+                "map": "cc-hotheadhop",
+                "x": "983",
+                "y": "834"
+            }
+        ]
+    },
+    {
+        "sections": [
+            {
             "name": "Bonus #2",
             "access_rules": ["EASY, squitter", "NORMAL, squitter", "HARD, squitter"],
             "chest_unopened_img": "images/checks/kremkoin_disabled.png",
             "chest_opened_img": "images/checks/kremkoin.png",
             "visibility_rules": [],
             "item_count": 1
-        },
-        {
+        }
+    ],
+        "map_locations": [
+            {
+                "map": "cc-hotheadhop",
+                "x": "818",
+                "y": "951"
+            }
+        ]
+    },
+    {
+        "sections": [
+            {
             "name": "Bonus #3",
             "access_rules": ["EASY, squitter, barrelkannons", "NORMAL, squitter", "HARD, squitter"],
             "chest_unopened_img": "images/checks/kremkoin_disabled.png",
             "chest_opened_img": "images/checks/kremkoin.png",
             "visibility_rules": [],
             "item_count": 1
-        },
-        {
+        }
+    ],
+        "map_locations": [
+            {
+                "map": "cc-hotheadhop",
+                "x": "2241",
+                "y": "1061"
+            }
+        ]
+    },
+    {
+        "sections": [
+            {
             "name": "Green Balloon (Chest above start)",
             "access_rules": ["EASY, carry, teamattack, diddy, dixie", "NORMAL, carry, teamattack, diddy, dixie", "HARD, carry"],
             "chest_unopened_img": "images/checks/swanky2_disabled.png",
             "chest_opened_img": "images/checks/swanky2.png",
             "visibility_rules": ["balloonsanity"],
             "item_count": 1
-        },
-        {
+        }
+    ],
+        "map_locations": [
+            {
+                "map": "cc-hotheadhop",
+                "x": "36",
+                "y": "270"
+            }
+        ]
+    },
+    {
+        "sections": [
+            {
             "name": "Banana Coin #1 (Chest after first brown Krochead)",
             "access_rules": ["EASY, carry", "NORMAL, carry", "HARD, carry"],
             "chest_unopened_img": "images/checks/bananacoin_disabled.png",
             "chest_opened_img": "images/checks/bananacoin.png",
             "visibility_rules": ["coinsanity"],
             "item_count": 1
-        },
-        {
+        }
+    ],
+        "map_locations": [
+            {
+                "map": "cc-hotheadhop",
+                "x": "1709",
+                "y": "353"
+            }
+        ]
+    },
+    {
+        "sections": [
+            {
             "name": "Banana Bunch #1 (Chest next to cannon)",
             "access_rules": ["EASY, carry", "NORMAL, carry", "HARD, carry"],    
             "chest_unopened_img": "images/checks/bananabunch_disabled.png",
             "chest_opened_img": "images/checks/bananabunch.png",
             "visibility_rules": ["bananasanity"],
             "item_count": 1
-        },
-        {
+        }
+    ],
+        "map_locations": [
+            {
+                "map": "cc-hotheadhop",
+                "x": "1026",
+                "y": "847"
+            }
+        ]
+    },
+    {
+        "sections": [
+            {
             "name": "Banana Coin #2 (Above A bananas)",
             "access_rules": ["EASY, squitter", "NORMAL, squitter", "NORMAL, teamattack, diddy, dixie", "HARD, squitter", "HARD, teamattack, dixie, diddy", "HARD, carry"],
             "chest_unopened_img": "images/checks/bananacoin_disabled.png",
             "chest_opened_img": "images/checks/bananacoin.png",
             "visibility_rules": ["coinsanity"],
             "item_count": 1
-        },
-        {
+        }
+    ],
+        "map_locations": [
+            {
+                "map": "cc-hotheadhop",
+                "x": "2348",
+                "y": "674"
+            }
+        ]
+    },
+    {
+        "sections": [
+            {
             "name": "Banana Bunch #2 (Above G)",
             "access_rules": ["EASY, squitter", "NORMAL, squitter", "HARD, squitter"],
             "chest_unopened_img": "images/checks/bananabunch_disabled.png",
             "chest_opened_img": "images/checks/bananabunch.png",
             "visibility_rules": ["bananasanity"],
             "item_count": 1
-        },
-        {
+        }
+    ],
+        "map_locations": [
+            {
+                "map": "cc-hotheadhop",
+                "x": "1293",
+                "y": "1008"
+            }
+        ]
+    },
+    {
+        "sections": [
+            {
             "name": "Banana Bunch #3 (Above G)",
             "access_rules": ["EASY, squitter", "NORMAL, squitter", "HARD, squitter"],
             "chest_unopened_img": "images/checks/bananabunch_disabled.png",
             "chest_opened_img": "images/checks/bananabunch.png",
             "visibility_rules": ["bananasanity"],
             "item_count": 1
-        },
-        {
+        }
+    ],
+        "map_locations": [
+            {
+                "map": "cc-hotheadhop",
+                "x": "1389",
+                "y": "1008"
+            }
+        ]
+    },
+    {
+        "sections": [
+            {
             "name": "Banana Coin #3 (Between Zingers)",
             "access_rules": ["EASY, squitter", "NORMAL, squitter", "HARD, squitter", "HARD, dixie, helicopterspin", "HARD, diddy, dixie"],
             "chest_unopened_img": "images/checks/bananacoin_disabled.png",
             "chest_opened_img": "images/checks/bananacoin.png",
             "visibility_rules": ["coinsanity"],
             "item_count": 1
-        },
-        {
+        }
+    ],
+        "map_locations": [
+            {
+                "map": "cc-hotheadhop",
+                "x": "1773",
+                "y": "1231"
+            }
+        ]
+    },
+    {
+        "sections": [
+            {
             "name": "Banana Coin #4 (Between Zingers)",
             "access_rules": ["EASY, squitter", "NORMAL, squitter", "HARD, squitter", "HARD, helicopterspin, dixie", "HARD, barrelkannons, dixie, diddy", "HARD, barrelkannons, cartwheel"],
             "chest_unopened_img": "images/checks/bananacoin_disabled.png",
             "chest_opened_img": "images/checks/bananacoin.png",
             "visibility_rules": ["coinsanity"],
             "item_count": 1
-        },
-        {
+        }
+    ],
+        "map_locations": [
+            {
+                "map": "cc-hotheadhop",
+                "x": "1885",
+                "y": "1231"
+            }
+        ]
+    },
+    {
+        "sections": [
+            {
             "name": "Red Balloon (Squitter sign)",
             "access_rules": ["EASY, squitter, barrelkannons", "NORMAL, squitter", "HARD, squitter"],
             "chest_unopened_img": "images/checks/swanky1_disabled.png",
@@ -123,6 +294,15 @@
             "visibility_rules": ["balloonsanity"],
             "item_count": 1
         }
+    ],
+        "map_locations": [
+            {
+                "map": "cc-hotheadhop",
+                "x": "2439",
+                "y": "1213"
+            }
+        ]
+    }
     ],
     "map_locations": [
         {

@@ -3,6 +3,8 @@
         "name": "Gusty Glade",
         "access_rules": [" "],
         "visibility_rules": [""],
+        "children": [
+            {
         "sections": [
             {
                 "name": "Clear",
@@ -11,64 +13,167 @@
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "glg-gustyglade",
+                    "x": "3935",
+                    "y": "1118"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "DK Coin",
                 "access_rules": ["EASY, cling, barrelkannons, helicopterspin, dixie", "NORMAL, cling, barrelkannons, helicoptersping, dixie", "NORMAL, cling, barrelkannons"],
                 "chest_unopened_img": "images/checks/dkcoin_disabled.png",
                 "chest_opened_img": "images/checks/dkcoin.png",
                 "visibility_rules": ["dkcoinchecks"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "glg-gustyglade",
+                    "x": "2427",
+                    "y": "932"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "KONG",
                 "access_rules": ["EASY, cling, barrelkannons, carry, cartwheel", "NORMAL, cling, barrelkannons, carry, cartwheel", "HARD, cling, barrelkannons, carry, cartwheel"],
                 "chest_unopened_img": "images/checks/kong_disabled.png",
                 "chest_opened_img": "images/checks/kong.png",
                 "visibility_rules": ["kongchecks"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "glg-gustyglade",
+                    "x": "2114",
+                    "y": "127"
+                },
+                {
+                    "map": "glg-gustyglade",
+                    "x": "4166",
+                    "y": "1225"
+                },
+                {
+                    "map": "glg-gustyglade",
+                    "x": "3034",
+                    "y": "720"
+                },
+                {
+                    "map": "glg-gustyglade",
+                    "x": "2763",
+                    "y": "1106"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Bonus #1",
                 "access_rules": ["EASY, cling, teamattack, diddy, dixie", "NORMAL, cling, teamattack, diddy, dixie", "HARD, cling, teamattack, diddy, dixie"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "glg-gustyglade",
+                    "x": "1431",
+                    "y": "494"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Bonus #2",
                 "access_rules": ["EASY, cling, barrelkannons, carry", "NORMAL, cling, carry, barrelkannons", "HARD, cling, carry, barrelkannons"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "glg-gustyglade",
+                    "x": "3880",
+                    "y": "760"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #1 (Above Rattly)",
                 "access_rules": ["EASY, teamattack, diddy, dixie", "NORMAL, teamattack, diddy, dixie", "HARD, teamattack, diddy, dixie"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "glg-gustyglade",
+                    "x": "38",
+                    "y": "100"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #2 (Pit)",
                 "access_rules": ["EASY, cartwheel", "NORMAL, cartwheel", "HARD"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "glg-gustyglade",
+                    "x": "1663",
+                    "y": "217"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Blue Balloon (Rattly sign)",
                 "access_rules": ["EASY, teamattack, diddy, dixie, rattly", "NORMAL, teamattack, diddy, dixie, rattly", "HARD, teamattack, diddy, dixie, rattly"],
                 "chest_unopened_img": "images/checks/swanky3_disabled.png",
                 "chest_opened_img": "images/checks/swanky3.png",
                 "visibility_rules": ["balloonsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "glg-gustyglade",
+                    "x": "1589",
+                    "y": "580"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #3 (Below Kannon)",
                 "access_rules": ["EASY, cling, barrelkannons, cartwheel", "NORMAL, cling, barrelkannons, cartwheel", "HARD, cling, barrelkannons"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
@@ -77,13 +182,14 @@
                 "item_count": 1
             }
         ],
-        "map_locations": [
-            {
-                "map": "Gloomy Gulch",
-                "x": "635",
-                "y": "378",
-                "size": 20
-            }
+            "map_locations": [
+                {
+                    "map": "glg-gustyglade",
+                    "x": "836",
+                    "y": "1195"
+                }
+            ]
+        }
         ]
     }
 ]

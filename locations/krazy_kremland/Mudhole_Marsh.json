@@ -3,6 +3,8 @@
         "name": "Mudhole Marsh",        
         "access_rules": [" "],
         "visibility_rules": [""],
+        "children": [
+            {
         "sections": [
             {
                 "name": "Clear",
@@ -11,80 +13,205 @@
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kk-mudholemarsh",
+                    "x": "3075",
+                    "y": "1184"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "DK Coin",
                 "access_rules": ["EASY, climb, cling, exclamationbarrels, helicopterspin, dixie", "NORMAL, climb, cling, helicopterspin, dixie",  "HARD, cling, climb", "HARD, cling, dixie, helicopterspin", "HARD, dixie, diddy, helicopterspin, teamattack, cartwheel"],
                 "chest_unopened_img": "images/checks/dkcoin_disabled.png",
                 "chest_opened_img": "images/checks/dkcoin.png",
                 "visibility_rules": ["dkcoinchecks"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kk-mudholemarsh",
+                    "x": "3121",
+                    "y": "1072"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "KONG",
                 "access_rules": ["EASY, climb, cling, exclamationbarrels, carry, teamattack, diddy, dixie", "NORMAL, climb, cling, carry, teamattack, diddy, dixie", "HARD, carry, cling, climb", "HARD, carry, cling, dixie, helicopterspin", "HARD, carry, dixie, diddy, helicopterspin, teamattack, cartwheel"],
                 "chest_unopened_img": "images/checks/kong_disabled.png",
                 "chest_opened_img": "images/checks/kong.png",
                 "visibility_rules": ["kongchecks"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kk-mudholemarsh",
+                    "x": "1133",
+                    "y": "76"
+                },
+                {
+                    "map": "kk-mudholemarsh",
+                    "x": "572",
+                    "y": "583"
+                },
+                {
+                    "map": "kk-mudholemarsh",
+                    "x": "3115",
+                    "y": "528"
+                },
+                {
+                    "map": "kk-mudholemarsh",
+                    "x": "1283",
+                    "y": "1033"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Bonus #1",
                 "access_rules": ["EASY, climb, cling, exclamationbarrels, teamattack, diddy, dixie", "NORMAL, climb, cling, teamattack, diddy, dixie","HARD, teamattack, diddy, dixie, cling, climb", "HARD, teamattack, diddy, dixie, cling, helicopterspin", "HARD, teamattack, helicopterspin, diddy, dixie, cartwheel"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kk-mudholemarsh",
+                    "x": "1757",
+                    "y": "390"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Bonus #2",
                 "access_rules": ["EASY, climb, cling, exclamationbarrels, carry", "NORMAL, climb, cling, carry", "HARD, carry, cling, climb", "HARD, carry, cling, dixie, helicopterspin", "HARD, carry, dixie, diddy, helicopterspin, teamattack, cartwheel"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kk-mudholemarsh",
+                    "x": "2209",
+                    "y": "910"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #1 (Start)",
                 "access_rules": [""],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kk-mudholemarsh",
+                    "x": "381",
+                    "y": "81"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #1 (Triple Chest)",
                 "access_rules": ["EASY, cling, carry", "NORMAL, cling, carry", "HARD, carry, cling, climb, helicopterspin, dixie", "HARD, carry, helicopterspin, teamattack, diddy, dixie"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kk-mudholemarsh",
+                    "x": "2011",
+                    "y": "260"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #2 (Chest after O)",
                 "access_rules": ["EASY, carry, cling, exclamationbarrels, teamattack, diddy, dixie", "NORMAL, cling, carry, teamattack, diddy, dixie, exclamationbarrels", "HARD, carry, cling, climb", "HARD, carry, cling, dixie, helicopterspin", "HARD, carry, dixie, diddy, helicopterspin, teamattack, cartwheel"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kk-mudholemarsh",
+                    "x": "958",
+                    "y": "642"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #3 (Above Zinger)",
                 "access_rules": ["EASY, climb, cling, exclamationbarrels, carry, teamattack, diddy, dixie", "NORMAL, cling, carry, teamattack, diddy, dixie, climb", "HARD, carry, cling, climb", "HARD, carry, cling, dixie, helicopterspin", "HARD, carry, dixie, diddy, helicopterspin, teamattack, cartwheel"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kk-mudholemarsh",
+                    "x": "1024",
+                    "y": "733"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #4 (Below Flitter)",
                 "access_rules": ["EASY, carry, cling, exclamationbarrels, teamattack, diddy, dixie, cartwheel", "NORMAL, climb, cling, carry, teamattack, diddy, dixie, cartwheel", "HARD, carry, cling, climb", "HARD, carry, cling, dixie, helicopterspin", "HARD, carry, dixie, diddy, helicopterspin, teamattack, cartwheel"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kk-mudholemarsh",
+                    "x": "2688",
+                    "y": "929"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #5 (Next to G)",
                 "access_rules": ["EASY, carry, cling, exclamationbarrels, teamattack, diddy, dixie, cartwheel", "NORMAL, cling, carry, teamattack, diddy, dixie, climb", "HARD, carry, cling, climb", "HARD, carry, cling, dixie, helicopterspin", "HARD, carry, dixie, diddy, helicopterspin, teamattack, cartwheel"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
@@ -93,13 +220,14 @@
                 "item_count": 1
             }
         ],
-        "map_locations": [
-            {
-                "map": "Krazy Kremland",
-                "x": "236",
-                "y": "324",
-                "size": 20
-            }
+            "map_locations": [
+                {
+                    "map": "kk-mudholemarsh",
+                    "x": "1474",
+                    "y": "1031"
+                }
+            ]
+        }
         ]
     }
 ]

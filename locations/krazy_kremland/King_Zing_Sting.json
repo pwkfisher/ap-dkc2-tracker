@@ -3,6 +3,8 @@
         "name": "King Zing Sting",
         "access_rules": [" "],
         "visibility_rules": [""],
+        "children": [
+            {
         "sections": [
             {
                 "name": "Clear",
@@ -19,16 +21,19 @@
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
-                "name": "Banana Coin #1 (Above start)",
-                "access_rules": [""],
-                "chest_unopened_img": "images/checks/bananacoin_disabled.png",
-                "chest_opened_img": "images/checks/bananacoin.png",
-                "visibility_rules": ["coinsanity"],
-                "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kk-kingzingsting",
+                    "x": "205",
+                    "y": "269"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #1 (Above start)",
                 "access_rules": [""],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
@@ -37,13 +42,33 @@
                 "item_count": 1
             }
         ],
-        "map_locations": [
-            {
-                "map": "Krazy Kremland",
-                "x": "406",
-                "y": "304",
-                "size": 20
+            "map_locations": [
+                {
+                    "map": "kk-kingzingsting",
+                    "x": "31",
+                    "y": "244"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Coin #2 (Above start)",
+                "access_rules": [""],
+                "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                "chest_opened_img": "images/checks/bananacoin.png",
+                "visibility_rules": ["coinsanity"],
+                "item_count": 1
             }
+        ],
+            "map_locations": [
+                {
+                    "map": "kk-kingzingsting",
+                    "x": "61",
+                    "y": "244"
+                }
+            ]
+        }
         ]
     }
 ]

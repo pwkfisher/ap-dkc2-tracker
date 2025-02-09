@@ -3,6 +3,8 @@
         "name": "Castle Crush",
         "access_rules": [" "],
         "visibility_rules": [""],
+        "children": [
+            {
         "sections": [
             {
                 "name": "Clear",
@@ -11,104 +13,262 @@
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-castlecrush",
+                    "x": "3922",
+                    "y": "191"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "DK Coin",
                 "access_rules": ["EASY, rambi, cartwheel, carry, squawks, diddy, dixie", "NORMAL, cartwheel, squawks, diddy, dixie", "HARD, squawks, helicopterspin, dixie", "HARD, squawks, cartwheel", "HARD, squawks, diddy, dixie"],
                 "chest_unopened_img": "images/checks/dkcoin_disabled.png",
                 "chest_opened_img": "images/checks/dkcoin.png",
                 "visibility_rules": ["dkcoinchecks"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-castlecrush",
+                    "x": "2458",
+                    "y": "870"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "KONG",
                 "access_rules": ["EASY, rambi, cartwheel, carry, diddy, dixie", "NORMAL, cartwheel", "NORMAL, rambi, carry, diddy, dixie", "HARD, helicopterspin, dixie", "HARD, cartwheel", "HARD, dixie, diddy"],
                 "chest_unopened_img": "images/checks/kong_disabled.png",
                 "chest_opened_img": "images/checks/kong.png",
                 "visibility_rules": ["kongchecks"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-castlecrush",
+                    "x": "994",
+                    "y": "999"
+                },
+                {
+                    "map": "krk-castlecrush",
+                    "x": "1789",
+                    "y": "1079"
+                },
+                {
+                    "map": "krk-castlecrush",
+                    "x": "2526",
+                    "y": "501"
+                },
+                {
+                    "map": "krk-castlecrush",
+                    "x": "3299",
+                    "y": "777"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Bonus #1",
                 "access_rules": ["EASY, rambi, carry, diddy, dixie", "NORMAL, rambi, carry, diddy, dixie", "HARD, rambi, carry", "HARD, rambi, diddy, dixie"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-castlecrush",
+                    "x": "1042",
+                    "y": "614"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Bonus #2",
                 "access_rules": ["EASY, rambi, cartwheel, carry, squawks, diddy, dixie", "NORMAL, cartwheel, carry, squawks, diddy, dixie", "HARD, carry, squawks, diddy, dixie", "HARD, carry, squawks, cartwheel", "HARD, carry, squawks, helicopterspin, dixie"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-castlecrush",
+                    "x": "2074",
+                    "y": "362"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #1 (4-path)",
                 "access_rules": ["EASY, rambi, carry, diddy, dixie", "NORMAL, rambi, carry, diddy, dixie", "HARD"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-castlecrush",
+                    "x": "640",
+                    "y": "1001"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #1 (4-path)",
                 "access_rules": ["EASY, rambi, carry, diddy, dixie", "NORMAL, rambi, carry, diddy, dixie", "HARD"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-castlecrush",
+                    "x": "879",
+                    "y": "999"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #2 (After falling Klampon)",
                 "access_rules": ["EASY, rambi, carry, diddy, dixie", "NORMAL, rambi, carry, diddy, dixie", "HARD"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-castlecrush",
+                    "x": "721",
+                    "y": "299"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #2 (After Zinger duo)",
                 "access_rules": ["EASY, rambi, carry, diddy, dixie", "NORMAL, rambi, carry, diddy, dixie", "HARD"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-castlecrush",
+                    "x": "1331",
+                    "y": "1122"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #3 (Rambi sign)",
                 "access_rules": ["EASY, rambi, carry, diddy, dixie", "NORMAL, rambi, carry, diddy, dixie", "HARD, rambi, diddy, dixie, carry"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-castlecrush",
+                    "x": "1159",
+                    "y": "223"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #4 (Next to O)",
                 "access_rules": ["EASY, rambi, carry, diddy, dixie", "NORMAL, carry, diddy, dixie", "HARD"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-castlecrush",
+                    "x": "1787",
+                    "y": "1027"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #5 (Above DK Coin)",
                 "access_rules": ["EASY, rambi, carry, diddy, dixie, cartwheel", "NORMAL, carry, diddy, dixie, cartwheel", "HARD, diddy, dixie", "HARD, helicopterspin, dixie, cartwheel"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-castlecrush",
+                    "x": "2460",
+                    "y": "645"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #3 (Above Zinger before goal)",
                 "access_rules": ["EASY, rambi, carry, diddy, dixie, cartwheel", "NORMAL, carry, diddy, dixie, cartwheel", "HARD, carry, diddy, dixie", "HARD, carry, helicopterspin, dixie, cartwheel"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-castlecrush",
+                    "x": "3701",
+                    "y": "271"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #6 (Above Zinger before goal)",
                 "access_rules": ["EASY, rambi, carry, diddy, dixie, cartwheel", "NORMAL, carry, diddy, dixie, cartwheel", "HARD, carry, diddy, dixie", "HARD, carry, helicopterspin, dixie, cartwheel"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
@@ -117,13 +277,14 @@
                 "item_count": 1
             }
         ],
-        "map_locations": [
-            {
-                "map": "K. Rool's Keep",
-                "x": "335",
-                "y": "102",
-                "size": 20
-            }
+            "map_locations": [
+                {
+                    "map": "krk-castlecrush",
+                    "x": "3701",
+                    "y": "228"
+                }
+            ]
+        }
         ]
     }
 ]

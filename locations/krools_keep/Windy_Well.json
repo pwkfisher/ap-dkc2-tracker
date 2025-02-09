@@ -3,6 +3,8 @@
         "name": "Windy Well",
         "access_rules": [" "],
         "visibility_rules": [""],
+        "children": [
+            {
         "sections": [
             {
                 "name": "Clear",
@@ -11,104 +13,262 @@
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-windywell",
+                    "x": "3695",
+                    "y": "171"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "DK Coin",
                 "access_rules": ["EASY, cling, barrelkannons, carry, diddy, dixie", "NORMAL, cling, barrelkannons", "HARD, cling, barrelkannons"],
                 "chest_unopened_img": "images/checks/dkcoin_disabled.png",
                 "chest_opened_img": "images/checks/dkcoin.png",
                 "visibility_rules": ["dkcoinchecks"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-windywell",
+                    "x": "3065",
+                    "y": "1330"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "KONG",
                 "access_rules": ["EASY, cling, barrelkannons, carry, diddy, dixie", "NORMAL, cling, barrelkannons", "HARD, cling"],
                 "chest_unopened_img": "images/checks/kong_disabled.png",
                 "chest_opened_img": "images/checks/kong.png",
                 "visibility_rules": ["kongchecks"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-windywell",
+                    "x": "207",
+                    "y": "1533"
+                },
+                {
+                    "map": "krk-windywell",
+                    "x": "1413",
+                    "y": "1185"
+                },
+                {
+                    "map": "krk-windywell",
+                    "x": "2071",
+                    "y": "234"
+                },
+                {
+                    "map": "krk-windywell",
+                    "x": "3739",
+                    "y": "50"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Bonus #1",
                 "access_rules": ["EASY, cling", "NORMAL, cling", "HARD, cling"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-windywell",
+                    "x": "802",
+                    "y": "877"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Bonus #2",
                 "access_rules": ["EASY, cling, barrelkannons, carry, squawks, diddy, dixie", "NORMAL, cling, barrelkannons, carry, squawks", "HARD, cling, carry, squawks"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-windywell",
+                    "x": "3837",
+                    "y": "228"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #1 (After Kutlass)",
                 "access_rules": ["EASY, carry", "NORMAL", "HARD"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-windywell",
+                    "x": "334",
+                    "y": "947"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #2 (Between Zingers)",
                 "access_rules": ["EASY, cling, carry", "NORMAL, cling", "HARD, cling"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-windywell",
+                    "x": "1413",
+                    "y": "1546"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #3 (Above Bonus #1 barrel)",
                 "access_rules": ["EASY, cling, carry", "NORMAL, cling", "HARD, cling"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-windywell",
+                    "x": "804",
+                    "y": "814"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #1 (Next to Klampon)",
                 "access_rules": ["EASY, cling, barrelkannons, carry, cartwheel", "NORMAL, barrelkannons, cling, carry", "HARD, cling, barrelkannons", "HARD, cling, teamattack, diddy, dixie"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-windywell",
+                    "x": "1336",
+                    "y": "428"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #2 (Next to Klampon)",
                 "access_rules": ["EASY, cling, barrelkannons, carry, cartwheel", "NORMAL, barrelkannons, cling, carry", "HARD, cling, barrelkannons", "HARD, cling, teamattack, diddy, dixie"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-windywell",
+                    "x": "1306",
+                    "y": "428"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #4 (Rotating Zinger)",
                 "access_rules": ["EASY, cling, barrelkannons, carry", "NORMAL, cling, carry", "HARD, cling"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-windywell",
+                    "x": "1738",
+                    "y": "1307"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #3 (Rotating Zinger)",
                 "access_rules": ["EASY, cling, barrelkannons, carry", "NORMAL, cling, carry", "HARD, cling"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-windywell",
+                    "x": "1609",
+                    "y": "1193"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Red Balloon (Before N)",
                 "access_rules": ["EASY, cling, barrelkannons, carry, diddy, dixie", "NORMAL, cling, carry", "HARD, cling"],
                 "chest_unopened_img": "images/checks/swanky1_disabled.png",
                 "chest_opened_img": "images/checks/swanky1.png",
                 "visibility_rules": ["balloonsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "krk-windywell",
+                    "x": "2235",
+                    "y": "247"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #4 (Squawks sign)",
                 "access_rules": ["EASY, cling, barrelkannons, carry, squawks, diddy, dixie", "NORMAL, cling, carry, squawks", "HARD, cling, carry, squawks"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
@@ -117,13 +277,14 @@
                 "item_count": 1
             }
         ],
-        "map_locations": [
-            {
-                "map": "K. Rool's Keep",
-                "x": "328",
-                "y": "224",
-                "size": 20
-            }
+            "map_locations": [
+                {
+                    "map": "krk-windywell",
+                    "x": "3179",
+                    "y": "132"
+                }
+            ]
+        }
         ]
     }
 ]

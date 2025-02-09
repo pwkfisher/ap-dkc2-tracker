@@ -3,6 +3,8 @@
         "name": "Red-Hot Ride",
         "access_rules": [""],
         "visibility_rules": [""],
+        "children": [
+            {
         "sections": [
             {
                 "name": "Clear",
@@ -11,112 +13,281 @@
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "cc-redhotride",
+                    "x": "3255",
+                    "y": "1218"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "DK Coin",
                 "access_rules": ["EASY, carry, rambi, teamattack, dixie, diddy", "NORMAL, carry, teamattack, dixie, diddy", "HARD, carry", "HARD, diddy, dixie"],
                 "chest_unopened_img": "images/checks/dkcoin_disabled.png",
                 "chest_opened_img": "images/checks/dkcoin.png",
                 "visibility_rules": ["dkcoinchecks"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "cc-redhotride",
+                    "x": "2956",
+                    "y": "554"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "KONG",
                 "access_rules": ["EASY, carry, rambi", "NORMAL, carry, teamattack, dixie, diddy", "HARD, carry", "HARD, diddy, dixie"],
                 "chest_unopened_img": "images/checks/kong_disabled.png",
                 "chest_opened_img": "images/checks/kong.png",
                 "visibility_rules": ["kongchecks"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "cc-redhotride",
+                    "x": "1269",
+                    "y": "357"
+                },
+                {
+                    "map": "cc-redhotride",
+                    "x": "3393",
+                    "y": "392"
+                },
+                {
+                    "map": "cc-redhotride",
+                    "x": "2692",
+                    "y": "628"
+                },
+                {
+                    "map": "cc-redhotride",
+                    "x": "2552",
+                    "y": "1087"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Bonus #1",
                 "access_rules": ["EASY, carry, rambi", "NORMAL, carry, rambi", "HARD, carry", "HARD, rambi"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "cc-redhotride",
+                    "x": "1205",
+                    "y": "835"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Bonus #2",
                 "access_rules": ["EASY, carry, rambi", "NORMAL", "HARD"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "cc-redhotride",
+                    "x": "2077",
+                    "y": "864"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #1 (Start)",
                 "access_rules": [],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "cc-redhotride",
+                    "x": "173",
+                    "y": "289"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #1 (Above start)",
                 "access_rules": ["EASY, teamattack, diddy, dixie"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "cc-redhotride",
+                    "x": "14",
+                    "y": "248"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #2 (Above start)",
                 "access_rules": ["EASY, teamattack, diddy, dixie"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "cc-redhotride",
+                    "x": "38",
+                    "y": "266"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #2 (After K)",
                 "access_rules": ["EASY, carry", "NORMAL, carry", "HARD"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "cc-redhotride",
+                    "x": "1467",
+                    "y": "387"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #3 (Behind Zinger after Rambi)",
                 "access_rules": ["EASY, carry, rambi", "NORMAL, carry", "NORMAL, rambi", "HARD"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "cc-redhotride",
+                    "x": "2855",
+                    "y": "335"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #3 (Above Zinger)",
                 "access_rules": ["EASY, carry, rambi", "EASY, teamattack, diddy, dixie, rambi", "NORMAL", "HARD"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "cc-redhotride",
+                    "x": "385",
+                    "y": "615"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #4 (Above Kruncha)",
                 "access_rules": ["EASY, carry, rambi", "EASY, teamattack, diddy, dixie, rambi", "NORMAL", "HARD"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "cc-redhotride",
+                    "x": "477",
+                    "y": "615"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #5 (Rambi sign)",
                 "access_rules": ["EASY, carry, rambi", "NORMAL, rambi", "HARD, rambi"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "cc-redhotride",
+                    "x": "1562",
+                    "y": "825"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #6 (Behind Zinger after TNT barrel)",
                 "access_rules": ["EASY, carry, rambi", "NORMAL, carry", "HARD"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "cc-redhotride",
+                    "x": "137",
+                    "y": "1083"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #4 (Above Flitter)",
                 "access_rules": ["EASY, carry, rambi", "NORMAL", "HARD"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
@@ -125,6 +296,15 @@
                 "item_count": 1
             }
         ],
+            "map_locations": [
+                {
+                    "map": "cc-redhotride",
+                    "x": "1684",
+                    "y": "1068"
+                }
+            ]
+        },
+        {
         "map_locations": [
             {
                 "map": "Crocodile Cauldron",
@@ -134,4 +314,6 @@
             }
         ]
     }
+]
+}
 ]

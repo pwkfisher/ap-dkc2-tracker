@@ -3,6 +3,8 @@
         "name": "Glimmer's Galleon",
         "access_rules": [""],
         "visibility_rules": [""],
+        "children": [
+            {
         "sections": [
             {
                 "name": "Clear",
@@ -11,232 +13,566 @@
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kq-glimmersgalleon",
+                    "x": "5074",
+                    "y": "30"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "DK Coin",
                 "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
                 "chest_unopened_img": "images/checks/dkcoin_disabled.png",
                 "chest_opened_img": "images/checks/dkcoin.png",
                 "visibility_rules": ["dkcoinchecks"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kq-glimmersgalleon",
+                    "x": "373",
+                    "y": "176"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "KONG",
                 "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
                 "chest_unopened_img": "images/checks/kong_disabled.png",
                 "chest_opened_img": "images/checks/kong.png",
                 "visibility_rules": ["kongchecks"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kq-glimmersgalleon",
+                    "x": "1869",
+                    "y": "444"
+                },
+                {
+                    "map": "kq-glimmersgalleon",
+                    "x": "5074",
+                    "y": "903"
+                },
+                {
+                    "map": "kq-glimmersgalleon",
+                    "x": "2642",
+                    "y": "582"
+                },
+                {
+                    "map": "kq-glimmersgalleon",
+                    "x": "4499",
+                    "y": "70"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Bonus #1",
                 "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kq-glimmersgalleon",
+                    "x": "219",
+                    "y": "442"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Bonus #2",
                 "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kq-glimmersgalleon",
+                    "x": "4159",
+                    "y": "808"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #1 (Hidden passage on top left corner)",
                 "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kq-glimmersgalleon",
+                    "x": "79",
+                    "y": "123"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #2 (Hidden passage on top left corner)",
                 "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kq-glimmersgalleon",
+                    "x": "237",
+                    "y": "123"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #1 (Hidden passage above Bonus #1 entrance)",
                 "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kq-glimmersgalleon",
+                    "x": "365",
+                    "y": "379"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #2 (Hidden passage above Bonus #1 entrance)",
                 "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kq-glimmersgalleon",
+                    "x": "364",
+                    "y": "509"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #3 (Hidden passage above Bonus #1 entrance)",
                 "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kq-glimmersgalleon",
+                    "x": "522",
+                    "y": "509"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Red Balloon (Alone banana above Glimmer spawn)",
                 "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
                 "chest_unopened_img": "images/checks/swanky1_disabled.png",
                 "chest_opened_img": "images/checks/swanky1.png",
                 "visibility_rules": ["balloonsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kq-glimmersgalleon",
+                    "x": "998",
+                    "y": "676"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #4 (Above green Flotsam duo)",
                 "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kq-glimmersgalleon",
+                    "x": "1198",
+                    "y": "668"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #3 (Middle crates after left banana arrow)",
                 "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kq-glimmersgalleon",
+                    "x": "1709",
+                    "y": "728"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #5 (Next to Lockjaw near up banana arrow)",
                 "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kq-glimmersgalleon",
+                    "x": "2511",
+                    "y": "666"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #4 (Hidden passage near Lockjaw duo)",
                 "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kq-glimmersgalleon",
+                    "x": "2093",
+                    "y": "183"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #6 (Hidden passage near Lockjaw duo)",
                 "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kq-glimmersgalleon",
+                    "x": "2126",
+                    "y": "283"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #7 (Hidden passage near Lockjaw duo)",
                 "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kq-glimmersgalleon",
+                    "x": "2166",
+                    "y": "283"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #5 (Hidden passage near Lockjaw duo)",
                 "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kq-glimmersgalleon",
+                    "x": "2191",
+                    "y": "406"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #8 (Near Lockjaw and blue Flotsam duo)",
                 "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kq-glimmersgalleon",
+                    "x": "1760",
+                    "y": "284"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #6 (Near Lockjaw and blue Flotsam duo)",
                 "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kq-glimmersgalleon",
+                    "x": "1421",
+                    "y": "345"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #9 (Near exploding Puftup after midpoint)",
                 "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kq-glimmersgalleon",
+                    "x": "3226",
+                    "y": "980"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #10 (Near exploding Puftup before N)",
                 "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kq-glimmersgalleon",
+                    "x": "2610",
+                    "y": "741"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #11 (Near exploding Puftup before N)",
                 "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kq-glimmersgalleon",
+                    "x": "2610",
+                    "y": "774"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #12 (Next to N)",
                 "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kq-glimmersgalleon",
+                    "x": "2735",
+                    "y": "585"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #7 (Hidden passage near Shuri and blue Flotsam)",
                 "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kq-glimmersgalleon",
+                    "x": "3627",
+                    "y": "554"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #8 (Hidden passage near Shuri and blue Flotsam)",
                 "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kq-glimmersgalleon",
+                    "x": "3659",
+                    "y": "554"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #13 (All way up after multiple Shuri section)",
                 "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kq-glimmersgalleon",
+                    "x": "3858",
+                    "y": "39"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #9 (Next to G)",
                 "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kq-glimmersgalleon",
+                    "x": "4402",
+                    "y": "71"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #14 (Next to G)",
                 "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kq-glimmersgalleon",
+                    "x": "4594",
+                    "y": "71"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #10 (Before exit barrel)",
                 "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
@@ -245,13 +581,14 @@
                 "item_count": 1
             }
         ],
-        "map_locations": [
-            {
-                "map": "Krem Quay",
-                "x": "328",
-                "y": "358",
-                "size": 20
-            }
+            "map_locations": [
+                {
+                    "map": "kq-glimmersgalleon",
+                    "x": "4979",
+                    "y": "138"
+                }
+            ]
+        }
         ]
     }
 ]

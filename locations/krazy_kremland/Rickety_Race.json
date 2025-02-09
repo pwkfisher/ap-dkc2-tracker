@@ -3,6 +3,8 @@
         "name": "Rickety Race",
         "access_rules": [" "],
         "visibility_rules": [""],
+        "children": [
+            {
         "sections": [
             {
                 "name": "Clear",
@@ -11,32 +13,91 @@
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kk-ricketyrace",
+                    "x": "4805",
+                    "y": "2470"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "DK Coin",
                 "access_rules": ["EASY, skullkart", "NORMAL, skullkart", "HARD, skullkart"],
                 "chest_unopened_img": "images/checks/dkcoin_disabled.png",
                 "chest_opened_img": "images/checks/dkcoin.png",
                 "visibility_rules": ["dkcoinchecks"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kk-ricketyrace",
+                    "x": "224",
+                    "y": "2251"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "KONG",
                 "access_rules": ["EASY, skullkart", "NORMAL, skullkart", "HARD, skullkart"],
                 "chest_unopened_img": "images/checks/kong_disabled.png",
                 "chest_opened_img": "images/checks/kong.png",
                 "visibility_rules": ["kongchecks"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kk-ricketyrace",
+                    "x": "2285",
+                    "y": "120"
+                },
+                {
+                    "map": "kk-ricketyrace",
+                    "x": "2012",
+                    "y": "1114"
+                },
+                {
+                    "map": "kk-ricketyrace",
+                    "x": "3048",
+                    "y": "1301"
+                },
+                {
+                    "map": "kk-ricketyrace",
+                    "x": "4750",
+                    "y": "1724"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Bonus #1",
                 "access_rules": ["EASY, skullkart, teamattack, diddy, dixie, helicopterspin", "NORMAL, skullkart, teamattack, diddy, dixie, helicopterspin", "NORMAL, skullkart, teamattack, diddy, dixie, cartwheel", "NORMAL, skullkart, teamattack, diddy, dixie, helicopterspin"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kk-ricketyrace",
+                    "x": "310",
+                    "y": "80"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin (Klank on second place)",
                 "access_rules": ["EASY, skullkart", "NORMAL, skullkart", "HARD, skullkart"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
@@ -45,13 +106,14 @@
                 "item_count": 1
             }
         ],
-        "map_locations": [
-            {
-                "map": "Krazy Kremland",
-                "x": "828",
-                "y": "56",
-                "size": 20
-            }
+            "map_locations": [
+                {
+                    "map": "kk-ricketyrace",
+                    "x": "1082",
+                    "y": "1871"
+                }
+            ]
+        }
         ]
     }
 ]

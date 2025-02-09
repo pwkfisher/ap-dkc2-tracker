@@ -3,6 +3,8 @@
         "name": "Slime Climb",
         "access_rules": [" "],
         "visibility_rules": [""],
+        "children": [
+            {
         "sections": [
             {
                 "name": "Clear",
@@ -11,88 +13,224 @@
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kq-slimeclimb",
+                    "x": "3859",
+                    "y": "319"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "DK Coin",
                 "access_rules": ["EASY, climb, swim, carry, teamattack, helicopterspin, dixie, diddy, exclamationbarrels", "NORMAL, climb, swim, teamattack, diddy, dixie, exclamationbarrels", "HARD, climb, swim, diddy, dixie"],
                 "chest_unopened_img": "images/checks/dkcoin_disabled.png",
                 "chest_opened_img": "images/checks/dkcoin.png",
                 "visibility_rules": ["dkcoinchecks"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kq-slimeclimb",
+                    "x": "4066",
+                    "y": "401"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "KONG",
                 "access_rules": ["EASY, climb, swim, carry, cartwheel, helicopterspin, dixie", "EASY, climb, swim, carry, helicopterspin, dixie", "NORMAL, climb, swim, cartwheel", "NORMAL, climb, swim, helicopterspin, dixie", "HARD, climb, swim"],
                 "chest_unopened_img": "images/checks/kong_disabled.png",
                 "chest_opened_img": "images/checks/kong.png",
                 "visibility_rules": ["kongchecks"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kq-slimeclimb",
+                    "x": "366",
+                    "y": "653"
+                },
+                {
+                    "map": "kq-slimeclimb",
+                    "x": "1158",
+                    "y": "828"
+                },
+                {
+                    "map": "kq-slimeclimb",
+                    "x": "2735",
+                    "y": "804"
+                },
+                {
+                    "map": "kq-slimeclimb",
+                    "x": "3091",
+                    "y": "821"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Bonus #1",
                 "access_rules": ["EASY, climb, swim, carry, cling, cartwheel, exclamationbarrels, helicopterspin, dixie", "NORMAL, climb, swim, cling, cartwheel, exclamationbarrels", "HARD, climb"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kq-slimeclimb",
+                    "x": "2008",
+                    "y": "1363"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Bonus #2",
                 "access_rules": ["EASY, climb, swim, carry, helicopterspin, dixie", "NORMAL, climb, swim, carry", "HARD, climb, carry"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kq-slimeclimb",
+                    "x": "3406",
+                    "y": "619"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #1 (After first Click-Clack)",
                 "access_rules": ["EASY, cartwheel", "NORMAL, cartwheel", "HARD"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kq-slimeclimb",
+                    "x": "606",
+                    "y": "1272"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #2 (After first Klomp)",
                 "access_rules": ["EASY, climb, swim, carry, cartwheel", "NORMAL, climb, swim, cartwheel", "HARD, climb"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kq-slimeclimb",
+                    "x": "591",
+                    "y": "368"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #1 (Before midpoint)",
                 "access_rules": ["EASY, climb, swim, carry, cartwheel", "NORMAL, climb, swim, cartwheel", "HARD, climb"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kq-slimeclimb",
+                    "x": "1520",
+                    "y": "642"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #2 (Flitter)",
                 "access_rules": ["EASY, climb, swim, carry, cartwheel", "NORMAL, climb, swim, cartwheel", "HARD, climb"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kq-slimeclimb",
+                    "x": "1680",
+                    "y": "226"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #3 (After Flitter)",
                 "access_rules": ["EASY, climb, swim, carry, cartwheel", "NORMAL, climb, swim, cartwheel", "HARD, climb"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kq-slimeclimb",
+                    "x": "1391",
+                    "y": "273"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #3 (Next to G)",
                 "access_rules": ["EASY, climb, swim, carry, cartwheel, dixie, helicopterspin", "NORMAL, climb, swim, cartwheel, dixie, helicopterspin", "HARD, climb, diddy, dixie", "HARD, climb, swim"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "kq-slimeclimb",
+                    "x": "3173",
+                    "y": "821"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #4 (Next to G)",
                 "access_rules": ["EASY, climb, swim, carry, cartwheel, dixie, helicopterspin", "NORMAL, climb, swim, cartwheel, dixie, helicopterspin", "HARD, climb, diddy, dixie", "HARD, climb, swim"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
@@ -101,13 +239,14 @@
                 "item_count": 1
             }
         ],
-        "map_locations": [
-            {
-                "map": "Krem Quay",
-                "x": "750",
-                "y": "196",
-                "size": 20
-            }
+            "map_locations": [
+                {
+                    "map": "kq-slimeclimb",
+                    "x": "3132",
+                    "y": "821"
+                }
+            ]
+        }
         ]
     }
 ]

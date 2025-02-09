@@ -3,6 +3,8 @@
         "name": "Ghostly Grove",        
         "access_rules": [" "],
         "visibility_rules": [""],
+        "children": [
+            {
         "sections": [
             {
                 "name": "Clear",
@@ -11,40 +13,110 @@
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "glg-ghostlygrove",
+                    "x": "3227",
+                    "y": "1033"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "DK Coin",
                 "access_rules": ["EASY, climb, barrelkannons, cartwheel", "EASY, climb, barrelkannons, helicopterspin, dixie", "NORMAL, climb, barrelkannons, cartwheel", "NORMAL, climb, barrelkannons, helicopterspin, dixie", "HARD, climb, cartwheel, diddy", "HARD, climb, dixie, helicopterspin", "HARD, teamattack, diddy, dixie, helicopterspin", "HARD, diddy, dixie, helicopterspin"],
                 "chest_unopened_img": "images/checks/dkcoin_disabled.png",
                 "chest_opened_img": "images/checks/dkcoin.png",
                 "visibility_rules": ["dkcoinchecks"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "glg-ghostlygrove",
+                    "x": "3405",
+                    "y": "345"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "KONG",
                 "access_rules": ["EASY, climb, teamattack, diddy, dixie, carry", "NORMAL, climb, teamattack, diddy, dixie, carry", "HARD, climb, carry"],
                 "chest_unopened_img": "images/checks/kong_disabled.png",
                 "chest_opened_img": "images/checks/kong.png",
                 "visibility_rules": ["kongchecks"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "glg-ghostlygrove",
+                    "x": "1471",
+                    "y": "196"
+                },
+                {
+                    "map": "glg-ghostlygrove",
+                    "x": "49",
+                    "y": "535"
+                },
+                {
+                    "map": "glg-ghostlygrove",
+                    "x": "3076",
+                    "y": "588"
+                },
+                {
+                    "map": "glg-ghostlygrove",
+                    "x": "1859",
+                    "y": "868"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Bonus #1",
                 "access_rules": ["EASY, climb, carry", "NORMAL, climb, carry", "HARD, carry, climb, helicopterspin, dixie", "HARD, carry, teamattack, diddy, dixie, helicopterspin", "HARD, carry, dixie, diddy, helicopterspin"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "glg-ghostlygrove",
+                    "x": "1046",
+                    "y": "649"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Bonus #2",
                 "access_rules": ["EASY, climb", "NORMAL, climb", "HARD, climb"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "glg-ghostlygrove",
+                    "x": "314",
+                    "y": "869"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #1 (Kloak at start)",
                 "access_rules": [""],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
@@ -59,40 +131,95 @@
                 "chest_opened_img": "images/checks/swanky1.png",
                 "visibility_rules": ["balloonsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "glg-ghostlygrove",
+                    "x": "95",
+                    "y": "51"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #2 (Kloak after Klomps)",
                 "access_rules": [""],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "glg-ghostlygrove",
+                    "x": "540",
+                    "y": "150"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #1 (Pit)",
                 "access_rules": ["EASY, climb, carry", "NORMAL, climb, cartwheel", "HARD, climb, dixie, helicopterspin", "HARD, teamattack, diddy, dixie, helicopterspin", "HARD, diddy, dixie, helicopterspin"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "glg-ghostlygrove",
+                    "x": "1861",
+                    "y": "229"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #3 (Between Ghost Ropes)",
                 "access_rules": ["EASY, climb", "NORMAL, climb", "HARD, climb"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "glg-ghostlygrove",
+                    "x": "2609",
+                    "y": "69"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #4 (On Ghost Rope)",
                 "access_rules": ["EASY, climb", "NORMAL, climb", "HARD, climb", "HARD, teamattack, diddy, dixie, helicopterspin"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "map_locations": [
+                {
+                    "map": "glg-ghostlygrove",
+                    "x": "2622",
+                    "y": "651"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #2 (On Ghost Rope)",
                 "access_rules": ["EASY, climb", "NORMAL, climb", "HARD, climb"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
@@ -101,13 +228,14 @@
                 "item_count": 1
             }
         ],
-        "map_locations": [
-            {
-                "map": "Gloomy Gulch",
-                "x": "324",
-                "y": "286",
-                "size": 20
-            }
+            "map_locations": [
+                {
+                    "map": "glg-ghostlygrove",
+                    "x": "2883",
+                    "y": "1007"
+                }
+            ]
+        }
         ]
     }
 ]
