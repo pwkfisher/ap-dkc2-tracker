@@ -1,7 +1,3 @@
-ScriptHost:LoadScript("scripts/autotracking/settings.lua")
--- loads the AP autotracking code
-
-
 -- Configuration --------------------------------------
 AUTOTRACKER_ENABLE_ITEM_TRACKING = true
 AUTOTRACKER_ENABLE_LOCATION_TRACKING = true and not IS_ITEMS_ONLY

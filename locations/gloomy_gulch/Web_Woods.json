@@ -15,6 +15,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Web Woods - Clear",
             "map_locations": [
                 {
                     "map": "glg-webwoods",
@@ -34,6 +35,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Web Woods - DK Coin",
             "map_locations": [
                 {
                     "map": "glg-webwoods",
@@ -53,6 +55,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Web Woods - KONG",
             "map_locations": [
                 {
                     "map": "glg-webwoods",
@@ -87,6 +90,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Web Woods - Bonus #1",
             "map_locations": [
                 {
                     "map": "glg-webwoods",
@@ -106,6 +110,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Web Woods - Bonus #2",
             "map_locations": [
                 {
                     "map": "glg-webwoods",
@@ -125,6 +130,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Web Woods - Banana Coin #1",
             "map_locations": [
                 {
                     "map": "glg-webwoods",
@@ -144,6 +150,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Web Woods - Banana Coin #2",
             "map_locations": [
                 {
                     "map": "glg-webwoods",
@@ -163,6 +170,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Web Woods - Green Balloon #1",
             "map_locations": [
                 {
                     "map": "glg-webwoods",
@@ -182,6 +190,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Web Woods - Banana Bunch #1",
             "map_locations": [
                 {
                     "map": "glg-webwoods",
@@ -201,6 +210,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Web Woods - Banana Bunch #2",
             "map_locations": [
                 {
                     "map": "glg-webwoods",
@@ -220,6 +230,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Web Woods - Banana Bunch #3",
             "map_locations": [
                 {
                     "map": "glg-webwoods",
@@ -239,6 +250,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Web Woods - Banana Coin #3",
             "map_locations": [
                 {
                     "map": "glg-webwoods",
@@ -258,6 +270,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Web Woods - Banana Coin #4",
             "map_locations": [
                 {
                     "map": "glg-webwoods",
@@ -277,6 +290,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Web Woods - Banana Coin #5",
             "map_locations": [
                 {
                     "map": "glg-webwoods",
@@ -296,6 +310,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Web Woods - Green Balloon #2",
             "map_locations": [
                 {
                     "map": "glg-webwoods",

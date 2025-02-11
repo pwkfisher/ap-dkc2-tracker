@@ -317,21 +317,18 @@
         "name": "Swanky Checks On",
         "type": "toggle",
         "img": "images/settings/swankycheck.png",
-        "inherit_codes": "false",
         "codes": "swankychecks"
       },
       {
         "name": "KONG Checks On",
         "type": "toggle",
         "img": "images/settings/kongcheck.png",
-        "inherit_codes": "false",
         "codes": "kongchecks"
       },
       {
         "name": "DK Coin Checks On",
         "type": "toggle",
         "img": "images/settings/dkcoincheck.png",
-        "inherit_codes": "false",
         "codes": "dkcoinchecks"
       },
       {
@@ -385,21 +382,18 @@
         "name": "Banana Coin Checks On",
         "type": "toggle",
         "img": "images/settings/coinsanity.png",
-        "inherit_codes": "false",
         "codes": "coinsanity"
       },
       {
         "name": "Balloon Checks On",
         "type": "toggle",
         "img": "images/settings/balloonsanity.png",
-        "inherit_codes": "false",
         "codes": "balloonsanity"
       },
       {
         "name": "Banana Bunch Checks On",
         "type": "toggle",
         "img": "images/settings/bananasanity.png",
-        "inherit_codes": "false",
         "codes": "bananasanity"
       }
 ]

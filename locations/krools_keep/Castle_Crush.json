@@ -15,6 +15,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Castle Crush - Clear",
             "map_locations": [
                 {
                     "map": "krk-castlecrush",
@@ -34,6 +35,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Castle Crush - DK Coin",
             "map_locations": [
                 {
                     "map": "krk-castlecrush",
@@ -53,6 +55,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Castle Crush - KONG",
             "map_locations": [
                 {
                     "map": "krk-castlecrush",
@@ -87,6 +90,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Castle Crush - Bonus #1",
             "map_locations": [
                 {
                     "map": "krk-castlecrush",
@@ -106,6 +110,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Castle Crush - Bonus #2",
             "map_locations": [
                 {
                     "map": "krk-castlecrush",
@@ -125,6 +130,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Castle Crush - Banana Coin #1",
             "map_locations": [
                 {
                     "map": "krk-castlecrush",
@@ -144,6 +150,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Castle Crush - Banana Bunch #1",
             "map_locations": [
                 {
                     "map": "krk-castlecrush",
@@ -163,6 +170,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Castle Crush - Banana Bunch #2",
             "map_locations": [
                 {
                     "map": "krk-castlecrush",
@@ -182,6 +190,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Castle Crush - Banana Coin #2",
             "map_locations": [
                 {
                     "map": "krk-castlecrush",
@@ -201,6 +210,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Castle Crush - Banana Bunch #3",
             "map_locations": [
                 {
                     "map": "krk-castlecrush",
@@ -220,6 +230,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Castle Crush - Banana Bunch #4",
             "map_locations": [
                 {
                     "map": "krk-castlecrush",
@@ -239,6 +250,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Castle Crush - Banana Bunch #5",
             "map_locations": [
                 {
                     "map": "krk-castlecrush",
@@ -258,6 +270,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Castle Crush - Banana Coin #3",
             "map_locations": [
                 {
                     "map": "krk-castlecrush",
@@ -277,6 +290,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Castle Crush - Banana Bunch #6",
             "map_locations": [
                 {
                     "map": "krk-castlecrush",

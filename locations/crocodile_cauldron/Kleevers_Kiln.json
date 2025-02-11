@@ -25,6 +25,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Kleever's Kiln - Boss",
             "map_locations": [
                 {
                     "map": "cc-kleeverskiln",
@@ -44,6 +45,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Kleever's Kiln - Banana Coin #1",
             "map_locations": [
                 {
                     "map": "cc-kleeverskiln",
@@ -63,6 +65,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Kleever's Kiln - Banana Coin #2",
             "map_locations": [
                 {
                     "map": "cc-kleeverskiln",
@@ -71,14 +74,6 @@
                 }
             ]
         }
-        ],
-        "map_locations": [
-            {
-                "map": "Crocodile Cauldron",
-                "x": "513",
-                "y": "32",
-                "size": 20
-            }
         ]
     }
 ]

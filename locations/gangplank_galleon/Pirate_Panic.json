@@ -14,7 +14,8 @@
                 "item_count": 1
                 }
             ],
-                "map_locations": [
+            "name": "Pirate Panic - Clear",    
+            "map_locations": [
                     {
                         "map": "gg-piratepanic",
                         "x": "2224",
@@ -33,7 +34,8 @@
                         "item_count": 1
                     }                        
             ],
-                        "map_locations": [
+            "name": "Pirate Panic - DK Coin",            
+            "map_locations": [
                             {
                                 "map": "gg-piratepanic",
                                 "x": "961",
@@ -52,6 +54,7 @@
                         "item_count": 1
                     }                        
               ],
+                        "name": "Pirate Panic - KONG",
                         "map_locations": [
                             {
                                 "map": "gg-piratepanic",
@@ -86,6 +89,7 @@
                         "item_count": 1
                     }                        
             ],
+                        "name": "Pirate Panic - Bonus #1",
                         "map_locations": [
                             {
                                 "map": "gg-piratepanic",
@@ -104,6 +108,7 @@
                         "item_count": 1
                     }                        
             ],
+                        "name": "Pirate Panic - Bonus #2",
                         "map_locations": [
                             {
                                 "map": "gg-piratepanic",
@@ -123,6 +128,7 @@
                         "item_count": 1
                     }                        
             ],
+                        "name": "Pirate Panic - Banana Coin #1",
                         "map_locations": [
                             {
                                 "map": "gg-piratepanic",
@@ -142,6 +148,7 @@
                         "item_count": 1
                     }                        
             ],
+                        "name": "Pirate Panic - Red Balloon",
                         "map_locations": [
                             {
                                 "map": "gg-piratepanic",
@@ -161,6 +168,7 @@
                         "item_count": 1
                     }                        
             ],
+                        "name": "Pirate Panic - Banana Bunch #1",
                         "map_locations": [
                             {
                                 "map": "gg-piratepanic",
@@ -180,6 +188,7 @@
                         "item_count": 1
                     }                        
             ],
+                        "name": "Pirate Panic - Banana Coin #2",
                         "map_locations": [
                             {
                                 "map": "gg-piratepanic",
@@ -199,6 +208,7 @@
                         "item_count": 1
                     }                        
             ],
+            "name": "Pirate Panic - Banana Coin #3",
                         "map_locations": [
                             {
                                 "map": "gg-piratepanic",
@@ -218,6 +228,7 @@
                         "item_count": 1
                     }                        
             ],
+                        "name": "Pirate Panic - Green Balloon",
                         "map_locations": [
                             {
                                 "map": "gg-piratepanic",

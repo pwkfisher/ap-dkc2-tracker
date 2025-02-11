@@ -1,12 +1,10 @@
 [
     {
         "name": "Gangplank Galley",
-        "access_rules": [
-            " "
-        ],
-        "visibility_rules": [
-            ""
-        ],
+        "access_rules": [],
+        "visibility_rules": [],
+        "children": [
+            {
         "sections": [
             {
                 "name": "Clear",
@@ -17,6 +15,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Gangplank Galley - Clear",
             "map_locations": [
                 {
                     "map": "gg-gangplankgalley",
@@ -36,6 +35,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Gangplank Galley - DK Coin",
             "map_locations": [
                 {
                     "map": "gg-gangplankgalley",
@@ -55,6 +55,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Gangplank Galley - KONG",
             "map_locations": [
                 {
                     "map": "gg-gangplankgalley",
@@ -89,6 +90,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Gangplank Galley - Bonus #1",
             "map_locations": [
                 {
                     "map": "gg-gangplankgalley",
@@ -108,6 +110,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Gangplank Galley - Bonus #2",
             "map_locations": [
                 {
                     "map": "gg-gangplankgalley",
@@ -127,6 +130,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Gangplank Galley - Banana Bunch #1",
             "map_locations": [
                 {
                     "map": "gg-gangplankgalley",
@@ -146,6 +150,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Gangplank Galley - Banana Bunch #2",
             "map_locations": [
                 {
                     "map": "gg-gangplankgalley",
@@ -165,6 +170,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Gangplank Galley - Red Balloon #1",
             "map_locations": [
                 {
                     "map": "gg-gangplankgalley",
@@ -184,6 +190,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Gangplank Galley - Banana Bunch #3",
             "map_locations": [
                 {
                     "map": "gg-gangplankgalley",
@@ -203,6 +210,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Gangplank Galley - Banana Coin #1",
             "map_locations": [
                 {
                     "map": "gg-gangplankgalley",
@@ -222,6 +230,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Gangplank Galley - Banana Bunch #4",
             "map_locations": [
                 {
                     "map": "gg-gangplankgalley",
@@ -241,6 +250,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Gangplank Galley - Banana Coin #2",
             "map_locations": [
                 {
                     "map": "gg-gangplankgalley",
@@ -260,6 +270,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Gangplank Galley - Banana Bunch #5",
             "map_locations": [
                 {
                     "map": "gg-gangplankgalley",
@@ -279,6 +290,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Gangplank Galley - Banana Bunch #6",
             "map_locations": [
                 {
                     "map": "gg-gangplankgalley",
@@ -298,6 +310,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Gangplank Galley - Banana Bunch #7",
             "map_locations": [
                 {
                     "map": "gg-gangplankgalley",
@@ -317,6 +330,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Gangplank Galley - Red Balloon #2",
             "map_locations": [
                 {
                     "map": "gg-gangplankgalley",
@@ -326,3 +340,5 @@
             ]
         }
     ]
+}
+]

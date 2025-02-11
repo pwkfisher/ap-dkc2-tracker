@@ -1,12 +1,9 @@
 [
     {
         "name": "Swanky at Krazy Kremland",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
-        "visibility_rules": [
-            "swankychecks"
-                ],
+        "visibility_rules": ["swankychecks"],
+        "access_rules": ["krazykremlandaccess"],
         "sections": [
             {
                 "name": "Easy",

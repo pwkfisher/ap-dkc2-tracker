@@ -15,6 +15,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Lava Lagoon - Clear",
             "map_locations": [
                 {
                     "map": "cc-lavalagoon",
@@ -34,6 +35,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Lava Lagoon - DK Coin",
             "map_locations": [
                 {
                     "map": "cc-lavalagoon",
@@ -53,6 +55,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Lava Lagoon - KONG",
             "map_locations": [
                 {
                     "map": "cc-lavalagoon",
@@ -90,8 +93,17 @@
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
                 "item_count": 1
+            },
+            {
+                "name": "Banana Bunch #4 (Inside Bonus)",
+                "access_rules": ["EASY, swim, clapper, exclamationbarrels, barrelkannons, enguarde, carry", "NORMAL, swim, clapper, barrelkannons, exclamationbarrels, enguarde, carry", "HARD, clapper, swim, enguarde, carry"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
             }
         ],
+            "name": "Lava Lagoon - Bonus #1",
             "map_locations": [
                 {
                     "map": "cc-lavalagoon",
@@ -111,6 +123,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Lava Lagoon - Banana Coin #1",
             "map_locations": [
                 {
                     "map": "cc-lavalagoon",
@@ -130,6 +143,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Lava Lagoon - Banana Coin #2",
             "map_locations": [
                 {
                     "map": "cc-lavalagoon",
@@ -149,6 +163,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Lava Lagoon - Banana Bunch #1",
             "map_locations": [
                 {
                     "map": "cc-lavalagoon",
@@ -168,6 +183,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Lava Lagoon - Banana Coin #3",
             "map_locations": [
                 {
                     "map": "cc-lavalagoon",
@@ -187,6 +203,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Lava Lagoon - Banana Bunch #2",
             "map_locations": [
                 {
                     "map": "cc-lavalagoon",
@@ -206,6 +223,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Lava Lagoon - Banana Coin #4",
             "map_locations": [
                 {
                     "map": "cc-lavalagoon",
@@ -225,6 +243,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Lava Lagoon - Banana Coin #5",
             "map_locations": [
                 {
                     "map": "cc-lavalagoon",
@@ -244,6 +263,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Lava Lagoon - Banana Bunch #3",
             "map_locations": [
                 {
                     "map": "cc-lavalagoon",
@@ -263,6 +283,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Lava Lagoon - Banana Coin #6",
             "map_locations": [
                 {
                     "map": "cc-lavalagoon",
@@ -282,6 +303,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Lava Lagoon - Banana Coin #7",
             "map_locations": [
                 {
                     "map": "cc-lavalagoon",
@@ -301,30 +323,12 @@
                 "item_count": 1
             }
         ],
+        "name": "Lava Lagoon - Red Balloon #1",
             "map_locations": [
                 {
                     "map": "cc-lavalagoon",
                     "x": "3533",
                     "y": "234"
-                }
-            ]
-        },
-        {
-            "sections": [
-                {
-                "name": "Banana Bunch #4 (Inside Bonus)",
-                "access_rules": ["EASY, swim, clapper, exclamationbarrels, barrelkannons, enguarde, carry", "NORMAL, swim, clapper, barrelkannons, exclamationbarrels, enguarde, carry", "HARD, clapper, swim, enguarde, carry"],
-                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
-                "chest_opened_img": "images/checks/bananabunch.png",
-                "visibility_rules": ["bananasanity"],
-                "item_count": 1
-            }
-        ],
-            "map_locations": [
-                {
-                    "map": "cc-lavalagoon",
-                    "x": "3696",
-                    "y": "223"
                 }
             ]
         },
@@ -339,6 +343,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Lava Lagoon - Banana Bunch #5",
             "map_locations": [
                 {
                     "map": "cc-lavalagoon",
@@ -358,6 +363,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Lava Lagoon - Banana Coin #8",
             "map_locations": [
                 {
                     "map": "cc-lavalagoon",
@@ -377,6 +383,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Lava Lagoon - Banana Coin #9",
             "map_locations": [
                 {
                     "map": "cc-lavalagoon",
@@ -396,6 +403,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Lava Lagoon - Banana Coin #10",
             "map_locations": [
                 {
                     "map": "cc-lavalagoon",
@@ -403,17 +411,7 @@
                     "y": "76"
                 }
             ]
-        },
-        {
-        "map_locations": [
-            {
-                "map": "Crocodile Cauldron",
-                "x": "515",
-                "y": "220",
-                "size": 20
-            }
-        ]
-    }
+        }
 ]
 }
 ]

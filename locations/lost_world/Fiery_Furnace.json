@@ -3,6 +3,8 @@
         "name": "Fiery Furnace",
         "access_rules": [" "],
         "visibility_rules": [""],
+        "children": [
+            {
         "sections": [
             {
                 "name": "Clear",
@@ -11,72 +13,195 @@
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "name": "Fiery Furnace - Clear",
+            "map_locations": [
+                {
+                    "map": "tlw-fieryfurnace",
+                    "x": "3099",
+                    "y": "1296"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "DK Coin",
                 "access_rules": ["EASY, cartwheel, controllablebarrels, teamattack, diddy, dixie", "NORMAL, cartwheel, controllablebarrels, teamattack, diddy, dixie", "HARD, controllablebarrels, cartwheel", "HARD, controllablebarrels, diddy, dixie"],
                 "chest_unopened_img": "images/checks/dkcoin_disabled.png",
                 "chest_opened_img": "images/checks/dkcoin.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "name": "Fiery Furnace - DK Coin",
+            "map_locations": [
+                {
+                    "map": "tlw-fieryfurnace",
+                    "x": "2890",
+                    "y": "979"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "KONG",
                 "access_rules": ["EASY, cartwheel, controllablebarrels, teamattack, diddy, dixie", "NORMAL, cartwheel, controllablebarrels, teamattack, diddy, dixie", "HARD, controllablebarrels, cartwheel", "HARD, controllablebarrels, diddy, dixie"],
                 "chest_unopened_img": "images/checks/kong_disabled.png",
                 "chest_opened_img": "images/checks/kong.png",
                 "visibility_rules": ["kongchecks"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "name": "Fiery Furnace - KONG",
+            "map_locations": [
+                {
+                    "map": "tlw-fieryfurnace",
+                    "x": "1999",
+                    "y": "130"
+                },
+                {
+                    "map": "tlw-fieryfurnace",
+                    "x": "637",
+                    "y": "553"
+                },
+                {
+                    "map": "tlw-fieryfurnace",
+                    "x": "2193",
+                    "y": "754"
+                },
+                {
+                    "map": "tlw-fieryfurnace",
+                    "x": "1475",
+                    "y": "1069"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #1 (Above start)",
                 "access_rules": ["EASY, teamattack, diddy, dixie", "NORMAL, teamattack, diddy, dixie", "HARD, teamattack, diddy, dixie", "HARD, cartwheel, helicopterspin, dixie"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "name": "Fiery Furnace - Banana Bunch #1",
+            "map_locations": [
+                {
+                    "map": "tlw-fieryfurnace",
+                    "x": "18",
+                    "y": "73"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #2 (Above start)",
                 "access_rules": ["EASY, teamattack, diddy, dixie", "NORMAL, teamattack, diddy, dixie", "HARD, teamattack, diddy, dixie", "HARD, cartwheel, helicopterspin, dixie"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "name": "Fiery Furnace - Banana Bunch #2",
+            "map_locations": [
+                {
+                    "map": "tlw-fieryfurnace",
+                    "x": "47",
+                    "y": "73"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #3 (Above start)",
                 "access_rules": ["EASY, teamattack, diddy, dixie", "NORMAL, teamattack, diddy, dixie", "HARD, teamattack, diddy, dixie", "HARD, cartwheel, helicopterspin, dixie"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "name": "Fiery Furnace - Banana Bunch #3",
+            "map_locations": [
+                {
+                    "map": "tlw-fieryfurnace",
+                    "x": "78",
+                    "y": "73"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #4 (Below Zinger duo)",
                 "access_rules": ["EASY, controllablebarrels, teamattack, diddy, dixie", "NORMAL, controllablebarrels, teamattack, diddy, dixie", "HARD, cartwheel", "HARD, controllablebarrels", "HARD, helicopterspin, dixie"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "name": "Fiery Furnace - Banana Bunch #4",
+            "map_locations": [
+                {
+                    "map": "tlw-fieryfurnace",
+                    "x": "2317",
+                    "y": "291"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #1 (Near Controllable Barrel)",
                 "access_rules": ["EASY, cartwheel, controllablebarrels, teamattack, diddy, dixie", "NORMAL, controllablebarrels, teamattack, diddy, dixie, cartwheel", "HARD, controllablebarrels"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "name": "Fiery Furnace - Banana Coin #1",
+            "map_locations": [
+                {
+                    "map": "tlw-fieryfurnace",
+                    "x": "223",
+                    "y": "427"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #2 (Ledge before Kutlass",
                 "access_rules": ["EASY, cartwheel, controllablebarrels, teamattack, diddy, dixie", "NORMAL, controllablebarrels, teamattack, diddy, dixie, cartwheel", "HARD, controllablebarrels"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "name": "Fiery Furnace - Banana Coin #2",
+            "map_locations": [
+                {
+                    "map": "tlw-fieryfurnace",
+                    "x": "673",
+                    "y": "737"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #5 (Between moving Zingers)",
                 "access_rules": ["EASY, cartwheel, controllablebarrels, teamattack, diddy, dixie", "NORMAL, controllablebarrels, cartwheel, teamattack, diddy, dixie", "HARD, cartwheel", "HARD, controllablebarrels", "HARD, helicopterspin, dixie"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
@@ -85,13 +210,15 @@
                 "item_count": 1
             }
         ],
-        "map_locations": [
-            {
-                "map": "Lost World",
-                "x": "563",
-                "y": "286",
-                "size": 20
-            }
+            "name": "Fiery Furnace - Banana Bunch #5",
+            "map_locations": [
+                {
+                    "map": "tlw-fieryfurnace",
+                    "x": "2160",
+                    "y": "1183"
+                }
+            ]
+        }
         ]
     }
 ]

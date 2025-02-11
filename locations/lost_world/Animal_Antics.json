@@ -3,6 +3,8 @@
         "name": "Animal Antics",
         "access_rules": [" "],
         "visibility_rules": [""],
+        "children": [
+            {
         "sections": [
             {
                 "name": "Clear",
@@ -11,96 +13,255 @@
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "name": "Animal Antics - Clear",
+            "map_locations": [
+                {
+                    "map": "tlw-animalantics-5",
+                    "x": "1953",
+                    "y": "219"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "DK Coin",
                 "access_rules": ["EASY, squawks, rambi, squitter, enguarde, swim", "NORMAL, squawks, rambi, squitter, enguarde, swim", "HARD, swim, barrelkannons, squitter, enguarde, rambi", "HARD, swim, barrelkannons, squitter, enguarde, diddy, dixie, teamattack, helicopterspin"],
                 "chest_unopened_img": "images/checks/dkcoin_disabled.png",
                 "chest_opened_img": "images/checks/dkcoin.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "name": "Animal Antics - Clear",
+            "map_locations": [
+                {
+                    "map": "tlw-animalantics-3",
+                    "x": "1448",
+                    "y": "693"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "KONG",
                 "access_rules": ["EASY, squawks, rambi, squitter, rattly, enguarde, swim, barrelkannons", "NORMAL, squawks, rambi, squitter, rattly, enguarde, swim, barrelkannons", "HARD, swim, barrelkannons, squitter, enguarde, rambi", "HARD, swim, barrelkannons, squitter, enguarde, diddy, dixie, teamattack, helicopterspin"],
                 "chest_unopened_img": "images/checks/kong_disabled.png",
                 "chest_opened_img": "images/checks/kong.png",
                 "visibility_rules": ["kongchecks"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "name": "Animal Antics - KONG",
+            "map_locations": [
+                {
+                    "map": "tlw-animalantics-2",
+                    "x": "416",
+                    "y": "455"
+                },
+                {
+                    "map": "tlw-animalantics-2",
+                    "x": "448",
+                    "y": "910"
+                },
+                {
+                    "map": "tlw-animalantics-4",
+                    "x": "2114",
+                    "y": "409"
+                },
+                {
+                    "map": "tlw-animalantics-5",
+                    "x": "1617",
+                    "y": "109"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #1 (Near Lockjaw trio)",
                 "access_rules": ["EASY, diddy, dixie, rambi, enguarde, swim", "NORMAL, rambi, enguarde, swim", "HARD, swim, enguarde, rambi", "HARD, swim, enguarde, hover, teamattack, diddy, dixie"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "name": "Animal Antics - Banana Bunch #1",
+            "map_locations": [
+                {
+                    "map": "tlw-animalantics-2",
+                    "x": "2273",
+                    "y": "554"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #2 (Behind pillar)",
                 "access_rules": ["EASY, diddy, dixie, rambi, enguarde, swim, squitter", "NORMAL, rambi, enguarde, swim, squitter", "HARD, swim, squitter, enguarde, rambi", "HARD, swim, squitter, enguarde, hover, teamattack, diddy, dixie"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "name": "Animal Antics - Banana Bunch #2",
+            "map_locations": [
+                {
+                    "map": "tlw-animalantics-3",
+                    "x": "8",
+                    "y": "137"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #1 (Between spikes)",
                 "access_rules": ["EASY, diddy, dixie, rambi, enguarde, swim, squitter", "NORMAL, rambi, enguarde, swim, squitter", "HARD, swim, squitter, enguarde, rambi", "HARD, swim, squitter, enguarde, hover, teamattack, diddy, dixie"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "name": "Animal Antics - Banana Coin #1",
+            "map_locations": [
+                {
+                    "map": "tlw-animalantics-3",
+                    "x": "441",
+                    "y": "969"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #2 (Behind Zingers)",
                 "access_rules": ["EASY, diddy, dixie, rambi, enguarde, swim, squitter, squawks, barrelkannons", "NORMAL, rambi, enguarde, swim, squitter, squawks, barrelkannons", "HARD, swim, squitter, enguarde, rambi, barrelkannons", "HARD, swim, squitter, enguarde, hover, teamattack, diddy, dixie, barrelkannons"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "name": "Animal Antics - Banana Coin #2",
+            "map_locations": [
+                {
+                    "map": "tlw-animalantics-4",
+                    "x": "1551",
+                    "y": "77"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #3 (Behind Zingers)",
                 "access_rules": ["EASY, diddy, dixie, rambi, enguarde, swim, squitter, squawks, barrelkannons", "NORMAL, rambi, enguarde, swim, squitter, squawks, barrelkannons", "HARD, swim, squitter, enguarde, rambi, barrelkannons", "HARD, swim, squitter, enguarde, hover, teamattack, diddy, dixie, barrelkannons"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "name": "Animal Antics - Banana Bunch #3",
+            "map_locations": [
+                {
+                    "map": "tlw-animalantics-4",
+                    "x": "1551",
+                    "y": "138"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #4 (Behind Zingers)",
                 "access_rules": ["EASY, diddy, dixie, rambi, enguarde, swim, squitter, squawks, barrelkannons", "NORMAL, rambi, enguarde, swim, squitter, squawks, barrelkannons", "HARD, swim, squitter, enguarde, rambi, barrelkannons", "HARD, swim, squitter, enguarde, hover, teamattack, diddy, dixie, barrelkannons"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "name": "Animal Antics - Banana Bunch #4",
+            "map_locations": [
+                {
+                    "map": "tlw-animalantics-4",
+                    "x": "1504",
+                    "y": "77"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #3 (Behind Zingers)",
                 "access_rules": ["EASY, diddy, dixie, rambi, enguarde, swim, squitter, squawks, barrelkannons", "NORMAL, rambi, enguarde, swim, squitter, squawks, barrelkannons", "HARD, swim, squitter, enguarde, rambi, barrelkannons", "HARD, swim, squitter, enguarde, hover, teamattack, diddy, dixie, barrelkannons"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "name": "Animal Antics - Banana Coin #3",
+            "map_locations": [
+                {
+                    "map": "tlw-animalantics-4",
+                    "x": "1504",
+                    "y": "138"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #4 (Corner near Red Zingers)",
                 "access_rules": ["EASY, diddy, dixie, rambi, enguarde, swim, squitter, squawks, barrelkannons", "NORMAL, rambi, enguarde, swim, squitter, squawks, barrelkannons", "HARD, swim, squitter, enguarde, rambi, barrelkannons", "HARD, swim, squitter, enguarde, hover, teamattack, diddy, dixie, barrelkannons"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "name": "Animal Antics - Banana Coin #4",
+            "map_locations": [
+                {
+                    "map": "tlw-animalantics-4",
+                    "x": "1768",
+                    "y": "869"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Red Balloon (Corner before Rattly barrel)",
                 "access_rules": ["EASY, diddy, dixie, rambi, enguarde, swim, squitter, squawks, barrelkannons", "NORMAL, rambi, enguarde, swim, squitter, squawks, barrelkannons", "HARD, swim, squitter, enguarde, rambi, barrelkannons", "HARD, swim, squitter, enguarde, hover, teamattack, diddy, dixie, barrelkannons"],
                 "chest_unopened_img": "images/checks/swanky1_disabled.png",
                 "chest_opened_img": "images/checks/swanky1.png",
                 "visibility_rules": ["balloonsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+        "name": "Animal Antics - Red Balloon",
+            "map_locations": [
+                {
+                    "map": "tlw-animalantics-4",
+                    "x": "543",
+                    "y": "928"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #5 (Rattly sign)",
                 "access_rules": ["EASY, diddy, dixie, rambi, enguarde, swim, squitter, squawks, barrelkannons, rattly", "NORMAL, rambi, enguarde, swim, squitter, squawks, barrelkannons, rattly", "HARD, swim, squitter, enguarde, rambi, barrelkannons", "HARD, swim, squitter, enguarde, hover, teamattack, diddy, dixie, barrelkannons"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
@@ -109,13 +270,15 @@
                 "item_count": 1
             }
         ],
-        "map_locations": [
-            {
-                "map": "Lost World",
-                "x": "695",
-                "y": "340",
-                "size": 20
-            }
+            "name": "Animal Antics - Banana Coin #5",
+            "map_locations": [
+                {
+                    "map": "tlw-animalantics-5",
+                    "x": "1507",
+                    "y": "375"
+                }
+            ]
+        }
         ]
     }
 ]

@@ -15,6 +15,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Mudhole Marsh - Clear",
             "map_locations": [
                 {
                     "map": "kk-mudholemarsh",
@@ -34,6 +35,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Mudhole Marsh - DK Coin",
             "map_locations": [
                 {
                     "map": "kk-mudholemarsh",
@@ -53,6 +55,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Mudhole Marsh - KONG",
             "map_locations": [
                 {
                     "map": "kk-mudholemarsh",
@@ -87,6 +90,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Mudhole Marsh - Bonus #1",
             "map_locations": [
                 {
                     "map": "kk-mudholemarsh",
@@ -106,6 +110,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Mudhole Marsh - Bonus #2",
             "map_locations": [
                 {
                     "map": "kk-mudholemarsh",
@@ -125,6 +130,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Mudhole Marsh - Banana Coin #1",
             "map_locations": [
                 {
                     "map": "kk-mudholemarsh",
@@ -163,6 +169,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Mudhole Marsh - Banana Coin #2",
             "map_locations": [
                 {
                     "map": "kk-mudholemarsh",
@@ -182,6 +189,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Mudhole Marsh - Banana Coin #3",
             "map_locations": [
                 {
                     "map": "kk-mudholemarsh",
@@ -201,6 +209,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Mudhole Marsh - Banana Coin #4",
             "map_locations": [
                 {
                     "map": "kk-mudholemarsh",
@@ -220,6 +229,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Mudhole Marsh - Banana Coin #5",
             "map_locations": [
                 {
                     "map": "kk-mudholemarsh",

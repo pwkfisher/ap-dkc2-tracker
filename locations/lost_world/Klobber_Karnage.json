@@ -3,6 +3,8 @@
         "name": "Klobber Karnage",
         "access_rules": [""],
         "visibility_rules": [""],
+        "children": [
+            {
         "sections": [
             {
                 "name": "Clear",
@@ -11,112 +13,295 @@
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "name": "Klobber Karnage - Clear",
+            "map_locations": [
+                {
+                    "map": "tlw-klobberkarnage",
+                    "x": "3225",
+                    "y": "1688"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "DK Coin",
                 "access_rules": ["EASY, carry, controllablebarrels, kongbarrels, barrelkannons, diddy, dixie, exclamationbarrels", "NORMAL, carry, controllablebarrels, kongbarrels, barrelkannons, diddy, dixie, exclamationbarrels", "HARD, carry, controllablebarrels, kongbarrels, barrelkannons, exclamationbarrels, diddy, dixie", "HARD, teamattack, barrelkannons, exclamationbarrels, controllablebarrels, kongbarrels, diddy, dixie"],
                 "chest_unopened_img": "images/checks/dkcoin_disabled.png",
                 "chest_opened_img": "images/checks/dkcoin.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "name": "Klobber Karnage - DK Coin",
+            "map_locations": [
+                {
+                    "map": "tlw-klobberkarnage",
+                    "x": "3358",
+                    "y": "1513"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "KONG",
                 "access_rules": ["EASY, carry, controllablebarrels, kongbarrels, barrelkannons, diddy, dixie", "NORMAL, carry, controllablebarrels, kongbarrels, barrelkannons, diddy, dixie", "HARD, carry, controllablebarrels, kongbarrels, barrelkannons, diddy, dixie", "HARD, teamattack, barrelkannons, controllablebarrels, kongbarrels, diddy, dixie"],
                 "chest_unopened_img": "images/checks/kong_disabled.png",
                 "chest_opened_img": "images/checks/kong.png",
                 "visibility_rules": ["kongchecks"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "name": "Klobber Karnage - KONG",
+            "map_locations": [
+                {
+                    "map": "tlw-klobberkarnage",
+                    "x": "1640",
+                    "y": "27"
+                },
+                {
+                    "map": "tlw-klobberkarnage",
+                    "x": "726",
+                    "y": "738"
+                },
+                {
+                    "map": "tlw-klobberkarnage",
+                    "x": "1184",
+                    "y": "1166"
+                },
+                {
+                    "map": "tlw-klobberkarnage",
+                    "x": "169",
+                    "y": "1639"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #1 (Start)",
                 "access_rules": [],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "name": "Klobber Karnage - Banana Coin #1",
+            "map_locations": [
+                {
+                    "map": "tlw-klobberkarnage",
+                    "x": "10",
+                    "y": "138"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #1 (Above spikes)",
                 "access_rules": ["EASY, cartwheel", "NORMAL, cartwheel", "HARD"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "name": "Klobber Karnage - Banana Bunch #1",
+            "map_locations": [
+                {
+                    "map": "tlw-klobberkarnage",
+                    "x": "926",
+                    "y": "306"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #2 (Ledge between spikes)",
                 "access_rules": ["EASY, cartwheel", "NORMAL, cartwheel", "HARD"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "name": "Klobber Karnage - Banana Bunch #2",
+            "map_locations": [
+                {
+                    "map": "tlw-klobberkarnage",
+                    "x": "1020",
+                    "y": "156"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #2 (Above spikes)",
                 "access_rules": ["EASY, cartwheel", "NORMAL, cartwheel", "HARD"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "name": "Klobber Karnage - Banana Coin #2",
+            "map_locations": [
+                {
+                    "map": "tlw-klobberkarnage",
+                    "x": "1117",
+                    "y": "307"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #3 (Above spikes after Kong barrels)",
                 "access_rules": ["EASY, cartwheel", "NORMAL, cartwheel", "HARD"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "name": "Klobber Karnage - Banana Bunch #3",
+            "map_locations": [
+                {
+                    "map": "tlw-klobberkarnage",
+                    "x": "1181",
+                    "y": "555"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #3 (First Diddy barrel)",
                 "access_rules": ["EASY, kongbarrels, diddy, controllablebarrels", "NORMAL, kongbarrels, diddy, controllablebarrels, cartwheel", "HARD"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "name": "Klobber Karnage - Banana Coin #3",
+            "map_locations": [
+                {
+                    "map": "tlw-klobberkarnage",
+                    "x": "2301",
+                    "y": "37"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #4 (After O)",
                 "access_rules": ["EASY, kongbarrels, diddy, dixie, controllablebarrels", "NORMAL, kongbarrels, diddy, controllablebarrels, cartwheel", "HARD, controllablebarrels"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "name": "Klobber Karnage - Banana Bunch #4",
+            "map_locations": [
+                {
+                    "map": "tlw-klobberkarnage",
+                    "x": "919",
+                    "y": "836"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #5 (Dixie barrel on split path)",
                 "access_rules": ["EASY, kongbarrels, diddy, dixie, controllablebarrels, barrelkannons", "NORMAL, cartwheel, diddy, dixie, kongbarrels, controllablebarrels, barrelkannons", "HARD, controllablebarrels, diddy, dixie", "HARD, controllablebarrels, dixie, diddy, kongbarrels"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "name": "Klobber Karnage - Banana Bunch #5",
+            "map_locations": [
+                {
+                    "map": "tlw-klobberkarnage",
+                    "x": "1619",
+                    "y": "666"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #6 (Dixie barrel on split path)",
                 "access_rules": ["EASY, kongbarrels, diddy, dixie, controllablebarrels, barrelkannons", "NORMAL, cartwheel, diddy, dixie, kongbarrels, controllablebarrels, barrelkannons", "HARD, controllablebarrels, diddy, dixie", "HARD, controllablebarrels, dixie, diddy, kongbarrels"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "name": "Klobber Karnage - Banana Bunch #6",
+            "map_locations": [
+                {
+                    "map": "tlw-klobberkarnage",
+                    "x": "2372",
+                    "y": "785"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #7 (After N)",
                 "access_rules": ["EASY, kongbarrels, diddy, dixie, controllablebarrels, barrelkannons", "NORMAL, cartwheel, diddy, dixie, kongbarrels, controllablebarrels, barrelkannons", "HARD, controllablebarrels, diddy, dixie", "HARD, controllablebarrels, dixie, diddy, kongbarrels"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "name": "Klobber Karnage - Banana Bunch #7",
+            "map_locations": [
+                {
+                    "map": "tlw-klobberkarnage",
+                    "x": "1361",
+                    "y": "1298"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #4 (Diddy barrel after Klobber trio)",
                 "access_rules": ["EASY, kongbarrels, diddy, dixie, controllablebarrels, barrelkannons", "NORMAL, cartwheel, diddy, dixie, kongbarrels, controllablebarrels, barrelkannons", "HARD, controllablebarrels, diddy, dixie", "HARD, controllablebarrels, dixie, diddy, kongbarrels"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "name": "Klobber Karnage - Banana Coin #4",
+            "map_locations": [
+                {
+                    "map": "tlw-klobberkarnage",
+                    "x": "2525",
+                    "y": "1273"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Red Balloon (After long barrel section)",
                 "access_rules": ["EASY, kongbarrels, diddy, dixie, controllablebarrels, barrelkannons", "NORMAL, cartwheel, diddy, dixie, kongbarrels, controllablebarrels, barrelkannons", "HARD, controllablebarrels, cartwheel, diddy, dixie", "HARD, controllablebarrels, cartwheel, dixie, diddy, kongbarrels", "HARD, controllablebarrels, helicopterspin, diddy, dixie", "HARD, controllablebarrels, helicopterspin, dixie, diddy, kongbarrels"],
                 "chest_unopened_img": "images/checks/swanky1_disabled.png",
@@ -125,13 +310,15 @@
                 "item_count": 1
             }
         ],
-        "map_locations": [
-            {
-                "map": "Lost World",
-                "x": "457",
-                "y": "315",
-                "size": 20
-            }
+            "name": "Klobber Karnage - Red Balloon",
+            "map_locations": [
+                {
+                    "map": "tlw-klobberkarnage",
+                    "x": "2480",
+                    "y": "1752"
+                }
+            ]
+        }
         ]
     }
 ]

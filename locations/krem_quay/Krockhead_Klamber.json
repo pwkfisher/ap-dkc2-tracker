@@ -15,6 +15,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Krockhead Klamber - Clear",
             "map_locations": [
                 {
                     "map": "kq-krockheadklamber",
@@ -34,6 +35,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Krockhead Klamber - DK Coin",
             "map_locations": [
                 {
                     "map": "kq-krockheadklamber",
@@ -53,6 +55,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Krockhead Klamber - KONG   ",
             "map_locations": [
                 {
                     "map": "kq-krockheadklamber",
@@ -87,6 +90,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Krockhead Klamber - Bonus #1",
             "map_locations": [
                 {
                     "map": "kq-krockheadklamber",
@@ -106,6 +110,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Krockhead Klamber - Red Balloon #1",
             "map_locations": [
                 {
                     "map": "kq-krockheadklamber",
@@ -125,6 +130,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Krockhead Klamber - Banana Coin #1",
             "map_locations": [
                 {
                     "map": "kq-krockheadklamber",
@@ -144,6 +150,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Krockhead Klamber - Banana Coin #2",
             "map_locations": [
                 {
                     "map": "kq-krockheadklamber",
@@ -163,6 +170,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Krockhead Klamber - Red Balloon #2",
             "map_locations": [
                 {
                     "map": "kq-krockheadklamber",
@@ -182,6 +190,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Krockhead Klamber - Banana Coin #3",
             "map_locations": [
                 {
                     "map": "kq-krockheadklamber",

@@ -3,6 +3,8 @@
         "name": "Topsail Trouble",
         "access_rules": [""],
         "visibility_rules": [""],
+        "children": [
+            {
         "sections": [
             {
                 "name": "Clear",
@@ -13,6 +15,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Topsail Trouble - Clear",
             "map_locations": [
                 {
                     "map": "gg-topsailtrouble",
@@ -32,6 +35,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Topsail Trouble - DK Coin",
             "map_locations": [
                 {
                     "map": "gg-topsailtrouble",
@@ -51,6 +55,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Topsail Trouble - KONG",
             "map_locations": [
                 {
                     "map": "gg-topsailtrouble",
@@ -85,6 +90,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Topsail Trouble - Bonus #1",
             "map_locations": [
                 {
                     "map": "gg-topsailtrouble",
@@ -104,6 +110,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Topsail Trouble - Bonus #2",
             "map_locations": [
                 {
                     "map": "gg-topsailtrouble",
@@ -123,6 +130,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Topsail Trouble - Red Balloon #1",
             "map_locations": [
                 {
                     "map": "gg-topsailtrouble",
@@ -142,6 +150,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Topsail Trouble - Red Balloon #2",
             "map_locations": [
                 {
                     "map": "gg-topsailtrouble",
@@ -161,6 +170,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Topsail Trouble - Banana Bunch #1",
             "map_locations": [
                 {
                     "map": "gg-topsailtrouble",
@@ -180,6 +190,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Topsail Trouble - Banana Bunch #2",
             "map_locations": [
                 {
                     "map": "gg-topsailtrouble",
@@ -199,6 +210,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Topsail Trouble - Banana Coin #1",
             "map_locations": [
                 {
                     "map": "gg-topsailtrouble",
@@ -218,6 +230,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Topsail Trouble - Banana Coin #2",
             "map_locations": [
                 {
                     "map": "gg-topsailtrouble",
@@ -237,6 +250,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Topsail Trouble - Banana Bunch #3",
             "map_locations": [
                 {
                     "map": "gg-topsailtrouble",
@@ -256,6 +270,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Topsail Trouble - Banana Coin #3",
             "map_locations": [
                 {
                     "map": "gg-topsailtrouble",
@@ -275,6 +290,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Topsail Trouble - Banana Coin #4",
             "map_locations": [
                 {
                     "map": "gg-topsailtrouble",
@@ -294,6 +310,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Topsail Trouble - Blue Balloon",
             "map_locations": [
                 {
                     "map": "gg-topsailtrouble",
@@ -303,4 +320,5 @@
             ]
         }
     ]
-    
+    }
+]

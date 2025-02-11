@@ -15,6 +15,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Barrel Bayou - Clear",
             "map_locations": [
                 {
                     "map": "kq-barrelbayou",
@@ -34,6 +35,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Barrel Bayou - DK Coin",
             "map_locations": [
                 {
                     "map": "kq-barrelbayou",
@@ -53,6 +55,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Barrel Bayou - KONG",
             "map_locations": [
                 {
                     "map": "kq-barrelbayou",
@@ -87,6 +90,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Barrel Bayou - Bonus #1",
             "map_locations": [
                 {
                     "map": "kq-barrelbayou",
@@ -106,6 +110,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Barrel Bayou - Bonus #2",
             "map_locations": [
                 {
                     "map": "kq-barrelbayou",
@@ -125,6 +130,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Barrel Bayou - Banana Bunch #1",
             "map_locations": [
                 {
                     "map": "kq-barrelbayou",
@@ -144,6 +150,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Barrel Bayou - Banana Coin #1",
             "map_locations": [
                 {
                     "map": "kq-barrelbayou",
@@ -163,6 +170,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Barrel Bayou - Banana Bunch #2",
             "map_locations": [
                 {
                     "map": "kq-barrelbayou",
@@ -182,6 +190,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Barrel Bayou - Green Balloon",
             "map_locations": [
                 {
                     "map": "kq-barrelbayou",
@@ -201,6 +210,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Barrel Bayou - Banana Coin #2",
             "map_locations": [
                 {
                     "map": "kq-barrelbayou",
@@ -220,6 +230,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Barrel Bayou - Banana Bunch #3",
             "map_locations": [
                 {
                     "map": "kq-barrelbayou",

@@ -15,6 +15,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Haunted Hall - Clear",
             "map_locations": [
                 {
                     "map": "glg-hauntedhall",
@@ -34,6 +35,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Haunted Hall - DK Coin",
             "map_locations": [
                 {
                     "map": "glg-hauntedhall",
@@ -53,6 +55,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Haunted Hall - KONG",
             "map_locations": [
                 {
                     "map": "glg-hauntedhall",
@@ -87,6 +90,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Haunted Hall - Bonus #1",
             "map_locations": [
                 {
                     "map": "glg-hauntedhall",
@@ -106,6 +110,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Haunted Hall - Bonus #2",
             "map_locations": [
                 {
                     "map": "glg-hauntedhall",
@@ -125,6 +130,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Haunted Hall - Bonus #3",
             "map_locations": [
                 {
                     "map": "glg-hauntedhall",
@@ -152,6 +158,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Haunted Hall - Banana Bunches",
             "map_locations": [
                 {
                     "map": "glg-hauntedhall",
@@ -171,6 +178,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Haunted Hall - Banana Coin #1",
             "map_locations": [
                 {
                     "map": "glg-hauntedhall",
@@ -183,13 +191,14 @@
             "sections": [
                 {
                 "name": "Banana Coin #2 (Green kackle)",
-                "access_rules": ["EASY, skullkart", "NORMAL, skullkart", "HARD, skullkart"],
+                "access_rules": ["EASY, cling, skullkart", "HARD, skullkart", "NORMAL, skullkart, cartwheel", "NORMAL, skullkart, helicopterspin, dixie", "NORMAL, skullkart, cling", "NORMAL, skullkart, teamattack, diddy, dixie"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
             }
         ],
+            "name": "Haunted Hall - Banana Coin #2",
             "map_locations": [
                 {
                     "map": "glg-hauntedhall",
@@ -202,13 +211,14 @@
             "sections": [
                 {
                 "name": "Banana Coin #3 (Yellow kackle)",
-                "access_rules": ["EASY, skullkart", "NORMAL, skullkart", "HARD, skullkart"],
+                "access_rules": ["EASY, cling, skullkart", "HARD, skullkart", "NORMAL, skullkart, cartwheel", "NORMAL, skullkart, helicopterspin, dixie", "NORMAL, skullkart, cling", "NORMAL, skullkart, teamattack, diddy, dixie"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
             }
         ],
+            "name": "Haunted Hall - Banana Coin #3",
             "map_locations": [
                 {
                     "map": "glg-hauntedhall",

@@ -15,6 +15,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Squawks's Shaft - Clear",
             "map_locations": [
                 {
                     "map": "cc-squawksshaft",
@@ -34,6 +35,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Squawks's Shaft - DK Coin",
             "map_locations": [
                 {
                     "map": "cc-squawksshaft",
@@ -53,6 +55,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Squawks's Shaft - KONG",
             "map_locations": [
                 {
                     "map": "cc-squawksshaft",
@@ -87,6 +90,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Squawks's Shaft - Bonus #1",
             "map_locations": [
                 {
                     "map": "cc-squawksshaft",
@@ -106,6 +110,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Squawks's Shaft - Bonus #2",
             "map_locations": [
                 {
                     "map": "cc-squawksshaft",
@@ -125,6 +130,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Squawks's Shaft - Bonus #3",
             "map_locations": [
                 {
                     "map": "cc-squawksshaft",
@@ -144,6 +150,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Squawks's Shaft - Banana Coin #1",
             "map_locations": [
                 {
                     "map": "cc-squawksshaft",
@@ -163,6 +170,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Squawks's Shaft - Banana Bunch #1",
             "map_locations": [
                 {
                     "map": "cc-squawksshaft",
@@ -182,6 +190,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Squawks's Shaft - Banana Coin #2",
             "map_locations": [
                 {
                     "map": "cc-squawksshaft",
@@ -201,6 +210,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Squawks's Shaft - Banana Bunch #2",
             "map_locations": [
                 {
                     "map": "cc-squawksshaft",
@@ -220,6 +230,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Squawks's Shaft - Red Balloon #1",
             "map_locations": [
                 {
                     "map": "cc-squawksshaft",
@@ -239,6 +250,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Squawks's Shaft - Banana Coin #3",
             "map_locations": [
                 {
                     "map": "cc-squawksshaft",
@@ -258,6 +270,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Squawks's Shaft - Banana Coin #4",
             "map_locations": [
                 {
                     "map": "cc-squawksshaft",
@@ -277,6 +290,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Squawks's Shaft - Banana Coin #5",
             "map_locations": [
                 {
                     "map": "cc-squawksshaft",
@@ -296,6 +310,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Squawks's Shaft - Banana Coin #6",
             "map_locations": [
                 {
                     "map": "cc-squawksshaft",
@@ -315,6 +330,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Squawks's Shaft - Banana Coin #7",
             "map_locations": [
                 {
                     "map": "cc-squawksshaft",
@@ -334,6 +350,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Squawks's Shaft - Banana Bunch #3",
             "map_locations": [
                 {
                     "map": "cc-squawksshaft",
@@ -353,6 +370,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Squawks's Shaft - Banana Bunch #4",
             "map_locations": [
                 {
                     "map": "cc-squawksshaft",
@@ -360,17 +378,7 @@
                     "y": "260"
                 }
             ]
-        },
-        {
-        "map_locations": [
-            {
-                "map": "Crocodile Cauldron",
-                "x": "477",
-                "y": "111",
-                "size": 20
-            }
-        ]
-    }
+        }
 ]
 }
 ]

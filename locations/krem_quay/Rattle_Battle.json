@@ -15,6 +15,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Rattle Battle - Clear",
             "map_locations": [
                 {
                     "map": "kq-rattlebattle",
@@ -34,6 +35,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Rattle Battle - DK Coin",
             "map_locations": [
                 {
                     "map": "kq-rattlebattle",
@@ -53,6 +55,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Rattle Battle - KONG",
             "map_locations": [
                 {
                     "map": "kq-rattlebattle",
@@ -87,6 +90,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Rattle Battle - Bonus #1",
             "map_locations": [
                 {
                     "map": "kq-rattlebattle",
@@ -106,6 +110,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Rattle Battle - Bonus #2",
             "map_locations": [
                 {
                     "map": "kq-rattlebattle",
@@ -125,6 +130,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Rattle Battle - Bonus #3",
             "map_locations": [
                 {
                     "map": "kq-rattlebattle",
@@ -144,6 +150,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Rattle Battle - Banana Coin #1",
             "map_locations": [
                 {
                     "map": "kq-rattlebattle",
@@ -163,6 +170,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Rattle Battle - Banana Bunch #1",
             "map_locations": [
                 {
                     "map": "kq-rattlebattle",
@@ -182,6 +190,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Rattle Battle - Banana Bunch #2",
             "map_locations": [
                 {
                     "map": "kq-rattlebattle",
@@ -201,6 +210,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Rattle Battle - Banana Coin #2",
             "map_locations": [
                 {
                     "map": "kq-rattlebattle",
@@ -220,6 +230,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Rattle Battle - Banana Coin #3",
             "map_locations": [
                 {
                     "map": "kq-rattlebattle",
@@ -239,6 +250,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Rattle Battle - Banana Bunch #3",
             "map_locations": [
                 {
                     "map": "kq-rattlebattle",
@@ -258,6 +270,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Rattle Battle - Banana Bunch #4",
             "map_locations": [
                 {
                     "map": "kq-rattlebattle",

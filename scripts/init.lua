@@ -3,15 +3,11 @@ local variant = Tracker.ActiveVariantUID
 
 -- Items
 Tracker:AddItems("items/items.json")
+Tracker:AddItems("items/modifiers.json")
 ScriptHost:LoadScript("scripts/items_import.lua")
 
 -- Locations
 ScriptHost:LoadScript("scripts/locations_import.lua")
-
--- Logic
--- ScriptHost:LoadScript("scripts/logic/logic_helper.lua")
--- ScriptHost:LoadScript("scripts/logic/logic_main.lua")
--- ScriptHost:LoadScript("scripts/logic_import.lua")
 
 -- Utils
 ScriptHost:LoadScript("scripts/utils.lua")

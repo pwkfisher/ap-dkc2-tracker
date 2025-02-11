@@ -15,6 +15,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Rambi Rumble - Clear",
             "map_locations": [
                 {
                     "map": "kk-rambirumble",
@@ -34,6 +35,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Rambi Rumble - DK Coin",
             "map_locations": [
                 {
                     "map": "kk-rambirumble",
@@ -53,6 +55,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Rambi Rumble - KONG",
             "map_locations": [
                 {
                     "map": "kk-rambirumble",
@@ -87,6 +90,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Rambi Rumble - Bonus #1",
             "map_locations": [
                 {
                     "map": "kk-rambirumble",
@@ -106,6 +110,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Rambi Rumble - Bonus #2",
             "map_locations": [
                 {
                     "map": "kk-rambirumble",
@@ -125,6 +130,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Rambi Rumble - Banana Coin #1",
             "map_locations": [
                 {
                     "map": "kk-rambirumble",
@@ -144,6 +150,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Rambi Rumble - Banana Bunch #1",
             "map_locations": [
                 {
                     "map": "kk-rambirumble",
@@ -163,6 +170,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Rambi Rumble - Banana Coin #2",
             "map_locations": [
                 {
                     "map": "kk-rambirumble",
@@ -182,6 +190,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Rambi Rumble - Banana Bunch #2",
             "map_locations": [
                 {
                     "map": "kk-rambirumble",
@@ -201,6 +210,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Rambi Rumble - Banana Bunch #3",
             "map_locations": [
                 {
                     "map": "kk-rambirumble",

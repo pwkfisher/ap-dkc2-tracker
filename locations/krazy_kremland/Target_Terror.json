@@ -15,6 +15,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Target Terror - Clear",
             "map_locations": [
                 {
                     "map": "kk-targetterror",
@@ -34,6 +35,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Target Terror - DK Coin",
             "map_locations": [
                 {
                     "map": "kk-targetterror",
@@ -53,6 +55,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Target Terror - KONG",
             "map_locations": [
                 {
                     "map": "kk-targetterror",
@@ -95,6 +98,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Target Terror - Bonus #1",
             "map_locations": [
                 {
                     "map": "kk-targetterror",
@@ -114,6 +118,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Target Terror - Bonus #2",
             "map_locations": [
                 {
                     "map": "kk-targetterror",
@@ -133,6 +138,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Target Terror - Banana Bunch #1",
             "map_locations": [
                 {
                     "map": "kk-targetterror",
@@ -152,6 +158,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Target Terror - Red Balloon",
             "map_locations": [
                 {
                     "map": "kk-targetterror",

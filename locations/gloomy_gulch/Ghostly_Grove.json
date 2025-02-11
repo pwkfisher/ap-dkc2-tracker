@@ -15,6 +15,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Ghostly Grove - Clear",
             "map_locations": [
                 {
                     "map": "glg-ghostlygrove",
@@ -34,6 +35,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Ghostly Grove - DK Coin",
             "map_locations": [
                 {
                     "map": "glg-ghostlygrove",
@@ -53,6 +55,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Ghostly Grove - KONG",
             "map_locations": [
                 {
                     "map": "glg-ghostlygrove",
@@ -87,6 +90,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Ghostly Grove - Bonus #1",
             "map_locations": [
                 {
                     "map": "glg-ghostlygrove",
@@ -106,6 +110,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Ghostly Grove - Bonus #2",
             "map_locations": [
                 {
                     "map": "glg-ghostlygrove",
@@ -133,6 +138,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Ghostly Grove - First Cloak",
             "map_locations": [
                 {
                     "map": "glg-ghostlygrove",
@@ -152,6 +158,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Ghostly Grove - Banana Bunch #2",
             "map_locations": [
                 {
                     "map": "glg-ghostlygrove",
@@ -171,6 +178,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Ghostly Grove - Banana Coin #1",
             "map_locations": [
                 {
                     "map": "glg-ghostlygrove",
@@ -190,6 +198,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Ghostly Grove - Banana Bunch #3",
             "map_locations": [
                 {
                     "map": "glg-ghostlygrove",
@@ -209,6 +218,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Ghostly Grove - Banana Bunch #4",
             "map_locations": [
                 {
                     "map": "glg-ghostlygrove",
@@ -228,6 +238,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Ghostly Grove - Banana Coin #2",
             "map_locations": [
                 {
                     "map": "glg-ghostlygrove",

@@ -15,6 +15,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Arctic Abyss - Clear",
             "map_locations": [
                 {
                     "map": "krk-arcticabyss",
@@ -34,6 +35,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Arctic Abyss - DK Coin",
             "map_locations": [
                 {
                     "map": "krk-arcticabyss",
@@ -53,6 +55,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Arctic Abyss - KONG",
             "map_locations": [
                 {
                     "map": "krk-arcticabyss",
@@ -87,6 +90,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Arctic Abyss - Bonus #1",
             "map_locations": [
                 {
                     "map": "krk-arcticabyss",
@@ -106,6 +110,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Arctic Abyss - Bonus #2",
             "map_locations": [
                 {
                     "map": "krk-arcticabyss",
@@ -125,6 +130,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Arctic Abyss - Banana Coin #1",
             "map_locations": [
                 {
                     "map": "krk-arcticabyss",
@@ -144,6 +150,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Arctic Abyss - Banana Bunch #1",
             "map_locations": [
                 {
                     "map": "krk-arcticabyss",
@@ -163,6 +170,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Arctic Abyss - Banana Bunch #2",
             "map_locations": [
                 {
                     "map": "krk-arcticabyss",
@@ -182,6 +190,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Arctic Abyss - Banana Bunch #3",
             "map_locations": [
                 {
                     "map": "krk-arcticabyss",
@@ -201,6 +210,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Arctic Abyss - Banana Bunch #4",
             "map_locations": [
                 {
                     "map": "krk-arcticabyss",
@@ -220,6 +230,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Arctic Abyss - Banana Coin #2",
             "map_locations": [
                 {
                     "map": "krk-arcticabyss",
@@ -239,6 +250,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Arctic Abyss - Banana Coin #3",
             "map_locations": [
                 {
                     "map": "krk-arcticabyss",
@@ -258,6 +270,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Arctic Abyss - Banana Coin #4",
             "map_locations": [
                 {
                     "map": "krk-arcticabyss",
@@ -277,6 +290,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Arctic Abyss - Banana Bunch #5",
             "map_locations": [
                 {
                     "map": "krk-arcticabyss",
@@ -296,6 +310,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Arctic Abyss - Banana Coin #5",
             "map_locations": [
                 {
                     "map": "krk-arcticabyss",
@@ -315,6 +330,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Arctic Abyss - Banana Bunch #6",
             "map_locations": [
                 {
                     "map": "krk-arcticabyss",
@@ -334,6 +350,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Arctic Abyss - Banana Bunch #7",
             "map_locations": [
                 {
                     "map": "krk-arcticabyss",
@@ -353,6 +370,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Arctic Abyss - Red Balloon #1",
             "map_locations": [
                 {
                     "map": "krk-arcticabyss",
@@ -372,6 +390,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Arctic Abyss - Red Balloon #2",
             "map_locations": [
                 {
                     "map": "krk-arcticabyss",

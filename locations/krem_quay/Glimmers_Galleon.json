@@ -15,6 +15,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Glimmer's Galleon - Clear",
             "map_locations": [
                 {
                     "map": "kq-glimmersgalleon",
@@ -34,6 +35,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Glimmer's Galleon - DK Coin",
             "map_locations": [
                 {
                     "map": "kq-glimmersgalleon",
@@ -53,6 +55,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Glimmer's Galleon - KONG",
             "map_locations": [
                 {
                     "map": "kq-glimmersgalleon",
@@ -87,6 +90,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Glimmer's Galleon - Bonus #1",
             "map_locations": [
                 {
                     "map": "kq-glimmersgalleon",
@@ -106,6 +110,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Glimmer's Galleon - Bonus #2",
             "map_locations": [
                 {
                     "map": "kq-glimmersgalleon",
@@ -125,6 +130,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Glimmer's Galleon - Banana Coin #1",
             "map_locations": [
                 {
                     "map": "kq-glimmersgalleon",
@@ -144,6 +150,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Glimmer's Galleon - Banana Coin #2",
             "map_locations": [
                 {
                     "map": "kq-glimmersgalleon",
@@ -163,6 +170,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Glimmer's Galleon - Banana Bunch #1",
             "map_locations": [
                 {
                     "map": "kq-glimmersgalleon",
@@ -182,6 +190,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Glimmer's Galleon - Banana Bunch #2",
             "map_locations": [
                 {
                     "map": "kq-glimmersgalleon",
@@ -201,6 +210,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Glimmer's Galleon - Banana Bunch #3",
             "map_locations": [
                 {
                     "map": "kq-glimmersgalleon",
@@ -220,6 +230,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Glimmer's Galleon - Red Balloon",
             "map_locations": [
                 {
                     "map": "kq-glimmersgalleon",
@@ -239,6 +250,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Glimmer's Galleon - Banana Bunch #4",
             "map_locations": [
                 {
                     "map": "kq-glimmersgalleon",
@@ -258,6 +270,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Glimmer's Galleon - Banana Coin #3",
             "map_locations": [
                 {
                     "map": "kq-glimmersgalleon",
@@ -277,6 +290,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Glimmer's Galleon - Banana Bunch #5",
             "map_locations": [
                 {
                     "map": "kq-glimmersgalleon",
@@ -296,6 +310,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Glimmer's Galleon - Banana Coin #4",
             "map_locations": [
                 {
                     "map": "kq-glimmersgalleon",
@@ -315,6 +330,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Glimmer's Galleon - Banana Bunch #6",
             "map_locations": [
                 {
                     "map": "kq-glimmersgalleon",
@@ -334,6 +350,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Glimmer's Galleon - Banana Bunch #7",
             "map_locations": [
                 {
                     "map": "kq-glimmersgalleon",
@@ -372,6 +389,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Glimmer's Galleon - Banana Bunch #8",
             "map_locations": [
                 {
                     "map": "kq-glimmersgalleon",
@@ -391,6 +409,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Glimmer's Galleon - Banana Coin #6",
             "map_locations": [
                 {
                     "map": "kq-glimmersgalleon",
@@ -410,6 +429,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Glimmer's Galleon - Banana Bunch #9",
             "map_locations": [
                 {
                     "map": "kq-glimmersgalleon",
@@ -429,6 +449,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Glimmer's Galleon - Banana Bunch #10",
             "map_locations": [
                 {
                     "map": "kq-glimmersgalleon",
@@ -448,6 +469,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Glimmer's Galleon - Banana Bunch #11",
             "map_locations": [
                 {
                     "map": "kq-glimmersgalleon",
@@ -467,6 +489,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Glimmer's Galleon - Banana Bunch #12",
             "map_locations": [
                 {
                     "map": "kq-glimmersgalleon",
@@ -486,6 +509,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Glimmer's Galleon - Banana Coin #7",
             "map_locations": [
                 {
                     "map": "kq-glimmersgalleon",
@@ -505,6 +529,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Glimmer's Galleon - Banana Coin #8",
             "map_locations": [
                 {
                     "map": "kq-glimmersgalleon",
@@ -524,6 +549,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Glimmer's Galleon - Banana Bunch #13",
             "map_locations": [
                 {
                     "map": "kq-glimmersgalleon",
@@ -543,6 +569,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Glimmer's Galleon - Banana Coin #9",
             "map_locations": [
                 {
                     "map": "kq-glimmersgalleon",
@@ -562,6 +589,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Glimmer's Galleon - Banana Bunch #14",
             "map_locations": [
                 {
                     "map": "kq-glimmersgalleon",
@@ -581,6 +609,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Glimmer's Galleon - Banana Coin #10",
             "map_locations": [
                 {
                     "map": "kq-glimmersgalleon",

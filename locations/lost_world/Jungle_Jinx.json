@@ -4,9 +4,9 @@
         "chest_unopened_img": "/images/items/close.png",
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ],
+        "access_rules": [],
+        "children": [
+            {
         "sections": [
             {
                 "name": "Clear",
@@ -15,72 +15,195 @@
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "name": "Jungle Jinx - Clear",
+            "map_locations": [
+                {
+                    "map": "tlw-junglejinx",
+                    "x": "2762",
+                    "y": "1732"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "DK Coin",
                 "access_rules": ["EASY, cartwheel, teamattack, diddy, dixie", "NORMAL, cartwheel, teamattack, diddy, dixie", "HARD, teamattack, diddy, dixie, cartwheel", "HARD, teamattack, diddy, dixie, helicopterspin"],
                 "chest_unopened_img": "images/checks/dkcoin_disabled.png",
                 "chest_opened_img": "images/checks/dkcoin.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "name": "Jungle Jinx - DK Coin",
+            "map_locations": [
+                {
+                    "map": "tlw-junglejinx",
+                    "x": "2153",
+                    "y": "796"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "KONG",
                 "access_rules": ["EASY, cartwheel, barrelkannons, carry", "NORMAL, cartwheel, barrelkannons, carry", "HARD, cartwheel, barrelkannons, carry", "HARD, cartwheel, barrelkannons, diddy, dixie", "HARD, cartwheel, helicopterspin, dixie, diddy", "HARD, cartwheel, helicopterspin, dixie, carry"],
                 "chest_unopened_img": "images/checks/kong_disabled.png",
                 "chest_opened_img": "images/checks/kong.png",
                 "visibility_rules": ["kongchecks"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "name": "Jungle Jinx - KONG",
+            "map_locations": [
+                {
+                    "map": "tlw-junglejinx",
+                    "x": "983",
+                    "y": "221"
+                },
+                {
+                    "map": "tlw-junglejinx",
+                    "x": "2286",
+                    "y": "787"
+                },
+                {
+                    "map": "tlw-junglejinx",
+                    "x": "1859",
+                    "y": "1108"
+                },
+                {
+                    "map": "tlw-junglejinx",
+                    "x": "2808",
+                    "y": "1620"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #1 (Start)",
                 "access_rules": [],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "name": "Jungle Jinx - Banana Bunch #1",
+            "map_locations": [
+                {
+                    "map": "tlw-junglejinx",
+                    "x": "7",
+                    "y": "171"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #2 (Above Zinger)",
                 "access_rules": [],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "name": "Jungle Jinx - Banana Bunch #2",
+            "map_locations": [
+                {
+                    "map": "tlw-junglejinx",
+                    "x": "1969",
+                    "y": "4"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #1 (Between Zingers)",
                 "access_rules": ["EASY, helicopterspin, dixie", "NORMAL, helicopterspin, dixie", "HARD"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "name": "Jungle Jinx - Banana Coin #1",
+            "map_locations": [
+                {
+                    "map": "tlw-junglejinx",
+                    "x": "2529",
+                    "y": "238"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #2 (Above Zinger)",
                 "access_rules": ["EASY, cartwheel", "NORMAL, cartwheel", "HARD"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "name": "Jungle Jinx - Banana Coin #2",
+            "map_locations": [
+                {
+                    "map": "tlw-junglejinx",
+                    "x": "1036",
+                    "y": "553"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #3 (Arrow barrel)",
                 "access_rules": ["EASY, cartwheel, barrelkannons", "NORMAL, cartwheel, barrelkannons", "HARD, helicopterspin, dixie", "HARD, barrelkannons"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "name": "Jungle Jinx - Banana Coin #3",
+            "map_locations": [
+                {
+                    "map": "tlw-junglejinx",
+                    "x": "174",
+                    "y": "1531"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #4 (On top of banana trail)",
                 "access_rules": ["EASY, cartwheel, teamattack, diddy, dixie, barrelkannons", "NORMAL, cartwheel, barrelkannons, teamattack, diddy, dixie", "HARD, helicopterspin, dixie", "HARD, barrelkannons"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "name": "Jungle Jinx - Banana Coin #4",
+            "map_locations": [
+                {
+                    "map": "tlw-junglejinx",
+                    "x": "1072",
+                    "y": "1594"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #5 (Banana trail before Klobber)",
                 "access_rules": ["EASY, cartwheel, barrelkannons", "NORMAL, cartwheel, barrelkannons", "HARD, helicopterspin, dixie", "HARD, barrelkannons"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
@@ -89,13 +212,15 @@
                 "item_count": 1
             }
         ],
-        "map_locations": [
-            {
-                "map": "Lost World",
-                "x": "299",
-                "y": "279",
-                "size": 20
-            }
+            "name": "Jungle Jinx - Banana Coin #5",
+            "map_locations": [
+                {
+                    "map": "tlw-junglejinx",
+                    "x": "2180",
+                    "y": "1694"
+                }
+            ]
+        }
         ]
     }
 ]

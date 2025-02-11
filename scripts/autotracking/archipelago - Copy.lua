@@ -322,17 +322,7 @@ function onBounce(json)
 	-- your code goes here
 end
 
-function onNotify(key, value, old_value)
-	print(string.format("onNotify",key,value,old_value))
-	updateEvents(value)
-end
-
-function onNotifyLaunch(key, value)
-	print(string.format("onNotifyLaunch",key,value,old_value))
-	updateEvents(value)
-end
-
-function updateEvents(value)
+function onNotify(key, value,)
 	if value ~= nil then
 	    print(string.format("updateEvents %x",value))
 		local tabswitch = Tracker:FindObjectForCode("tab_switch")
@@ -358,4 +348,4 @@ Archipelago:AddClearHandler("clear handler", onClear)
 Archipelago:AddItemHandler("item handler", onItem)
 Archipelago:AddLocationHandler("location handler", onLocation)
 Archipelago:AddSetReplyHandler("notify handler", onNotify)
-Archipelago:AddRetrievedHandler("notify launch handler", onNotifyLaunch)
+--Archipelago:AddRetrievedHandler("notify launch handler", onNotifyLaunch)

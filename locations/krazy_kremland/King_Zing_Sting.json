@@ -23,6 +23,7 @@
                 "item_count": 1
             }
         ],
+            "name": "King Zing Sting - Boss",
             "map_locations": [
                 {
                     "map": "kk-kingzingsting",
@@ -42,6 +43,7 @@
                 "item_count": 1
             }
         ],
+            "name": "King Zing Sting - Banana Coin #1",
             "map_locations": [
                 {
                     "map": "kk-kingzingsting",
@@ -61,6 +63,7 @@
                 "item_count": 1
             }
         ],
+            "name": "King Zing Sting - Banana Coin #2",
             "map_locations": [
                 {
                     "map": "kk-kingzingsting",

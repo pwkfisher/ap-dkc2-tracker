@@ -3,6 +3,8 @@
         "name": "Black Ice Battle",
         "access_rules": [" "],
         "visibility_rules": [""],
+        "children": [
+            {
         "sections": [
             {
                 "name": "Clear",
@@ -11,72 +13,195 @@
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "name": "Black Ice Battle - Clear",
+            "map_locations": [
+                {
+                    "map": "tlw-blackicebattle",
+                    "x": "2408",
+                    "y": "1805"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "DK Coin",
                 "access_rules": ["EASY, carry", "NORMAL, carry", "HARD, carry", "HARD, diddy, dixie"],
                 "chest_unopened_img": "images/checks/dkcoin_disabled.png",
                 "chest_opened_img": "images/checks/dkcoin.png",
                 "visibility_rules": [],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "name": "Black Ice Battle - DK Coin",
+            "map_locations": [
+                {
+                    "map": "tlw-blackicebattle",
+                    "x": "2499",
+                    "y": "218"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "KONG",
                 "access_rules": ["EASY, carry, teamattack, diddy, dixie", "NORMAL, carry", "HARD, carry", "HARD, diddy, dixie"],
                 "chest_unopened_img": "images/checks/kong_disabled.png",
                 "chest_opened_img": "images/checks/kong.png",
                 "visibility_rules": ["kongchecks"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "name": "Black Ice Battle - KONG",
+            "map_locations": [
+                {
+                    "map": "tlw-blackicebattle",
+                    "x": "448",
+                    "y": "1578"
+                },
+                {
+                    "map": "tlw-blackicebattle",
+                    "x": "1281",
+                    "y": "900"
+                },
+                {
+                    "map": "tlw-blackicebattle",
+                    "x": "1989",
+                    "y": "630"
+                },
+                {
+                    "map": "tlw-blackicebattle",
+                    "x": "2312",
+                    "y": "218"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #1 (Behind Krook)",
                 "access_rules": ["EASY, carry, cartwheel", "NORMAL, carry, cartwheel", "HARD, carry", "HARD, helicopterspin, dixie", "HARD, diddy, dixie", "HARD, cartwheel"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "name": "Black Ice Battle - Banana Bunch #1",
+            "map_locations": [
+                {
+                    "map": "tlw-blackicebattle",
+                    "x": "660",
+                    "y": "334"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Red Balloon #1 (Above Klobber)",
                 "access_rules": ["EASY, carry", "NORMAL", "HARD"],
                 "chest_unopened_img": "images/checks/swanky1_disabled.png",
                 "chest_opened_img": "images/checks/swanky1.png",
                 "visibility_rules": ["balloonsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "name": "Black Ice Battle - Red Balloon #1",
+            "map_locations": [
+                {
+                    "map": "tlw-blackicebattle",
+                    "x": "563",
+                    "y": "1059"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Red Balloon #2 (Above Klobber)",
                 "access_rules": ["EASY, carry", "NORMAL", "HARD"],
                 "chest_unopened_img": "images/checks/swanky1_disabled.png",
                 "chest_opened_img": "images/checks/swanky1.png",
                 "visibility_rules": ["balloonsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "name": "Black Ice Battle - Red Balloon #2",
+            "map_locations": [
+                {
+                    "map": "tlw-blackicebattle",
+                    "x": "592",
+                    "y": "1059"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Red Balloon #3 (Chest behind Klobber)",
                 "access_rules": ["EASY, carry", "NORMAL, carry", "HARD, carry"],
                 "chest_unopened_img": "images/checks/swanky1_disabled.png",
                 "chest_opened_img": "images/checks/swanky1.png",
                 "visibility_rules": ["balloonsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "name": "Black Ice Battle - Red Balloon #3",
+            "map_locations": [
+                {
+                    "map": "tlw-blackicebattle",
+                    "x": "1007",
+                    "y": "1752"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #2 (4-path left)",
                 "access_rules": ["EASY, carry", "NORMAL", "HARD"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+        "name": "Black Ice Battle - Banana Bunch #2",
+            "map_locations": [
+                {
+                    "map": "tlw-blackicebattle",
+                    "x": "1077",
+                    "y": "519"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Coin #1 (4-path right)",
                 "access_rules": ["EASY, carry", "NORMAL", "HARD"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
                 "item_count": 1
-            },
-            {
+            }
+        ],
+            "name": "Black Ice Battle - Banana Coin #1",
+            "map_locations": [
+                {
+                    "map": "tlw-blackicebattle",
+                    "x": "1489",
+                    "y": "509"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
                 "name": "Banana Bunch #3 (Next to G)",
                 "access_rules": ["EASY, carry, teamattack, diddy, dixie", "NORMAL, carry", "HARD, carry", "HARD, diddy, dixie"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
@@ -85,13 +210,15 @@
                 "item_count": 1
             }
         ],
-        "map_locations": [
-            {
-                "map": "Lost World",
-                "x": "359",
-                "y": "232",
-                "size": 20
-            }
+            "name": "Black Ice Battle - Banana Bunch #3",
+            "map_locations": [
+                {
+                    "map": "tlw-blackicebattle",
+                    "x": "2410",
+                    "y": "1594"
+                }
+            ]
+        }
         ]
     }
 ]

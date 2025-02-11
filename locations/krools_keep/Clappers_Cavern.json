@@ -15,6 +15,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Clapper's Cavern - Clear",
             "map_locations": [
                 {
                     "map": "krk-clapperscavern",
@@ -34,6 +35,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Clapper's Cavern - DK Coin",
             "map_locations": [
                 {
                     "map": "krk-clapperscavern",
@@ -53,6 +55,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Clapper's Cavern - KONG",
             "map_locations": [
                 {
                     "map": "krk-clapperscavern",
@@ -92,6 +95,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Clapper's Cavern - Bonus #1",
             "map_locations": [
                 {
                     "map": "krk-clapperscavern",
@@ -111,6 +115,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Clapper's Cavern - Bonus #2",
             "map_locations": [
                 {
                     "map": "krk-clapperscavern",
@@ -130,6 +135,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Clapper's Cavern - Banana Coin #1",
             "map_locations": [
                 {
                     "map": "krk-clapperscavern",
@@ -149,6 +155,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Clapper's Cavern - Banana Bunch #1",
             "map_locations": [
                 {
                     "map": "krk-clapperscavern",
@@ -168,6 +175,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Clapper's Cavern - Banana Bunch #2",
             "map_locations": [
                 {
                     "map": "krk-clapperscavern",
@@ -187,6 +195,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Clapper's Cavern - Banana Bunch #3",
             "map_locations": [
                 {
                     "map": "krk-clapperscavern",
@@ -206,6 +215,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Clapper's Cavern - Banana Coin #2",
             "map_locations": [
                 {
                     "map": "krk-clapperscavern",
@@ -225,6 +235,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Clapper's Cavern - Banana Bunch #4",
             "map_locations": [
                 {
                     "map": "krk-clapperscavern",
@@ -244,6 +255,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Clapper's Cavern - Banana Coin #3",
             "map_locations": [
                 {
                     "map": "krk-clapperscavern",
@@ -263,6 +275,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Clapper's Cavern - Banana Coin #4",
             "map_locations": [
                 {
                     "map": "krk-clapperscavern",
@@ -282,6 +295,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Clapper's Cavern - Banana Coin #5",
             "map_locations": [
                 {
                     "map": "krk-clapperscavern",

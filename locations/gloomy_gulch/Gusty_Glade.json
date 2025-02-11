@@ -15,6 +15,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Gusty Glade - Clear",
             "map_locations": [
                 {
                     "map": "glg-gustyglade",
@@ -34,6 +35,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Gusty Glade - DK Coin",
             "map_locations": [
                 {
                     "map": "glg-gustyglade",
@@ -53,6 +55,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Gusty Glade - KONG",
             "map_locations": [
                 {
                     "map": "glg-gustyglade",
@@ -87,6 +90,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Gusty Glade - Bonus #1",
             "map_locations": [
                 {
                     "map": "glg-gustyglade",
@@ -106,6 +110,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Gusty Glade - Bonus #2",
             "map_locations": [
                 {
                     "map": "glg-gustyglade",
@@ -125,6 +130,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Gusty Glade - Banana Coin #1",
             "map_locations": [
                 {
                     "map": "glg-gustyglade",
@@ -144,6 +150,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Gusty Glade - Banana Coin #2",
             "map_locations": [
                 {
                     "map": "glg-gustyglade",
@@ -163,6 +170,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Gusty Glade - Blue Balloon",
             "map_locations": [
                 {
                     "map": "glg-gustyglade",
@@ -182,6 +190,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Gusty Glade - Banana Coin #3",
             "map_locations": [
                 {
                     "map": "glg-gustyglade",

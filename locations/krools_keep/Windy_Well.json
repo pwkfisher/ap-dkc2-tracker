@@ -15,6 +15,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Windy Well - Clear",
             "map_locations": [
                 {
                     "map": "krk-windywell",
@@ -34,6 +35,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Windy Well - DK Coin",
             "map_locations": [
                 {
                     "map": "krk-windywell",
@@ -53,6 +55,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Windy Well - KONG",
             "map_locations": [
                 {
                     "map": "krk-windywell",
@@ -87,6 +90,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Windy Well - Bonus #1",
             "map_locations": [
                 {
                     "map": "krk-windywell",
@@ -106,6 +110,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Windy Well - Bonus #2",
             "map_locations": [
                 {
                     "map": "krk-windywell",
@@ -125,6 +130,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Windy Well - Banana Coin #1",
             "map_locations": [
                 {
                     "map": "krk-windywell",
@@ -144,6 +150,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Windy Well - Banana Coin #2",
             "map_locations": [
                 {
                     "map": "krk-windywell",
@@ -163,6 +170,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Windy Well - Banana Coin #3",
             "map_locations": [
                 {
                     "map": "krk-windywell",
@@ -182,6 +190,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Windy Well - Banana Bunch #1",
             "map_locations": [
                 {
                     "map": "krk-windywell",
@@ -201,6 +210,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Windy Well - Banana Bunch #2",
             "map_locations": [
                 {
                     "map": "krk-windywell",
@@ -220,6 +230,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Windy Well - Banana Coin #4",
             "map_locations": [
                 {
                     "map": "krk-windywell",
@@ -239,6 +250,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Windy Well - Banana Bunch #3",
             "map_locations": [
                 {
                     "map": "krk-windywell",
@@ -258,6 +270,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Windy Well - Red Balloon",
             "map_locations": [
                 {
                     "map": "krk-windywell",
@@ -277,6 +290,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Windy Well - Banana Bunch #4",
             "map_locations": [
                 {
                     "map": "krk-windywell",

@@ -4,7 +4,8 @@
     "visibility_rules": [""],
     "children": [
         {
-    "sections": [
+        "name": "Checks",
+        "sections": [
         {
             "name": "Clear",
             "access_rules": ["EASY, barrelkannons", "NORMAL, barrelkannons", "NORMAL, squitter", "HARD, barrelkannons", "HARD, squitter", "HARD, teamattack, dixie, diddy, helicopterspin"],
@@ -303,14 +304,6 @@
             }
         ]
     }
-    ],
-    "map_locations": [
-        {
-            "map": "Crocodile Cauldron",
-            "x": "497",
-            "y": "395",
-            "size": 20
-        }
     ]
 }
 ]

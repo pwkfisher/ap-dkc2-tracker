@@ -1,11 +1,10 @@
 [
     {
         "name": "Krow's Nest",
-
         "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ],
+        "access_rules": [],
+        "children": [
+            {
         "sections": [
             {
                 "name": "Clear",
@@ -24,6 +23,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Krow's Nest - Boss",
             "map_locations": [
                 {
                     "map": "gg-krowsnest",
@@ -43,6 +43,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Krow's Nest - Banana Coin #1",
             "map_locations": [
                 {
                     "map": "gg-krowsnest",
@@ -62,6 +63,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Krow's Nest - Banana Coin #2",
             "map_locations": [
                 {
                     "map": "gg-krowsnest",
@@ -70,5 +72,7 @@
                 }
             ]
     }
+]
+}
 ]
     

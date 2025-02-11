@@ -23,6 +23,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Kreepy Krow - Boss",
             "map_locations": [
                 {
                     "map": "glg-kreepykrow",
@@ -42,6 +43,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Kreepy Krow - Banana Coin #1",
             "map_locations": [
                 {
                     "map": "glg-kreepykrow",
@@ -61,6 +63,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Kreepy Krow - Banana Coin #2",
             "map_locations": [
                 {
                     "map": "glg-kreepykrow",

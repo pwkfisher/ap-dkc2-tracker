@@ -5,6 +5,7 @@
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "visibility_rules": ["swankychecks"],
+        "access_rules": ["crocodilecauldronaccess"],
         "sections": [
             {
                 "name": "Easy",
@@ -33,7 +34,7 @@
         ],
         "map_locations": [
             {
-                "map": "Crocodile Cauldron",
+                "map": "World Map",
                 "x": "661",
                 "y": "392",
                 "size": 20

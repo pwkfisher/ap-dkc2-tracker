@@ -3,6 +3,8 @@
         "name": "Lockjaw's Locker",
         "access_rules": [" "],
         "visibility_rules": [""],
+        "children": [
+            {
         "sections": [
             {
                 "name": "Clear",
@@ -13,6 +15,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Lockjaw's Locker - Clear",
             "map_locations": [
                 {
                     "map": "gg-lockjawslocker",
@@ -32,6 +35,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Lockjaw's Locker - DK Coin",
             "map_locations": [
                 {
                     "map": "gg-lockjawslocker",
@@ -51,6 +55,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Lockjaw's Locker - KONG",
             "map_locations": [
                 {
                     "map": "gg-lockjawslocker",
@@ -85,6 +90,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Lockjaw's Locker - Bonus #1",
             "map_locations": [
                 {
                     "map": "gg-lockjawslocker",
@@ -104,6 +110,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Lockjaw's Locker - Banana Coin #1",
             "map_locations": [
                 {
                     "map": "gg-lockjawslocker",
@@ -123,6 +130,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Lockjaw's Locker - Banana Bunch #1",
             "map_locations": [
                 {
                     "map": "gg-lockjawslocker",
@@ -142,6 +150,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Lockjaw's Locker - Banana Coin #2",
             "map_locations": [
                 {
                     "map": "gg-lockjawslocker",
@@ -161,6 +170,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Lockjaw's Locker - Banana Bunch #2",
             "map_locations": [
                 {
                     "map": "gg-lockjawslocker",
@@ -180,6 +190,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Lockjaw's Locker - Banana Coin #3",
             "map_locations": [
                 {
                     "map": "gg-lockjawslocker",
@@ -199,6 +210,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Lockjaw's Locker - Banana Coin #4",
             "map_locations": [
                 {
                     "map": "gg-lockjawslocker",
@@ -218,6 +230,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Lockjaw's Locker - Banana Coin #5",
             "map_locations": [
                 {
                     "map": "gg-lockjawslocker",
@@ -237,6 +250,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Lockjaw's Locker - Banana Bunch #3",
             "map_locations": [
                 {
                     "map": "gg-lockjawslocker",
@@ -256,6 +270,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Lockjaw's Locker - Red Balloon",
             "map_locations": [
                 {
                     "map": "gg-lockjawslocker",
@@ -275,6 +290,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Lockjaw's Locker - Banana Coin #6",
             "map_locations": [
                 {
                     "map": "gg-lockjawslocker",
@@ -294,6 +310,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Lockjaw's Locker - Banana Coin #7",
             "map_locations": [
                 {
                     "map": "gg-lockjawslocker",
@@ -313,6 +330,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Lockjaw's Locker - Banana Coin #8",
             "map_locations": [
                 {
                     "map": "gg-lockjawslocker",
@@ -332,6 +350,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Lockjaw's Locker - Banana Bunch #4",
             "map_locations": [
                 {
                     "map": "gg-lockjawslocker",
@@ -341,3 +360,5 @@
             ]
         }
     ]
+}
+]

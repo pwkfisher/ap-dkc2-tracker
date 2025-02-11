@@ -15,6 +15,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Red Hot Ride - Clear",
             "map_locations": [
                 {
                     "map": "cc-redhotride",
@@ -34,6 +35,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Red Hot Ride - DK Coin",
             "map_locations": [
                 {
                     "map": "cc-redhotride",
@@ -53,6 +55,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Red Hot Ride - KONG",
             "map_locations": [
                 {
                     "map": "cc-redhotride",
@@ -87,6 +90,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Red Hot Ride - Bonus #1",
             "map_locations": [
                 {
                     "map": "cc-redhotride",
@@ -106,6 +110,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Red Hot Ride - Bonus #2",
             "map_locations": [
                 {
                     "map": "cc-redhotride",
@@ -125,6 +130,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Red Hot Ride - Banana Bunch #1",
             "map_locations": [
                 {
                     "map": "cc-redhotride",
@@ -144,6 +150,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Red Hot Ride - Banana Coin #1",
             "map_locations": [
                 {
                     "map": "cc-redhotride",
@@ -163,6 +170,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Red Hot Ride - Banana Coin #2",
             "map_locations": [
                 {
                     "map": "cc-redhotride",
@@ -182,6 +190,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Red Hot Ride - Banana Bunch #2",
             "map_locations": [
                 {
                     "map": "cc-redhotride",
@@ -201,6 +210,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Red Hot Ride - Banana Coin #3",
             "map_locations": [
                 {
                     "map": "cc-redhotride",
@@ -220,6 +230,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Red Hot Ride - Banana Bunch #3",
             "map_locations": [
                 {
                     "map": "cc-redhotride",
@@ -239,6 +250,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Red Hot Ride - Banana Coin #4",
             "map_locations": [
                 {
                     "map": "cc-redhotride",
@@ -258,6 +270,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Red Hot Ride - Banana Coin #5",
             "map_locations": [
                 {
                     "map": "cc-redhotride",
@@ -277,6 +290,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Red Hot Ride - Banana Coin #6",
             "map_locations": [
                 {
                     "map": "cc-redhotride",
@@ -296,6 +310,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Red Hot Ride - Banana Bunch #4",
             "map_locations": [
                 {
                     "map": "cc-redhotride",
@@ -303,17 +318,8 @@
                     "y": "1068"
                 }
             ]
-        },
-        {
-        "map_locations": [
-            {
-                "map": "Crocodile Cauldron",
-                "x": "346",
-                "y": "215",
-                "size": 20
-            }
-        ]
-    }
-]
+        }
+    ]
 }
+
 ]

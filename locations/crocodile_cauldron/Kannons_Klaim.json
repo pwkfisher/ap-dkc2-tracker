@@ -15,6 +15,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Kannon's Klaim - Clear",
             "map_locations": [
                 {
                     "map": "cc-kannonsklaim",
@@ -24,16 +25,8 @@
             ]
         },
         {
-            "sections": [
-                {
-                "name": "DK Coin",
-                "access_rules": ["EASY, helicopterspin, dixie", "NORMAL, helicopterspin, dixie", "NORMAL, cartwheel", "HARD, helicopterspin, dixie", "HARD, cartwheel"],
-                "chest_unopened_img": "images/checks/dkcoin_disabled.png",
-                "chest_opened_img": "images/checks/dkcoin.png",
-                "visibility_rules": ["dkcoinchecks"],
-                "item_count": 1
-            }
-        ],
+
+        "name": "Kannon's Klaim - DK Coin",
             "map_locations": [
                 {
                     "map": "cc-kannonsklaim",
@@ -53,6 +46,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Kannon's Klaim - KONG",
             "map_locations": [
                 {
                     "map": "cc-kannonsklaim",
@@ -85,8 +79,17 @@
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
                 "item_count": 1
+            },
+            {
+                "name": "DK Coin",
+                "access_rules": ["EASY, helicopterspin, dixie", "NORMAL, helicopterspin, dixie", "NORMAL, cartwheel", "HARD, helicopterspin, dixie", "HARD, cartwheel"],
+                "chest_unopened_img": "images/checks/dkcoin_disabled.png",
+                "chest_opened_img": "images/checks/dkcoin.png",
+                "visibility_rules": ["dkcoinchecks"],
+                "item_count": 1
             }
         ],
+            "name": "Kannon's Klaim - Bonus #1",
             "map_locations": [
                 {
                     "map": "cc-kannonsklaim",
@@ -106,6 +109,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Kannon's Klaim - Bonus #2",
             "map_locations": [
                 {
                     "map": "cc-kannonsklaim",
@@ -125,6 +129,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Kannon's Klaim - Bonus #3",
             "map_locations": [
                 {
                     "map": "cc-kannonsklaim",
@@ -144,6 +149,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Kannon's Klaim - Banana Bunch #1",
             "map_locations": [
                 {
                     "map": "cc-kannonsklaim",
@@ -163,6 +169,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Kannon's Klaim - Banana Coin #1",
             "map_locations": [
                 {
                     "map": "cc-kannonsklaim",
@@ -182,6 +189,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Kannon's Klaim - Banana Coin #2",
             "map_locations": [
                 {
                     "map": "cc-kannonsklaim",
@@ -201,6 +209,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Kannon's Klaim - Banana Coin #3",
             "map_locations": [
                 {
                     "map": "cc-kannonsklaim",

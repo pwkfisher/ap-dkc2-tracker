@@ -15,6 +15,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Bramble Blast - Clear",
             "map_locations": [
                 {
                     "map": "kq-brambleblast",
@@ -34,6 +35,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Bramble Blast - DK Coin",
             "map_locations": [
                 {
                     "map": "kq-brambleblast",
@@ -53,6 +55,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Bramble Blast - KONG",
             "map_locations": [
                 {
                     "map": "kq-brambleblast",
@@ -87,6 +90,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Bramble Blast - Bonus #1",
             "map_locations": [
                 {
                     "map": "kq-brambleblast",
@@ -106,6 +110,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Bramble Blast - Bonus #2",
             "map_locations": [
                 {
                     "map": "kq-brambleblast",
@@ -125,6 +130,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Bramble Blast - Banana Bunch #1",
             "map_locations": [
                 {
                     "map": "kq-brambleblast",
@@ -144,6 +150,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Bramble Blast - Banana Bunch #2",
             "map_locations": [
                 {
                     "map": "kq-brambleblast",
@@ -163,6 +170,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Bramble Blast - Banana Bunch #3",
             "map_locations": [
                 {
                     "map": "kq-brambleblast",
@@ -182,6 +190,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Bramble Blast - Banana Coin #1",
             "map_locations": [
                 {
                     "map": "kq-brambleblast",
@@ -201,6 +210,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Bramble Blast - Banana Bunch #4",
             "map_locations": [
                 {
                     "map": "kq-brambleblast",
@@ -220,6 +230,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Bramble Blast - Banana Bunch #5",
             "map_locations": [
                 {
                     "map": "kq-brambleblast",
@@ -239,6 +250,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Bramble Blast - Banana Coin #2",
             "map_locations": [
                 {
                     "map": "kq-brambleblast",
@@ -258,6 +270,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Bramble Blast - Red Balloon",
             "map_locations": [
                 {
                     "map": "kq-brambleblast",
@@ -277,6 +290,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Bramble Blast - Banana Bunch #6",
             "map_locations": [
                 {
                     "map": "kq-brambleblast",
@@ -296,6 +310,7 @@
                 "item_count": 1
             }
         ],
+        "name": "Bramble Blast - Banana Bunch #7",
             "map_locations": [
                 {
                     "map": "kq-brambleblast",
@@ -315,6 +330,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Bramble Blast - Banana Bunch #8",
             "map_locations": [
                 {
                     "map": "kq-brambleblast",
@@ -334,6 +350,7 @@
                 "item_count": 1
             }
         ],
+            "name": "Bramble Blast - Banana Bunch #9",
             "map_locations": [
                 {
                     "map": "kq-brambleblast",
