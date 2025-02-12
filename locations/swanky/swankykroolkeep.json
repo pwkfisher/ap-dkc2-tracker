@@ -34,10 +34,10 @@
         ],
         "map_locations": [
             {
-                "map": "K. Rool's Keep",
-                "x": "698",
-                "y": "169",
-                "size": 20
+                "map": "World Map",
+                "x": "2230",
+                "y": "182",
+                "size": 30
             }
         ]
     }

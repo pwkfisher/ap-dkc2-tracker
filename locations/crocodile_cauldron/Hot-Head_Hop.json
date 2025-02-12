@@ -4,7 +4,6 @@
     "visibility_rules": [""],
     "children": [
         {
-        "name": "Checks",
         "sections": [
         {
             "name": "Clear",
@@ -15,6 +14,7 @@
             "item_count": 1
         }
     ],
+        "name": "Hot-Head Hop - Clear",
         "map_locations": [
             {
                 "map": "cc-hotheadhop",
@@ -34,6 +34,7 @@
             "item_count": 1
         }
     ],
+        "name": "Hot-Head Hop - DK Coin",
         "map_locations": [
             {
                 "map": "cc-hotheadhop",
@@ -53,6 +54,7 @@
             "item_count": 1
         }
     ],
+        "name": "Hot-Head Hop - KONG",
         "map_locations": [
             {
                 "map": "cc-hotheadhop",
@@ -87,6 +89,7 @@
             "item_count": 1
         }
     ],
+        "name": "Hot-Head Hop - Bonus #1",
         "map_locations": [
             {
                 "map": "cc-hotheadhop",
@@ -106,6 +109,7 @@
             "item_count": 1
         }
     ],
+        "name": "Hot-Head Hop - Bonus #2",
         "map_locations": [
             {
                 "map": "cc-hotheadhop",
@@ -125,6 +129,7 @@
             "item_count": 1
         }
     ],
+        "name": "Hot-Head Hop - Bonus #3",
         "map_locations": [
             {
                 "map": "cc-hotheadhop",
@@ -144,6 +149,7 @@
             "item_count": 1
         }
     ],
+        "name": "Hot-Head Hop - Green Balloon",
         "map_locations": [
             {
                 "map": "cc-hotheadhop",
@@ -163,6 +169,7 @@
             "item_count": 1
         }
     ],
+        "name": "Hot-Head Hop - Banana Coin #1",
         "map_locations": [
             {
                 "map": "cc-hotheadhop",
@@ -182,6 +189,7 @@
             "item_count": 1
         }
     ],
+        "name": "Hot-Head Hop - Banana Bunch #1",
         "map_locations": [
             {
                 "map": "cc-hotheadhop",
@@ -201,6 +209,7 @@
             "item_count": 1
         }
     ],
+        "name": "Hot-Head Hop - Banana Coin #2",
         "map_locations": [
             {
                 "map": "cc-hotheadhop",
@@ -220,6 +229,7 @@
             "item_count": 1
         }
     ],
+        "name": "Hot-Head Hop - Banana Bunch #2",
         "map_locations": [
             {
                 "map": "cc-hotheadhop",
@@ -239,6 +249,7 @@
             "item_count": 1
         }
     ],
+        "name": "Hot-Head Hop - Banana Bunch #3",
         "map_locations": [
             {
                 "map": "cc-hotheadhop",
@@ -258,6 +269,7 @@
             "item_count": 1
         }
     ],
+        "name": "Hot-Head Hop - Banana Coin #3",
         "map_locations": [
             {
                 "map": "cc-hotheadhop",
@@ -277,6 +289,7 @@
             "item_count": 1
         }
     ],
+        "name": "Hot-Head Hop - Banana Coin #4",
         "map_locations": [
             {
                 "map": "cc-hotheadhop",
@@ -296,6 +309,7 @@
             "item_count": 1
         }
     ],
+        "name": "Hot-Head Hop - Red Balloon",
         "map_locations": [
             {
                 "map": "cc-hotheadhop",

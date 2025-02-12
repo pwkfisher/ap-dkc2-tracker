@@ -1,93 +1,184 @@
 [
     {
-        "name": "Gangplank Galleon",
-        "access_rules": ["gangplankgalleonaccess"],
-        "visibility_rules": [""],
-        "map_locations": [
+        "name": "World Map",
+        "access_rules": [],
+        "children": [
             {
-                "map": "World Map",
-                "x": "54",
-                "y": "737",
-                "size": 20
+        "sections": [
+            {
+            "name": "Gangplank Galleon Access",
+            "access_rules": ["gangplankgalleonaccess"],
+            "chest_unopened_img": "images/settings/map_disabled.png",
+            "chest_opened_img": "images/settings/map.png",
+            "visibility_rules": [""]
             }
+        ],
+            "name": "Gangplank Galleon",
+            "map_locations": [
+                {
+                    "map": "World Map",
+                    "x": "53",
+                    "y": "728",
+                    "size": 40
+                }
         ]
     },
     {
-        "name": "Crocodile Cauldron",
-        "access_rules": ["crocodilecauldronaccess"],
-        "visibility_rules": [""],
-        "map_locations": [
+        "sections": [
             {
-                "map": "World Map",
-                "x": "132",
-                "y": "862",
-                "size": 20
+            "name": "Crocodile Cauldron Access",
+            "access_rules": ["crocodilecauldronaccess"],
+            "chest_unopened_img": "images/settings/map_disabled.png",
+            "chest_opened_img": "images/settings/map.png",
+            "visibility_rules": [""]
+            },
+            {
+            "name": "Crocodile Cauldron Lost World Access",
+            "access_rules": ["crocodilecauldronaccess, lostworldaccess(crocodilecauldron)"],
+            "chest_unopened_img": "images/settings/lostworld_disabled.png",
+            "chest_opened_img": "images/settings/lostworld.png",
+            "visibility_rules": [""] 
             }
+        ],
+            "name": "Crocodile Cauldron",
+            "map_locations": [
+                {
+                    "map": "World Map",
+                    "x": "131",
+                    "y": "853",
+                    "size": 40
+                }
         ]
     },
     {
-        "name": "Krem Quay",
-        "access_rules": ["kremquayaccess"],
-        "visibility_rules": [""],
-        "map_locations": [
+        "sections": [
             {
-                "map": "World Map",
-                "x": "376",
-                "y": "871",
-                "size": 20
+            "name": "Krem Quay Access",
+            "access_rules": ["kremquayaccess"],
+            "chest_unopened_img": "images/settings/map_disabled.png",
+            "chest_opened_img": "images/settings/map.png",
+            "visibility_rules": [""]
+            },
+            {
+            "name": "Krem Quay Lost World Access",
+            "access_rules": ["kremquayaccess, lostworldaccess(kremquay)"],
+            "chest_unopened_img": "images/settings/lostworld_disabled.png",
+            "chest_opened_img": "images/settings/lostworld.png",
+            "visibility_rules": [""] 
             }
+        ],
+            "name": "Krem Quay",
+            "map_locations": [
+                {
+                    "map": "World Map",
+                    "x": "376",
+                    "y": "859",
+                    "size": 40
+                }
         ]
     },
     {
-        "name": "Krazy Kremland",
-        "access_rules": ["krazykremlandaccess"],
-        "visibility_rules": [""],
-        "map_locations": [
+        "sections": [
             {
-                "map": "World Map",
-                "x": "317",
-                "y": "652",
-                "size": 20
+            "name": "Krazy Kremland Access",
+            "access_rules": ["krazykremlandaccess"],
+            "chest_unopened_img": "images/settings/map_disabled.png",
+            "chest_opened_img": "images/settings/map.png",
+            "visibility_rules": [""]
+            },
+            {
+            "name": "Krazy Kremland Lost World Access",
+            "access_rules": ["krazykremlandaccess, lostworldaccess(krazykremland)"],
+            "chest_unopened_img": "images/settings/lostworld_disabled.png",
+            "chest_opened_img": "images/settings/lostworld.png",
+            "visibility_rules": [""] 
             }
+        ],
+            "name": "Krazy Kremland",
+            "map_locations": [
+                {
+                    "map": "World Map",
+                    "x": "316",
+                    "y": "645",
+                    "size": 40
+                }
         ]
     },
     {
-        "name": "Gloomy Gulch",
-        "access_rules": ["gloomygulchaccess"],
-        "visibility_rules": [""],
-        "map_locations": [
+        "sections": [
             {
-                "map": "World Map",
-                "x": "273",
-                "y": "517",
-                "size": 20
+            "name": "Gloomy Gulch Access",
+            "access_rules": ["gloomygulchaccess"],
+            "chest_unopened_img": "images/settings/map_disabled.png",
+            "chest_opened_img": "images/settings/map.png",
+            "visibility_rules": [""]
+            },
+            {
+            "name": "Gloomy Gulch Lost World Access",
+            "access_rules": ["gloomygulchaccess, lostworldaccess(gloomygulch)"],
+            "chest_unopened_img": "images/settings/lostworld_disabled.png",
+            "chest_opened_img": "images/settings/lostworld.png",
+            "visibility_rules": [""] 
             }
+        ],
+            "name": "Gloomy Gulch",
+            "map_locations": [
+                {
+                    "map": "World Map",
+                    "x": "273",
+                    "y": "506",
+                    "size": 40
+                }
         ]
     },
     {
-        "name": "K. Rool's Keep",
-        "access_rules": ["k.rool'skeepaccess"],
-        "visibility_rules": [""],
-        "map_locations": [
+        "sections": [
             {
-                "map": "World Map",
-                "x": "274",
-                "y": "308",
-                "size": 20
+            "name": "K. Rool's Keep Access",
+            "access_rules": ["k.rool'skeepaccess"],
+            "chest_unopened_img": "images/settings/map_disabled.png",
+            "chest_opened_img": "images/settings/map.png",
+            "visibility_rules": [""]
+            },
+            {
+            "name": "K. Rool's Keep Lost World Access",
+            "access_rules": ["k.rool'skeepaccess, lostworldaccess(k.rool'skeep)"],
+            "chest_unopened_img": "images/settings/lostworld_disabled.png",
+            "chest_opened_img": "images/settings/lostworld.png",
+            "visibility_rules": [""] 
             }
+        ],
+            "name": "K. Rool's Keep",
+            "map_locations": [
+                {
+                    "map": "World Map",
+                    "x": "272",
+                    "y": "298",
+                    "size": 40
+                }
         ]
     },
     {
-        "name": "The Flying Krock",
-        "access_rules": ["theflyingkrockaccess"],
-        "visibility_rules": [""],
-        "map_locations": [
+        "sections": [
             {
-                "map": "World Map",
-                "x": "296",
-                "y": "74",
-                "size": 20
+            "name": "The Flying Krock Access",
+            "access_rules": ["theflyingkrockaccess"],
+            "chest_unopened_img": "images/settings/map_disabled.png",
+            "chest_opened_img": "images/settings/map.png",
+            "visibility_rules": [""]
             }
+        ],
+            "name": "The Flying Krock",
+            "map_locations": [
+                {
+                    "map": "World Map",
+                    "x": "295",
+                    "y": "65",
+                    "size": 40
+                }
         ]
     }
+    
+]
+}
 ]

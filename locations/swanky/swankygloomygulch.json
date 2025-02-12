@@ -34,10 +34,10 @@
         ],
         "map_locations": [
             {
-                "map": "Gloomy Gulch",
-                "x": "735",
-                "y": "246",
-                "size": 20
+                "map": "World Map",
+                "x": "989",
+                "y": "1140",
+                "size": 30
             }
         ]
     }

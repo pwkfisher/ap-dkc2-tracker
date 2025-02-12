@@ -242,7 +242,7 @@
         {
             "sections": [
                 {
-                "name": "Banana Bunch #6 (Dixie barrel on split path)",
+                "name": "Banana Bunch #6 (Diddy barrel on split path)",
                 "access_rules": ["EASY, kongbarrels, diddy, dixie, controllablebarrels, barrelkannons", "NORMAL, cartwheel, diddy, dixie, kongbarrels, controllablebarrels, barrelkannons", "HARD, controllablebarrels, diddy, dixie", "HARD, controllablebarrels, dixie, diddy, kongbarrels"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",

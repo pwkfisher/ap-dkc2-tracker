@@ -32,10 +32,10 @@
         ],
         "map_locations": [
             {
-                "map": "Krazy Kremland",
-                "x": "707",
-                "y": "350",
-                "size": 20
+                "map": "World Map",
+                "x": "1726",
+                "y": "814",
+                "size": 30
             }
         ]
     }

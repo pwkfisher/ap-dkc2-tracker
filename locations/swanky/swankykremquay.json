@@ -34,10 +34,10 @@
         ],
         "map_locations": [
             {
-                "map": "Krem Quay",
-                "x": "674",
-                "y": "182",
-                "size": 20
+                "map": "World Map",
+                "x": "1694",
+                "y": "176",
+                "size": 30
             }
         ]
     }

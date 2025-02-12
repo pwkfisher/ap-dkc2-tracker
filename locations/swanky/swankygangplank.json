@@ -34,10 +34,10 @@
         ],
         "map_locations": [
             {
-                "map": "Gangplank Galleon",
-                "x": "556",
+                "map": "World Map",
+                "x": "811",
                 "y": "277",
-                "size": 20
+                "size": 30
             }
         ]
     }
