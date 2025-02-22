@@ -59,21 +59,25 @@
             "map_locations": [
                 {
                     "map": "krk-castlecrush",
+                    "shape": "diamond",
                     "x": "994",
                     "y": "999"
                 },
                 {
                     "map": "krk-castlecrush",
+                    "shape": "diamond",
                     "x": "1789",
                     "y": "1079"
                 },
                 {
                     "map": "krk-castlecrush",
+                    "shape": "diamond",
                     "x": "2526",
                     "y": "501"
                 },
                 {
                     "map": "krk-castlecrush",
+                    "shape": "diamond",
                     "x": "3299",
                     "y": "777"
                 }

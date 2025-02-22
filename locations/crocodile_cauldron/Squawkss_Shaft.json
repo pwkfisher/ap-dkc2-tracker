@@ -59,21 +59,25 @@
             "map_locations": [
                 {
                     "map": "cc-squawksshaft",
+                    "shape": "diamond",
                     "x": "21",
                     "y": "1209"
                 },
                 {
                     "map": "cc-squawksshaft",
+                    "shape": "diamond",
                     "x": "2274",
                     "y": "904"
                 },
                 {
                     "map": "cc-squawksshaft",
+                    "shape": "diamond",
                     "x": "2437",
                     "y": "1177"
                 },
                 {
                     "map": "cc-squawksshaft",
+                    "shape": "diamond",
                     "x": "3417",
                     "y": "187"
                 }
@@ -87,6 +91,14 @@
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Coin #2 (Inside Bonus #1)",
+                "access_rules": ["EASY, barrelkannons, carry, cartwheel", "EASY, barrelkannons, carry, helicopterspin, dixie", "NORMAL, barrelkannons, carry, cartwheel", "NORMAL, barrelkannons, carry, helicopterspin, dixie", "HARD, carry, barrelkannons"],
+                "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                "chest_opened_img": "images/checks/bananacoin.png",
+                "visibility_rules": ["coinsanity"],
                 "item_count": 1
             }
         ],
@@ -176,26 +188,6 @@
                     "map": "cc-squawksshaft",
                     "x": "27",
                     "y": "804"
-                }
-            ]
-        },
-        {
-            "sections": [
-                {
-                "name": "Banana Coin #2 (Inside Bonus #1)",
-                "access_rules": ["EASY, barrelkannons, carry, cartwheel", "EASY, barrelkannons, carry, helicopterspin, dixie", "NORMAL, barrelkannons, carry, cartwheel", "NORMAL, barrelkannons, carry, helicopterspin, dixie", "HARD, carry, barrelkannons"],
-                "chest_unopened_img": "images/checks/bananacoin_disabled.png",
-                "chest_opened_img": "images/checks/bananacoin.png",
-                "visibility_rules": ["coinsanity"],
-                "item_count": 1
-            }
-        ],
-        "name": "Squawks's Shaft - Banana Coin #2",
-            "map_locations": [
-                {
-                    "map": "cc-squawksshaft",
-                    "x": "750",
-                    "y": "508"
                 }
             ]
         },

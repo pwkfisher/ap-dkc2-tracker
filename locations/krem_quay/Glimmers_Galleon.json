@@ -59,21 +59,25 @@
             "map_locations": [
                 {
                     "map": "kq-glimmersgalleon",
+                    "shape": "diamond",
                     "x": "1869",
                     "y": "444"
                 },
                 {
                     "map": "kq-glimmersgalleon",
+                    "shape": "diamond",
                     "x": "5074",
                     "y": "903"
                 },
                 {
                     "map": "kq-glimmersgalleon",
+                    "shape": "diamond",
                     "x": "2642",
                     "y": "582"
                 },
                 {
                     "map": "kq-glimmersgalleon",
+                    "shape": "diamond",
                     "x": "4499",
                     "y": "70"
                 }

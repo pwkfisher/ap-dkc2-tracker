@@ -61,21 +61,25 @@
             "map_locations": [
                 {
                     "map": "tlw-junglejinx",
+                    "shape": "diamond",
                     "x": "983",
                     "y": "221"
                 },
                 {
                     "map": "tlw-junglejinx",
+                    "shape": "diamond",
                     "x": "2286",
                     "y": "787"
                 },
                 {
                     "map": "tlw-junglejinx",
+                    "shape": "diamond",
                     "x": "1859",
                     "y": "1108"
                 },
                 {
                     "map": "tlw-junglejinx",
+                    "shape": "diamond",
                     "x": "2808",
                     "y": "1620"
                 }

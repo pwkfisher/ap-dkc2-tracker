@@ -59,21 +59,25 @@
             "map_locations": [
                 {
                     "map": "krk-arcticabyss",
+                    "shape": "diamond",
                     "x": "518",
                     "y": "962"
                 },
                 {
                     "map": "krk-arcticabyss",
+                    "shape": "diamond",
                     "x": "1520",
                     "y": "829"
                 },
                 {
                     "map": "krk-arcticabyss",
+                    "shape": "diamond",
                     "x": "2182",
                     "y": "611"
                 },
                 {
                     "map": "krk-arcticabyss",
+                    "shape": "diamond",
                     "x": "1761",
                     "y": "89"
                 }
@@ -103,7 +107,7 @@
             "sections": [
                 {
                 "name": "Bonus #2",
-                "access_rules": ["EASY, swim, enguarde, carry", "NORMAL, swim, enguarde, carry", "HARD, swim", "HARD, enguarde, cartwheel", "HARD, enguarde, helicopterspin, dixie"],
+                "access_rules": ["EASY, swim, enguarde, carry", "NORMAL, swim, enguarde, carry", "HARD, carry, swim", "HARD, carry, enguarde, cartwheel", "HARD, carry, enguarde, helicopterspin, dixie"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],

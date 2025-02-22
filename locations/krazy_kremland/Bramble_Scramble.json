@@ -59,21 +59,25 @@
             "map_locations": [
                 {
                     "map": "kk-bramblescramble",
+                    "shape": "diamond",
                     "x": "2998",
                     "y": "1237"
                 },
                 {
                     "map": "kk-bramblescramble",
+                    "shape": "diamond",
                     "x": "138",
                     "y": "1144"
                 },
                 {
                     "map": "kk-bramblescramble",
+                    "shape": "diamond",
                     "x": "5109",
                     "y": "848"
                 },
                 {
                     "map": "kk-bramblescramble",
+                    "shape": "diamond",
                     "x": "5628",
                     "y": "192"
                 }
@@ -171,7 +175,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #3 (Below Flitters)",
-                "access_rules": ["EASY, helicopterspin, dixie, climb, squawks", "NORMAL, helicopterspin, dixie, climb, squawks", "HARD, climb, squawks"],
+                "access_rules": ["EASY, helicopterspin, dixie, climb, squawks", "NORMAL, climb, squawks", "HARD, climb, squawks"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -191,7 +195,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #3 (After red Zinger duo)",
-                "access_rules": ["EASY, helicopterspin, dixie, climb, squawks", "NORMAL, helicopterspin, dixie, climb, squawks", "HARD, climb, squawks"],
+                "access_rules": ["EASY, helicopterspin, dixie, climb, squawks", "NORMAL, climb, squawks", "HARD, climb, squawks"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -211,7 +215,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #4 (Above Kannon)",
-                "access_rules": ["EASY, helicopterspin, dixie, climb, squawks", "NORMAL, helicopterspin, dixie, climb, squawks", "HARD, climb, squawks"],
+                "access_rules": ["EASY, helicopterspin, dixie, climb, squawks", "NORMAL, climb, squawks", "HARD, climb, squawks"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -231,7 +235,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #4 (Behind Krook)",
-                "access_rules": ["EASY, helicopterspin, dixie, climb, squawks", "NORMAL, helicopterspin, dixie, climb, squawks", "HARD, climb, squawks"],
+                "access_rules": ["EASY, helicopterspin, dixie, climb, squawks", "NORMAL, climb, squawks", "HARD, climb, squawks"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -251,7 +255,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #5 (Behind Krook)",
-                "access_rules": ["EASY, helicopterspin, dixie, climb, squawks", "NORMAL, helicopterspin, dixie, climb, squawks", "HARD, climb, squawks"],
+                "access_rules": ["EASY, helicopterspin, dixie, climb, squawks", "NORMAL, climb, squawks", "HARD, climb, squawks"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -271,7 +275,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #5 (Squawks sign)",
-                "access_rules": ["EASY, helicopterspin, dixie, climb, squawks", "NORMAL, helicopterspin, dixie, climb, squawks", "HARD, climb, squawks"],
+                "access_rules": ["EASY, helicopterspin, dixie, climb, squawks", "NORMAL, climb, squawks", "HARD, climb, squawks"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],

@@ -58,21 +58,25 @@
         "map_locations": [
             {
                 "map": "cc-hotheadhop",
+                "shape": "diamond",
                 "x": "220",
                 "y": "383"
             },
             {
                 "map": "cc-hotheadhop",
+                "shape": "diamond",
                 "x": "2977",
                 "y": "230"
             },
             {
                 "map": "cc-hotheadhop",
+                "shape": "diamond",
                 "x": "2505",
                 "y": "769"
             },
             {
                 "map": "cc-hotheadhop",
+                "shape": "diamond",
                 "x": "1339",
                 "y": "1104"
             }
@@ -161,7 +165,7 @@
     {
         "sections": [
             {
-            "name": "Banana Coin #1 (Chest after first brown Krochead)",
+            "name": "Banana Coin #1 (Chest after first brown Krockhead)",
             "access_rules": ["EASY, carry", "NORMAL, carry", "HARD, carry"],
             "chest_unopened_img": "images/checks/bananacoin_disabled.png",
             "chest_opened_img": "images/checks/bananacoin.png",

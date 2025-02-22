@@ -59,21 +59,25 @@
             "map_locations": [
                 {
                     "map": "glg-gustyglade",
+                    "shape": "diamond",
                     "x": "2114",
                     "y": "127"
                 },
                 {
                     "map": "glg-gustyglade",
-                    "x": "4166",
-                    "y": "1225"
+                    "shape": "diamond",
+                    "x": "217",
+                    "y": "608"
                 },
                 {
                     "map": "glg-gustyglade",
+                    "shape": "diamond",
                     "x": "3034",
                     "y": "720"
                 },
                 {
                     "map": "glg-gustyglade",
+                    "shape": "diamond",
                     "x": "2763",
                     "y": "1106"
                 }

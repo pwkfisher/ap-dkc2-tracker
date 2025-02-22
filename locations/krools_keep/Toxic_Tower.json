@@ -59,21 +59,25 @@
             "map_locations": [
                 {
                     "map": "krk-toxictower",
+                    "shape": "diamond",
                     "x": "479",
                     "y": "90"
                 },
                 {
                     "map": "krk-toxictower",
+                    "shape": "diamond",
                     "x": "1504",
                     "y": "509"
                 },
                 {
                     "map": "krk-toxictower",
+                    "shape": "diamond",
                     "x": "2510",
                     "y": "1561"
                 },
                 {
                     "map": "krk-toxictower",
+                    "shape": "diamond",
                     "x": "2694",
                     "y": "1151"
                 }

@@ -59,21 +59,25 @@
             "map_locations": [
                 {
                     "map": "kq-barrelbayou",
+                    "shape": "diamond",
                     "x": "863",
                     "y": "106"
                 },
                 {
                     "map": "kq-barrelbayou",
+                    "shape": "diamond",
                     "x": "644",
                     "y": "625"
                 },
                 {
                     "map": "kq-barrelbayou",
+                    "shape": "diamond",
                     "x": "2172",
                     "y": "752"
                 },
                 {
                     "map": "kq-barrelbayou",
+                    "shape": "diamond",
                     "x": "1647",
                     "y": "1136"
                 }

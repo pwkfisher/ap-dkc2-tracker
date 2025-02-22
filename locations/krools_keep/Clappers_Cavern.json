@@ -59,26 +59,31 @@
             "map_locations": [
                 {
                     "map": "krk-clapperscavern",
+                    "shape": "diamond",
                     "x": "1102",
                     "y": "467"
                 },
                 {
                     "map": "krk-clapperscavern",
+                    "shape": "diamond",
                     "x": "1137",
                     "y": "799"
                 },
                 {
                     "map": "krk-clapperscavern",
+                    "shape": "diamond",
                     "x": "2026",
                     "y": "529"
                 },
                 {
                     "map": "krk-clapperscavern",
+                    "shape": "diamond",
                     "x": "3436",
                     "y": "610"
                 },
                 {
                     "map": "krk-clapperscavern",
+                    "shape": "diamond",
                     "x": "2669",
                     "y": "78"
                 }

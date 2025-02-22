@@ -59,21 +59,25 @@
             "map_locations": [
                 {
                     "map": "glg-ghostlygrove",
+                    "shape": "diamond",
                     "x": "1471",
                     "y": "196"
                 },
                 {
                     "map": "glg-ghostlygrove",
+                    "shape": "diamond",
                     "x": "49",
                     "y": "535"
                 },
                 {
                     "map": "glg-ghostlygrove",
+                    "shape": "diamond",
                     "x": "3076",
                     "y": "588"
                 },
                 {
                     "map": "glg-ghostlygrove",
+                    "shape": "diamond",
                     "x": "1859",
                     "y": "868"
                 }
@@ -138,7 +142,7 @@
                 "item_count": 1
             }
         ],
-            "name": "Ghostly Grove - First Cloak",
+            "name": "Ghostly Grove - First Kloak",
             "map_locations": [
                 {
                     "map": "glg-ghostlygrove",

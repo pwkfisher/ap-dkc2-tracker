@@ -59,21 +59,25 @@
             "map_locations": [
                 {
                     "map": "kk-mudholemarsh",
+                    "shape": "diamond",
                     "x": "1133",
                     "y": "76"
                 },
                 {
                     "map": "kk-mudholemarsh",
+                    "shape": "diamond",
                     "x": "572",
                     "y": "583"
                 },
                 {
                     "map": "kk-mudholemarsh",
+                    "shape": "diamond",
                     "x": "3115",
                     "y": "528"
                 },
                 {
                     "map": "kk-mudholemarsh",
+                    "shape": "diamond",
                     "x": "1283",
                     "y": "1033"
                 }

@@ -8,7 +8,7 @@
         "sections": [
             {
                 "name": "Clear",
-                "access_rules": ["EASY, climb, cling, barrelkannons, controllablebarrels, exclamationbarrels", "NORMAL, climb, cling", "NORMAL, climb, controllablebarrels, barrelkannons"],
+                "access_rules": ["EASY, climb, cling, barrelkannons, controllablebarrels, exclamationbarrels", "NORMAL, climb, cling", "NORMAL, climb, controllablebarrels, barrelkannons", "HARD, climb, cling", "HARD, climb, controllablebarrels, barrelkannons"],
                 "chest_unopened_img": "images/checks/clear_disabled.png",
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
@@ -28,7 +28,7 @@
             "sections": [
                 {
                 "name": "DK Coin",
-                "access_rules": ["EASY, climb, cling, barrelkannons, controllablebarrels, exclamationbarrels", "NORMAL, climb, cling", "NORMAL, climb, controllablebarrels, barrelkannons"],
+                "access_rules": ["EASY, climb, cling, barrelkannons, controllablebarrels, exclamationbarrels", "NORMAL, climb, cling", "NORMAL, climb, controllablebarrels, barrelkannons", "HARD, climb, cling", "HARD, climb, controllablebarrels, barrelkannons"],
                 "chest_unopened_img": "images/checks/dkcoin_disabled.png",
                 "chest_opened_img": "images/checks/dkcoin.png",
                 "visibility_rules": ["dkcoinchecks"],
@@ -48,7 +48,7 @@
             "sections": [
                 {
                 "name": "KONG",
-                "access_rules": ["EASY, climb, cling, barrelkannons, controllablebarrels, exclamationbarrels", "NORMAL, climb, cling", "NORMAL, climb, controllablebarrels, barrelkannons"],
+                "access_rules": ["EASY, climb, cling, barrelkannons, controllablebarrels, exclamationbarrels", "NORMAL, climb, cling", "NORMAL, climb, controllablebarrels, barrelkannons", "HARD, climb, cling", "HARD, climb, controllablebarrels, barrelkannons"],
                 "chest_unopened_img": "images/checks/kong_disabled.png",
                 "chest_opened_img": "images/checks/kong.png",
                 "visibility_rules": ["kongchecks"],
@@ -59,26 +59,31 @@
             "map_locations": [
                 {
                     "map": "krk-chainlinkchamber",
+                    "shape": "diamond",
                     "x": "56",
                     "y": "1531"
                 },
                 {
                     "map": "krk-chainlinkchamber",
+                    "shape": "diamond",
                     "x": "1054",
                     "y": "1430"
                 },
                 {
                     "map": "krk-chainlinkchamber",
+                    "shape": "diamond",
                     "x": "1504",
                     "y": "1430"
                 },
                 {
                     "map": "krk-chainlinkchamber",
+                    "shape": "diamond",
                     "x": "2354",
                     "y": "1358"
                 },
                 {
                     "map": "krk-chainlinkchamber",
+                    "shape": "diamond",
                     "x": "3043",
                     "y": "28"
                 }

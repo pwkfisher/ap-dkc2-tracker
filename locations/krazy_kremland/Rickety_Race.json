@@ -59,21 +59,25 @@
             "map_locations": [
                 {
                     "map": "kk-ricketyrace",
+                    "shape": "diamond",
                     "x": "2285",
                     "y": "120"
                 },
                 {
                     "map": "kk-ricketyrace",
+                    "shape": "diamond",
                     "x": "2012",
                     "y": "1114"
                 },
                 {
                     "map": "kk-ricketyrace",
+                    "shape": "diamond",
                     "x": "3048",
                     "y": "1301"
                 },
                 {
                     "map": "kk-ricketyrace",
+                    "shape": "diamond",
                     "x": "4750",
                     "y": "1724"
                 }

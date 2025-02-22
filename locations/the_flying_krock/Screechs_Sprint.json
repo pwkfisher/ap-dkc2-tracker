@@ -19,7 +19,7 @@
             "map_locations": [
                 {
                     "map": "tfk-screechssprint",
-                    "x": "5338",
+                    "x": "5541",
                     "y": "229"
                 }
             ]
@@ -59,21 +59,25 @@
             "map_locations": [
                 {
                     "map": "tfk-screechssprint",
+                    "shape": "diamond",
                     "x": "663",
                     "y": "682"
                 },
                 {
                     "map": "tfk-screechssprint",
+                    "shape": "diamond",
                     "x": "2890",
                     "y": "311"
                 },
                 {
                     "map": "tfk-screechssprint",
+                    "shape": "diamond",
                     "x": "5532",
                     "y": "753"
                 },
                 {
                     "map": "tfk-screechssprint",
+                    "shape": "diamond",
                     "x": "4257",
                     "y": "812"
                 }

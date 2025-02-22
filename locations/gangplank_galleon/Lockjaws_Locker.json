@@ -59,21 +59,25 @@
             "map_locations": [
                 {
                     "map": "gg-lockjawslocker",
+                    "shape": "diamond",
                     "x": "992",
                     "y": "1557"
                 },
                 {
                     "map": "gg-lockjawslocker",
+                    "shape": "diamond",
                     "x": "2443",
                     "y": "1647"
                 },
                 {
                     "map": "gg-lockjawslocker",
+                    "shape": "diamond",
                     "x": "1713",
                     "y": "685"
                 },
                 {
                     "map": "gg-lockjawslocker",
+                    "shape": "diamond",
                     "x": "726",
                     "y": "124"
                 }

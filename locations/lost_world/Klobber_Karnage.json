@@ -59,21 +59,25 @@
             "map_locations": [
                 {
                     "map": "tlw-klobberkarnage",
+                    "shape": "diamond",
                     "x": "1640",
                     "y": "27"
                 },
                 {
                     "map": "tlw-klobberkarnage",
+                    "shape": "diamond",
                     "x": "726",
                     "y": "738"
                 },
                 {
                     "map": "tlw-klobberkarnage",
+                    "shape": "diamond",
                     "x": "1184",
                     "y": "1166"
                 },
                 {
                     "map": "tlw-klobberkarnage",
+                    "shape": "diamond",
                     "x": "169",
                     "y": "1639"
                 }

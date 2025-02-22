@@ -59,21 +59,25 @@
             "map_locations": [
                 {
                     "map": "tlw-animalantics-2",
+                    "shape": "diamond",
                     "x": "416",
                     "y": "455"
                 },
                 {
                     "map": "tlw-animalantics-2",
+                    "shape": "diamond",
                     "x": "448",
                     "y": "910"
                 },
                 {
                     "map": "tlw-animalantics-4",
+                    "shape": "diamond",
                     "x": "2114",
                     "y": "409"
                 },
                 {
                     "map": "tlw-animalantics-5",
+                    "shape": "diamond",
                     "x": "1617",
                     "y": "109"
                 }

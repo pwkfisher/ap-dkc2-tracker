@@ -59,21 +59,25 @@
             "map_locations": [
                 {
                     "map": "kq-slimeclimb",
+                    "shape": "diamond",
                     "x": "366",
                     "y": "653"
                 },
                 {
                     "map": "kq-slimeclimb",
+                    "shape": "diamond",
                     "x": "1158",
                     "y": "828"
                 },
                 {
                     "map": "kq-slimeclimb",
+                    "shape": "diamond",
                     "x": "2735",
                     "y": "804"
                 },
                 {
                     "map": "kq-slimeclimb",
+                    "shape": "diamond",
                     "x": "3091",
                     "y": "821"
                 }

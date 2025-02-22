@@ -59,26 +59,31 @@
             "map_locations": [
                 {
                     "map": "kk-hornethole",
+                    "shape": "diamond",
                     "x": "2429",
                     "y": "1137"
                 },
                 {
                     "map": "kk-hornethole",
+                    "shape": "diamond",
                     "x": "3190",
                     "y": "1456"
                 },
                 {
                     "map": "kk-hornethole",
+                    "shape": "diamond",
                     "x": "4953",
                     "y": "1272"
                 },
                 {
                     "map": "kk-hornethole",
+                    "shape": "diamond",
                     "x": "5085",
                     "y": "1057"
                 },
                 {
                     "map": "kk-hornethole",
+                    "shape": "diamond",
                     "x": "3146",
                     "y": "153"
                 }

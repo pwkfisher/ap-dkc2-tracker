@@ -59,21 +59,25 @@
             "map_locations": [
                 {
                     "map": "krk-windywell",
+                    "shape": "diamond",
                     "x": "207",
                     "y": "1533"
                 },
                 {
                     "map": "krk-windywell",
+                    "shape": "diamond",
                     "x": "1413",
                     "y": "1185"
                 },
                 {
                     "map": "krk-windywell",
+                    "shape": "diamond",
                     "x": "2071",
                     "y": "234"
                 },
                 {
                     "map": "krk-windywell",
+                    "shape": "diamond",
                     "x": "3739",
                     "y": "50"
                 }

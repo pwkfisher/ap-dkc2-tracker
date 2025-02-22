@@ -59,21 +59,25 @@
             "map_locations": [
                 {
                     "map": "kq-rattlebattle",
+                    "shape": "diamond",
                     "x": "1112",
                     "y": "235"
                 },
                 {
                     "map": "kq-rattlebattle",
+                    "shape": "diamond",
                     "x": "846",
                     "y": "662"
                 },
                 {
                     "map": "kq-rattlebattle",
-                    "x": "3360",
-                    "y": "700"
+                    "shape": "diamond",
+                    "x": "3336",
+                    "y": "702"
                 },
                 {
                     "map": "kq-rattlebattle",
+                    "shape": "diamond",
                     "x": "2017",
                     "y": "916"
                 }
@@ -234,8 +238,8 @@
             "map_locations": [
                 {
                     "map": "kq-rattlebattle",
-                    "x": "1281",
-                    "y": "521"
+                    "x": "2511",
+                    "y": "570"
                 }
             ]
         },

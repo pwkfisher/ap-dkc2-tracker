@@ -59,21 +59,25 @@
             "map_locations": [
                 {
                     "map": "cc-redhotride",
+                    "shape": "diamond",
                     "x": "1269",
                     "y": "357"
                 },
                 {
                     "map": "cc-redhotride",
+                    "shape": "diamond",
                     "x": "3393",
                     "y": "392"
                 },
                 {
                     "map": "cc-redhotride",
+                    "shape": "diamond",
                     "x": "2692",
                     "y": "628"
                 },
                 {
                     "map": "cc-redhotride",
+                    "shape": "diamond",
                     "x": "2552",
                     "y": "1087"
                 }

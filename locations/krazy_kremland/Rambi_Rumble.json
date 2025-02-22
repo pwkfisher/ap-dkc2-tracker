@@ -59,21 +59,25 @@
             "map_locations": [
                 {
                     "map": "kk-rambirumble",
+                    "shape": "diamond",
                     "x": "388",
                     "y": "2052"
                 },
                 {
                     "map": "kk-rambirumble",
+                    "shape": "diamond",
                     "x": "668",
                     "y": "507"
                 },
                 {
                     "map": "kk-rambirumble",
+                    "shape": "diamond",
                     "x": "1584",
                     "y": "665"
                 },
                 {
                     "map": "kk-rambirumble",
+                    "shape": "diamond",
                     "x": "2481",
                     "y": "1911"
                 }

@@ -59,21 +59,25 @@
             "map_locations": [
                 {
                     "map": "glg-hauntedhall",
+                    "shape": "diamond",
                     "x": "2716",
                     "y": "140"
                 },
                 {
                     "map": "glg-hauntedhall",
+                    "shape": "diamond",
                     "x": "489",
                     "y": "1083"
                 },
                 {
                     "map": "glg-hauntedhall",
+                    "shape": "diamond",
                     "x": "179",
                     "y": "1597"
                 },
                 {
                     "map": "glg-hauntedhall",
+                    "shape": "diamond",
                     "x": "923",
                     "y": "1822"
                 }

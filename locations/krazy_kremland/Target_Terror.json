@@ -59,21 +59,25 @@
             "map_locations": [
                 {
                     "map": "kk-targetterror",
+                    "shape": "diamond",
                     "x": "1973",
                     "y": "150"
                 },
                 {
                     "map": "kk-targetterror",
+                    "shape": "diamond",
                     "x": "958",
                     "y": "1187"
                 },
                 {
                     "map": "kk-targetterror",
+                    "shape": "diamond",
                     "x": "271",
                     "y": "1626"
                 },
                 {
                     "map": "kk-targetterror",
+                    "shape": "diamond",
                     "x": "166",
                     "y": "2138"
                 }

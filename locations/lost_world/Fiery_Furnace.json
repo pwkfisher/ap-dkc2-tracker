@@ -59,21 +59,25 @@
             "map_locations": [
                 {
                     "map": "tlw-fieryfurnace",
+                    "shape": "diamond",
                     "x": "1999",
                     "y": "130"
                 },
                 {
                     "map": "tlw-fieryfurnace",
+                    "shape": "diamond",
                     "x": "637",
                     "y": "553"
                 },
                 {
                     "map": "tlw-fieryfurnace",
+                    "shape": "diamond",
                     "x": "2193",
                     "y": "754"
                 },
                 {
                     "map": "tlw-fieryfurnace",
+                    "shape": "diamond",
                     "x": "1475",
                     "y": "1069"
                 }
@@ -182,7 +186,7 @@
         {
             "sections": [
                 {
-                "name": "Banana Coin #2 (Ledge before Kutlass",
+                "name": "Banana Coin #2 (Ledge before Kutlass)",
                 "access_rules": ["EASY, cartwheel, controllablebarrels, teamattack, diddy, dixie", "NORMAL, controllablebarrels, teamattack, diddy, dixie, cartwheel", "HARD, controllablebarrels"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",

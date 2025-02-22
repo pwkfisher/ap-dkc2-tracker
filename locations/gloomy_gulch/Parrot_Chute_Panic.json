@@ -59,31 +59,37 @@
             "map_locations": [
                 {
                     "map": "glg-parrotchutepanic",
+                    "shape": "diamond",
                     "x": "447",
                     "y": "2076"
                 },
                 {
                     "map": "glg-parrotchutepanic",
+                    "shape": "diamond",
                     "x": "658",
                     "y": "231"
                 },
                 {
                     "map": "glg-parrotchutepanic",
+                    "shape": "diamond",
                     "x": "958",
                     "y": "2151"
                 },
                 {
                     "map": "glg-parrotchutepanic",
+                    "shape": "diamond",
                     "x": "1167",
                     "y": "226"
                 },
                 {
                     "map": "glg-parrotchutepanic",
+                    "shape": "diamond",
                     "x": "1706",
                     "y": "1169"
                 },
                 {
                     "map": "glg-parrotchutepanic",
+                    "shape": "diamond",
                     "x": "2687",
                     "y": "1179"
                 }

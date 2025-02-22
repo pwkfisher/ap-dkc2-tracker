@@ -59,21 +59,25 @@
             "map_locations": [
                 {
                     "map": "gg-gangplankgalley",
+                    "shape": "diamond",
                     "x": "1878",
                     "y": "186"
                 },
                 {
                     "map": "gg-gangplankgalley",
+                    "shape": "diamond",
                     "x": "524",
                     "y": "593"
                 },
                 {
                     "map": "gg-gangplankgalley",
+                    "shape": "diamond",
                     "x": "1670",
                     "y": "718"
                 },
                 {
                     "map": "gg-gangplankgalley",
+                    "shape": "diamond",
                     "x": "924",
                     "y": "1420"
                 }
@@ -234,8 +238,8 @@
             "map_locations": [
                 {
                     "map": "gg-gangplankgalley",
-                    "x": "2388",
-                    "y": "836"
+                    "x": "59",
+                    "y": "1485"
                 }
             ]
         },
@@ -294,8 +298,8 @@
             "map_locations": [
                 {
                     "map": "gg-gangplankgalley",
-                    "x": "59",
-                    "y": "1485"
+                    "x": "2388",
+                    "y": "836"
                 }
             ]
         },

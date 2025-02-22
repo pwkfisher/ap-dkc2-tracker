@@ -59,26 +59,31 @@
             "map_locations": [
                 {
                     "map": "cc-lavalagoon",
+                    "shape": "diamond",
                     "x": "1936",
                     "y": "889"
                 },
                 {
                     "map": "cc-lavalagoon",
+                    "shape": "diamond",
                     "x": "1791",
                     "y": "157"
                 },
                 {
                     "map": "cc-lavalagoon",
+                    "shape": "diamond",
                     "x": "3060",
                     "y": "303"
                 },
                 {
                     "map": "cc-lavalagoon",
+                    "shape": "diamond",
                     "x": "3259",
                     "y": "108"
                 },
                 {
                     "map": "cc-lavalagoon",
+                    "shape": "diamond",
                     "x": "4561",
                     "y": "821"
                 }

@@ -59,21 +59,25 @@
             "map_locations": [
                 {
                     "map": "kq-brambleblast",
+                    "shape": "diamond",
                     "x": "958",
                     "y": "1257"
                 },
                 {
                     "map": "kq-brambleblast",
+                    "shape": "diamond",
                     "x": "1658",
                     "y": "719"
                 },
                 {
                     "map": "kq-brambleblast",
+                    "shape": "diamond",
                     "x": "1478",
                     "y": "56"
                 },
                 {
                     "map": "kq-brambleblast",
+                    "shape": "diamond",
                     "x": "3968",
                     "y": "251"
                 }

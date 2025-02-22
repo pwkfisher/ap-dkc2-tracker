@@ -58,21 +58,25 @@
                         "map_locations": [
                             {
                                 "map": "gg-piratepanic",
+                                "shape": "diamond",
                                 "x": "1744",
                                 "y": "186"
                             },
                             {
                                 "map": "gg-piratepanic",
+                                "shape": "diamond",
                                 "x": "344",
                                 "y": "649"
                             },
                             {
                                 "map": "gg-piratepanic",
+                                "shape": "diamond",
                                 "x": "1521",
                                 "y": "573"
                             },
                             {
                                 "map": "gg-piratepanic",
+                                "shape": "diamond",
                                 "x": "1465",
                                 "y": "875"
                             }
@@ -87,7 +91,15 @@
                         "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                         "chest_opened_img": "images/checks/kremkoin.png",
                         "item_count": 1
-                    }                        
+                    },
+                    {
+                        "name": "Banana Coin #3 (Inside Bonus #1)",
+                        "access_rules": [],
+                        "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                        "chest_opened_img": "images/checks/bananacoin.png",
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }                                
             ],
                         "name": "Pirate Panic - Bonus #1",
                         "map_locations": [
@@ -194,26 +206,6 @@
                                 "map": "gg-piratepanic",
                                 "x": "38",
                                 "y": "442"
-                            }
-                        ]
-                },
-                {
-                        "sections": [
-                            {
-                        "name": "Banana Coin #3 (Inside Bonus #1)",
-                        "access_rules": [],
-                        "chest_unopened_img": "images/checks/bananacoin_disabled.png",
-                        "chest_opened_img": "images/checks/bananacoin.png",
-                        "visibility_rules": ["coinsanity"],
-                        "item_count": 1
-                    }                        
-            ],
-            "name": "Pirate Panic - Banana Coin #3",
-                        "map_locations": [
-                            {
-                                "map": "gg-piratepanic",
-                                "x": "1490",
-                                "y": "702"
                             }
                         ]
                 },

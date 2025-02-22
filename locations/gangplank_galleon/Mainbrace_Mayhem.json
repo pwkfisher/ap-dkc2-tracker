@@ -58,21 +58,25 @@
                 "map_locations": [
                     {
                         "map": "gg-mainbracemayhem",
+                        "shape": "diamond",
                         "x": "735",
                         "y": "300"
                     },
                     {
                         "map": "gg-mainbracemayhem",
+                        "shape": "diamond",
                         "x": "370",
                         "y": "42"
                     },
                     {
                         "map": "gg-mainbracemayhem",
+                        "shape": "diamond",
                         "x": "1510",
                         "y": "202"
                     },
                     {
                         "map": "gg-mainbracemayhem",
+                        "shape": "diamond",
                         "x": "1876",
                         "y": "631"
                     }
