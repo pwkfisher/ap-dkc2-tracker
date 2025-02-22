@@ -179,102 +179,105 @@
         ]
     },
     {
+        "name": "Pirate Panic",
+        "access_rules": [""],
+        "visibility_rules": [""
+        ],
         "sections": [
-                    {
-                        "name": "Clear",
-                        "access_rules": ["@Pirate Panic/Pirate Panic - Clear/Clear"],
-                        "chest_unopened_img": "images/checks/clear_disabled.png",
-                        "chest_opened_img": "images/checks/clear.png",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "DK Coin",
-                        "access_rules": ["@Pirate Panic/Pirate Panic - DK Coin/DK Coin"],
-                        "chest_unopened_img": "images/checks/dkcoin_disabled.png",
-                        "chest_opened_img": "images/checks/dkcoin.png",
-                        "visibility_rules": ["dkcoinchecks"],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "KONG",
-                        "access_rules": [],
-                        "chest_unopened_img": "images/checks/kong_disabled.png",
-                        "chest_opened_img": "images/checks/kong.png",
-                        "visibility_rules": ["kongchecks"],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Bonus #1",
-                        "access_rules": ["@Pirate Panic/Pirate Panic - Bonus #1/Bonus #1"],
-                        "chest_unopened_img": "images/checks/kremkoin_disabled.png",
-                        "chest_opened_img": "images/checks/kremkoin.png",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Bonus #2",
-                        "access_rules": ["@Pirate Panic/Pirate Panic - Bonus #2/Bonus #2"],
-                        "chest_unopened_img": "images/checks/kremkoin_disabled.png",
-                        "chest_opened_img": "images/checks/kremkoin.png",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Banana Coin #1 (Above start banana trail)",
-                        "access_rules": ["@Pirate Panic/Pirate Panic - Banana Coin #1/Banana Coin #1 (Above start banana trail)"],
-                        "chest_unopened_img": "images/checks/bananacoin_disabled.png",
-                        "chest_opened_img": "images/checks/bananacoin.png",
-                        "visibility_rules": ["coinsanity"],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Red Balloon (Kabin)",
-                        "access_rules": ["@Pirate Panic/Pirate Panic - Red Balloon/Red Balloon (Kabin)"],
-                        "chest_unopened_img": "images/checks/swanky1_disabled.png",
-                        "chest_opened_img": "images/checks/swanky1.png",
-                        "visibility_rules": ["balloonsanity"],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Banana Bunch #1 (Above Klomp)",
-                        "access_rules": [""],
-                        "chest_unopened_img": "images/checks/bananabunch_disabled.png",
-                        "chest_opened_img": "images/checks/bananabunch.png",
-                        "visibility_rules": ["bananasanity"],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Banana Coin #2 (Team Attack bananas)",
-                        "access_rules": ["@Pirate Panic/Pirate Panic - Banana Coin #2/Banana Coin #2 (Team Attack bananas)"],
-                        "chest_unopened_img": "images/checks/bananacoin_disabled.png",
-                        "chest_opened_img": "images/checks/bananacoin.png",
-                        "visibility_rules": ["coinsanity"],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Banana Coin #3 (Inside Bonus #1)",
-                        "access_rules": [],
-                        "chest_unopened_img": "images/checks/bananacoin_disabled.png",
-                        "chest_opened_img": "images/checks/bananacoin.png",
-                        "visibility_rules": ["coinsanity"],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Green Balloon (Rambi sign)",
-                        "access_rules": ["@Pirate Panic/Pirate Panic - Green Balloon/Green Balloon (Rambi sign)"],
-                        "chest_unopened_img": "images/checks/swanky2_disabled.png",
-                        "chest_opened_img": "images/checks/swanky2.png",
-                        "visibility_rules": ["balloonsanity"],
-                        "item_count": 1
-                    }                        
+            {
+                "name": "Clear",
+                "access_rules": ["@Pirate Panic/Pirate Panic - Clear/Clear"],
+                "chest_unopened_img": "images/checks/clear_disabled.png",
+                "chest_opened_img": "images/checks/clear.png",
+                "item_count": 1
+            },
+            {
+                "name": "DK Coin",
+                "access_rules": ["@Pirate Panic/Pirate Panic - DK Coin/DK Coin"],
+                "chest_unopened_img": "images/checks/dkcoin_disabled.png",
+                "chest_opened_img": "images/checks/dkcoin.png",
+                "visibility_rules": ["dkcoinchecks"],
+                "item_count": 1
+            },
+            {
+                "name": "KONG",
+                "access_rules": [],
+                "chest_unopened_img": "images/checks/kong_disabled.png",
+                "chest_opened_img": "images/checks/kong.png",
+                "visibility_rules": ["kongchecks"],
+                "item_count": 1
+            },
+            {
+                "name": "Bonus #1",
+                "access_rules": ["@Pirate Panic/Pirate Panic - Bonus #1/Bonus #1"],
+                "chest_unopened_img": "images/checks/kremkoin_disabled.png",
+                "chest_opened_img": "images/checks/kremkoin.png",
+                "item_count": 1
+            },
+            {
+                "name": "Bonus #2",
+                "access_rules": ["@Pirate Panic/Pirate Panic - Bonus #2/Bonus #2"],
+                "chest_unopened_img": "images/checks/kremkoin_disabled.png",
+                "chest_opened_img": "images/checks/kremkoin.png",
+                "item_count": 1
+            },
+            {
+                "name": "Banana Coin #1 (Above start banana trail)",
+                "access_rules": ["@Pirate Panic/Pirate Panic - Banana Coin #1/Banana Coin #1 (Above start banana trail)"],
+                "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                "chest_opened_img": "images/checks/bananacoin.png",
+                "visibility_rules": ["coinsanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Red Balloon (Kabin)",
+                "access_rules": ["@Pirate Panic/Pirate Panic - Red Balloon/Red Balloon (Kabin)"],
+                "chest_unopened_img": "images/checks/swanky1_disabled.png",
+                "chest_opened_img": "images/checks/swanky1.png",
+                "visibility_rules": ["balloonsanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Bunch #1 (Above Klomp)",
+                "access_rules": [""],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Coin #2 (Team Attack bananas)",
+                "access_rules": ["@Pirate Panic/Pirate Panic - Banana Coin #2/Banana Coin #2 (Team Attack bananas)"],
+                "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                "chest_opened_img": "images/checks/bananacoin.png",
+                "visibility_rules": ["coinsanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Banana Coin #3 (Inside Bonus #1)",
+                "access_rules": [],
+                "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                "chest_opened_img": "images/checks/bananacoin.png",
+                "visibility_rules": ["coinsanity"],
+                "item_count": 1
+            },
+            {
+                "name": "Green Balloon (Rambi sign)",
+                "access_rules": ["@Pirate Panic/Pirate Panic - Green Balloon/Green Balloon (Rambi sign)"],
+                "chest_unopened_img": "images/checks/swanky2_disabled.png",
+                "chest_opened_img": "images/checks/swanky2.png",
+                "visibility_rules": ["balloonsanity"],
+                "item_count": 1
+            }                        
             ],
-                        "name": "Pirate Panic",
-                        "map_locations": [
-                            {
-                                "map": "World Map",
-                                "x": "584",
-                                "y": "154",
-                                "size": 30
-                            }
-                        ]
+            "map_locations": [
+                {
+                    "map": "World Map",
+                    "x": "584",
+                    "y": "154",
+                    "size": 30
+                }
+            ]
             },
             {
                 "sections": [
@@ -675,6 +678,139 @@
                         "map": "World Map",
                         "x": "705",
                         "y": "278",
+                        "size": "30"
+                    }
+                ]
+            },
+            {
+            "sections": [
+                {
+                    "name": "Clear",
+                    "access_rules": ["@Topsail Trouble/Topsail Trouble - Clear/Clear"],
+                    "chest_unopened_img": "images/checks/clear_disabled.png",
+                    "chest_opened_img": "images/checks/clear.png",
+                    "visibility_rules": [],
+                    "item_count": 1
+                },
+                {
+                    "name": "DK Coin",
+                    "access_rules": ["@Topsail Trouble/Topsail Trouble - DK Coin/DK Coin"],
+                    "chest_unopened_img": "images/checks/dkcoin_disabled.png",
+                    "chest_opened_img": "images/checks/dkcoin.png",
+                    "visibility_rules": ["dkcoinchecks"],
+                    "item_count": 1
+                },
+                {
+                    "name": "KONG",
+                    "access_rules": ["@Topsail Trouble/Topsail Trouble - KONG/KONG"],
+                    "chest_unopened_img": "images/checks/kong_disabled.png",
+                    "chest_opened_img": "images/checks/kong.png",
+                    "visibility_rules": ["kongchecks"],
+                    "item_count": 1
+                },
+                {
+                    "name": "Bonus #1", 
+                    "access_rules": ["@Topsail Trouble/Topsail Trouble - Bonus #1/Bonus #1"],
+                    "chest_unopened_img": "images/checks/kremkoin_disabled.png",
+                    "chest_opened_img": "images/checks/kremkoin.png",
+                    "visibility_rules": [],
+                    "item_count": 1
+                },
+                {
+                    "name": "Bonus #2",
+                    "access_rules": ["@Topsail Trouble/Topsail Trouble - Bonus #2/Bonus #2"],
+                    "chest_unopened_img": "images/checks/kremkoin_disabled.png",
+                    "chest_opened_img": "images/checks/kremkoin.png",
+                    "visibility_rules": [],
+                    "item_count": 1
+                },
+                {
+                    "name": "Red Balloon #1 (Near first DK Barrel)",
+                    "access_rules": ["@Topsail Trouble/Topsail Trouble - Red Balloon #1/Red Balloon #1 (Near first DK Barrel)"],
+                    "chest_unopened_img": "images/checks/swanky1_disabled.png",
+                    "chest_opened_img": "images/checks/swanky1.png",
+                    "visibility_rules": ["balloonsanity"],
+                    "item_count": 1
+                },
+                {
+                    "name": "Red Balloon #2 (Chest after O)",
+                    "access_rules": ["@Topsail Trouble/Topsail Trouble - Red Balloon #2/Red Balloon #2 (Chest after O)"],
+                    "chest_unopened_img": "images/checks/swanky1_disabled.png",
+                    "chest_opened_img": "images/checks/swanky1.png",
+                    "visibility_rules": ["balloonsanity"],
+                    "item_count": 1
+                },
+                {
+                    "name": "Banana Bunch #1 (Below Zinger)",
+                    "access_rules": ["@Topsail Trouble/Topsail Trouble - Banana Bunch #1/Banana Bunch #1 (Below Zinger)"],
+                    "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                    "chest_opened_img": "images/checks/bananabunch.png",
+                    "visibility_rules": ["bananasanity"],
+                    "item_count": 1
+                },
+                {
+                    "name": "Banana Bunch #2 (Before Rattly sign)",
+                    "access_rules": ["@Topsail Trouble/Topsail Trouble - Banana Bunch #2/Banana Bunch #2 (Before Rattly sign)"],
+                    "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                    "chest_opened_img": "images/checks/bananabunch.png",
+                    "visibility_rules": ["bananasanity"],
+                    "item_count": 1
+                },
+                {
+                    "name": "Banana Coin #1 (Before Rattly sign)",
+                    "access_rules": ["@Topsail Trouble/Topsail Trouble - Banana Coin #1/Banana Coin #1 (Before Rattly sign)"],
+                    "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                    "chest_opened_img": "images/checks/bananacoin.png",
+                    "visibility_rules": ["coinsanity"],
+                    "item_count": 1
+                },
+                {
+                    "name": "Banana Coin #2 (Rattly sign)",
+                    "access_rules": ["@Topsail Trouble/Topsail Trouble - Banana Coin #2/Banana Coin #2 (Rattly sign)"],
+                    "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                    "chest_opened_img": "images/checks/bananacoin.png",
+                    "visibility_rules": ["coinsanity"],
+                    "item_count": 1
+                },
+                {
+                    "name": "Banana Bunch #3 (Near banana trail on rope)",
+                    "access_rules": ["@Topsail Trouble/Topsail Trouble - Banana Bunch #3/Banana Bunch #3 (Near banana trail on rope)"],
+                    "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                    "chest_opened_img": "images/checks/bananabunch.png",
+                    "visibility_rules": ["bananasanity"],
+                    "item_count": 1
+                },
+                {
+                    "name": "Banana Coin #3 (Near banana trail on rope)",
+                    "access_rules": ["@Topsail Trouble/Topsail Trouble - Banana Coin #3/Banana Coin #3 (Near banana trail on rope)"],
+                    "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                    "chest_opened_img": "images/checks/bananacoin.png",
+                    "visibility_rules": ["coinsanity"],
+                    "item_count": 1
+                },
+                {
+                    "name": "Banana Coin #4 (Behind Zinger)",
+                    "access_rules": ["@Topsail Trouble/Topsail Trouble - Banana Coin #4/Banana Coin #4 (Behind Zinger)"],
+                    "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                    "chest_opened_img": "images/checks/bananacoin.png",
+                    "visibility_rules": ["coinsanity"],
+                    "item_count": 1
+                },
+                {
+                    "name": "Blue Balloon (After goal)",
+                    "access_rules": ["@Topsail Trouble/Topsail Trouble - Blue Balloon/Blue Balloon (After goal)"],
+                    "chest_unopened_img": "images/checks/swanky3_disabled.png",
+                    "chest_opened_img": "images/checks/swanky3.png",
+                    "visibility_rules": ["balloonsanity"],
+                    "item_count": 1
+                }
+            ],
+                "name": "Topsail Trouble",
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": "874",
+                        "y": "201",
                         "size": "30"
                     }
                 ]
@@ -1994,7 +2130,7 @@
             "sections": [
                 {
                     "name": "Clear",
-                    "access_rules": ["@Bramble Scramble/Bramble Scramble - Clear/Clear"],
+                    "access_rules": ["@Bramble Blast/Bramble Blast - Clear/Clear"],
                     "chest_unopened_img": "images/checks/clear_disabled.png",
                     "chest_opened_img": "images/checks/clear.png",
                     "visibility_rules": [],
@@ -2002,7 +2138,7 @@
                 },
                 {
                     "name": "DK Coin",
-                    "access_rules": ["@Bramble Scramble/Bramble Scramble - DK Coin/DK Coin"],
+                    "access_rules": ["@Bramble Blast/Bramble Blast - DK Coin/DK Coin"],
                     "chest_unopened_img": "images/checks/dkcoin_disabled.png",
                     "chest_opened_img": "images/checks/dkcoin.png",
                     "visibility_rules": ["dkcoinchecks"],
@@ -2010,7 +2146,7 @@
                 },
                 {
                     "name": "KONG",
-                    "access_rules": ["@Bramble Scramble/Bramble Scramble - KONG/KONG"],
+                    "access_rules": ["@Bramble Blast/Bramble Blast - KONG/KONG"],
                     "chest_unopened_img": "images/checks/kong_disabled.png",
                     "chest_opened_img": "images/checks/kong.png",
                     "visibility_rules": ["kongchecks"],
@@ -2018,134 +2154,118 @@
                 },
                 {
                     "name": "Bonus #1",
-                    "access_rules": ["@Bramble Scramble/Bramble Scramble - Bonus #1/Bonus #1"],
+                    "access_rules": ["@Bramble Blast/Bramble Blast - Bonus #1/Bonus #1"],
                     "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                     "chest_opened_img": "images/checks/kremkoin.png",
                     "visibility_rules": [],
                     "item_count": 1
                 },
                 {
-                    "name": "Banana Coin #2 (Squawks sign on Bonus #1)",
-                    "access_rules": ["@Bramble Scramble/Bramble Scramble - Bonus #1/Banana Coin #2 (Squawks sign on Bonus #1)"],
-                    "chest_unopened_img": "images/checks/bananacoin_disabled.png",
-                    "chest_opened_img": "images/checks/bananacoin.png",
-                    "visibility_rules": ["coinsanity"],
+                    "name": "Bonus #2",
+                    "access_rules": ["@Bramble Blast/Bramble Blast - Bonus #2/Bonus #2"],
+                    "chest_unopened_img": "images/checks/kremkoin_disabled.png",
+                    "chest_opened_img": "images/checks/kremkoin.png",
+                    "visibility_rules": [],
                     "item_count": 1
                 },
                 {
-                    "name": "Banana Bunch #1 (Next to K)",
-                    "access_rules": ["@Bramble Scramble/Bramble Scramble - Banana Bunch #1/Banana Bunch #1 (Next to K)"],
+                    "name": "Banana Bunch #1 (Start)",
+                    "access_rules": ["@Bramble Blast/Bramble Blast - Banana Bunch #1/Banana Bunch #1 (Start)"],
                     "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                     "chest_opened_img": "images/checks/bananabunch.png",
                     "visibility_rules": ["bananasanity"],
                     "item_count": 1
                 },
                 {
-                    "name": "Banana Bunch #2 (Behind Zinger)",
-                    "access_rules": ["@Bramble Scramble/Bramble Scramble - Banana Bunch #2/Banana Bunch #2 (Behind Zinger)"],
+                    "name": "Banana Bunch #2 (Initial barrel group)",
+                    "access_rules": ["@Bramble Blast/Bramble Blast - Banana Bunch #2/Banana Bunch #2 (Initial barrel group)"],
                     "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                     "chest_opened_img": "images/checks/bananabunch.png",
                     "visibility_rules": ["bananasanity"],
                     "item_count": 1
                 },
                 {
-                    "name": "Banana Coin #1 (Above Bonus #1 barrel)",
-                    "access_rules": ["@Bramble Scramble/Bramble Scramble - Banana Bunch #2/Banana Bunch #2 (Behind Zinger)"],
-                    "chest_unopened_img": "images/checks/bananacoin_disabled.png",
-                    "chest_opened_img": "images/checks/bananacoin.png",
-                    "visibility_rules": ["coinsanity"],
-                    "item_count": 1
-                },
-                {
-                    "name": "Banana Coin #3 (Below Flitters)",
-                    "access_rules": ["@Bramble Scramble/Bramble Scramble - Banana Bunch #2/Banana Bunch #2 (Behind Zinger)"],
-                    "chest_unopened_img": "images/checks/bananacoin_disabled.png",
-                    "chest_opened_img": "images/checks/bananacoin.png",
-                    "visibility_rules": ["coinsanity"],
-                    "item_count": 1
-                },
-                {
-                    "name": "Banana Bunch #3 (After red Zinger duo)",
-                    "access_rules": ["@Bramble Scramble/Bramble Scramble - Banana Bunch #3/Banana Bunch #3 (After red Zinger duo)"],
+                    "name": "Banana Bunch #3 (After rotating Zinger)",
+                    "access_rules": ["@Bramble Blast/Bramble Blast - Banana Bunch #3/Banana Bunch #3 (After rotating Zinger)"],
                     "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                     "chest_opened_img": "images/checks/bananabunch.png",
                     "visibility_rules": ["bananasanity"],
                     "item_count": 1
                 },
                 {
-                    "name": "Banana Bunch #4 (Above Kannon)",
-                    "access_rules": ["@Bramble Scramble/Bramble Scramble - Banana Bunch #4/Banana Bunch #4 (Above Kannon)"],
+                    "name": "Banana Coin #1 (After rotating Zinger)",
+                    "access_rules": ["@Bramble Blast/Bramble Blast - Banana Coin #1/Banana Coin #1 (After rotating Zinger)"],
+                    "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                    "chest_opened_img": "images/checks/bananacoin.png",
+                    "visibility_rules": ["coinsanity"],
+                    "item_count": 1
+                },
+                {
+                    "name": "Banana Bunch #4 (After rotating Zinger)",
+                    "access_rules": ["@Bramble Blast/Bramble Blast - Banana Bunch #4/Banana Bunch #4 (After rotating Zinger)"],
                     "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                     "chest_opened_img": "images/checks/bananabunch.png",
                     "visibility_rules": ["bananasanity"],
                     "item_count": 1
                 },
                 {
-                    "name": "Banana Coin #4 (Behind Krook)",
-                    "access_rules": ["@Bramble Scramble/Bramble Scramble - Banana Coin #4/Banana Coin #4 (Behind Krook)"],
-                    "chest_unopened_img": "images/checks/bananacoin_disabled.png",
-                    "chest_opened_img": "images/checks/bananacoin.png",
-                    "visibility_rules": ["coinsanity"],
-                    "item_count": 1
-                },
-                {
-                    "name": "Banana Coin #5 (Behind Krook)",
-                    "access_rules": ["@Bramble Scramble/Bramble Scramble - Banana Coin #5/Banana Coin #5 (Behind Krook)"],
-                    "chest_unopened_img": "images/checks/bananacoin_disabled.png",
-                    "chest_opened_img": "images/checks/bananacoin.png",
-                    "visibility_rules": ["coinsanity"],
-                    "item_count": 1
-                },
-                {
-                    "name": "Banana Bunch #5 (Squawks sign)",
-                    "access_rules": ["@Bramble Scramble/Bramble Scramble - Banana Bunch #5/Banana Bunch #5 (Squawks sign)"],
+                    "name": "Banana Bunch #5 (After rotating Zinger)",
+                    "access_rules": ["@Bramble Blast/Bramble Blast - Banana Bunch #5/Banana Bunch #5 (After rotating Zinger)"],
                     "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                     "chest_opened_img": "images/checks/bananabunch.png",
                     "visibility_rules": ["bananasanity"],
                     "item_count": 1
                 },
                 {
-                    "name": "Banana Coin #6 (Wall of bananas)",
-                    "access_rules": ["@Bramble Scramble/Bramble Scramble - Banana Coin #6/Banana Coin #6 (Wall of bananas)"],
+                    "name": "Banana Coin #2 (After first big barrel maze)",
+                    "access_rules": ["@Bramble Blast/Bramble Blast - Banana Coin #2/Banana Coin #2 (After first big barrel maze)"],
                     "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                     "chest_opened_img": "images/checks/bananacoin.png",
                     "visibility_rules": ["coinsanity"],
                     "item_count": 1
                 },
                 {
-                    "name": "Banana Coin #7 (Wall of bananas)",
-                    "access_rules": ["@Bramble Scramble/Bramble Scramble - Banana Coin #7/Banana Coin #7 (Wall of bananas)"],
-                    "chest_unopened_img": "images/checks/bananacoin_disabled.png",
-                    "chest_opened_img": "images/checks/bananacoin.png",
-                    "visibility_rules": ["coinsanity"],
-                    "item_count": 1
-                },
-                {
-                    "name": "Banana Coin #8 (Near DK Coin)",
-                    "access_rules": ["@Bramble Scramble/Bramble Scramble - Banana Coin #8/Banana Coin #8 (Near DK Coin)"],
-                    "chest_unopened_img": "images/checks/bananacoin_disabled.png",
-                    "chest_opened_img": "images/checks/bananacoin.png",
-                    "visibility_rules": ["coinsanity"],
-                    "item_count": 1
-                },
-                {
-                    "name": "Blue Balloon (Near DK Coin)",
-                    "access_rules": ["@Bramble Scramble/Bramble Scramble - Blue Balloon/Blue Balloon (Near DK Coin)"],
-                    "chest_unopened_img": "images/checks/swanky3_disabled.png",
-                    "chest_opened_img": "images/checks/swanky3.png",
-                    "visibility_rules": ["balloonsanity"],
-                    "item_count": 1
-                },
-                {
-                    "name": "Red Balloon (Squitter sign)",
-                    "access_rules": ["@Bramble Scramble/Bramble Scramble - Red Balloon/Red Balloon (Squitter sign)"],
+                    "name": "Red Balloon (After N)",
+                    "access_rules": ["@Bramble Blast/Bramble Blast - Red Balloon/Red Balloon (After N)"],
                     "chest_unopened_img": "images/checks/swanky1_disabled.png",
                     "chest_opened_img": "images/checks/swanky1.png",
                     "visibility_rules": ["balloonsanity"],
                     "item_count": 1
+                },
+                {
+                    "name": "Banana Bunch #6 (After Click-Clack duo)",
+                    "access_rules": ["@Bramble Blast/Bramble Blast - Banana Bunch #6/Banana Bunch #6 (After Click-Clack duo)"],
+                    "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                    "chest_opened_img": "images/checks/bananabunch.png",
+                    "visibility_rules": ["bananasanity"],
+                    "item_count": 1
+                },
+                {
+                    "name": "Banana Bunch #7 (Squawks area)",
+                    "access_rules": ["@Bramble Blast/Bramble Blast - Banana Bunch #7/Banana Bunch #7 (Squawks area)"],
+                    "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                    "chest_opened_img": "images/checks/bananabunch.png",
+                    "visibility_rules": ["bananasanity"],
+                    "item_count": 1
+                },
+                {
+                    "name": "Banana Bunch #8 (Squawks area)",
+                    "access_rules": ["@Bramble Blast/Bramble Blast - Banana Bunch #8/Banana Bunch #8 (Squawks area)"],
+                    "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                    "chest_opened_img": "images/checks/bananabunch.png",
+                    "visibility_rules": ["bananasanity"],
+                    "item_count": 1
+                },
+                {
+                    "name": "Banana Bunch #9 (Squawks sign on Bonus #2)",
+                    "access_rules": ["@Bramble Blast/Bramble Blast - Banana Bunch #9/Banana Bunch #9 (Squawks sign on Bonus #2)"],
+                    "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                    "chest_opened_img": "images/checks/bananabunch.png",
+                    "visibility_rules": ["bananasanity"],
+                    "item_count": 1
                 }
             ],
-                "name": "Bramble Scramble",
+                "name": "Bramble Blast",
                 "map_locations": [
                     {
                         "map": "World Map",
