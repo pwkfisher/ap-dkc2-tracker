@@ -8,7 +8,7 @@
         "sections": [
             {
                 "name": "Clear",
-                "access_rules": ["EASY, swim, enguarde", "NORMAL, swim, enguarde", "HARD, swim", "HARD, enguarde, cartwheel", "HARD, enguarde, helicopterspin, dixie"],
+                "access_rules": ["EASY, swim, enguarde", "NORMAL, swim, enguarde", "HARD, swim", "HARD, enguarde, diddy, cartwheel", "HARD, enguarde, helicopterspin, dixie"],
                 "chest_unopened_img": "images/checks/clear_disabled.png",
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
@@ -28,7 +28,7 @@
             "sections": [
                 {
                 "name": "DK Coin",
-                "access_rules": ["EASY, swim, enguarde", "NORMAL, swim, enguarde", "HARD, swim", "HARD, enguarde, cartwheel", "HARD, enguarde, helicopterspin, dixie"],
+                "access_rules": ["EASY, swim, enguarde", "NORMAL, swim, enguarde", "HARD, swim", "HARD, enguarde, diddy, cartwheel", "HARD, enguarde, helicopterspin, dixie"],
                 "chest_unopened_img": "images/checks/dkcoin_disabled.png",
                 "chest_opened_img": "images/checks/dkcoin.png",
                 "visibility_rules": ["dkcoinchecks"],
@@ -87,7 +87,7 @@
             "sections": [
                 {
                 "name": "Bonus #1",
-                "access_rules": ["EASY, swim, enguarde", "NORMAL, swim, enguarde", "HARD, enguarde, swim", "HARD, enguarde, cartwheel", "HARD, enguarde, helicopterspin, dixie"],
+                "access_rules": ["EASY, swim, enguarde", "NORMAL, swim, enguarde", "HARD, enguarde, swim", "HARD, enguarde, diddy, cartwheel", "HARD, enguarde, helicopterspin, dixie"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
@@ -107,7 +107,7 @@
             "sections": [
                 {
                 "name": "Bonus #2",
-                "access_rules": ["EASY, swim, enguarde, carry", "NORMAL, swim, enguarde, carry", "HARD, carry, swim", "HARD, carry, enguarde, cartwheel", "HARD, carry, enguarde, helicopterspin, dixie"],
+                "access_rules": ["EASY, swim, enguarde, carry", "NORMAL, swim, enguarde, carry", "HARD, carry, swim", "HARD, carry, enguarde, diddy, cartwheel", "HARD, carry, enguarde, helicopterspin, dixie"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
@@ -127,7 +127,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #1 (Next to K)",
-                "access_rules": ["EASY, teamattack, diddy, dixie, cartwheel", "EASY, teamattack, diddy, dixie, helicopterspin", "NORMAL, teamattack, diddy, dixie, cartwheel", "NORMAL, teamattack, diddy, dixie, helicopterspin", "HARD, diddy, cartwheel", "HARD, dixie, helicopterspin"],
+                "access_rules": ["EASY, teamattack, diddy, dixie, cartwheel", "EASY, teamattack, diddy, dixie, helicopterspin", "NORMAL, diddy, cartwheel", "NORMAL, dixie, helicopterspin", "HARD, diddy, cartwheel", "HARD, dixie, helicopterspin"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -147,7 +147,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #1 (Next to K)",
-                "access_rules": ["EASY, teamattack, diddy, dixie, cartwheel", "EASY, teamattack, diddy, dixie, helicopterspin", "NORMAL, teamattack, diddy, dixie, cartwheel", "NORMAL, teamattack, diddy, dixie, helicopterspin", "HARD, diddy, cartwheel", "HARD, dixie, helicopterspin"],
+                "access_rules": ["EASY, teamattack, diddy, dixie, cartwheel", "EASY, teamattack, diddy, dixie, helicopterspin", "NORMAL, diddy, cartwheel", "NORMAL, dixie, helicopterspin", "HARD, diddy, cartwheel", "HARD, dixie, helicopterspin"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -167,7 +167,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #2 (Next to K)",
-                "access_rules": ["EASY, teamattack, diddy, dixie, cartwheel", "EASY, teamattack, diddy, dixie, helicopterspin", "NORMAL, teamattack, diddy, dixie, cartwheel", "NORMAL, teamattack, diddy, dixie, helicopterspin", "HARD, diddy, cartwheel", "HARD, dixie, helicopterspin"],
+                "access_rules": ["EASY, teamattack, diddy, dixie, cartwheel", "EASY, teamattack, diddy, dixie, helicopterspin", "NORMAL, diddy, cartwheel", "NORMAL, dixie, helicopterspin", "HARD, diddy, cartwheel", "HARD, dixie, helicopterspin"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -187,7 +187,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #3 (Next to K)",
-                "access_rules": ["EASY, teamattack, diddy, dixie, cartwheel", "EASY, teamattack, diddy, dixie, helicopterspin", "NORMAL, teamattack, diddy, dixie, cartwheel", "NORMAL, teamattack, diddy, dixie, helicopterspin", "HARD, diddy, cartwheel", "HARD, dixie, helicopterspin"],
+                "access_rules": ["EASY, teamattack, diddy, dixie, cartwheel", "EASY, teamattack, diddy, dixie, helicopterspin", "NORMAL, diddy, cartwheel", "NORMAL, dixie, helicopterspin", "HARD, diddy, cartwheel", "HARD, dixie, helicopterspin"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],

@@ -51,16 +51,16 @@
                                 "kremquayaccess",
                                 "krazykremlandaccess",
                                 "gloomygulchaccess",
-                                "k.rool'skeepaccess",
+                                "kroolskeepaccess",
                                 "theflyingkrockaccess"
                             ],
                             [
                                 "skullkart",
-                                "lostworldaccess(crocodilecauldron)",
-                                "lostworldaccess(kremquay)",
-                                "lostworldaccess(krazykremland)",
-                                "lostworldaccess(gloomygulch)",
-                                "lostworldaccess(k.rool'skeep)"
+                                "lostworldaccesscrocodilecauldron",
+                                "lostworldaccesskremquay",
+                                "lostworldaccesskrazykremland",
+                                "lostworldaccessgloomygulch",
+                                "lostworldaccesskroolskeep"
                             ]
 
                         ]

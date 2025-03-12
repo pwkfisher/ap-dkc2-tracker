@@ -34,7 +34,7 @@
             },
             {
             "name": "Crocodile Cauldron Lost World Access",
-            "access_rules": ["crocodilecauldronaccess, lostworldaccess(crocodilecauldron)"],
+            "access_rules": ["crocodilecauldronaccess, lostworldaccesscrocodilecauldron"],
             "chest_unopened_img": "images/settings/lostworld_disabled.png",
             "chest_opened_img": "images/settings/lostworld.png",
             "visibility_rules": [""] 
@@ -61,7 +61,7 @@
             },
             {
             "name": "Krem Quay Lost World Access",
-            "access_rules": ["kremquayaccess, lostworldaccess(kremquay)"],
+            "access_rules": ["kremquayaccess, lostworldaccesskremquay"],
             "chest_unopened_img": "images/settings/lostworld_disabled.png",
             "chest_opened_img": "images/settings/lostworld.png",
             "visibility_rules": [""] 
@@ -88,7 +88,7 @@
             },
             {
             "name": "Krazy Kremland Lost World Access",
-            "access_rules": ["krazykremlandaccess, lostworldaccess(krazykremland)"],
+            "access_rules": ["krazykremlandaccess, lostworldaccesskrazykremland"],
             "chest_unopened_img": "images/settings/lostworld_disabled.png",
             "chest_opened_img": "images/settings/lostworld.png",
             "visibility_rules": [""] 
@@ -115,7 +115,7 @@
             },
             {
             "name": "Gloomy Gulch Lost World Access",
-            "access_rules": ["gloomygulchaccess, lostworldaccess(gloomygulch)"],
+            "access_rules": ["gloomygulchaccess, lostworldaccessgloomygulch"],
             "chest_unopened_img": "images/settings/lostworld_disabled.png",
             "chest_opened_img": "images/settings/lostworld.png",
             "visibility_rules": [""] 
@@ -135,14 +135,14 @@
         "sections": [
             {
             "name": "K. Rool's Keep Access",
-            "access_rules": ["k.rool'skeepaccess"],
+            "access_rules": ["kroolskeepaccess"],
             "chest_unopened_img": "images/settings/map_disabled.png",
             "chest_opened_img": "images/settings/map.png",
             "visibility_rules": [""]
             },
             {
             "name": "K. Rool's Keep Lost World Access",
-            "access_rules": ["k.rool'skeepaccess, lostworldaccess(k.rool'skeep)"],
+            "access_rules": ["kroolskeepaccess, lostworldaccesskroolskeep"],
             "chest_unopened_img": "images/settings/lostworld_disabled.png",
             "chest_opened_img": "images/settings/lostworld.png",
             "visibility_rules": [""] 
@@ -162,7 +162,7 @@
         "sections": [
             {
             "name": "The Flying Krock Access",
-            "access_rules": ["theflyingkrockaccess"],
+            "access_rules": ["$krockaccess"],
             "chest_unopened_img": "images/settings/map_disabled.png",
             "chest_opened_img": "images/settings/map.png",
             "visibility_rules": [""]
@@ -179,10 +179,6 @@
         ]
     },
     {
-        "name": "Pirate Panic",
-        "access_rules": [""],
-        "visibility_rules": [""
-        ],
         "sections": [
             {
                 "name": "Clear",
@@ -270,6 +266,9 @@
                 "item_count": 1
             }                        
             ],
+            "name": "Pirate Panic",
+            "access_rules": [""],
+            "visibility_rules": ["$piratepanicvisibility", "visibility_markers"],
             "map_locations": [
                 {
                     "map": "World Map",
@@ -383,6 +382,7 @@
             }
         ],
             "name": "Mainbrace Mayhem",
+            "visibility_rules": ["$mainbracemayhemvisibility", "visibility_markers"],
             "map_locations": [
                 {
                     "map": "World Map",
@@ -532,6 +532,7 @@
             }
             ],
             "name": "Lockjaw's Locker",
+            "visibility_rules": ["$lockjawslockervisibility", "visibility_markers"],
             "map_locations": [
                 {
                     "map": "World Map",
@@ -673,6 +674,7 @@
                 }
             ],
             "name": "Gangplank Galley",
+            "visibility_rules": ["$gangplankgalleyvisibility", "visibility_markers"],
                 "map_locations": [
                     {
                         "map": "World Map",
@@ -806,6 +808,7 @@
                 }
             ],
                 "name": "Topsail Trouble",
+                "visibility_rules": ["$topsailtroublevisibility", "visibility_markers"],
                 "map_locations": [
                     {
                         "map": "World Map",
@@ -851,6 +854,7 @@
                     }
                 ],
                     "name": "Krow's Nest",
+                    "visibility_rules": ["$krowsnestvisibility", "visibility_markers"],
                     "map_locations": [
                         {
                             "map": "World Map",
@@ -984,6 +988,7 @@
                 }
             ],
                 "name": "Hot-Head Hop",
+                "visibility_rules": ["$hotheadhopvisibility", "visibility_markers"],
                 "map_locations": [
                     {
                         "map": "World Map",
@@ -1077,6 +1082,7 @@
                 }
             ],
                 "name": "Kannon's Klaim",
+                "visibility_rules": ["$kannonsklaimvisibility", "visibility_markers"],
                 "map_locations": [
                     {
                         "map": "World Map",
@@ -1250,6 +1256,7 @@
                 }
             ],
             "name": "Lava Lagoon",
+            "visibility_rules": ["$lavalagoonvisibility", "visibility_markers"],
                 "map_locations": [
                     {
                         "map": "World Map",
@@ -1407,13 +1414,14 @@
                 }
             ],
             "name": "Squawks's Shaft",
-                "map_locations": [
-                    {
-                        "map": "World Map",
-                        "x": "731",
-                        "y": "547",
-                        "size": "30"
-                    }
+            "visibility_rules": ["$squawksshaftvisibility", "visibility_markers"],
+            "map_locations": [
+                {
+                    "map": "World Map",
+                    "x": "731",
+                    "y": "547",
+                    "size": "30"
+                }
                 ]
             },
             {
@@ -1452,6 +1460,7 @@
                 }
             ],
                 "name": "Kleever's Kiln",
+                "visibility_rules": ["$kleeverskilnvisibility", "visibility_markers"],
                 "map_locations": [
                     {
                         "map": "World Map",
@@ -1553,6 +1562,7 @@
                 }
             ],
                 "name": "Barrel Bayou",
+                "visibility_rules": ["$barrelbayouvisibility", "visibility_markers"],
                 "map_locations": [
                     {
                         "map": "World Map",
@@ -1806,6 +1816,7 @@
                 }
             ],
                 "name": "Glimmer's Galleon",
+                "visibility_rules": ["$glimmersgalleonvisibility", "visibility_markers"],
                 "map_locations": [
                     {
                         "map": "World Map",
@@ -1891,6 +1902,7 @@
                 }
             ],
             "name": "Krockhead Klamber",
+            "visibility_rules": ["$krockheadklambervisibility", "visibility_markers"],
                 "map_locations": [
                     {
                         "map": "World Map",
@@ -2008,6 +2020,7 @@
                 }
             ],
                 "name": "Rattle Battle",
+                "visibility_rules": ["$rattlebattlevisibility", "visibility_markers"],
                 "map_locations": [
                     {
                         "map": "World Map",
@@ -2117,6 +2130,7 @@
                 }
             ],
                 "name": "Slime Climb",
+                "visibility_rules": ["$slimeclimbvisibility", "visibility_markers"],
                 "map_locations": [
                     {
                         "map": "World Map",
@@ -2266,6 +2280,7 @@
                 }
             ],
                 "name": "Bramble Blast",
+                "visibility_rules": ["$brambleblastvisibility", "visibility_markers"],
                 "map_locations": [
                     {
                         "map": "World Map",
@@ -2295,6 +2310,7 @@
                     }
                 ],
                 "name": "Kudgel's Kontest",
+                "visibility_rules": ["$kudgelskontestvisibility", "visibility_markers"],
                 "map_locations": [
                     {
                         "map": "World Map",
@@ -2444,6 +2460,7 @@
                 }
             ],
                 "name": "Hornet Hole",
+                "visibility_rules": ["$hornetholevisibility", "visibility_markers"],
                 "map_locations": [
                     {
                         "map": "World Map",
@@ -2521,6 +2538,7 @@
                 }
             ],
                 "name": "Target Terror",
+                "visibility_rules": ["$targetterrorvisibility", "visibility_markers"],
                 "map_locations": [
                     {
                         "map": "World Map",
@@ -2686,6 +2704,7 @@
                 }
             ],
                 "name": "Bramble Scramble",
+                "visibility_rules": ["$bramblescramblevisibility", "visibility_markers"],
                 "map_locations": [
                     {
                         "map": "World Map",
@@ -2739,6 +2758,7 @@
                 }
             ],
                 "name": "Rickety Race",
+                "visibility_rules": ["$ricketyracevisibility", "visibility_markers"],
                 "map_locations": [
                     {
                         "map": "World Map",
@@ -2840,6 +2860,7 @@
                 }
             ],
                 "name": "Mudhole Marsh",
+                "visibility_rules": ["$mudholemarshvisibility", "visibility_markers"],
                 "map_locations": [
                     {
                         "map": "World Map",
@@ -2933,6 +2954,7 @@
                 }
             ],
                 "name": "Rambi Rumble",
+                "visibility_rules": ["$rambirumblevisibility", "visibility_markers"],
                 "map_locations": [
                     {
                         "map": "World Map",
@@ -2978,6 +3000,7 @@
                 }
             ],
                 "name": "King Zing Sting",
+                "visibility_rules": ["$kingzingstingvisibility", "visibility_markers"],
                 "map_locations": [
                     {
                         "map": "World Map",
@@ -3087,6 +3110,7 @@
                 }
             ],
                 "name": "Ghostly Grove",
+                "visibility_rules": ["$ghostlygrovevisibility", "visibility_markers"],
                 "map_locations": [
                     {
                         "map": "World Map",
@@ -3188,6 +3212,7 @@
                 }
             ],
                 "name": "Haunted Hall",
+                "visibility_rules": ["$hauntedhallvisibility", "visibility_markers"],
                 "map_locations": [
                     {
                         "map": "World Map",
@@ -3273,6 +3298,7 @@
                 }
             ],
                 "name": "Gusty Glade",
+                "visibility_rules": ["$gustygladevisibility", "visibility_markers"],
                 "map_locations": [
                     {
                         "map": "World Map",
@@ -3382,6 +3408,7 @@
                 }
             ],
                 "name": "Parrot Chute Panic",
+                "visibility_rules": ["$parrotchutepanicvisibility", "visibility_markers"],
                 "map_locations": [
                     {
                         "map": "World Map",
@@ -3515,6 +3542,7 @@
                 }
             ],
                 "name": "Web Woods",
+                "visibility_rules": ["$webwoodsvisibility", "visibility_markers"],
                 "map_locations": [
                     {
                         "map": "World Map",
@@ -3560,6 +3588,7 @@
                 }
             ],
                 "name": "Kreepy Krow",
+                "visibility_rules": ["$kreepykrowvisibility", "visibility_markers"],
                 "map_locations": [
                     {
                         "map": "World Map",
@@ -3725,6 +3754,7 @@
                 }
             ],
                 "name": "Arctic Abyss",
+                "visibility_rules": ["$arcticabyssvisibility", "visibility_markers"],
                 "map_locations": [
                     {
                         "map": "World Map",
@@ -3850,6 +3880,7 @@
                 }
             ],
                 "name": "Windy Well",
+                "visibility_rules": ["$windywellvisibility", "visibility_markers"],
                 "map_locations": [
                     {
                         "map": "World Map",
@@ -3975,6 +4006,7 @@
                 }
             ],
                 "name": "Castle Crush",
+                "visibility_rules": ["$castlecrushvisibility", "visibility_markers"],
                 "map_locations": [
                     {
                         "map": "World Map",
@@ -4100,6 +4132,7 @@
                 }
             ],
                 "name": "Clapper's Cavern",
+                "visibility_rules": ["$clapperscavernvisibility", "visibility_markers"],
                 "map_locations": [
                     {
                         "map": "World Map",
@@ -4217,6 +4250,7 @@
                 }
             ],
                 "name": "Chain Link Chamber",
+                "visibility_rules": ["$chainlinkchambervisibility", "visibility_markers"],
                 "map_locations": [
                     {
                         "map": "World Map",
@@ -4382,6 +4416,7 @@
                 }
             ],
                 "name": "Toxic Tower",
+                "visibility_rules": ["$toxictowervisibility", "visibility_markers"],
                 "map_locations": [
                     {
                         "map": "World Map",
@@ -4427,6 +4462,7 @@
                 }
             ],
                 "name": "Stronghold Showdown",
+                "visibility_rules": ["$strongholdshowdownvisibility", "visibility_markers"],
                 "map_locations": [
                     {
                         "map": "World Map",
@@ -4592,6 +4628,7 @@
                 }
             ],
                 "name": "Screech's Sprint",
+                "visibility_rules": ["$screechssprintvisibility", "visibility_markers"],
                 "map_locations": [
                     {
                         "map": "World Map",
@@ -4685,6 +4722,7 @@
                 }
             ],
                 "name": "Jungle Jinx",
+                "visibility_rules": ["$junglejinxvisibility", "visibility_markers"],
                 "map_locations": [
                     {
                         "map": "World Map",
@@ -4778,6 +4816,7 @@
                 }
             ],
                 "name": "Black Ice Battle",
+                "visibility_rules": ["$blackicebattlevisibility", "visibility_markers"],
                 "map_locations": [
                     {
                         "map": "World Map",
@@ -4911,6 +4950,7 @@
                 }
             ],
                 "name": "Klobber Karnage",
+                "visibility_rules": ["$klobberkarnagevisibility", "visibility_markers"],
                 "map_locations": [
                     {
                         "map": "World Map",
@@ -5004,6 +5044,7 @@
                 }
             ],
                 "name": "Fiery Furnace",
+                "visibility_rules": ["$fieryfurnacevisibility", "visibility_markers"],
                 "map_locations": [
                     {
                         "map": "World Map",
@@ -5120,6 +5161,7 @@
                 }
             ],
                 "name": "Animal Antics",
+                "visibility_rules": ["$animalanticsvisibility", "visibility_markers"],
                 "map_locations": [
                     {
                         "map": "World Map",
@@ -5128,7 +5170,141 @@
                         "size": "30"
                     }
                 ]
-            }                       
-]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Clear",
+                        "access_rules": ["@Red-Hot Ride/Red-Hot Ride - Clear/Clear"],
+                        "chest_unopened_img": "images/checks/clear_disabled.png",
+                        "chest_opened_img": "images/checks/clear.png",
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "DK Coin",
+                        "access_rules": ["@Red-Hot Ride/Red-Hot Ride - DK Coin/DK Coin"],
+                        "chest_unopened_img": "images/checks/dkcoin_disabled.png",
+                        "chest_opened_img": "images/checks/dkcoin.png",
+                        "visibility_rules": ["dkcoinchecks"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "KONG",
+                        "access_rules": ["@Red-Hot Ride/Red-Hot Ride - KONG/KONG"],
+                        "chest_unopened_img": "images/checks/kong_disabled.png",
+                        "chest_opened_img": "images/checks/kong.png",
+                        "visibility_rules": ["kongchecks"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bonus #1",
+                        "access_rules": ["@Red-Hot Ride/Red-Hot Ride - Bonus #1/Bonus #1"],
+                        "chest_unopened_img": "images/checks/kremkoin_disabled.png",
+                        "chest_opened_img": "images/checks/kremkoin.png",
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bonus #2",
+                        "access_rules": ["@Red-Hot Ride/Red-Hot Ride - Bonus #2/Bonus #2"],
+                        "chest_unopened_img": "images/checks/kremkoin_disabled.png",
+                        "chest_opened_img": "images/checks/kremkoin.png",
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Banana Bunch #1 (Start)",
+                        "access_rules": ["@Red-Hot Ride/Red-Hot Ride - Banana Bunch #1/Banana Bunch #1 (Start)"],
+                        "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                        "chest_opened_img": "images/checks/bananabunch.png",
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Banana Coin #1 (Above start)",
+                        "access_rules": ["@Red-Hot Ride/Red-Hot Ride - Banana Coin #1/Banana Coin #1 (Above start)"],
+                        "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                        "chest_opened_img": "images/checks/bananacoin.png",
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Banana Coin #2 (Above start)",
+                        "access_rules": ["@Red-Hot Ride/Red-Hot Ride - Banana Coin #2/Banana Coin #2 (Above start)"],
+                        "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                        "chest_opened_img": "images/checks/bananacoin.png",
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Banana Bunch #2 (After K)",
+                        "access_rules": ["@Red-Hot Ride/Red-Hot Ride - Banana Bunch #2/Banana Bunch #2 (After K)"],
+                        "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                        "chest_opened_img": "images/checks/bananabunch.png",
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Banana Coin #3 (Behind Zinger after Rambi)",
+                        "access_rules": ["@Red-Hot Ride/Red-Hot Ride - Banana Coin #3/Banana Coin #3 (Behind Zinger after Rambi)"],
+                        "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                        "chest_opened_img": "images/checks/bananacoin.png",
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Banana Bunch #3 (Above Zinger)",
+                        "access_rules": ["@Red-Hot Ride/Red-Hot Ride - Banana Bunch #3/Banana Bunch #3 (Above Zinger)"],
+                        "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                        "chest_opened_img": "images/checks/bananabunch.png",
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Banana Coin #4 (Above Kruncha)",
+                        "access_rules": ["@Red-Hot Ride/Red-Hot Ride - Banana Coin #4/Banana Coin #4 (Above Kruncha)"],
+                        "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                        "chest_opened_img": "images/checks/bananacoin.png",
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Banana Coin #5 (Rambi sign)",
+                        "access_rules": ["@Red-Hot Ride/Red-Hot Ride - Banana Coin #5/Banana Coin #5 (Rambi sign)"],
+                        "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                        "chest_opened_img": "images/checks/bananacoin.png",
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Banana Coin #6 (Behind Zinger after TNT barrel)",
+                        "access_rules": ["@Red-Hot Ride/Red-Hot Ride - Banana Coin #6/Banana Coin #6 (Behind Zinger after TNT barrel)"],
+                        "chest_unopened_img": "images/checks/bananacoin_disabled.png",
+                        "chest_opened_img": "images/checks/bananacoin.png",
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Banana Bunch #4 (Above Flitter)",
+                        "access_rules": ["@Red-Hot Ride/Red-Hot Ride - Banana Bunch #4/Banana Bunch #4 (Above Flitter)"],
+                        "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                        "chest_opened_img": "images/checks/bananabunch.png",
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                    "name": "Red-Hot Ride",
+                    "visibility_rules": ["$redhotridevisibility", "visibility_markers"],
+                    "map_locations": [
+                        {
+                            "map": "World Map",
+                            "x": "605",
+                            "y": "663",
+                            "size": "30"
+                        }
+                    ]
+                }                      
+    ]
 }
 ]

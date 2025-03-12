@@ -20,3 +20,13 @@ function dump_table(o, depth)
         return tostring(o)
     end
 end
+
+function has(item, amount)
+	local count = Tracker:ProviderCountForCode(item)
+	amount = tonumber(amount)
+	if not amount then
+		return count > 0
+	else
+		return count >= amount
+	end
+end

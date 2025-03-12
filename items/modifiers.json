@@ -6,8 +6,240 @@
         "codes": "tab_switch"
       },
       {
+        "name": "Show All Locations",
+        "type": "toggle",
+        "img": "images/settings/visibility_checks_on.png",
+        "disabled_img": "images/settings/visibility_checks_off.png",
+        "codes": "visibility_markers"
+      },
+      {
         "name": "Current Level",
         "type": "progressive",
         "codes": "cur_level_id"
-      }
+      },
+      {
+        "name": "Glimmer's Galleon Visibility",
+        "type": "progressive",
+        "codes": "GlimmersGalleonMap"
+      },
+      {
+        "name": "Rambi Rumble Visibility",
+        "type": "progressive",
+        "codes": "RambiRumbleMap"
+      },
+      {
+        "name": "Pirate Panic Visibility",
+        "type": "progressive",
+        "codes": "PiratePanicMap"
+      },
+      {
+        "name": "Gangplank Galley Visibility",
+        "type": "progressive",
+        "codes": "GangplankGalleyMap"
+      },
+      {
+        "name": "Rattle Battle Visibility",
+        "type": "progressive",
+        "codes": "RattleBattleMap"
+      },
+      {
+        "name": "Hot-Head Hop Visibility",
+        "type": "progressive",
+        "codes": "HotHeadHopMap"
+      },
+      {
+        "name": "Red-Hot Ride Visibility",
+        "type": "progressive",
+        "codes": "RedHotRideMap"
+      },
+      {
+        "name": "Krow's Nest Visibility",
+        "type": "progressive",
+        "codes": "KrowsNestMap"
+      },
+      {
+        "name": "Slime Climb Visibility",
+        "type": "progressive",
+        "codes": "SlimeClimbMap"
+      },
+      {
+        "name": "Topsail Trouble Visibility",
+        "type": "progressive",
+        "codes": "TopsailTroubleMap"
+      },
+      {
+        "name": "Mainbrace Mayhem Visibility",
+        "type": "progressive",
+        "codes": "MainbraceMayhemMap"
+      },
+      {
+        "name": "Kreepy Krow Visibility",
+        "type": "progressive",
+        "codes": "KreepyKrowMap"
+      },
+      {
+        "name": "Target Terror Visibility",
+        "type": "progressive",
+        "codes": "TargetTerrorMap"
+      },
+      {
+        "name": "Rickety Race Visibility",
+        "type": "progressive",
+        "codes": "RicketyRaceMap"
+      },
+      {
+        "name": "Haunted Hall Visibility",
+        "type": "progressive",
+        "codes": "HauntedHallMap"
+      },
+      {
+        "name": "Hornet Hole Visibility",
+        "type": "progressive",
+        "codes": "HornetHoleMap"
+      },
+      {
+        "name": "Parrot Chute Panic Visibility",
+        "type": "progressive",
+        "codes": "ParrotChutePanicMap"
+      },
+      {
+        "name": "Lava Lagoon Visibility",
+        "type": "progressive",
+        "codes": "LavaLagoonMap"
+      },
+      {
+        "name": "Lockjaw's Locker Visibility",
+        "type": "progressive",
+        "codes": "LockjawsLockerMap"
+      },
+      {
+        "name": "Fiery Furnace Visibility",
+        "type": "progressive",
+        "codes": "FieryFurnaceMap"
+      },
+      {
+        "name": "Web Woods Visibility",
+        "type": "progressive",
+        "codes": "WebWoodsMap"
+      },
+      {
+        "name": "Gusty Glade Visibility",
+        "type": "progressive",
+        "codes": "GustyGladeMap"
+      },
+      {
+        "name": "Ghostly Grove Visibility",
+        "type": "progressive",
+        "codes": "GhostlyGroveMap"
+      },
+      {
+        "name": "Kleever's Kiln Visibility",
+        "type": "progressive",
+        "codes": "KleeversKilnMap"
+      },
+      {
+        "name": "Windy Well Visibility",
+        "type": "progressive",
+        "codes": "WindyWellMap"
+      },
+      {
+        "name": "Squawk's Shaft Visibility",
+        "type": "progressive",
+        "codes": "SquawksShaftMap"
+      },
+      {
+        "name": "Kannon's Klaim Visibility",
+        "type": "progressive",
+        "codes": "KannonsKlaimMap"
+      },
+      {
+        "name": "Barrel Bayou Visibility",
+        "type": "progressive",
+        "codes": "BarrelBayouMap"
+      },
+      {
+        "name": "Krockhead Klamber Visibility",
+        "type": "progressive",
+        "codes": "KrockheadKlamberMap"
+      },
+      {
+        "name": "Mudhole Marsh Visibility",
+        "type": "progressive",
+        "codes": "MudholeMarshMap"
+      },
+      {
+        "name": "Bramble Blast Visibility",
+        "type": "progressive",
+        "codes": "BrambleBlastMap"
+      },
+      {
+        "name": "Bramble Scramble Visibility",
+        "type": "progressive",
+        "codes": "BrambleScrambleMap"
+      },
+      {
+        "name": "Screech's Sprint Visibility",
+        "type": "progressive",
+        "codes": "ScreechsSprintMap"
+      },
+      {
+        "name": "King Zing Sting Visibility",
+        "type": "progressive",
+        "codes": "KingZingStingMap"
+      },
+      {
+        "name": "Castle Crush Visibility",
+        "type": "progressive",
+        "codes": "CastleCrushMap"
+      },
+      {
+        "name": "Kudgel's Kontest Visibility",
+        "type": "progressive",
+        "codes": "KudgelsKontestMap"
+      },
+      {
+        "name": "Arctic Abyss Visibility",
+        "type": "progressive",
+        "codes": "ArcticAbyssMap"
+      },
+      {
+        "name": "Chain-Link Chamber Visibility",
+        "type": "progressive",
+        "codes": "ChainLinkChamberMap"
+      },
+      {
+        "name": "Toxic Tower Visibility",
+        "type": "progressive",
+        "codes": "ToxicTowerMap"
+      },
+      {
+        "name": "Klobber Karnage Visibility",
+        "type": "progressive",
+        "codes": "KlobberKarnageMap"
+      },
+      {
+        "name": "Clapper's Cavern Visibility",
+        "type": "progressive",
+        "codes": "ClappersCavernMap"
+      },
+      {
+        "name": "Black Ice Battle Visibility",
+        "type": "progressive",
+        "codes": "BlackIceBattleMap"
+      },
+      {
+        "name": "Jungle Jinx Visibility",
+        "type": "progressive",
+        "codes": "JungleJinxMap"
+      },
+      {
+        "name": "Animal Antics Visibility",
+        "type": "progressive",
+        "codes": "AnimalAnticsMap"
+      },
+      {
+        "name": "Stronghold Showdown Visibility",
+        "type": "progressive",
+        "codes": "StrongholdShowdownMap"
+      }      
 ]

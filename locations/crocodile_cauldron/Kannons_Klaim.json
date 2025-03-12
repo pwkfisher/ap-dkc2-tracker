@@ -8,7 +8,7 @@
         "sections": [
             {
                 "name": "Clear",
-                "access_rules": ["EASY, carry, barrelkannons, helicopterspin, dixie", "NORMAL, carry, barrelkannons", "HARD, barrelkannons"],
+                "access_rules": ["EASY, carry, barrelkannons", "NORMAL, barrelkannons", "HARD, barrelkannons"],
                 "chest_unopened_img": "images/checks/clear_disabled.png",
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
@@ -39,7 +39,7 @@
             "sections": [
                 {
                 "name": "KONG",
-                "access_rules": ["EASY, carry, barrelkannons, helicopterspin, dixie", "NORMAL, carry, barrelkannons", "HARD, carry, barrelkannons"],
+                "access_rules": ["EASY, carry, barrelkannons", "NORMAL, carry, barrelkannons", "HARD, carry, barrelkannons"],
                 "chest_unopened_img": "images/checks/kong_disabled.png",
                 "chest_opened_img": "images/checks/kong.png",
                 "visibility_rules": ["kongchecks"],
@@ -106,7 +106,7 @@
             "sections": [
                 {
                 "name": "Bonus #2",
-                "access_rules": ["EASY, carry, teamattack, dixie, diddy, barrelkannons, helicopterspin", "NORMAL, carry, teamattack, dixie, diddy, barrelkannons", "HARD, barrelkannons"],
+                "access_rules": ["EASY, carry, teamattack, dixie, diddy, barrelkannons", "NORMAL, barrelkannons", "HARD, barrelkannons"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
@@ -126,7 +126,7 @@
             "sections": [
                 {
                 "name": "Bonus #3",
-                "access_rules": ["EASY, carry, barrelkannons, helicopterspin, dixie", "NORMAL, carry, barrelkannons", "HARD, barrelkannons"],
+                "access_rules": ["EASY, carry, barrelkannons, helicopterspin, dixie", "NORMAL, barrelkannons", "HARD, barrelkannons"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
@@ -146,7 +146,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #1 (Near hook)",
-                "access_rules": ["EASY, barrelkannons, cling, dixie, helicopterspin", "NORMAL, barrelkannons, cling", "HARD, barrelkannons", "HARD, teamattack, dixie, diddy"],
+                "access_rules": ["EASY, barrelkannons, cling, dixie, helicopterspin", "NORMAL, barrelkannons", "NORMAL, teamattack, diddy, dixie", "HARD, barrelkannons", "HARD, teamattack, dixie, diddy"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],

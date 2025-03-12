@@ -39,7 +39,7 @@
                         "rows": [
                             ["EASY", "goal"],
                             ["bosstokensrequired", "bosstoken"],
-                            ["lostworldrocksrequired", "lostworldrock"],
+                            ["lostworldrocksrequired", "lostworldrock", "visibility_markers"],
                             ["dkcoinchecks", "kongchecks", "swankychecks"],
                             ["coinsanity", "balloonsanity", "bananasanity"]
                         ]

@@ -87,7 +87,7 @@
             "sections": [
                 {
                 "name": "Bonus #1",
-                "access_rules": ["EASY, cling", "NORMAL, cling", "HARD, cling"],
+                "access_rules": ["EASY, cling, carry", "NORMAL, cling", "HARD, cling"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],

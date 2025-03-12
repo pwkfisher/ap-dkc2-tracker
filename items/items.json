@@ -60,7 +60,7 @@
         "type": "toggle",
         "img": "images/items/lostworldaccess(kremquay).png",
         "img_mods": "",
-        "codes": "lostworldaccess(kremquay)"
+        "codes": "lostworldaccesskremquay"
     },
     {
         "name": "Team Attack",
@@ -102,7 +102,7 @@
         "type": "toggle",
         "img": "images/items/k.roolskeepaccess.png",
         "img_mods": "",
-        "codes": "k.rool'skeepaccess"
+        "codes": "kroolskeepaccess"
     },
     {
         "name": "Skull Kart",
@@ -116,7 +116,7 @@
         "type": "toggle",
         "img": "images/items/lostworldaccess(krazykremland).png",
         "img_mods": "",
-        "codes": "lostworldaccess(krazykremland)"
+        "codes": "lostworldaccesskrazykremland"
     },
     {
         "name": "Krem Quay Access",
@@ -189,7 +189,7 @@
         "type": "toggle",
         "img": "images/items/lostworldaccess(gloomygulch).png",
         "img_mods": "",
-        "codes": "lostworldaccess(gloomygulch)"
+        "codes": "lostworldaccessgloomygulch"
     },
     {
         "name": "Enguarde",
@@ -203,14 +203,14 @@
         "type": "toggle",
         "img": "images/items/lostworldaccess(k.roolskeep).png",
         "img_mods": "",
-        "codes": "lostworldaccess(k.rool'skeep)"
+        "codes": "lostworldaccesskroolskeep"
     },
     {
         "name": "Lost World Access (Crocodile Cauldron)",
         "type": "toggle",
         "img": "images/items/lostworldaccess(crocodilecauldron).png",
         "img_mods": "",
-        "codes": "lostworldaccess(crocodilecauldron)"
+        "codes": "lostworldaccesscrocodilecauldron"
     },
     {
         "name": "Dixie",

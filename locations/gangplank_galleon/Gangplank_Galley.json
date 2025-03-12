@@ -28,7 +28,7 @@
             "sections": [
                 {
                 "name": "DK Coin",
-                "access_rules": ["EASY, cling, helicopterspin, dixie", "EASY, cling, cartwheel, diddy", "NORMAL, cling, helicopterspin, dixie", "NORMAL, cling, cartwheel, diddy", "HARD, cartwheel, cling", "HARD, cartwheel, helicopterspin, dixie"],
+                "access_rules": ["EASY, cling, helicopterspin, dixie", "EASY, cling, cartwheel, diddy", "NORMAL, cling, helicopterspin, dixie", "NORMAL, cling, cartwheel, diddy", "HARD, cartwheel, cling", "HARD, cartwheel, helicopterspin, dixie", "HARD, cartwheel, teamattack, diddy, dixie, cling"],
                 "chest_unopened_img": "images/checks/dkcoin_disabled.png",
                 "chest_opened_img": "images/checks/dkcoin.png",
                 "visibility_rules": ["dkcoinchecks"],
@@ -227,7 +227,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #4 (Chest before Kruncha trio)",
-                "access_rules": ["EASY, cling, barrelkannons", "NORMAL, cling, barrelkannons", "HARD, helicopterspin, dixie", "HARD, barrelkannons"],
+                "access_rules": ["EASY, cling, barrelkannons, helicopterspin, dixie", "EASY, cling, barrelkannons, cartwheel", "NORMAL, cling, barrelkannons", "HARD, helicopterspin, dixie", "HARD, barrelkannons"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -247,7 +247,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #2 (Below Kruncha trio)",
-                "access_rules": ["EASY, cling, barrelkannons", "NORMAL, cling, barrelkannons", "HARD, barrelkannons"],
+                "access_rules": ["EASY, cling, barrelkannons, helicopterspin, dixie", "EASY, cling, barrelkannons, cartwheel", "NORMAL, cling, barrelkannons", "HARD, barrelkannons"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -267,7 +267,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #5 (Below Kruncha trio)",
-                "access_rules": ["EASY, cling, barrelkannons", "NORMAL, cling, barrelkannons", "HARD, barrelkannons", "HARD, helicopterspin, dixie"],
+                "access_rules": ["EASY, cling, barrelkannons, helicopterspin, dixie", "EASY, cling, barrelkannons, cartwheel", "NORMAL, cling, barrelkannons", "HARD, barrelkannons", "HARD, helicopterspin, dixie"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],

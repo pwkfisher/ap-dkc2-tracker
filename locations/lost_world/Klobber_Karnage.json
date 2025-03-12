@@ -207,7 +207,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #4 (After O)",
-                "access_rules": ["EASY, kongbarrels, diddy, dixie, controllablebarrels", "NORMAL, kongbarrels, diddy, controllablebarrels, cartwheel", "HARD, controllablebarrels"],
+                "access_rules": ["EASY, kongbarrels, diddy, dixie, controllablebarrels", "NORMAL, diddy, cartwheel", "NORMAL, diddy, dixie, helicopterspin", "HARD, controllablebarrels"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -227,7 +227,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #5 (Dixie barrel on split path)",
-                "access_rules": ["EASY, kongbarrels, diddy, dixie, controllablebarrels, barrelkannons", "NORMAL, cartwheel, diddy, dixie, kongbarrels, controllablebarrels, barrelkannons", "HARD, controllablebarrels, diddy, dixie", "HARD, controllablebarrels, dixie, diddy, kongbarrels"],
+                "access_rules": ["EASY, kongbarrels, diddy, dixie, controllablebarrels, barrelkannons", "NORMAL, cartwheel, diddy, barrelkannons", "NORMAL, diddy, dixie, helicopterspin, barrelkannons", "HARD, controllablebarrels, diddy, dixie", "HARD, controllablebarrels, dixie, diddy, kongbarrels"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],

@@ -206,7 +206,7 @@
         "sections": [
             {
             "name": "Banana Coin #2 (Above A bananas)",
-            "access_rules": ["EASY, squitter", "NORMAL, squitter", "NORMAL, teamattack, diddy, dixie", "HARD, squitter", "HARD, teamattack, dixie, diddy", "HARD, carry"],
+            "access_rules": ["EASY, squitter", "EASY, teamattack, diddy, dixie", "NORMAL, squitter", "NORMAL, teamattack, diddy, dixie", "HARD, squitter", "HARD, teamattack, dixie, diddy", "HARD, carry"],
             "chest_unopened_img": "images/checks/bananacoin_disabled.png",
             "chest_opened_img": "images/checks/bananacoin.png",
             "visibility_rules": ["coinsanity"],

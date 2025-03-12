@@ -7,6 +7,7 @@
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/tab_mapping.lua")
+ScriptHost:LoadScript("scripts/autotracking/visibility_mapping.lua")
 
 CUR_INDEX = -1
 LOCAL_ITEMS = {}
@@ -79,7 +80,7 @@ end
 
 -- apply everything needed from slot_data, called from onClear
 function apply_slot_data(slot_data)
-	-- put any code here that slot_data should affect (toggling setting items for example)
+-- put any code here that slot_data should affect (toggling setting items for example)
 end
 
 -- called right after an AP slot is connected
@@ -181,6 +182,67 @@ function onClear(slot_data)
             Tracker:FindObjectForCode("logic").CurrentStage = 2
         end
     end
+
+	if slot_data["level_connections"] then
+		local level_connection_data = slot_data["level_connections"]
+		for LevelArea, LevelCode in pairs(BOSS_MAPPING) do
+			for LevelMap, Area in pairs(level_connection_data) do
+				if Area == LevelArea then
+					-- Perform actions based on LevelMap and LevelCode
+					if LevelMap == "Stronghold Showdown: Map" then
+						Tracker:FindObjectForCode(LevelCode).CurrentStage = 6
+					elseif LevelMap == "Kreepy Krow: Map" then
+						Tracker:FindObjectForCode(LevelCode).CurrentStage = 5
+					elseif LevelMap == "King Zing Sting: Map" then
+						Tracker:FindObjectForCode(LevelCode).CurrentStage = 4
+					elseif LevelMap == "Kudgel's Kontest: Map" then
+						Tracker:FindObjectForCode(LevelCode).CurrentStage = 3
+					elseif LevelMap == "Kleever's Kiln: Map" then
+						Tracker:FindObjectForCode(LevelCode).CurrentStage = 2
+					elseif LevelMap == "Krow's Nest: Map" then
+						Tracker:FindObjectForCode(LevelCode).CurrentStage = 1
+					else
+						print(LevelMap .. " -> No matching LevelCode found")
+					end
+				end
+			end
+		end
+		for LevelArea, LevelCode in pairs(LEVEL_MAPPING) do
+			for LevelMap, Area in pairs(level_connection_data) do
+				if Area == LevelArea then
+					-- Perform actions based on LevelMap and LevelCode
+					if LevelMap == "Pirate Panic: Map" or LevelMap == "Mainbrace Mayhem: Map" or LevelMap == "Gangplank Galley: Map" or LevelMap == "Lockjaw's Locker: Map" or LevelMap == "Topsail Trouble: Map" then
+						Tracker:FindObjectForCode(LevelCode).CurrentStage = 1
+					elseif LevelMap == "Ghostly Grove: Map" or LevelMap == "Haunted Hall: Map" or LevelMap == "Gusty Glade: Map" or LevelMap == "Parrot Chute Panic: Map" or LevelMap == "Web Woods: Map" then
+						Tracker:FindObjectForCode(LevelCode).CurrentStage = 5
+					elseif LevelMap == "Hornet Hole: Map" or LevelMap == "Target Terror: Map" or LevelMap == "Bramble Scramble: Map" or LevelMap == "Rickety Race: Map" or LevelMap == "Mudhole Marsh: Map" or LevelMap == "Rambi Rumble: Map" then
+						Tracker:FindObjectForCode(LevelCode).CurrentStage = 4
+					elseif LevelMap == "Barrel Bayou: Map" or LevelMap == "Glimmer's Galleon: Map" or LevelMap == "Krockhead Klamber: Map" or LevelMap == "Rattle Battle: Map" or LevelMap == "Slime Climb: Map" or LevelMap == "Bramble Blast: Map" then
+						Tracker:FindObjectForCode(LevelCode).CurrentStage = 3
+					elseif LevelMap == "Hot-Head Hop: Map" or LevelMap == "Kannon's Klaim: Map" or LevelMap == "Lava Lagoon: Map" or LevelMap == "Red-Hot Ride: Map" or LevelMap == "Squawks's Shaft: Map" then
+						Tracker:FindObjectForCode(LevelCode).CurrentStage = 2
+					elseif LevelMap == "Arctic Abyss: Map" or LevelMap == "Windy Well: Map" or LevelMap == "Castle Crush: Map" or LevelMap == "Clapper's Cavern: Map" or LevelMap == "Chain Link Chamber: Map" or LevelMap == "Toxic Tower: Map" then
+						Tracker:FindObjectForCode(LevelCode).CurrentStage = 6
+					elseif LevelMap == "Screech's Sprint: Map" then
+						Tracker:FindObjectForCode(LevelCode).CurrentStage = 7
+					elseif LevelMap == "Jungle Jinx: Map" then
+						Tracker:FindObjectForCode(LevelCode).CurrentStage = 8
+					elseif LevelMap == "Black Ice Battle: Map" then
+						Tracker:FindObjectForCode(LevelCode).CurrentStage = 9
+					elseif LevelMap == "Klobber Karnage: Map" then
+						Tracker:FindObjectForCode(LevelCode).CurrentStage = 10
+					elseif LevelMap == "Fiery Furnace: Map" then
+						Tracker:FindObjectForCode(LevelCode).CurrentStage = 11
+					elseif LevelMap == "Animal Antics: Map" then
+						Tracker:FindObjectForCode(LevelCode).CurrentStage = 12
+					else
+					print(LevelMap .. " -> No matching LevelCode found")
+					end
+				end
+			end
+		end
+	end
+
 
 	apply_slot_data(slot_data)
 	LOCAL_ITEMS = {}
@@ -328,13 +390,13 @@ function onNotify(key, value, old_value)
 end
 
 function onNotifyLaunch(key, value)
-	print(string.format("onNotifyLaunch",key,value,old_value))
-	updateEvents(value)
+		print(string.format("onNotifyLaunch",key,value,old_value))
+		updateEvents(value)
 end
 
 function updateEvents(value)
 	if value ~= nil then
-	    print(string.format("updateEvents %x",value))
+		print(string.format("updateEvents %x",value))
 		local tabswitch = Tracker:FindObjectForCode("tab_switch")
 		Tracker:FindObjectForCode("cur_level_id").CurrentStage = value
 		if tabswitch.Active then
@@ -346,9 +408,7 @@ function updateEvents(value)
                 end
 				print(string.format("Updating ID %x to Tab %s",value,CURRENT_ROOM))
 			else
-				--CURRENT_ROOM = TAB_MAPPING[0x00]
 				print(string.format("Failed to find ID %x",value))
-                --Tracker:UiHint("ActivateTab", CURRENT_ROOM)
 			end
 		end
 	end

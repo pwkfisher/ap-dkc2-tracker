@@ -32,3 +32,5 @@ ScriptHost:LoadScript("scripts/layouts_import.lua")
 if PopVersion and PopVersion >= "0.18.0" then
     ScriptHost:LoadScript("scripts/autotracking.lua")
 end
+
+ScriptHost:LoadScript("scripts/logic.lua")

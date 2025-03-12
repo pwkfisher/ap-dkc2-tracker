@@ -127,7 +127,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #1 (Above Zinger)",
-                "access_rules": ["EASY, helicopterspin, dixie", "NORMAL, helicopterspin, dixie", "HARD"],
+                "access_rules": ["EASY, helicopterspin, dixie", "NORMAL", "HARD"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -147,7 +147,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #1 (Below second Klampon)",
-                "access_rules": ["EASY, helicopterspin, dixie", "NORMAL, helicopterspin, dixie", "HARD"],
+                "access_rules": ["EASY, helicopterspin, dixie", "NORMAL, helicopterspin, dixie", "NORMAL, cartwheel", "HARD"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],

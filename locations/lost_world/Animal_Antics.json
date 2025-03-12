@@ -8,7 +8,7 @@
         "sections": [
             {
                 "name": "Clear",
-                "access_rules": ["EASY, squawks, rambi, squitter, rattly, enguarde, swim, barrelkannons", "NORMAL, squawks, rambi, squitter, rattly, enguarde, swim, barrelkannons", "HARD, swim, barrelkannons, squitter, enguarde, rambi", "HARD, swim, barrelkannons, squitter, enguarde, diddy, dixie, teamattack, helicopterspin"],
+                "access_rules": ["EASY, squawks, rambi, squitter, rattly, enguarde, swim, barrelkannons, diddy, dixie", "NORMAL, squawks, rambi, squitter, rattly, enguarde, swim, barrelkannons", "HARD, swim, barrelkannons, enguarde, rambi", "HARD, swim, barrelkannons, enguarde, diddy, dixie, teamattack, helicopterspin"],
                 "chest_unopened_img": "images/checks/clear_disabled.png",
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
@@ -28,7 +28,7 @@
             "sections": [
                 {
                 "name": "DK Coin",
-                "access_rules": ["EASY, squawks, rambi, squitter, enguarde, swim", "NORMAL, squawks, rambi, squitter, enguarde, swim", "HARD, swim, barrelkannons, squitter, enguarde, rambi", "HARD, swim, barrelkannons, squitter, enguarde, diddy, dixie, teamattack, helicopterspin"],
+                "access_rules": ["EASY, squawks, rambi, squitter, enguarde, swim, diddy, dixie", "NORMAL, squawks, rambi, squitter, enguarde, swim", "HARD, swim, barrelkannons, enguarde, rambi", "HARD, swim, barrelkannons, enguarde, diddy, dixie, teamattack, helicopterspin"],
                 "chest_unopened_img": "images/checks/dkcoin_disabled.png",
                 "chest_opened_img": "images/checks/dkcoin.png",
                 "visibility_rules": [],
@@ -48,7 +48,7 @@
             "sections": [
                 {
                 "name": "KONG",
-                "access_rules": ["EASY, squawks, rambi, squitter, rattly, enguarde, swim, barrelkannons", "NORMAL, squawks, rambi, squitter, rattly, enguarde, swim, barrelkannons", "HARD, swim, barrelkannons, squitter, enguarde, rambi", "HARD, swim, barrelkannons, squitter, enguarde, diddy, dixie, teamattack, helicopterspin"],
+                "access_rules": ["EASY, squawks, rambi, squitter, rattly, enguarde, swim, barrelkannons, diddy, dixie", "NORMAL, squawks, rambi, squitter, rattly, enguarde, swim, barrelkannons", "HARD, swim, barrelkannons, enguarde, rambi", "HARD, swim, barrelkannons, enguarde, diddy, dixie, teamattack, helicopterspin"],
                 "chest_unopened_img": "images/checks/kong_disabled.png",
                 "chest_opened_img": "images/checks/kong.png",
                 "visibility_rules": ["kongchecks"],
@@ -107,7 +107,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #2 (Behind pillar)",
-                "access_rules": ["EASY, diddy, dixie, rambi, enguarde, swim, squitter", "NORMAL, rambi, enguarde, swim, squitter", "HARD, swim, squitter, enguarde, rambi", "HARD, swim, squitter, enguarde, hover, teamattack, diddy, dixie"],
+                "access_rules": ["EASY, diddy, dixie, rambi, enguarde, swim, squitter", "NORMAL, rambi, enguarde, swim, squitter", "HARD, swim, enguarde, rambi", "HARD, swim, enguarde, hover, teamattack, diddy, dixie"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -127,7 +127,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #1 (Between spikes)",
-                "access_rules": ["EASY, diddy, dixie, rambi, enguarde, swim, squitter", "NORMAL, rambi, enguarde, swim, squitter", "HARD, swim, squitter, enguarde, rambi", "HARD, swim, squitter, enguarde, hover, teamattack, diddy, dixie"],
+                "access_rules": ["EASY, diddy, dixie, rambi, enguarde, swim, squitter", "NORMAL, rambi, enguarde, swim, squitter", "HARD, swim, enguarde, rambi", "HARD, swim, enguarde, hover, teamattack, diddy, dixie"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -147,7 +147,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #2 (Behind Zingers)",
-                "access_rules": ["EASY, diddy, dixie, rambi, enguarde, swim, squitter, squawks, barrelkannons", "NORMAL, rambi, enguarde, swim, squitter, squawks, barrelkannons", "HARD, swim, squitter, enguarde, rambi, barrelkannons", "HARD, swim, squitter, enguarde, hover, teamattack, diddy, dixie, barrelkannons"],
+                "access_rules": ["EASY, diddy, dixie, rambi, enguarde, swim, squitter, squawks, barrelkannons", "NORMAL, rambi, enguarde, swim, squitter, squawks, barrelkannons", "HARD, swim, enguarde, rambi, barrelkannons", "HARD, swim, enguarde, hover, teamattack, diddy, dixie, barrelkannons"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -167,7 +167,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #3 (Behind Zingers)",
-                "access_rules": ["EASY, diddy, dixie, rambi, enguarde, swim, squitter, squawks, barrelkannons", "NORMAL, rambi, enguarde, swim, squitter, squawks, barrelkannons", "HARD, swim, squitter, enguarde, rambi, barrelkannons", "HARD, swim, squitter, enguarde, hover, teamattack, diddy, dixie, barrelkannons"],
+                "access_rules": ["EASY, diddy, dixie, rambi, enguarde, swim, squitter, squawks, barrelkannons", "NORMAL, rambi, enguarde, swim, squitter, squawks, barrelkannons", "HARD, swim, enguarde, rambi, barrelkannons", "HARD, swim, enguarde, hover, teamattack, diddy, dixie, barrelkannons"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -187,7 +187,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #4 (Behind Zingers)",
-                "access_rules": ["EASY, diddy, dixie, rambi, enguarde, swim, squitter, squawks, barrelkannons", "NORMAL, rambi, enguarde, swim, squitter, squawks, barrelkannons", "HARD, swim, squitter, enguarde, rambi, barrelkannons", "HARD, swim, squitter, enguarde, hover, teamattack, diddy, dixie, barrelkannons"],
+                "access_rules": ["EASY, diddy, dixie, rambi, enguarde, swim, squitter, squawks, barrelkannons", "NORMAL, rambi, enguarde, swim, squitter, squawks, barrelkannons", "HARD, swim, enguarde, rambi, barrelkannons", "HARD, swim, enguarde, hover, teamattack, diddy, dixie, barrelkannons"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -207,7 +207,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #3 (Behind Zingers)",
-                "access_rules": ["EASY, diddy, dixie, rambi, enguarde, swim, squitter, squawks, barrelkannons", "NORMAL, rambi, enguarde, swim, squitter, squawks, barrelkannons", "HARD, swim, squitter, enguarde, rambi, barrelkannons", "HARD, swim, squitter, enguarde, hover, teamattack, diddy, dixie, barrelkannons"],
+                "access_rules": ["EASY, diddy, dixie, rambi, enguarde, swim, squitter, squawks, barrelkannons", "NORMAL, rambi, enguarde, swim, squitter, squawks, barrelkannons", "HARD, swim, enguarde, rambi, barrelkannons", "HARD, swim, enguarde, hover, teamattack, diddy, dixie, barrelkannons"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -227,7 +227,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #4 (Corner near Red Zingers)",
-                "access_rules": ["EASY, diddy, dixie, rambi, enguarde, swim, squitter, squawks, barrelkannons", "NORMAL, rambi, enguarde, swim, squitter, squawks, barrelkannons", "HARD, swim, squitter, enguarde, rambi, barrelkannons", "HARD, swim, squitter, enguarde, hover, teamattack, diddy, dixie, barrelkannons"],
+                "access_rules": ["EASY, diddy, dixie, rambi, enguarde, swim, squitter, squawks, barrelkannons", "NORMAL, rambi, enguarde, swim, squitter, squawks, barrelkannons", "HARD, swim, enguarde, rambi, barrelkannons", "HARD, swim, enguarde, hover, teamattack, diddy, dixie, barrelkannons"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -247,7 +247,7 @@
             "sections": [
                 {
                 "name": "Red Balloon (Corner before Rattly barrel)",
-                "access_rules": ["EASY, diddy, dixie, rambi, enguarde, swim, squitter, squawks, barrelkannons", "NORMAL, rambi, enguarde, swim, squitter, squawks, barrelkannons", "HARD, swim, squitter, enguarde, rambi, barrelkannons", "HARD, swim, squitter, enguarde, hover, teamattack, diddy, dixie, barrelkannons"],
+                "access_rules": ["EASY, diddy, dixie, rambi, enguarde, swim, squitter, squawks, barrelkannons", "NORMAL, rambi, enguarde, swim, squitter, squawks, barrelkannons", "HARD, swim, enguarde, rambi, barrelkannons", "HARD, swim, enguarde, hover, teamattack, diddy, dixie, barrelkannons"],
                 "chest_unopened_img": "images/checks/swanky1_disabled.png",
                 "chest_opened_img": "images/checks/swanky1.png",
                 "visibility_rules": ["balloonsanity"],
@@ -267,7 +267,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #5 (Rattly sign)",
-                "access_rules": ["EASY, diddy, dixie, rambi, enguarde, swim, squitter, squawks, barrelkannons, rattly", "NORMAL, rambi, enguarde, swim, squitter, squawks, barrelkannons, rattly", "HARD, swim, squitter, enguarde, rambi, barrelkannons", "HARD, swim, squitter, enguarde, hover, teamattack, diddy, dixie, barrelkannons"],
+                "access_rules": ["EASY, diddy, dixie, rambi, enguarde, swim, squitter, squawks, barrelkannons, rattly", "NORMAL, rambi, enguarde, swim, squitter, squawks, barrelkannons, rattly", "HARD, swim, enguarde, rambi, barrelkannons", "HARD, swim, enguarde, hover, teamattack, diddy, dixie, barrelkannons"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],

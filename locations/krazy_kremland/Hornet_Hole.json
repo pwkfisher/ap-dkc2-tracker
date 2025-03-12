@@ -8,7 +8,7 @@
         "sections": [
             {
                 "name": "Clear",
-                "access_rules": ["EASY, helicopterspin, teamattack, diddy, dixie, squitter, barrelkannons, cling", "NORMAL, cling, squitter, teamattack, diddy, dixie", "HARD, cling"],
+                "access_rules": ["EASY, helicopterspin, teamattack, diddy, dixie, squitter, barrelkannons, cling", "NORMAL, cling", "HARD, cling", "HARD, teamattack, squitter, diddy, dixie"],
                 "chest_unopened_img": "images/checks/clear_disabled.png",
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
@@ -28,7 +28,7 @@
             "sections": [
                 {
                 "name": "DK Coin",
-                "access_rules": ["EASY, helicopterspin, teamattack, diddy, dixie, squitter, barrelkannons, cling", "NORMAL, cling, squitter, teamattack, diddy, dixie", "HARD, cling, teamattack, diddy, dixie, squitter"],
+                "access_rules": ["EASY, helicopterspin, teamattack, diddy, dixie, squitter, barrelkannons, cling", "NORMAL, cling, squitter, teamattack, diddy, dixie", "HARD, cling, diddy, dixie, squitter", "HARD, teamattack, squitter, diddy, dixie"],
                 "chest_unopened_img": "images/checks/dkcoin_disabled.png",
                 "chest_opened_img": "images/checks/dkcoin.png",
                 "visibility_rules": ["dkcoinchecks"],
@@ -48,7 +48,7 @@
             "sections": [
                 {
                 "name": "KONG",
-                "access_rules": ["EASY, helicopterspin, teamattack, diddy, dixie, squitter, barrelkannons, cling", "NORMAL, cling, squitter, teamattack, diddy, dixie", "HARD, cling"],
+                "access_rules": ["EASY, helicopterspin, teamattack, diddy, dixie, squitter, barrelkannons, cling", "NORMAL, cling", "HARD, cling", "HARD, teamattack, squitter, diddy, dixie"],
                 "chest_unopened_img": "images/checks/kong_disabled.png",
                 "chest_opened_img": "images/checks/kong.png",
                 "visibility_rules": ["kongchecks"],
@@ -93,7 +93,7 @@
             "sections": [
                 {
                 "name": "Bonus #1",
-                "access_rules": ["EASY, teamattack, diddy, dixie, cling, carry", "NORMAL, cling, squitter, teamattack, diddy, dixie", "HARD, cling, teamattack, diddy, dixie, carry"],
+                "access_rules": ["EASY, teamattack, diddy, dixie, cling, carry", "NORMAL, cling, squitter, teamattack, diddy, dixie", "HARD, carry, teamattack, diddy, dixie, cling", "HARD, carry, squitter, diddy, dixie, cling", "HARD, carry, squitter, diddy, dixie, teamattack"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
@@ -113,7 +113,7 @@
             "sections": [
                 {
                 "name": "Bonus #2",
-                "access_rules": ["EASY, teamattack, diddy, dixie, cling", "NORMAL, cling, teamattack, diddy, dixie", "HARD, cling, teamattack, diddy, dixie"],
+                "access_rules": ["EASY, teamattack, diddy, dixie, cling", "NORMAL, cling, teamattack, diddy, dixie", "HARD, squitter, diddy, dixie, cling", "HARD, squitter, diddy, dixie, teamattack"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
@@ -133,7 +133,7 @@
             "sections": [
                 {
                 "name": "Bonus #3",
-                "access_rules": ["EASY, helicopterspin, teamattack, diddy, dixie, squitter, barrelkannons, cling", "NORMAL, cling, squitter, teamattack, diddy, dixie", "HARD, cling, teamattack, diddy, dixie, squitter", "HARD, teamattack, squitter, diddy, dixie"],
+                "access_rules": ["EASY, helicopterspin, teamattack, diddy, dixie, squitter, barrelkannons, cling", "NORMAL", "HARD, cling, diddy, dixie, squitter", "HARD, teamattack, squitter, diddy, dixie"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
@@ -153,7 +153,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #1(Hooks above start)",
-                "access_rules": ["EASY, teamattack, diddy, dixie, cling", "NORMAL, cling, teamattack, diddy, dixie", "HARD, cling, teamattack, diddy, dixie"],
+                "access_rules": ["EASY, teamattack, diddy, dixie, cling", "NORMAL, cling, teamattack, diddy, dixie", "HARD, cling, teamattack, diddy, dixie", "HARD, squitter, diddy, dixie, cling", "HARD, squitter, diddy, dixie, teamattack"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -173,7 +173,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #1 (Hooks above start)",
-                "access_rules": ["EASY, teamattack, diddy, dixie, cling", "NORMAL, cling, teamattack, diddy, dixie", "HARD, cling, teamattack, diddy, dixie"],
+                "access_rules": ["EASY, teamattack, diddy, dixie, cling", "NORMAL, cling, teamattack, diddy, dixie", "HARD, cling, teamattack, diddy, dixie", "HARD, squitter, diddy, dixie, cling", "HARD, squitter, diddy, dixie, teamattack"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -193,7 +193,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #2(Hooks above start)",
-                "access_rules": ["EASY, teamattack, diddy, dixie, cling", "NORMAL, cling, teamattack, diddy, dixie", "HARD, cling, teamattack, diddy, dixie"],
+                "access_rules": ["EASY, teamattack, diddy, dixie, cling", "NORMAL, cling, teamattack, diddy, dixie", "HARD, cling, teamattack, diddy, dixie", "HARD, squitter, diddy, dixie, cling", "HARD, squitter, diddy, dixie, teamattack"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -253,7 +253,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #3 (Zinger after midpoint)",
-                "access_rules": ["EASY, helicopterspin, teamattack, diddy, dixie, squitter, barrelkannons, cling", "NORMAL, cling, teamattack, diddy, dixie, squitter", "HARD, cling, teamattack, diddy, dixie, squitter", "HARD, teamattack, squitter, diddy, dixie"],
+                "access_rules": ["EASY, helicopterspin, teamattack, diddy, dixie, squitter, barrelkannons, cling", "NORMAL, cling, teamattack, diddy, dixie, squitter", "HARD"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -273,7 +273,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #3 (Following banana guides)",
-                "access_rules": ["EASY, helicopterspin, teamattack, diddy, dixie, squitter, barrelkannons, cling", "NORMAL, cling, teamattack, diddy, dixie, squitter", "HARD, cling, teamattack, diddy, dixie, squitter", "HARD, teamattack, squitter, diddy, dixie"],
+                "access_rules": ["EASY, helicopterspin, teamattack, diddy, dixie, squitter, barrelkannons, cling", "NORMAL, cling, teamattack, diddy, dixie, squitter", "HARD, squitter, diddy, dixie, cling", "HARD, squitter, diddy, dixie, teamattack"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -293,7 +293,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #4 (Following banana guides)",
-                "access_rules": ["EASY, helicopterspin, teamattack, diddy, dixie, squitter, barrelkannons, cling", "NORMAL, cling, teamattack, diddy, dixie, squitter", "HARD, cling, teamattack, diddy, dixie, squitter", "HARD, teamattack, squitter, diddy, dixie"],
+                "access_rules": ["EASY, helicopterspin, teamattack, diddy, dixie, squitter, barrelkannons, cling", "NORMAL, cling, teamattack, diddy, dixie, squitter", "HARD, squitter, diddy, dixie, cling", "HARD, squitter, diddy, dixie, teamattack"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -333,7 +333,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #5 (Above DK Barrel)",
-                "access_rules": ["EASY, helicopterspin, teamattack, diddy, dixie, squitter, barrelkannons, cling", "NORMAL, cling, teamattack, diddy, dixie, squitter", "HARD, cling, teamattack, diddy, dixie, squitter", "HARD, teamattack, squitter, diddy, dixie"],
+                "access_rules": ["EASY, helicopterspin, teamattack, diddy, dixie, squitter, barrelkannons, cling", "NORMAL, cling, teamattack, diddy, dixie", "HARD, teamattack, diddy, dixie", "HARD, diddy, dixie", "HARD, squitter, diddy, dixie, cling"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -353,7 +353,7 @@
             "sections": [
                 {
                 "name": "Red Balloon (Squitter sign)",
-                "access_rules": ["EASY, helicopterspin, teamattack, diddy, dixie, squitter, barrelkannons, cling", "NORMAL, cling, teamattack, diddy, dixie, squitter", "HARD, cling, teamattack, diddy, dixie, squitter", "HARD, teamattack, squitter, diddy, dixie"],
+                "access_rules": ["EASY, helicopterspin, teamattack, diddy, dixie, squitter, barrelkannons, cling", "NORMAL, cling, teamattack, diddy, dixie, squitter", "HARD, cling, diddy, dixie, squitter", "HARD, teamattack, squitter, diddy, dixie"],
                 "chest_unopened_img": "images/checks/swanky1_disabled.png",
                 "chest_opened_img": "images/checks/swanky1.png",
                 "visibility_rules": ["balloonsanity"],
