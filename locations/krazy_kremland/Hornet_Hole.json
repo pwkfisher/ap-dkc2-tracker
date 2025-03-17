@@ -133,7 +133,7 @@
             "sections": [
                 {
                 "name": "Bonus #3",
-                "access_rules": ["EASY, helicopterspin, teamattack, diddy, dixie, squitter, barrelkannons, cling", "NORMAL", "HARD, cling, diddy, dixie, squitter", "HARD, teamattack, squitter, diddy, dixie"],
+                "access_rules": ["EASY, helicopterspin, teamattack, diddy, dixie, squitter, barrelkannons, cling", "NORMAL, cling, squitter, teamattack, diddy, dixie", "HARD, cling, diddy, dixie, squitter", "HARD, teamattack, squitter, diddy, dixie"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
@@ -313,7 +313,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #4 (Following banana guides)",
-                "access_rules": ["EASY, helicopterspin, teamattack, diddy, dixie, squitter, barrelkannons, cling", "NORMAL, cling, teamattack, diddy, dixie, squitter", "HARD, cling, teamattack, diddy, dixie, squitter", "HARD, teamattack, squitter, diddy, dixie"],
+                "access_rules": ["EASY, helicopterspin, teamattack, diddy, dixie, squitter, barrelkannons, cling", "NORMAL, cling, teamattack, diddy, dixie, squitter", "HARD, cling, diddy, dixie, squitter", "HARD, teamattack, squitter, diddy, dixie"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
