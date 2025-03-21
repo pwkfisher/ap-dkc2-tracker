@@ -207,7 +207,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #5 (Between moving Zingers)",
-                "access_rules": ["EASY, cartwheel, controllablebarrels, teamattack, diddy, dixie", "NORMAL, controllablebarrels, cartwheel, teamattack, diddy, dixie", "HARD, cartwheel", "HARD, controllablebarrels", "HARD, helicopterspin, dixie"],
+                "access_rules": ["EASY, cartwheel, controllablebarrels, teamattack, diddy, dixie", "NORMAL, controllablebarrels, cartwheel, teamattack, diddy, dixie", "HARD, controllablebarrels, cartwheel", "HARD, controllablebarrels, dixie, helicopterspin"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],

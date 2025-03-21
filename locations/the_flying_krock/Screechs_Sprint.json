@@ -8,7 +8,7 @@
         "sections": [
             {
                 "name": "Clear",
-                "access_rules": ["EASY, climb, carry, cartwheel, squawks", "NORMAL, climb, cartwheel, squawks", "HARD, climb, squawks, teamattack, diddy, dixie", "HARD, climb, squawks, cartwheel", "HARD, climb, squawks, diddy, dixie"],
+                "access_rules": ["EASY, climb, carry, cartwheel, diddy, squawks", "EASY, climb, carry, helicopterspin, dixie, squawks", "NORMAL, climb, cartwheel, diddy, squawks", "NORMAL, climb, squawks, helicopterspin, dixie", "HARD, climb, squawks, teamattack, diddy, dixie", "HARD, climb, squawks, cartwheel", "HARD, climb, squawks, diddy, dixie"],
                 "chest_unopened_img": "images/checks/clear_disabled.png",
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
@@ -28,7 +28,7 @@
             "sections": [
                 {
                 "name": "DK Coin",
-                "access_rules": ["EASY, climb, carry, cartwheel, squawks", "NORMAL, climb, cartwheel, squawks", "HARD, climb, squawks, teamattack, diddy, dixie", "HARD, climb, squawks, cartwheel", "HARD, climb, squawks, diddy, dixie"],
+                "access_rules": ["EASY, climb, carry, cartwheel, diddy, squawks", "EASY, climb, carry, helicopterspin, dixie, squawks", "NORMAL, climb, cartwheel, diddy, squawks", "NORMAL, climb, squawks, helicopterspin, dixie", "HARD, climb, squawks, teamattack, diddy, dixie", "HARD, climb, squawks, cartwheel", "HARD, climb, squawks, diddy, dixie"],
                 "chest_unopened_img": "images/checks/dkcoin_disabled.png",
                 "chest_opened_img": "images/checks/dkcoin.png",
                 "visibility_rules": ["dkcoinchecks"],
@@ -48,7 +48,7 @@
             "sections": [
                 {
                 "name": "KONG",
-                "access_rules": ["EASY, climb, carry, cartwheel, squawks", "NORMAL, climb, cartwheel, squawks", "HARD, climb, squawks, teamattack, diddy, dixie", "HARD, climb, squawks, cartwheel", "HARD, climb, squawks, diddy, dixie"],
+                "access_rules": ["EASY, climb, carry, cartwheel, diddy, squawks", "EASY, climb, carry, helicopterspin, dixie, squawks", "NORMAL, climb, cartwheel, diddy, squawks", "NORMAL, climb, squawks, helicopterspin, dixie", "HARD, climb, squawks, teamattack, diddy, dixie", "HARD, climb, squawks, cartwheel", "HARD, climb, squawks, diddy, dixie"],
                 "chest_unopened_img": "images/checks/kong_disabled.png",
                 "chest_opened_img": "images/checks/kong.png",
                 "visibility_rules": ["kongchecks"],
@@ -167,7 +167,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #3 (Before midpoint)",
-                "access_rules": ["EASY, climb, carry, cartwheel, squawks", "NORMAL, climb, carry, cartwheel, squawks", "HARD, climb, squawks, helicopterspin, dixie", "HARD, climb, squawks, cartwheel", "HARD, climb, teamattack, diddy, dixie", "HARD, climb, diddy, dixie, helicopterspin", "HARD, climb, diddy, dixie, cartwheel", "HARD, climb, diddy, dixie, teamattack"],
+                "access_rules": ["EASY, climb, carry, cartwheel, diddy, squawks", "EASY, climb, carry, helicopterspin, dixie, squawks", "NORMAL, climb, carry, cartwheel, diddy, squawks", "NORMAL, climb, carry, squawks, helicopterspin, dixie", "HARD, climb, squawks, helicopterspin, dixie", "HARD, climb, squawks, cartwheel", "HARD, climb, teamattack, diddy, dixie", "HARD, climb, diddy, dixie, helicopterspin", "HARD, climb, diddy, dixie, cartwheel", "HARD, climb, diddy, dixie, teamattack"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -187,7 +187,7 @@
             "sections": [
                 {
                 "name": "Red Balloon (Before midpoint)",
-                "access_rules": ["EASY, climb, carry, cartwheel, squawks", "NORMAL, climb, carry, cartwheel, squawks", "HARD, climb, squawks, helicopterspin, dixie", "HARD, climb, squawks, cartwheel", "HARD, climb, teamattack, diddy, dixie", "HARD, climb, diddy, dixie, helicopterspin", "HARD, climb, diddy, dixie, cartwheel", "HARD, climb, diddy, dixie, teamattack"],
+                "access_rules": ["EASY, climb, carry, cartwheel, diddy, squawks", "EASY, climb, carry, helicopterspin, dixie, squawks", "NORMAL, climb, carry, cartwheel, diddy, squawks", "NORMAL, climb, carry, squawks, helicopterspin, dixie", "HARD, climb, squawks, helicopterspin, dixie", "HARD, climb, squawks, cartwheel", "HARD, climb, teamattack, diddy, dixie", "HARD, climb, diddy, dixie, helicopterspin", "HARD, climb, diddy, dixie, cartwheel", "HARD, climb, diddy, dixie, teamattack"],
                 "chest_unopened_img": "images/checks/swanky1_disabled.png",
                 "chest_opened_img": "images/checks/swanky1.png",
                 "visibility_rules": ["balloonsanity"],
@@ -207,7 +207,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #2 (First race shortcut)",
-                "access_rules": ["EASY, climb, carry, cartwheel, squawks", "NORMAL, climb, carry, cartwheel, squawks", "HARD, climb, squawks, teamattack, diddy, dixie", "HARD, climb, squawks, cartwheel", "HARD, climb, squawks, helicopterspin, dixie", "HARD, climb, squawks, diddy, dixie"],
+                "access_rules": ["EASY, climb, carry, cartwheel, diddy, squawks", "EASY, climb, carry, helicopterspin, dixie, squawks", "NORMAL, climb, carry, cartwheel, diddy, squawks", "NORMAL, climb, carry, squawks, helicopterspin, dixie", "HARD, climb, squawks, teamattack, diddy, dixie", "HARD, climb, squawks, cartwheel", "HARD, climb, squawks, helicopterspin, dixie", "HARD, climb, squawks, diddy, dixie"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -227,7 +227,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #3 (Behind Zinger)",
-                "access_rules": ["EASY, climb, carry, cartwheel, squawks", "NORMAL, climb, carry, cartwheel, squawks", "HARD, climb, squawks, teamattack, diddy, dixie", "HARD, climb, squawks, cartwheel", "HARD, climb, squawks, helicopterspin, dixie", "HARD, climb, squawks, diddy, dixie"],
+                "access_rules": ["EASY, climb, carry, cartwheel, diddy, squawks", "EASY, climb, carry, helicopterspin, dixie, squawks", "NORMAL, climb, carry, cartwheel, diddy, squawks", "NORMAL, climb, carry, squawks, helicopterspin, dixie", "HARD, climb, squawks, teamattack, diddy, dixie", "HARD, climb, squawks, cartwheel", "HARD, climb, squawks, helicopterspin, dixie", "HARD, climb, squawks, diddy, dixie"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -247,7 +247,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #4 (Detour left from second arrow)",
-                "access_rules": ["EASY, climb, carry, cartwheel, squawks", "NORMAL, climb, carry, cartwheel, squawks", "HARD, climb, squawks, teamattack, diddy, dixie", "HARD, climb, squawks, cartwheel", "HARD, climb, squawks, helicopterspin, dixie", "HARD, climb, squawks, diddy, dixie"],
+                "access_rules": ["EASY, climb, carry, cartwheel, diddy, squawks", "EASY, climb, carry, helicopterspin, dixie, squawks", "NORMAL, climb, carry, cartwheel, diddy, squawks", "NORMAL, climb, carry, squawks, helicopterspin, dixie", "HARD, climb, squawks, teamattack, diddy, dixie", "HARD, climb, squawks, cartwheel", "HARD, climb, squawks, helicopterspin, dixie", "HARD, climb, squawks, diddy, dixie"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -267,7 +267,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #5 (Detour left from second arrow)",
-                "access_rules": ["EASY, climb, carry, cartwheel, squawks", "NORMAL, climb, carry, cartwheel, squawks", "HARD, climb, squawks, teamattack, diddy, dixie", "HARD, climb, squawks, cartwheel", "HARD, climb, squawks, helicopterspin, dixie", "HARD, climb, squawks, diddy, dixie"],
+                "access_rules": ["EASY, climb, carry, cartwheel, diddy, squawks", "EASY, climb, carry, helicopterspin, dixie, squawks", "NORMAL, climb, carry, cartwheel, diddy, squawks", "NORMAL, climb, carry, squawks, helicopterspin, dixie", "HARD, climb, squawks, teamattack, diddy, dixie", "HARD, climb, squawks, cartwheel", "HARD, climb, squawks, helicopterspin, dixie", "HARD, climb, squawks, diddy, dixie"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -287,7 +287,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #6 (Detour left from second arrow)",
-                "access_rules": ["EASY, climb, carry, cartwheel, squawks", "NORMAL, climb, carry, cartwheel, squawks", "HARD, climb, squawks, teamattack, diddy, dixie", "HARD, climb, squawks, cartwheel", "HARD, climb, squawks, helicopterspin, dixie", "HARD, climb, squawks, diddy, dixie"],
+                "access_rules": ["EASY, climb, carry, cartwheel, diddy, squawks", "EASY, climb, carry, helicopterspin, dixie, squawks", "NORMAL, climb, carry, cartwheel, diddy, squawks", "NORMAL, climb, carry, squawks, helicopterspin, dixie", "HARD, climb, squawks, teamattack, diddy, dixie", "HARD, climb, squawks, cartwheel", "HARD, climb, squawks, helicopterspin, dixie", "HARD, climb, squawks, diddy, dixie"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -307,7 +307,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #7 (Detour left from second arrow)",
-                "access_rules": ["EASY, climb, carry, cartwheel, squawks", "NORMAL, climb, carry, cartwheel, squawks", "HARD, climb, squawks, teamattack, diddy, dixie", "HARD, climb, squawks, cartwheel", "HARD, climb, squawks, helicopterspin, dixie", "HARD, climb, squawks, diddy, dixie"],
+                "access_rules": ["EASY, climb, carry, cartwheel, diddy, squawks", "EASY, climb, carry, helicopterspin, dixie, squawks", "NORMAL, climb, carry, cartwheel, diddy, squawks", "NORMAL, climb, carry, squawks, helicopterspin, dixie", "HARD, climb, squawks, teamattack, diddy, dixie", "HARD, climb, squawks, cartwheel", "HARD, climb, squawks, helicopterspin, dixie", "HARD, climb, squawks, diddy, dixie"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -327,7 +327,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #8 (Detour left from second arrow)",
-                "access_rules": ["EASY, climb, carry, cartwheel, squawks", "NORMAL, climb, carry, cartwheel, squawks", "HARD, climb, squawks, teamattack, diddy, dixie", "HARD, climb, squawks, cartwheel", "HARD, climb, squawks, helicopterspin, dixie", "HARD, climb, squawks, diddy, dixie"],
+                "access_rules": ["EASY, climb, carry, cartwheel, diddy, squawks", "EASY, climb, carry, helicopterspin, dixie, squawks", "NORMAL, climb, carry, cartwheel, diddy, squawks", "NORMAL, climb, carry, squawks, helicopterspin, dixie", "HARD, climb, squawks, teamattack, diddy, dixie", "HARD, climb, squawks, cartwheel", "HARD, climb, squawks, helicopterspin, dixie", "HARD, climb, squawks, diddy, dixie"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -347,7 +347,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #4 (Next to banana trail)",
-                "access_rules": ["EASY, climb, carry, cartwheel, squawks", "NORMAL, climb, carry, cartwheel, squawks", "HARD, climb, squawks, teamattack, diddy, dixie", "HARD, climb, squawks, cartwheel", "HARD, climb, squawks, helicopterspin, dixie", "HARD, climb, squawks, diddy, dixie"],
+                "access_rules": ["EASY, climb, carry, cartwheel, diddy, squawks", "EASY, climb, carry, helicopterspin, dixie, squawks", "NORMAL, climb, carry, cartwheel, diddy, squawks", "NORMAL, climb, carry, squawks, helicopterspin, dixie", "HARD, climb, squawks, teamattack, diddy, dixie", "HARD, climb, squawks, cartwheel", "HARD, climb, squawks, helicopterspin, dixie", "HARD, climb, squawks, diddy, dixie"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -367,7 +367,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #5 (Next to banana trail)",
-                "access_rules": ["EASY, climb, carry, cartwheel, squawks", "NORMAL, climb, carry, cartwheel, squawks", "HARD, climb, squawks, teamattack, diddy, dixie", "HARD, climb, squawks, cartwheel", "HARD, climb, squawks, helicopterspin, dixie", "HARD, climb, squawks, diddy, dixie"],
+                "access_rules": ["EASY, climb, carry, cartwheel, diddy, squawks", "EASY, climb, carry, helicopterspin, dixie, squawks", "NORMAL, climb, carry, cartwheel, diddy, squawks", "NORMAL, climb, carry, squawks, helicopterspin, dixie", "HARD, climb, squawks, teamattack, diddy, dixie", "HARD, climb, squawks, cartwheel", "HARD, climb, squawks, helicopterspin, dixie", "HARD, climb, squawks, diddy, dixie"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -387,7 +387,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #6 (Corner)",
-                "access_rules": ["EASY, climb, carry, cartwheel, squawks", "NORMAL, climb, carry, cartwheel, squawks", "HARD, climb, squawks, teamattack, diddy, dixie", "HARD, climb, squawks, cartwheel", "HARD, climb, squawks, helicopterspin, dixie", "HARD, climb, squawks, diddy, dixie"],
+                "access_rules": ["EASY, climb, carry, cartwheel, diddy, squawks", "EASY, climb, carry, helicopterspin, dixie, squawks", "NORMAL, climb, carry, cartwheel, diddy, squawks", "NORMAL, climb, carry, squawks, helicopterspin, dixie", "HARD, climb, squawks, teamattack, diddy, dixie", "HARD, climb, squawks, cartwheel", "HARD, climb, squawks, helicopterspin, dixie", "HARD, climb, squawks, diddy, dixie"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],

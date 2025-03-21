@@ -133,7 +133,7 @@
                         "sections": [
                             {
                         "name": "Banana Coin #1 (Above start banana trail)",
-                        "access_rules": ["EASY, teamattack, diddy, dixie, barrelkannons", "NORMAL, teamattack, diddy, dixie, barrelkannons", "HARD, teamattack, diddy, dixie, barrelkannons"],
+                        "access_rules": ["EASY, teamattack, diddy, dixie", "NORMAL, teamattack, diddy, dixie", "HARD, teamattack, diddy, dixie"],
                         "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                         "chest_opened_img": "images/checks/bananacoin.png",
                         "visibility_rules": ["coinsanity"],

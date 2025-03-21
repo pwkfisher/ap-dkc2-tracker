@@ -28,7 +28,7 @@
             "sections": [
                 {
                 "name": "DK Coin",
-                "access_rules": ["EASY, helicopterspin, dixie", "NORMAL, helicopterspin, dixie", "HARD"],
+                "access_rules": ["EASY, helicopterspin, dixie", "NORMAL, helicopterspin, dixie", "NORMAL, cartwheel", "HARD"],
                 "chest_unopened_img": "images/checks/dkcoin_disabled.png",
                 "chest_opened_img": "images/checks/dkcoin.png",
                 "visibility_rules": ["dkcoinchecks"],

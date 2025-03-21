@@ -227,7 +227,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #4 (Next to O)",
-                "access_rules": ["EASY, rambi, carry, diddy, dixie", "NORMAL, carry, diddy, dixie", "HARD"],
+                "access_rules": ["EASY, rambi, carry, diddy, dixie", "NORMAL", "HARD"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -247,7 +247,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #5 (Above DK Coin)",
-                "access_rules": ["EASY, rambi, carry, diddy, dixie, cartwheel, squawks", "NORMAL, carry, diddy, dixie, cartwheel", "HARD, diddy, dixie", "HARD, helicopterspin, dixie, cartwheel"],
+                "access_rules": ["EASY, rambi, carry, diddy, dixie, cartwheel, squawks", "NORMAL, cartwheel, squawks", "HARD, diddy, dixie", "HARD, helicopterspin, dixie, cartwheel"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],

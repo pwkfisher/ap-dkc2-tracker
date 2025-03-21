@@ -28,7 +28,7 @@
             "sections": [
                 {
                 "name": "DK Coin",
-                "access_rules": ["EASY, squitter, barrelkannons", "NORMAL, squitter, barrelkannons", "HARD, squitter"],
+                "access_rules": ["EASY, squitter, barrelkannons", "NORMAL, squitter, barrelkannons", "NORMAL, squitter, teamattack, diddy, dixie", "HARD, squitter"],
                 "chest_unopened_img": "images/checks/dkcoin_disabled.png",
                 "chest_opened_img": "images/checks/dkcoin.png",
                 "visibility_rules": ["dkcoinchecks"],

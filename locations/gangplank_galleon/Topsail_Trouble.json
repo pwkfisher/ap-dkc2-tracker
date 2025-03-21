@@ -167,7 +167,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #1 (Below Zinger)",
-                "access_rules": ["EASY, climb, carry, teamattack, diddy, dixie", "EASY, climb, carry, rattly", "EASY, climb, carry, cling, barrelkannons", "NORMAL, carry, teamattack, dixie, diddy", "NORMAL, carry, rattly", "NORMAL, carry, cling, barrelkannons", "HARD, rattly", "HARD, teamattack, diddy, dixie", "HARD, cling, barrelkannons"],
+                "access_rules": ["EASY, climb, carry, teamattack, diddy, dixie", "EASY, climb, carry, rattly", "EASY, climb, carry, cling, barrelkannons", "NORMAL, teamattack, dixie, diddy", "NORMAL, rattly", "NORMAL, cling, barrelkannons", "HARD, rattly", "HARD, teamattack, diddy, dixie", "HARD, cling, barrelkannons"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
