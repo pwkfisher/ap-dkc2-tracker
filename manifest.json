@@ -13,5 +13,5 @@
         }
     },
     "min_poptracker_version": "0.27.0",
-    "versions_url": "https://raw.githubusercontent.com/pwkfisher/ap-dkc2-tracker/versions/versions.json"
+    "versions_url": "https://raw.githubusercontent.com/pwkfisher/ap-dkc2-tracker/refs/heads/main/versions.json"
 }
