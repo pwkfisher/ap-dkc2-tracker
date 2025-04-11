@@ -48,7 +48,7 @@
             "sections": [
                 {
                 "name": "KONG",
-                "access_rules": ["EASY, swim, enguarde, cartwheel, diddy", "EASY, swim, enguarde, helicopterspin, dixie", "NORMAL, swim, enguarde, cartwheel", "NORMAL, swim, enguarde, helicopterspin, dixie", "HARD, swim", "HARD, enguarde, cartwheel", "HARD, enguarde, helicopterspin, dixie"],
+                "access_rules": ["EASY, swim, enguarde, cartwheel, diddy", "EASY, swim, enguarde, helicopterspin, dixie", "NORMAL, swim, enguarde, cartwheel", "NORMAL, swim, enguarde, helicopterspin, dixie", "HARD, enguarde, diddy, cartwheel", "HARD, enguarde, helicopterspin, dixie", "HARD, swim, diddy, cartwheel", "HARD, swim, helicopterspin, dixie"],
                 "chest_unopened_img": "images/checks/kong_disabled.png",
                 "chest_opened_img": "images/checks/kong.png",
                 "visibility_rules": ["kongchecks"],
@@ -387,7 +387,7 @@
             "sections": [
                 {
                 "name": "Red Balloon #2 (Enguarde sign)",
-                "access_rules": ["EASY, swim, enguarde", "NORMAL, swim, enguarde", "HARD, swim", "HARD, enguarde, diddy, cartwheel", "HARD, enguarde, dixie, helicopterspin"],
+                "access_rules": ["EASY, swim, enguarde", "NORMAL, swim, enguarde", "HARD, enguarde, diddy, cartwheel", "HARD, enguarde, dixie, helicopterspin", "HARD, enguarde, swim"],
                 "chest_unopened_img": "images/checks/swanky1_disabled.png",
                 "chest_opened_img": "images/checks/swanky1.png",
                 "visibility_rules": ["balloonsanity"],

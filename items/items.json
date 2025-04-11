@@ -357,7 +357,7 @@
       {
         "name": "Lost World Rocks Needed",
         "type": "consumable",
-        "img": "images/items/lostworldrock.png",
+        "img": "images/settings/lostworldrocksneeded.png",
         "img_mods": "",
         "initial_quantity": 0,
         "min_quantity": 0,

@@ -10,9 +10,16 @@
                 "header_background": "#3e4b57",
                 "content": [
                     {
-                        "type": "item",
-                        "margin": "5,1,5,5",
-                        "item": "autofill_settings"
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 44,
+                        "item_width": 44,
+                        "rows": [
+                            ["visibility_markers", "tab_switch"]
+                        ]
                     }
                 ]
             }

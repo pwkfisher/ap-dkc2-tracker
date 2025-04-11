@@ -1,0 +1,10 @@
+{
+	"versions": [
+		{
+			"package_version": "0.9.2",
+			"download_url": "",
+			"sha256": "60de47fbc364fc717974271740245b0db105a70ef60002c07cf6cbcf303dfb97",
+			"changelog": ["Bug Fixes"]
+		}
+	]
+}

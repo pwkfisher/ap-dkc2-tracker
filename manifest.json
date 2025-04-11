@@ -1,7 +1,7 @@
 {
     "name": "Donkey Kong Country 2 Archipelago",
     "game_name": "Donkey Kong Country 2",
-    "package_version": "0.9.2",
+    "package_version": "0.9.3",
     "package_uid": "donkey kong country 2_ap",
     "author": "MasakariPLZ",
     "variants": {
@@ -12,5 +12,6 @@
             ]
         }
     },
-    "min_poptracker_version": "0.27.0"
+    "min_poptracker_version": "0.27.0",
+    "versions_url": "https://raw.githubusercontent.com/pwkfisher/ap-dkc2-tracker/versions/versions.json"
 }

@@ -267,7 +267,7 @@
             "sections": [
                 {
                 "name": "Red Balloon (Enguarde sign #1)",
-                "access_rules": ["EASY, swim, enguarde", "NORMAL, swim, enguarde", "HARD, swim", "HARD, teamattack, diddy, dixie, enguarde, helicopterspin"],
+                "access_rules": ["EASY, swim, enguarde", "NORMAL, swim, enguarde", "HARD, teamattack, diddy, dixie, enguarde, helicopterspin", "HARD, swim, enguarde"],
                 "chest_unopened_img": "images/checks/swanky1_disabled.png",
                 "chest_opened_img": "images/checks/swanky1.png",
                 "visibility_rules": ["balloonsanity"],

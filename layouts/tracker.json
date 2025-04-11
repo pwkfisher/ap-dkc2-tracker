@@ -22,7 +22,7 @@
                         },
                         {
                             "type": "group",
-                            "header": "Settings",
+                            "header": "Game Settings",
                             "content": {
                                 "type": "array",
                                 "orientation": "vertical",
@@ -39,7 +39,7 @@
                         "rows": [
                             ["EASY", "goal"],
                             ["bosstokensrequired", "bosstoken"],
-                            ["lostworldrocksrequired", "lostworldrock", "visibility_markers"],
+                            ["lostworldrocksrequired", "lostworldrock"],
                             ["dkcoinchecks", "kongchecks", "swankychecks"],
                             ["coinsanity", "balloonsanity", "bananasanity"]
                         ]

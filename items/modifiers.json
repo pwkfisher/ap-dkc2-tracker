@@ -2,7 +2,8 @@
       {
         "name": "Auto Map Switch",
         "type": "toggle",
-        "img": "images/settings/dkcoincheck.png",
+        "img": "images/settings/tab_switching_on.png",
+        "disabled_img": "images/settings/tab_switching_off.png",
         "codes": "tab_switch"
       },
       {
