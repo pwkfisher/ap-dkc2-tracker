@@ -28,7 +28,7 @@
             "sections": [
                 {
                 "name": "DK Coin",
-                "access_rules": ["NORMAL, teamattack, diddy, dixie", "EASY, clapper, cling, cartwheel, teamattack, diddy, dixie", "HARD, teamattack, diddy, dixie"],
+                "access_rules": ["NORMAL, teamattack, diddy, dixie", "EASY, clapper, cling, cartwheel, teamattack, diddy, dixie", "HARD, teamattack, diddy, dixie, cling", "HARD, teamattack, diddy, dixie, clapper", "HARD, teamattack, diddy, dixie, helicopterspin, swim"],
                 "chest_unopened_img": "images/checks/dkcoin_disabled.png",
                 "chest_opened_img": "images/checks/dkcoin.png",
                 "visibility_rules": ["dkcoinchecks"],

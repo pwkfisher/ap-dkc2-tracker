@@ -187,7 +187,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #3 (First Diddy barrel)",
-                "access_rules": ["EASY, kongbarrels, diddy, controllablebarrels", "NORMAL, kongbarrels, diddy, controllablebarrels, cartwheel", "HARD"],
+                "access_rules": ["EASY, kongbarrels, diddy, controllablebarrels", "NORMAL, kongbarrels, diddy, controllablebarrels, cartwheel", "HARD, diddy, kongbarrels, dixie", "HARD, teamattack, diddy, dixie, controllablebarrels"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],

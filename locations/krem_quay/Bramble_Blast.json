@@ -147,7 +147,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #2 (Initial barrel group)",
-                "access_rules": ["EASY, barrelkannons", "NORMAL, barrelkannons", "HARD, barrelkannons"],
+                "access_rules": ["EASY, barrelkannons", "NORMAL, barrelkannons", "HARD, barrelkannons, diddy, dixie"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
