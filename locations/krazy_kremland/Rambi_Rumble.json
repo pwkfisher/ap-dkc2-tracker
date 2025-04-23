@@ -107,7 +107,7 @@
             "sections": [
                 {
                 "name": "Bonus #2",
-                "access_rules": ["EASY, cling, barrelkannons, rambi, helicopterspin, dixie", "NORMAL, cling, barrelkannons, rambi", "HARD, cling, barrelkannons, rambi"],
+                "access_rules": ["EASY, cling, barrelkannons, rambi, helicopterspin, dixie", "NORMAL, cling, barrelkannons, rambi", "HARD, cling, barrelkannons, rambi", "HARD, diddy, cartwheel, barrelkannons, rambi"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],

@@ -287,7 +287,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #4 (Behind Zinger)",
-                "access_rules": ["EASY, climb, teamattack, dixie, diddy", "EASY, climb, rattly", "EASY, climb, cling, barrelkannons", "NORMAL, climb, teamattack, dixie, diddy", "NORMAL, climb, rattly", "NORMAL, climb, cling, barrelkannons", "HARD, climb, rattly", "HARD, climb, teamattack, dixie, diddy", "HARD, climb, cling, barrelkannons"],
+                "access_rules": ["EASY, climb, teamattack, dixie, diddy, carry", "EASY, climb, rattly, carry", "EASY, carry, climb, cling, barrelkannons", "NORMAL, climb, teamattack, dixie, diddy, carry", "NORMAL, climb, rattly, carry", "NORMAL, climb, cling, barrelkannons, carry", "HARD, climb, rattly", "HARD, climb, teamattack, dixie, diddy", "HARD, climb, cling, barrelkannons"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
