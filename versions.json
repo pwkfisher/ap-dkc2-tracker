@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "0.9.4",
+			"download_url": "https://github.com/pwkfisher/ap-dkc2-tracker/releases/download/0.9.4/ap-dkc2-tracker-0.9.4.zip",
+			"sha256": "71FD6856CD75188EDE285869A77934DDE5D9CC90934EEB826A8308073572E94D",
+			"changelog": ["Logic Updates, Controllable Barrel icon update"]
+		},
+		{
 			"package_version": "0.9.3",
 			"download_url": "https://github.com/pwkfisher/ap-dkc2-tracker/releases/download/0.9.3/ap-dkc2-tracker-0.9.3.zip",
 			"sha256": "455EC4602CB59AC108C07FD951EFF13ED000840A7C8846E46931ED3FE93740DD",

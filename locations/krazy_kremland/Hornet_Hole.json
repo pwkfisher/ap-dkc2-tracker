@@ -93,7 +93,7 @@
             "sections": [
                 {
                 "name": "Bonus #1",
-                "access_rules": ["EASY, teamattack, diddy, dixie, cling, carry", "NORMAL, cling, squitter, teamattack, diddy, dixie", "HARD, carry, teamattack, diddy, dixie, cling", "HARD, carry, squitter, diddy, dixie, cling", "HARD, carry, squitter, diddy, dixie, teamattack"],
+                "access_rules": ["EASY, teamattack, diddy, dixie, cling, carry", "NORMAL, cling, squitter, teamattack, diddy, dixie, carry", "HARD, carry, teamattack, diddy, dixie, cling", "HARD, carry, squitter, diddy, dixie, cling", "HARD, carry, squitter, diddy, dixie, teamattack"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
