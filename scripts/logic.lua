@@ -1260,4 +1260,3 @@ function animalanticsvisibility()
         return lwkrk()
     end
 end
-

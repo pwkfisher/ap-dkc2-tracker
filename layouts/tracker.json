@@ -49,6 +49,33 @@
                         },
                         {
                             "type": "group",
+                            "header": "Level Clear Checks (By World)",
+                            "dock": "left",
+                            "content": {
+                                "type": "array",
+                                "orientation": "vertical",
+                                "margin": "0,0",
+                                "content": [
+                                {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 55,
+                        "item_width": 55,
+                        "rows": [
+                            ["ggbossaccess", "ggclears", "kkbossaccess", "kkclears"],
+                            ["ccbossaccess", "ccclears", "glgbossaccess", "glgclears"],
+                            ["kqbossaccess", "kqclears", "krkbossaccess", "krkclears"],
+                            ["tfkbossaccess", "tfkclears"]
+                        ]
+                        }
+                    ]
+                    }
+                        },
+                        {
+                            "type": "group",
                             "header": "Pinned Locations",
                             "content": {
                                 "style": "wrap",

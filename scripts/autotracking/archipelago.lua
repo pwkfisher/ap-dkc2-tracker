@@ -164,6 +164,103 @@ function onClear(slot_data)
 	if slot_data["balloonsanity"] == 1 then
 		Tracker:FindObjectForCode("balloonsanity").Active = true
 	end
+
+	if slot_data["required_galleon_levels"] then
+		if slot_data["required_galleon_levels"] == 1 then
+			Tracker:FindObjectForCode("ggbossaccess").AcquiredCount = 1
+		elseif slot_data["required_galleon_levels"] == 2 then
+			Tracker:FindObjectForCode("ggbossaccess").AcquiredCount = 2
+		elseif slot_data["required_galleon_levels"] == 3 then
+			Tracker:FindObjectForCode("ggbossaccess").AcquiredCount = 3
+		elseif slot_data["required_galleon_levels"] == 4 then
+			Tracker:FindObjectForCode("ggbossaccess").AcquiredCount = 4
+		elseif slot_data["required_galleon_levels"] == 5 then
+			Tracker:FindObjectForCode("ggbossaccess").AcquiredCount = 5
+		end
+	end
+
+	if slot_data["required_cauldron_levels"] then
+		if slot_data["required_cauldron_levels"] == 1 then
+			Tracker:FindObjectForCode("ccbossaccess").AcquiredCount = 1
+		elseif slot_data["required_cauldron_levels"] == 2 then
+			Tracker:FindObjectForCode("ccbossaccess").AcquiredCount = 2
+		elseif slot_data["required_cauldron_levels"] == 3 then
+			Tracker:FindObjectForCode("ccbossaccess").AcquiredCount = 3
+		elseif slot_data["required_cauldron_levels"] == 4 then
+			Tracker:FindObjectForCode("ccbossaccess").AcquiredCount = 4
+		elseif slot_data["required_cauldron_levels"] == 5 then
+			Tracker:FindObjectForCode("ccbossaccess").AcquiredCount = 5
+		end
+	end
+
+	if slot_data["required_quay_levels"] then
+		if slot_data["required_quay_levels"] == 1 then
+			Tracker:FindObjectForCode("kqbossaccess").AcquiredCount = 1
+		elseif slot_data["required_quay_levels"] == 2 then
+			Tracker:FindObjectForCode("kqbossaccess").AcquiredCount = 2
+		elseif slot_data["required_quay_levels"] == 3 then
+			Tracker:FindObjectForCode("kqbossaccess").AcquiredCount = 3
+		elseif slot_data["required_quay_levels"] == 4 then
+			Tracker:FindObjectForCode("kqbossaccess").AcquiredCount = 4
+		elseif slot_data["required_quay_levels"] == 5 then
+			Tracker:FindObjectForCode("kqbossaccess").AcquiredCount = 5
+		elseif slot_data["required_quay_levels"] == 5 then
+			Tracker:FindObjectForCode("kqbossaccess").AcquiredCount = 5
+		end
+	end
+
+	if slot_data["required_kremland_levels"] then
+		if slot_data["required_kremland_levels"] == 1 then
+			Tracker:FindObjectForCode("kkbossaccess").AcquiredCount = 1
+		elseif slot_data["required_kremland_levels"] == 2 then
+			Tracker:FindObjectForCode("kkbossaccess").AcquiredCount = 2
+		elseif slot_data["required_kremland_levels"] == 3 then
+			Tracker:FindObjectForCode("kkbossaccess").AcquiredCount = 3
+		elseif slot_data["required_kremland_levels"] == 4 then
+			Tracker:FindObjectForCode("kkbossaccess").AcquiredCount = 4
+		elseif slot_data["required_kremland_levels"] == 5 then
+			Tracker:FindObjectForCode("kkbossaccess").AcquiredCount = 5
+		elseif slot_data["required_kremland_levels"] == 5 then
+			Tracker:FindObjectForCode("kkbossaccess").AcquiredCount = 5
+		end
+	end
+
+	if slot_data["required_gulch_levels"] then
+		if slot_data["required_gulch_levels"] == 1 then
+			Tracker:FindObjectForCode("glgbossaccess").AcquiredCount = 1
+		elseif slot_data["required_gulch_levels"] == 2 then
+			Tracker:FindObjectForCode("glgbossaccess").AcquiredCount = 2
+		elseif slot_data["required_gulch_levels"] == 3 then
+			Tracker:FindObjectForCode("glgbossaccess").AcquiredCount = 3
+		elseif slot_data["required_gulch_levels"] == 4 then
+			Tracker:FindObjectForCode("glgbossaccess").AcquiredCount = 4
+		elseif slot_data["required_gulch_levels"] == 5 then
+			Tracker:FindObjectForCode("glgbossaccess").AcquiredCount = 5
+		elseif slot_data["required_gulch_levels"] == 5 then
+			Tracker:FindObjectForCode("glgbossaccess").AcquiredCount = 5
+		end
+	end
+
+	if slot_data["required_keep_levels"] then
+		if slot_data["required_keep_levels"] == 1 then
+			Tracker:FindObjectForCode("krkbossaccess").AcquiredCount = 1
+		elseif slot_data["required_keep_levels"] == 2 then
+			Tracker:FindObjectForCode("krkbossaccess").AcquiredCount = 2
+		elseif slot_data["required_keep_levels"] == 3 then
+			Tracker:FindObjectForCode("krkbossaccess").AcquiredCount = 3
+		elseif slot_data["required_keep_levels"] == 4 then
+			Tracker:FindObjectForCode("krkbossaccess").AcquiredCount = 4
+		elseif slot_data["required_keep_levels"] == 5 then
+			Tracker:FindObjectForCode("krkbossaccess").AcquiredCount = 5
+		elseif slot_data["required_keep_levels"] == 5 then
+			Tracker:FindObjectForCode("krkbossaccess").AcquiredCount = 5
+		end
+	end
+
+	if slot_data["required_krock_levels"] == 1 then
+		Tracker:FindObjectForCode("tfkbossaccess").AcquiredCount = 1
+	end
+	
     if slot_data["goal"] then
         if slot_data["goal"] == 1 then
             Tracker:FindObjectForCode("goal").CurrentStage = 0
@@ -258,9 +355,11 @@ function onClear(slot_data)
 	if Archipelago.PlayerNumber>-1 then
 		print (string.format("Current slot data is", PLAYER_ID, TEAM_NUMBER))
 		EVENT_ID="dkc2_current_map_"..TEAM_NUMBER.."_"..PLAYER_ID
+		CLEARCOUNT_ID="dkc2_clear_count_"..TEAM_NUMBER.."_"..PLAYER_ID
 		print(string.format("SET NOTIFY %s",EVENT_ID))
+		print(string.format("LEVELS SEEN %s",CLEARCOUNT_ID))
 		Archipelago:SetNotify({EVENT_ID})
-		Archipelago:Get({EVENT_ID})
+		Archipelago:SetNotify({CLEARCOUNT_ID})
 	end
 
 	Tracker:FindObjectForCode("tab_switch").Active = 1
@@ -385,13 +484,63 @@ function onBounce(json)
 end
 
 function onNotify(key, value, old_value)
-	print(string.format("onNotify",key,value,old_value))
-	updateEvents(value)
+    print(string.format("onNotify: %s", key))
+    if key:find("dkc2_clear_count_") then
+        processClearCounts(value)
+    else
+        updateEvents(value)
+    end
 end
 
 function onNotifyLaunch(key, value)
-		print(string.format("onNotifyLaunch",key,value,old_value))
-		updateEvents(value)
+    print(string.format("onNotifyLaunch: %s", key))
+    if key:find("dkc2_clear_count_") then
+        processClearCounts(value)
+    else
+        updateEvents(value)
+    end
+end
+
+function processClearCounts(clear_counts)
+	world_clear_1 = 0
+    world_clear_2 = 0
+    world_clear_3 = 0
+    world_clear_4 = 0
+    world_clear_5 = 0
+    world_clear_6 = 0
+	world_clear_7 = 0
+
+    if type(clear_counts) == "table" then
+        for i, count in ipairs(clear_counts) do
+			
+            -- You can assign to individual variables if needed
+            _G["world_clear_" .. i] = count
+            print(string.format("World %d clear count: %d", i, count))
+			if world_clear_1 > 0 then
+				Tracker:FindObjectForCode("ggclears").AcquiredCount = world_clear_1
+			end
+			if world_clear_2 > 0 then
+				Tracker:FindObjectForCode("ccclears").AcquiredCount = world_clear_2
+			end
+			if world_clear_3 > 0 then
+				Tracker:FindObjectForCode("kqclears").AcquiredCount = world_clear_3
+			end
+			if world_clear_4 > 0 then
+				Tracker:FindObjectForCode("kkclears").AcquiredCount = world_clear_4
+			end
+			if world_clear_5 > 0 then
+				Tracker:FindObjectForCode("glgclears").AcquiredCount = world_clear_5
+			end
+			if world_clear_6 > 0 then
+				Tracker:FindObjectForCode("krkclears").AcquiredCount = world_clear_6
+			end
+			if world_clear_7 > 0 then
+				Tracker:FindObjectForCode("tfkclears").AcquiredCount = world_clear_7
+			end
+        end
+    else
+        print("Expected table for clear counts, got:", type(clear_counts))
+    end
 end
 
 function updateEvents(value)

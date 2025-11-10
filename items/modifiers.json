@@ -242,5 +242,160 @@
         "name": "Stronghold Showdown Visibility",
         "type": "progressive",
         "codes": "StrongholdShowdownMap"
-      }      
+      },
+    {
+      "name": "Gangplank Galleon Level Clears Required",
+      "type": "consumable",
+      "img": "images/settings/gangplankgalleonclearsreq.png",
+      "img_mods": "",
+      "initial_quantity": 0,
+      "min_quantity": 0,
+      "max_quantity": 10,
+      "increment": 1,
+      "overlay_font_size": 14,
+      "codes": "ggbossaccess"
+  },
+  {
+      "name": "Crocodile Cauldron Level Clears Required",
+      "type": "consumable",
+      "img": "images/settings/crocodilecauldronclearsreq.png",
+      "initial_quantity": 0,
+      "min_quantity": 0,
+      "max_quantity": 10,
+      "increment": 1,
+      "overlay_font_size": 14,
+      "codes": "ccbossaccess"
+  },
+  {
+      "name": "Krem Quay Level Clears Required",
+      "type": "consumable",
+      "img": "images/settings/kremquayclearsreq.png",
+      "initial_quantity": 0,
+      "min_quantity": 0,
+      "max_quantity": 10,
+      "increment": 1,
+      "overlay_font_size": 14,
+      "codes": "kqbossaccess"
+  },
+  {
+      "name": "Krazy Kremland Level Clears Required",
+      "type": "consumable",
+      "img": "images/settings/krazykremlandclearsreq.png",
+      "initial_quantity": 0,
+      "min_quantity": 0,
+      "max_quantity": 10,
+      "increment": 1,
+      "overlay_font_size": 14,
+      "codes": "kkbossaccess"
+  },
+  {
+      "name": "Gloomy Gulch Level Clears Required",
+      "type": "consumable",
+      "img": "images/settings/gloomygulchclearsreq.png",
+      "initial_quantity": 0,
+      "min_quantity": 0,
+      "max_quantity": 10,
+      "increment": 1,
+      "overlay_font_size": 14,
+      "codes": "glgbossaccess"
+  },
+  {
+      "name": "K. Rool's Keeps Level Clears Required",
+      "type": "consumable",
+      "img": "images/settings/kroolskeepclearsreq.png",
+      "initial_quantity": 0,
+      "min_quantity": 0,
+      "max_quantity": 10,
+      "increment": 1,
+      "overlay_font_size": 14,
+      "codes": "krkbossaccess"
+  },
+    {
+      "name": "Gangplank Galleon Level Clears",
+      "type": "consumable",
+      "img": "images/settings/gangplankgalleonclears.png",
+      "initial_quantity": 0,
+      "min_quantity": 0,
+      "max_quantity": 5,
+      "increment": 1,
+      "overlay_font_size": 14,
+      "codes": "ggclears"
+  },
+  {
+      "name": "Crocodile Cauldron Level Clears",
+      "type": "consumable",
+      "img": "images/settings/crocodilecauldronclears.png",
+      "initial_quantity": 0,
+      "min_quantity": 0,
+      "max_quantity": 5,
+      "increment": 1,
+      "overlay_font_size": 14,
+      "codes": "ccclears"
+  },
+  {
+      "name": "Krem Quay Level Clears",
+      "type": "consumable",
+      "img": "images/settings/kremquayclears.png",
+      "initial_quantity": 0,
+      "min_quantity": 0,
+      "max_quantity": 6,
+      "increment": 1,
+      "overlay_font_size": 14,
+      "codes": "kqclears"
+  },
+  {
+      "name": "Krazy Kremland Level Clears",
+      "type": "consumable",
+      "img": "images/settings/krazykremlandclears.png",
+      "initial_quantity": 0,
+      "min_quantity": 0,
+      "max_quantity": 6,
+      "increment": 1,
+      "overlay_font_size": 14,
+      "codes": "kkclears"
+  },
+  {
+      "name": "Gloomy Gulch Level Clears",
+      "type": "consumable",
+      "img": "images/settings/gloomygulchclears.png",
+      "initial_quantity": 0,
+      "min_quantity": 0,
+      "max_quantity": 6,
+      "increment": 1,
+      "overlay_font_size": 14,
+      "codes": "glgclears"
+  },
+  {
+      "name": "K. Rool's Keeps Level Clears",
+      "type": "consumable",
+      "img": "images/settings/kroolskeepclears.png",
+      "initial_quantity": 0,
+      "min_quantity": 0,
+      "max_quantity": 6,
+      "increment": 1,
+      "overlay_font_size": 14,
+      "codes": "krkclears"
+  },
+  {
+      "name": "The Flying Krock Level Clears Required",
+      "type": "consumable",
+      "img": "images/settings/flyingkrockclearsreq.png",
+      "initial_quantity": 0,
+      "min_quantity": 0,
+      "max_quantity": 1,
+      "increment": 1,
+      "overlay_font_size": 14,
+      "codes": "tfkbossaccess"
+  },
+  {
+      "name": "The Flying Krock Level Clears",
+      "type": "consumable",
+      "img": "images/settings/flyingkrockclears.png",
+      "initial_quantity": 0,
+      "min_quantity": 0,
+      "max_quantity": 1,
+      "increment": 1,
+      "overlay_font_size": 14,
+      "codes": "tfkclears"
+  }            
 ]
