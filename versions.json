@@ -2,7 +2,7 @@
 	"versions": [
 		{
 			"package_version": "0.9.6",
-			"download_url": "https://github.com/pwkfisher/ap-dkc2-tracker/releases/download/0.9.5/ap-dkc2-tracker-0.9.6.zip",
+			"download_url": "https://github.com/pwkfisher/ap-dkc2-tracker/releases/download/0.9.6/ap-dkc2-tracker-0.9.6.zip",
 			"sha256": "115a8c0604dffc7b13ef258963c186e5d5c48d820ce970505ccae661df69f7e7",
 			"changelog": ["Level Clear Tracking"]
 		},
