@@ -48,7 +48,7 @@
             "sections": [
                 {
                 "name": "KONG",
-                "access_rules": ["EASY, cling, barrelkannons, carry, diddy, dixie", "NORMAL, cling, barrelkannons", "HARD, cling"],
+                "access_rules": ["EASY, cling, barrelkannons, carry, diddy, dixie", "NORMAL, cling, barrelkannons", "HARD, cling, barrelkannons"],
                 "chest_unopened_img": "images/checks/kong_disabled.png",
                 "chest_opened_img": "images/checks/kong.png",
                 "visibility_rules": ["kongchecks"],

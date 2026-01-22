@@ -48,7 +48,7 @@
             "sections": [
                 {
                 "name": "KONG",
-                "access_rules": ["EASY, squitter, teamattack, dixie, diddy", "NORMAL, squitter, teamattack, diddy, dixie", "HARD, squitter, cartwheel, diddy", "HARD, teamattack, diddy, dixie", "HARD, squitter, dixie, helicopterspin"],
+                "access_rules": ["EASY, squitter, teamattack, dixie, diddy", "NORMAL, squitter, teamattack, diddy, dixie", "HARD, squitter, cartwheel, diddy", "HARD, squitter, teamattack, diddy, dixie", "HARD, squitter, dixie, helicopterspin"],
                 "chest_unopened_img": "images/checks/kong_disabled.png",
                 "chest_opened_img": "images/checks/kong.png",
                 "visibility_rules": ["kongchecks"],

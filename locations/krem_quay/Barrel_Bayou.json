@@ -28,7 +28,7 @@
             "sections": [
                 {
                 "name": "DK Coin",
-                "access_rules": ["EASY, controllablebarrels, rambi", "NORMAL, controllablebarrels, rambi", "HARD, controllablebarrels, rambi", "HARD, rambi, dixie, helicopterspin, cartwheel"],
+                "access_rules": ["EASY, controllablebarrels, rambi", "NORMAL, controllablebarrels, rambi", "HARD, controllablebarrels, rambi"],
                 "chest_unopened_img": "images/checks/dkcoin_disabled.png",
                 "chest_opened_img": "images/checks/dkcoin.png",
                 "visibility_rules": ["dkcoinchecks"],

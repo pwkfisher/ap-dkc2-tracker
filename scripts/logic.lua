@@ -175,18 +175,22 @@ end
 
 function krowsnestvisibility()
     local mapstage = Tracker:FindObjectForCode("KrowsNestMap").CurrentStage
-    if mapstage == 1 then
-        return has("gangplankgalleonaccess")
-    elseif mapstage == 2 then
-        return has("crocodilecauldronaccess")
-    elseif mapstage == 3 then
-        return has("kremquayaccess")
-    elseif mapstage == 4 then
-        return has("krazykremlandaccess")
-    elseif mapstage == 5 then
-        return has("gloomygulchaccess")
-    elseif mapstage == 6 then
-        return has("kroolskeepaccess")
+    local ggclearsneeded = Tracker:FindObjectForCode("ggbossaccess").AcquiredCount
+    local ggcurrentclears = Tracker:FindObjectForCode("ggclears").AcquiredCount
+    if ggclearsneeded <= ggcurrentclears then
+        if mapstage == 1 then
+            return has("gangplankgalleonaccess")
+        elseif mapstage == 2 then
+            return has("crocodilecauldronaccess")
+        elseif mapstage == 3 then
+            return has("kremquayaccess")
+        elseif mapstage == 4 then
+            return has("krazykremlandaccess")
+        elseif mapstage == 5 then
+            return has("gloomygulchaccess")
+        elseif mapstage == 6 then
+            return has("kroolskeepaccess")
+        end
     end
 end
 
@@ -337,18 +341,22 @@ end
 
 function kleeverskilnvisibility()
     local mapstage = Tracker:FindObjectForCode("KleeversKilnMap").CurrentStage
-    if mapstage == 1 then
-        return has("gangplankgalleonaccess")
-    elseif mapstage == 2 then
-        return has("crocodilecauldronaccess")
-    elseif mapstage == 3 then
-        return has("kremquayaccess")
-    elseif mapstage == 4 then
-        return has("krazykremlandaccess")
-    elseif mapstage == 5 then
-        return has("gloomygulchaccess")
-    elseif mapstage == 6 then
-        return has("kroolskeepaccess")
+    local ccclearsneeded = Tracker:FindObjectForCode("ccbossaccess").AcquiredCount
+    local cccurrentclears = Tracker:FindObjectForCode("ccclears").AcquiredCount
+    if ccclearsneeded <= cccurrentclears then
+        if mapstage == 1 then
+            return has("gangplankgalleonaccess")
+        elseif mapstage == 2 then
+            return has("crocodilecauldronaccess")
+        elseif mapstage == 3 then
+            return has("kremquayaccess")
+        elseif mapstage == 4 then
+            return has("krazykremlandaccess")
+        elseif mapstage == 5 then
+            return has("gloomygulchaccess")
+        elseif mapstage == 6 then
+            return has("kroolskeepaccess")
+        end
     end
 end
 
@@ -528,18 +536,22 @@ end
 
 function kudgelskontestvisibility()
     local mapstage = Tracker:FindObjectForCode("KudgelsKontestMap").CurrentStage
-    if mapstage == 1 then
-        return has("gangplankgalleonaccess")
-    elseif mapstage == 2 then
-        return has("crocodilecauldronaccess")
-    elseif mapstage == 3 then
-        return has("kremquayaccess")
-    elseif mapstage == 4 then
-        return has("krazykremlandaccess")
-    elseif mapstage == 5 then
-        return has("gloomygulchaccess")
-    elseif mapstage == 6 then
-        return has("kroolskeepaccess")
+    local kqclearsneeded = Tracker:FindObjectForCode("kqbossaccess").AcquiredCount
+    local kqcurrentclears = Tracker:FindObjectForCode("kqclears").AcquiredCount
+    if kqclearsneeded <= kqcurrentclears then
+        if mapstage == 1 then
+            return has("gangplankgalleonaccess")
+        elseif mapstage == 2 then
+            return has("crocodilecauldronaccess")
+        elseif mapstage == 3 then
+            return has("kremquayaccess")
+        elseif mapstage == 4 then
+            return has("krazykremlandaccess")
+        elseif mapstage == 5 then
+            return has("gloomygulchaccess")
+        elseif mapstage == 6 then
+            return has("kroolskeepaccess")
+        end
     end
 end
 
@@ -719,18 +731,22 @@ end
 
 function kingzingstingvisibility()
     local mapstage = Tracker:FindObjectForCode("KingZingStingMap").CurrentStage
-    if mapstage == 1 then
-        return has("gangplankgalleonaccess")
-    elseif mapstage == 2 then
-        return has("crocodilecauldronaccess")
-    elseif mapstage == 3 then
-        return has("kremquayaccess")
-    elseif mapstage == 4 then
-        return has("krazykremlandaccess")
-    elseif mapstage == 5 then
-        return has("gloomygulchaccess")
-    elseif mapstage == 6 then
-        return has("kroolskeepaccess")
+    local kkclearsneeded = Tracker:FindObjectForCode("kkbossaccess").AcquiredCount
+    local kkcurrentclears = Tracker:FindObjectForCode("kkclears").AcquiredCount
+    if kkclearsneeded <= kkcurrentclears then
+        if mapstage == 1 then
+            return has("gangplankgalleonaccess")
+        elseif mapstage == 2 then
+            return has("crocodilecauldronaccess")
+        elseif mapstage == 3 then
+            return has("kremquayaccess")
+        elseif mapstage == 4 then
+            return has("krazykremlandaccess")
+        elseif mapstage == 5 then
+            return has("gloomygulchaccess")
+        elseif mapstage == 6 then
+            return has("kroolskeepaccess")
+        end
     end
 end
 
@@ -881,18 +897,22 @@ end
 
 function kreepykrowvisibility()
     local mapstage = Tracker:FindObjectForCode("KreepyKrowMap").CurrentStage
-    if mapstage == 1 then
-        return has("gangplankgalleonaccess")
-    elseif mapstage == 2 then
-        return has("crocodilecauldronaccess")
-    elseif mapstage == 3 then
-        return has("kremquayaccess")
-    elseif mapstage == 4 then
-        return has("krazykremlandaccess")
-    elseif mapstage == 5 then
-        return has("gloomygulchaccess")
-    elseif mapstage == 6 then
-        return has("kroolskeepaccess")
+    local glgclearsneeded = Tracker:FindObjectForCode("glgbossaccess").AcquiredCount
+    local glgcurrentclears = Tracker:FindObjectForCode("glgclears").AcquiredCount
+    if glgclearsneeded <= glgcurrentclears then
+        if mapstage == 1 then
+            return has("gangplankgalleonaccess")
+        elseif mapstage == 2 then
+            return has("crocodilecauldronaccess")
+        elseif mapstage == 3 then
+            return has("kremquayaccess")
+        elseif mapstage == 4 then
+            return has("krazykremlandaccess")
+        elseif mapstage == 5 then
+            return has("gloomygulchaccess")
+        elseif mapstage == 6 then
+            return has("kroolskeepaccess")
+        end
     end
 end
 
@@ -1072,18 +1092,22 @@ end
 
 function strongholdshowdownvisibility()
     local mapstage = Tracker:FindObjectForCode("StrongholdShowdownMap").CurrentStage
-    if mapstage == 1 then
-        return has("gangplankgalleonaccess")
-    elseif mapstage == 2 then
-        return has("crocodilecauldronaccess")
-    elseif mapstage == 3 then
-        return has("kremquayaccess")
-    elseif mapstage == 4 then
-        return has("krazykremlandaccess")
-    elseif mapstage == 5 then
-        return has("gloomygulchaccess")
-    elseif mapstage == 6 then
-        return has("kroolskeepaccess")
+    local krkclearsneeded = Tracker:FindObjectForCode("krkbossaccess").AcquiredCount
+    local krkcurrentclears = Tracker:FindObjectForCode("krkclears").AcquiredCount
+    if krkclearsneeded <= krkcurrentclears then
+        if mapstage == 1 then
+            return has("gangplankgalleonaccess")
+        elseif mapstage == 2 then
+            return has("crocodilecauldronaccess")
+        elseif mapstage == 3 then
+            return has("kremquayaccess")
+        elseif mapstage == 4 then
+            return has("krazykremlandaccess")
+        elseif mapstage == 5 then
+            return has("gloomygulchaccess")
+        elseif mapstage == 6 then
+            return has("kroolskeepaccess")
+        end
     end
 end
 
@@ -1260,3 +1284,4 @@ function animalanticsvisibility()
         return lwkrk()
     end
 end
+
