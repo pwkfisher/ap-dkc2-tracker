@@ -8,7 +8,7 @@
         "sections": [
             {
                 "name": "Clear",
-                "access_rules": ["EASY, cartwheel, controllablebarrels", "NORMAL, cartwheel, controllablebarrels", "HARD, controllablebarrels, cartwheel", "HARD, controllablebarrels, diddy, dixie"],
+                "access_rules": ["EASY, cartwheel, controllablebarrels", "EASY, dixie, helicopterspin, controllablebarrels", "NORMAL, cartwheel, controllablebarrels", "NORMAL, dixie, helicopterspin, controllablebarrels", "HARD, controllablebarrels, cartwheel", "HARD, dixie, helicopterspin, controllablebarrels", "HARD, controllablebarrels, diddy, dixie"],
                 "chest_unopened_img": "images/checks/clear_disabled.png",
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
@@ -28,7 +28,7 @@
             "sections": [
                 {
                 "name": "DK Coin",
-                "access_rules": ["EASY, cartwheel, controllablebarrels, teamattack, diddy, dixie", "NORMAL, cartwheel, controllablebarrels, teamattack, diddy, dixie", "HARD, controllablebarrels, cartwheel", "HARD, controllablebarrels, diddy, dixie"],
+                "access_rules": ["EASY, cartwheel, controllablebarrels, teamattack, diddy, dixie", "EASY, helicopterspin, controllablebarrels, teamattack, diddy, dixie", "NORMAL, cartwheel, controllablebarrels", "NORMAL, helicopterspin, controllablebarrels, dixie", "HARD, cartwheel, controllablebarrels", "HARD, helicopterspin, controllablebarrels, dixie"],
                 "chest_unopened_img": "images/checks/dkcoin_disabled.png",
                 "chest_opened_img": "images/checks/dkcoin.png",
                 "visibility_rules": [],
@@ -48,7 +48,7 @@
             "sections": [
                 {
                 "name": "KONG",
-                "access_rules": ["EASY, cartwheel, controllablebarrels, teamattack, diddy, dixie", "NORMAL, cartwheel, controllablebarrels, teamattack, diddy, dixie", "HARD, controllablebarrels, cartwheel", "HARD, controllablebarrels, diddy, dixie"],
+                "access_rules": ["EASY, cartwheel, controllablebarrels, teamattack, diddy, dixie", "EASY, helicopterspin, controllablebarrels, teamattack, diddy, dixie", "NORMAL, cartwheel, controllablebarrels", "NORMAL, helicopterspin, controllablebarrels, teamattack, diddy, dixie", "HARD, cartwheel, controllablebarrels", "HARD, helicopterspin, controllablebarrels, dixie", "HARD, controllablebarrels, diddy, dixie"],
                 "chest_unopened_img": "images/checks/kong_disabled.png",
                 "chest_opened_img": "images/checks/kong.png",
                 "visibility_rules": ["kongchecks"],
@@ -87,7 +87,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #1 (Above start)",
-                "access_rules": ["EASY, teamattack, diddy, dixie", "NORMAL, teamattack, diddy, dixie", "HARD, teamattack, diddy, dixie", "HARD, cartwheel, helicopterspin, dixie"],
+                "access_rules": ["EASY, teamattack, diddy, dixie", "NORMAL, teamattack, diddy, dixie", "HARD, diddy, dixie", "HARD, cartwheel, helicopterspin, dixie"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -107,7 +107,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #2 (Above start)",
-                "access_rules": ["EASY, teamattack, diddy, dixie", "NORMAL, teamattack, diddy, dixie", "HARD, teamattack, diddy, dixie", "HARD, cartwheel, helicopterspin, dixie"],
+                "access_rules": ["EASY, teamattack, diddy, dixie", "NORMAL, teamattack, diddy, dixie", "HARD, diddy, dixie", "HARD, cartwheel, helicopterspin, dixie"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -127,7 +127,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #3 (Above start)",
-                "access_rules": ["EASY, teamattack, diddy, dixie", "NORMAL, teamattack, diddy, dixie", "HARD, teamattack, diddy, dixie", "HARD, cartwheel, helicopterspin, dixie"],
+                "access_rules": ["EASY, teamattack, diddy, dixie", "NORMAL, teamattack, diddy, dixie", "HARD, diddy, dixie", "HARD, cartwheel, helicopterspin, dixie"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -147,7 +147,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #4 (Below Zinger duo)",
-                "access_rules": ["EASY, controllablebarrels, teamattack, diddy, dixie", "NORMAL, controllablebarrels, teamattack, diddy, dixie", "HARD, cartwheel", "HARD, controllablebarrels", "HARD, helicopterspin, dixie"],
+                "access_rules": ["EASY, controllablebarrels", "NORMAL, controllablebarrels", "NORMAL, teamattack, diddy, dixie", "HARD, cartwheel", "HARD, controllablebarrels", "HARD, teamattack, diddy, dixie", "HARD, helicopterspin, dixie"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -167,7 +167,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #1 (Near Controllable Barrel)",
-                "access_rules": ["EASY, cartwheel, controllablebarrels, teamattack, diddy, dixie", "NORMAL, controllablebarrels, teamattack, diddy, dixie, cartwheel", "HARD, controllablebarrels"],
+                "access_rules": ["EASY, controllablebarrels", "NORMAL, controllablebarrels", "HARD, controllablebarrels"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -187,7 +187,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #2 (Ledge before Kutlass)",
-                "access_rules": ["EASY, cartwheel, controllablebarrels, teamattack, diddy, dixie", "NORMAL, controllablebarrels, teamattack, diddy, dixie, cartwheel", "HARD, controllablebarrels"],
+                "access_rules": ["EASY, controllablebarrels", "NORMAL, controllablebarrels", "HARD, controllablebarrels"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -207,7 +207,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #5 (Between moving Zingers)",
-                "access_rules": ["EASY, cartwheel, controllablebarrels, teamattack, diddy, dixie", "NORMAL, controllablebarrels, cartwheel, teamattack, diddy, dixie", "HARD, controllablebarrels, cartwheel", "HARD, controllablebarrels, dixie, helicopterspin"],
+                "access_rules": ["EASY, cartwheel, controllablebarrels", "EASY, dixie, helicopterspin, controllablebarrels", "NORMAL, controllablebarrels, cartwheel", "NORMAL, dixie, helicopterspin, controllablebarrels", "HARD, controllablebarrels, cartwheel", "HARD, controllablebarrels, dixie, helicopterspin"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
