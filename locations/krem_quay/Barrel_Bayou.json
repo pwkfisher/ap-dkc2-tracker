@@ -8,7 +8,7 @@
         "sections": [
             {
                 "name": "Clear",
-                "access_rules": ["EASY, controllablebarrels, barrelkannons", "NORMAL, controllablebarrels, barrelkannons", "HARD, controllablebarrels, barrelkannons", "HARD, helicopterspin, dixie, cartwheel, rambi, barrelkannons", "HARD, controllablebarrels, helicopterspin, dixie, diddy, teamattack", "HARD, helicopterspin, diddy, dixie, cartwheel, rambi, teamattack"],
+                "access_rules": ["EASY, $CanUseControllableBarrels, $CanUseKannons","NORMAL, $CanUseControllableBarrels, $CanUseKannons","HARD, $CanUseControllableBarrels, $CanUseKannons","HARD, $CanUseControllableBarrels, $CanHover, $CanTeamAttack","HARD, $CanHover, $CanCartwheel, $HasRambi, $CanUseKannons","HARD, $CanHover, $CanCartwheel, $HasRambi, $CanHover, $CanTeamAttack"],
                 "chest_unopened_img": "images/checks/clear_disabled.png",
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
@@ -28,7 +28,7 @@
             "sections": [
                 {
                 "name": "DK Coin",
-                "access_rules": ["EASY, controllablebarrels, rambi", "NORMAL, controllablebarrels, rambi", "HARD, controllablebarrels, rambi"],
+                "access_rules": ["EASY, $CanUseControllableBarrels, $HasRambi","NORMAL, $CanUseControllableBarrels, $HasRambi","HARD, $HasRambi, $CanUseControllableBarrels"],
                 "chest_unopened_img": "images/checks/dkcoin_disabled.png",
                 "chest_opened_img": "images/checks/dkcoin.png",
                 "visibility_rules": ["dkcoinchecks"],
@@ -48,7 +48,7 @@
             "sections": [
                 {
                 "name": "KONG",
-                "access_rules": ["EASY, controllablebarrels, barrelkannons, cartwheel", "NORMAL, controllablebarrels, barrelkannons, cartwheel", "HARD, controllablebarrels, barrelkannons, cartwheel", "HARD, controllablebarrels, barrelkannons, teamattack, diddy, dixie"],
+                "access_rules": ["EASY, $CanUseControllableBarrels, $CanUseKannons, $CanCartwheel","NORMAL, $CanUseControllableBarrels, $CanUseKannons, $CanCartwheel","HARD, $CanUseControllableBarrels, $CanUseKannons, $CanTeamAttack","HARD, $CanUseControllableBarrels, $CanUseKannons, $CanCartwheel"],
                 "chest_unopened_img": "images/checks/kong_disabled.png",
                 "chest_opened_img": "images/checks/kong.png",
                 "visibility_rules": ["kongchecks"],
@@ -87,7 +87,7 @@
             "sections": [
                 {
                 "name": "Bonus #1",
-                "access_rules": ["EASY, controllablebarrels, carry", "NORMAL, controllablebarrels, carry", "HARD, controllablebarrels, carry", "HARD, carry, helicopterspin, cartwheel, dixie, rambi"],
+                "access_rules": ["EASY, $CanUseControllableBarrels, $CanCarry","NORMAL, $CanUseControllableBarrels, $CanCarry","HARD, $CanCarry, $CanUseControllableBarrels","HARD, $CanCarry, $CanHover, $CanCartwheel, $HasRambi"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
@@ -107,7 +107,7 @@
             "sections": [
                 {
                 "name": "Bonus #2",
-                "access_rules": ["EASY, controllablebarrels, barrelkannons, teamattack, diddy, dixie", "NORMAL, controllablebarrels, barrelkannons, teamattack, diddy, dixie", "HARD, controllablebarrels, barrelkannons", "HARD, controllablebarrels, helicopterspin, dixie, teamattack"],
+                "access_rules": ["EASY, $CanUseControllableBarrels, $CanUseKannons, $CanTeamAttack","NORMAL, $CanUseControllableBarrels, $CanUseKannons, $CanTeamAttack","HARD, $CanUseControllableBarrels, $CanUseKannons","HARD, $CanUseControllableBarrels, $CanHover, $CanTeamAttack"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
@@ -127,7 +127,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #1 (First Kloak)",
-                "access_rules": ["EASY, teamattack, diddy, dixie", "NORMAL, teamattack, diddy, dixie", "HARD, teamattack, diddy, dixie", "HARD, diddy, dixie"],
+                "access_rules": ["EASY, $CanTeamAttack","NORMAL, $CanTeamAttack","HARD, $CanTeamAttack","HARD, $HasBothKongs"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -147,7 +147,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #1 (Next to Zinger)",
-                "access_rules": ["EASY, controllablebarrels, rambi", "NORMAL, controllablebarrels, rambi", "HARD, controllablebarrels", "HARD, helicopterspin, dixie, cartwheel, rambi"],
+                "access_rules": ["EASY, $CanUseControllableBarrels, $HasRambi","NORMAL, $CanUseControllableBarrels, $HasRambi","HARD, $CanUseControllableBarrels","HARD, $CanHover, $CanCartwheel, $HasRambi"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -167,7 +167,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #2 (Kloak after yellow Klobber)",
-                "access_rules": ["EASY, controllablebarrels", "NORMAL, controllablebarrels", "HARD, controllablebarrels", "HARD, helicopterspin, dixie, cartwheel, rambi"],
+                "access_rules": ["EASY, $CanUseControllableBarrels","NORMAL, $CanUseControllableBarrels","HARD, $CanUseControllableBarrels","HARD, $CanHover, $CanCartwheel, $HasRambi"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -187,7 +187,7 @@
             "sections": [
                 {
                 "name": "Green Balloon (Chest from Kloak behind N)",
-                "access_rules": ["EASY, controllablebarrels, barrelkannons, rambi, carry", "NORMAL, controllablebarrels, barrelkannons, carry", "HARD, controllablebarrels, barrelkannons, carry", "HARD, controllablebarrels, carry, dixie, helicopterspin", "HARD, helicopterspin, dixie, cartwheel, rambi, barrelkannons, carry"],
+                "access_rules": ["EASY, $CanUseControllableBarrels, $CanCarry, $CanUseKannons","NORMAL, $CanUseControllableBarrels, $CanCarry, $CanUseKannons","HARD, $CanUseControllableBarrels, $CanCarry, $CanUseKannons","HARD, $CanUseControllableBarrels, $CanCarry, $CanHover","HARD, $CanHover, $CanCartwheel, $HasRambi, $CanCarry, $CanUseKannons","HARD, $CanHover, $CanCartwheel, $HasRambi, $CanCarry, $CanHover"],
                 "chest_unopened_img": "images/checks/swanky2_disabled.png",
                 "chest_opened_img": "images/checks/swanky2.png",
                 "visibility_rules": ["balloonsanity"],
@@ -207,7 +207,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #2 (Behind Zinger after Klobber duo)",
-                "access_rules": ["EASY, controllablebarrels, barrelkannons", "NORMAL, controllablebarrels, barrelkannons", "HARD, controllablebarrels, barrelkannons", "HARD, helicopterspin, dixie, cartwheel, rambi, barrelkannons", "HARD, controllablebarrels, helicopterspin, dixie, teamattack", "HARD, helicopterspin, dixie, cartwheel, rambi, teamattack"],
+                "access_rules": ["EASY, $CanUseControllableBarrels, $CanUseKannons","NORMAL, $CanUseControllableBarrels, $CanUseKannons","HARD, $CanUseControllableBarrels, $CanUseKannons","HARD, $CanUseControllableBarrels, $CanHover, $CanTeamAttack","HARD, $CanHover, $CanCartwheel, $HasRambi, $CanUseKannons","HARD, $CanHover, $CanCartwheel, $HasRambi, $CanHover, $CanTeamAttack"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -227,7 +227,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #3 (Above Kloak)",
-                "access_rules": ["EASY, controllablebarrels, barrelkannons", "NORMAL, controllablebarrels, barrelkannons", "HARD, controllablebarrels, barrelkannons", "HARD, helicopterspin, dixie, cartwheel, rambi, barrelkannons", "HARD, controllablebarrels, helicopterspin, dixie, teamattack", "HARD, helicopterspin, dixie, cartwheel, rambi, teamattack"],
+                "access_rules": ["EASY, $CanUseControllableBarrels, $CanUseKannons, $CanTeamAttack","NORMAL, $CanUseControllableBarrels, $CanUseKannons, $CanTeamAttack","HARD, $CanUseControllableBarrels, $CanUseKannons","HARD, $CanUseControllableBarrels, $CanHover, $CanTeamAttack","HARD, $CanHover, $CanCartwheel, $HasRambi, $CanUseKannons","HARD, $CanHover, $CanCartwheel, $HasRambi, $CanHover, $CanTeamAttack"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],

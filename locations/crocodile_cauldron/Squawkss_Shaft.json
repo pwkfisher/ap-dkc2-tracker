@@ -8,7 +8,7 @@
         "sections": [
             {
                 "name": "Clear",
-                "access_rules": ["EASY, barrelkannons, squawks", "NORMAL, barrelkannons, squawks", "HARD, barrelkannons, squawks"],
+                "access_rules": ["EASY, $CanUseKannons, $HasSquawks","NORMAL, $CanUseKannons, $HasSquawks","HARD, $CanUseKannons, $HasSquawks"],
                 "chest_unopened_img": "images/checks/clear_disabled.png",
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
@@ -28,7 +28,7 @@
             "sections": [
                 {
                 "name": "DK Coin",
-                "access_rules": ["EASY, barrelkannons, squawks", "NORMAL, barrelkannons, squawks", "HARD, barrelkannons, squawks"],
+                "access_rules": ["EASY, $CanUseKannons, $HasSquawks","NORMAL, $CanUseKannons, $HasSquawks","HARD, $CanUseKannons, $HasSquawks"],
                 "chest_unopened_img": "images/checks/dkcoin_disabled.png",
                 "chest_opened_img": "images/checks/dkcoin.png",
                 "visibility_rules": ["dkcoinchecks"],
@@ -48,7 +48,7 @@
             "sections": [
                 {
                 "name": "KONG",
-                "access_rules": ["EASY, barrelkannons, squawks, carry", "NORMAL, barrelkannons, squawks, carry", "HARD, barrelkannons, squawks, carry"],
+                "access_rules": ["EASY, $CanUseKannons, $CanCarry, $HasSquawks","NORMAL, $CanUseKannons, $CanCarry, $HasSquawks","HARD, $CanUseKannons, $CanCarry, $HasSquawks"],
                 "chest_unopened_img": "images/checks/kong_disabled.png",
                 "chest_opened_img": "images/checks/kong.png",
                 "visibility_rules": ["kongchecks"],
@@ -87,7 +87,7 @@
             "sections": [
                 {
                 "name": "Bonus #1",
-                "access_rules": ["EASY, barrelkannons, carry, cartwheel", "EASY, barrelkannons, carry, helicopterspin, dixie", "NORMAL, barrelkannons, carry, cartwheel", "NORMAL, barrelkannons, carry, helicopterspin, dixie", "HARD, barrelkannons, carry, cartwheel", "HARD, barrelkannons, carry, helicopterspin, dixie"],
+                "access_rules": ["EASY, $CanUseKannons, $CanCarry, $CanCartwheel","EASY, $CanUseKannons, $CanCarry, $CanHover","NORMAL, $CanUseKannons, $CanCarry, $CanCartwheel","NORMAL, $CanUseKannons, $CanCarry, $CanHover","HARD, $CanCarry, $CanUseKannons","HARD, $CanCarry, $CanTeamAttack, $CanHover"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
@@ -95,7 +95,7 @@
             },
             {
                 "name": "Banana Coin #2 (Inside Bonus #1)",
-                "access_rules": ["EASY, barrelkannons, carry, cartwheel", "EASY, barrelkannons, carry, helicopterspin, dixie", "NORMAL, barrelkannons, carry, cartwheel", "NORMAL, barrelkannons, carry, helicopterspin, dixie", "HARD, carry, barrelkannons"],
+                "access_rules": ["EASY, $CanUseKannons, $CanCarry, $CanCartwheel","EASY, $CanUseKannons, $CanCarry, $CanHover","NORMAL, $CanUseKannons, $CanCarry, $CanCartwheel","NORMAL, $CanUseKannons, $CanCarry, $CanHover","HARD, $CanCarry, $CanUseKannons","HARD, $CanCarry, $CanTeamAttack, $CanHover"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -115,7 +115,7 @@
             "sections": [
                 {
                 "name": "Bonus #2",
-                "access_rules": ["EASY, barrelkannons, teamattack, dixie, diddy", "NORMAL, barrelkannons, teamattack, dixie, diddy", "HARD, barrelkannons, teamattack, dixie, diddy", "HARD, barrelkannons, cartwheel", "HARD, barrelkannons, helicopterspin, dixie"],
+                "access_rules": ["EASY, $CanUseKannons, $CanTeamAttack","NORMAL, $CanUseKannons, $CanTeamAttack","HARD, $CanUseKannons, $CanTeamAttack","HARD, $CanUseKannons, $CanCartwheel","HARD, $CanUseKannons, $CanHover"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
@@ -135,7 +135,7 @@
             "sections": [
                 {
                 "name": "Bonus #3",
-                "access_rules": ["EASY, barrelkannons, squawks", "NORMAL, barrelkannons, squawks", "HARD, barrelkannons, squawks"],
+                "access_rules": ["EASY, $CanUseKannons, $HasSquawks","NORMAL, $CanUseKannons, $HasSquawks","HARD, $CanUseKannons, $HasSquawks"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
@@ -155,7 +155,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #1 (Below Klomp)",
-                "access_rules": ["EASY, cartwheel", "NORMAL, cartwheel", "HARD"],
+                "access_rules": ["EASY, $CanCartwheel","NORMAL, $CanCartwheel","HARD"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -175,7 +175,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #1 (After Krook duo)",
-                "access_rules": ["EASY, barrelkannons", "NORMAL, barrelkannons", "HARD, teamattack, diddy, dixie", "HARD, barrelkannons"],
+                "access_rules": ["EASY, $CanUseKannons","NORMAL, $CanUseKannons","HARD, $CanTeamAttack","HARD, $CanUseKannons"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -195,7 +195,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #2 (Next to Krook)",
-                "access_rules": ["EASY, barrelkannons", "NORMAL, barrelkannons", "HARD, barrelkannons"],
+                "access_rules": ["EASY, $CanUseKannons","NORMAL, $CanUseKannons","HARD, $CanUseKannons"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -215,7 +215,7 @@
             "sections": [
                 {
                 "name": "Red Balloon #1 (Chest behind Krook)",
-                "access_rules": ["EASY, barrelkannons, carry, cartwheel", "NORMAL, barrelkannons, carry, cartwheel", "HARD, barrelkannons, carry"],
+                "access_rules": ["EASY, $CanUseKannons, $CanCarry, $CanCartwheel","NORMAL, $CanUseKannons, $CanCarry, $CanCartwheel","HARD, $CanCarry, $CanUseKannons"],
                 "chest_unopened_img": "images/checks/swanky1_disabled.png",
                 "chest_opened_img": "images/checks/swanky1.png",
                 "visibility_rules": ["balloonsanity"],
@@ -235,7 +235,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #3 (Dixie barrel)",
-                "access_rules": ["EASY, barrelkannons, kongbarrels, dixie", "NORMAL, barrelkannons, kongbarrels, dixie", "HARD, barrelkannons"],
+                "access_rules": ["EASY, $CanUseKannons, $CanUseDixieBarrels","NORMAL, $CanUseKannons, $CanUseDixieBarrels","HARD, $CanUseKannons"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -255,7 +255,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #4 (Dixie barrel)",
-                "access_rules": ["EASY, barrelkannons, kongbarrels, dixie", "NORMAL, barrelkannons, kongbarrels, dixie", "HARD, barrelkannons"],
+                "access_rules": ["EASY, $CanUseKannons, $CanUseDixieBarrels","NORMAL, $CanUseKannons, $CanUseDixieBarrels","HARD, $CanUseKannons"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -275,7 +275,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #5 (Hidden pasage behind Krook duo)",
-                "access_rules": ["EASY, barrelkannons, squawks", "NORMAL, barrelkannons, squawks", "HARD, barrelkannons, squawks"],
+                "access_rules": ["EASY, $CanUseKannons, $HasSquawks","NORMAL, $CanUseKannons, $HasSquawks","HARD, $HasSquawks, $CanUseKannons"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -295,7 +295,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #6 (Hidden next to Bonus #3 barrel)",
-                "access_rules": ["EASY, barrelkannons, squawks", "NORMAL, barrelkannons, squawks", "HARD, barrelkannons, squawks"],
+                "access_rules": ["EASY, $CanUseKannons, $HasSquawks","NORMAL, $CanUseKannons, $HasSquawks","HARD, $HasSquawks, $CanUseKannons"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -315,7 +315,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #7 (Hidden next to Bonus #3 barrel)",
-                "access_rules": ["EASY, barrelkannons, squawks", "NORMAL, barrelkannons, squawks", "HARD, barrelkannons, squawks"],
+                "access_rules": ["EASY, $CanUseKannons, $HasSquawks","NORMAL, $CanUseKannons, $HasSquawks","HARD, $HasSquawks, $CanUseKannons"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -335,7 +335,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #3 (Between Zingers)",
-                "access_rules": ["EASY, barrelkannons, squawks", "NORMAL, barrelkannons, squawks", "HARD, barrelkannons, squawks"],
+                "access_rules": ["EASY, $CanUseKannons, $HasSquawks","NORMAL, $CanUseKannons, $HasSquawks","HARD, $HasSquawks, $CanUseKannons"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -355,7 +355,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #4 (Squawks sign)",
-                "access_rules": ["EASY, barrelkannons, squawks", "NORMAL, barrelkannons, squawks", "HARD, barrelkannons, squawks"],
+                "access_rules": ["EASY, $CanUseKannons, $HasSquawks","NORMAL, $CanUseKannons, $HasSquawks","HARD, $HasSquawks, $CanUseKannons"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],

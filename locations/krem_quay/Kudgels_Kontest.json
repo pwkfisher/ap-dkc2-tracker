@@ -6,7 +6,7 @@
         "sections": [
             {
                 "name": "Clear",
-                "access_rules": ["EASY, cartwheel, helicopterspin, diddy, dixie, carry", "NORMAL, carry", "HARD, carry"],
+                "access_rules": ["EASY, $CanCarry, $CanHover, $HasDiddy","NORMAL, $CanCarry","HARD, $CanCarry"],
                 "chest_unopened_img": "images/checks/clear_disabled.png",
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
@@ -14,7 +14,7 @@
             },
             {
                 "name": "Defeat",
-                "access_rules": ["EASY, cartwheel, helicopterspin, diddy, dixie, carry", "NORMAL, carry", "HARD, carry"],
+                "access_rules": ["EASY, $CanCarry, $CanHover, $HasDiddy","NORMAL, $CanCarry","HARD, $CanCarry"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],

@@ -8,7 +8,7 @@
         "sections": [
             {
                 "name": "Clear",
-                "access_rules": ["EASY, cling, barrelkannons, carry, diddy, dixie", "NORMAL, cling, barrelkannons", "HARD, cling"],
+                "access_rules": ["EASY, $CanUseKannons, $CanCling, $HasBothKongs, $CanCarry","NORMAL, $CanCling","HARD, $CanCling"],
                 "chest_unopened_img": "images/checks/clear_disabled.png",
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
@@ -28,7 +28,7 @@
             "sections": [
                 {
                 "name": "DK Coin",
-                "access_rules": ["EASY, cling, barrelkannons, carry, diddy, dixie", "NORMAL, cling, barrelkannons", "HARD, cling, barrelkannons"],
+                "access_rules": ["EASY, $CanUseKannons, $CanCling, $HasBothKongs, $CanCarry","NORMAL, $CanCling","HARD, $CanCling"],
                 "chest_unopened_img": "images/checks/dkcoin_disabled.png",
                 "chest_opened_img": "images/checks/dkcoin.png",
                 "visibility_rules": ["dkcoinchecks"],
@@ -48,7 +48,7 @@
             "sections": [
                 {
                 "name": "KONG",
-                "access_rules": ["EASY, cling, barrelkannons, carry, diddy, dixie", "NORMAL, cling, barrelkannons", "HARD, cling, barrelkannons"],
+                "access_rules": ["EASY, $CanUseKannons, $CanCling, $HasBothKongs, $CanCarry","NORMAL, $CanUseKannons, $CanCling","HARD, $CanCling"],
                 "chest_unopened_img": "images/checks/kong_disabled.png",
                 "chest_opened_img": "images/checks/kong.png",
                 "visibility_rules": ["kongchecks"],
@@ -87,7 +87,7 @@
             "sections": [
                 {
                 "name": "Bonus #1",
-                "access_rules": ["EASY, cling, carry", "NORMAL, cling", "HARD, cling"],
+                "access_rules": ["EASY, $CanCling, $CanCarry","NORMAL, $CanCling","HARD, $CanCling"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
@@ -107,7 +107,7 @@
             "sections": [
                 {
                 "name": "Bonus #2",
-                "access_rules": ["EASY, cling, barrelkannons, carry, squawks, diddy, dixie", "NORMAL, cling, barrelkannons, carry, squawks", "HARD, cling, carry, squawks"],
+                "access_rules": ["EASY, $CanUseKannons, $CanCling, $CanCarry, $HasSquawks, $HasBothKongs","NORMAL, $CanCling, $CanCarry, $HasSquawks","HARD, $CanCarry, $CanCling, $HasSquawks"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
@@ -127,7 +127,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #1 (After Kutlass)",
-                "access_rules": ["EASY, carry", "NORMAL", "HARD"],
+                "access_rules": ["EASY, $CanCarry","NORMAL","HARD"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -147,7 +147,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #2 (Between Zingers)",
-                "access_rules": ["EASY, cling, carry", "NORMAL, cling", "HARD, cling"],
+                "access_rules": ["EASY, $CanCling, $CanCarry","NORMAL, $CanCling","HARD, $CanCling"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -167,7 +167,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #3 (Above Bonus #1 barrel)",
-                "access_rules": ["EASY, cling, carry", "NORMAL, cling", "HARD, cling"],
+                "access_rules": ["EASY, $CanCling, $CanCarry","NORMAL, $CanCling","HARD, $CanCling"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -187,7 +187,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #1 (Next to Klampon)",
-                "access_rules": ["EASY, cling, barrelkannons, carry, cartwheel", "NORMAL, barrelkannons, cling, carry", "HARD, cling, barrelkannons", "HARD, cling, teamattack, diddy, dixie"],
+                "access_rules": ["EASY, $CanUseKannons, $CanCling, $CanCarry, $CanCartwheel","NORMAL, $CanUseKannons, $CanCling","HARD, $CanCling, $CanUseKannons","HARD, $CanCling, $CanTeamAttack"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -207,7 +207,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #2 (Next to Klampon)",
-                "access_rules": ["EASY, cling, barrelkannons, carry, cartwheel", "NORMAL, barrelkannons, cling, carry", "HARD, cling, barrelkannons", "HARD, cling, teamattack, diddy, dixie"],
+                "access_rules": ["EASY, $CanUseKannons, $CanCling, $CanCarry, $CanCartwheel","NORMAL, $CanUseKannons, $CanCling","HARD, $CanCling, $CanUseKannons","HARD, $CanCling, $CanTeamAttack"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -227,7 +227,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #4 (Rotating Zinger)",
-                "access_rules": ["EASY, cling, barrelkannons, carry", "NORMAL, cling, carry", "HARD, cling"],
+                "access_rules": ["EASY, $CanUseKannons, $CanCling, $CanCarry","NORMAL, $CanCling","HARD, $CanCling"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -247,7 +247,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #3 (Rotating Zinger)",
-                "access_rules": ["EASY, cling, barrelkannons, carry", "NORMAL, cling, carry", "HARD, cling"],
+                "access_rules": ["EASY, $CanUseKannons, $CanCling, $CanCarry","NORMAL, $CanCling","HARD, $CanCling"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -267,7 +267,7 @@
             "sections": [
                 {
                 "name": "Red Balloon (Before N)",
-                "access_rules": ["EASY, cling, barrelkannons, carry, diddy, dixie", "NORMAL, cling, carry", "HARD, cling"],
+                "access_rules": ["EASY, $CanUseKannons, $CanCling, $CanCarry, $HasBothKongs","NORMAL, $CanCling","HARD, $CanCling"],
                 "chest_unopened_img": "images/checks/swanky1_disabled.png",
                 "chest_opened_img": "images/checks/swanky1.png",
                 "visibility_rules": ["balloonsanity"],
@@ -287,7 +287,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #4 (Squawks sign)",
-                "access_rules": ["EASY, cling, barrelkannons, carry, squawks, diddy, dixie", "NORMAL, cling, carry, squawks", "HARD, cling, carry, squawks"],
+                "access_rules": ["EASY, $CanUseKannons, $CanCling, $CanCarry, $HasBothKongs, $HasSquawks","NORMAL, $CanCling, $CanCarry, $HasSquawks","HARD, $CanCling, $HasSquawks, $CanCarry"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],

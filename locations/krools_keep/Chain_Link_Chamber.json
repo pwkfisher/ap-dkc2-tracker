@@ -8,7 +8,7 @@
         "sections": [
             {
                 "name": "Clear",
-                "access_rules": ["EASY, climb, cling, barrelkannons, controllablebarrels, exclamationbarrels", "NORMAL, climb, cling", "NORMAL, climb, controllablebarrels, barrelkannons", "HARD, climb, cling", "HARD, climb, controllablebarrels, barrelkannons"],
+                "access_rules": ["EASY, $CanClimb, $CanCling, $CanUseKannons, $CanUseControllableBarrels","NORMAL, $CanClimb, $CanCling","NORMAL, $CanClimb, $CanUseControllableBarrels, $CanUseKannons","HARD, $CanClimb, $CanCling","HARD, $CanClimb, $CanUseKannons, $CanUseControllableBarrels"],
                 "chest_unopened_img": "images/checks/clear_disabled.png",
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
@@ -28,7 +28,7 @@
             "sections": [
                 {
                 "name": "DK Coin",
-                "access_rules": ["EASY, climb, cling, barrelkannons, controllablebarrels, exclamationbarrels", "NORMAL, climb, cling", "NORMAL, climb, controllablebarrels, barrelkannons", "HARD, climb, cling", "HARD, climb, controllablebarrels, barrelkannons"],
+                "access_rules": ["EASY, $CanClimb, $CanCling, $CanUseKannons, $CanUseControllableBarrels","NORMAL, $CanClimb, $CanCling","NORMAL, $CanClimb, $CanUseControllableBarrels, $CanUseKannons","HARD, $CanClimb, $CanCling","HARD, $CanClimb, $CanUseKannons, $CanUseControllableBarrels"],
                 "chest_unopened_img": "images/checks/dkcoin_disabled.png",
                 "chest_opened_img": "images/checks/dkcoin.png",
                 "visibility_rules": ["dkcoinchecks"],
@@ -48,7 +48,7 @@
             "sections": [
                 {
                 "name": "KONG",
-                "access_rules": ["EASY, climb, cling, barrelkannons, controllablebarrels, exclamationbarrels", "NORMAL, climb, cling", "NORMAL, climb, controllablebarrels, barrelkannons", "HARD, climb, cling", "HARD, climb, controllablebarrels, barrelkannons"],
+                "access_rules": ["EASY, $CanClimb, $CanCling, $CanUseKannons, $CanUseControllableBarrels","NORMAL, $CanClimb, $CanCling","NORMAL, $CanClimb, $CanUseControllableBarrels, $CanUseKannons","HARD, $CanClimb, $CanCling","HARD, $CanClimb, $CanUseKannons, $CanUseControllableBarrels"],
                 "chest_unopened_img": "images/checks/kong_disabled.png",
                 "chest_opened_img": "images/checks/kong.png",
                 "visibility_rules": ["kongchecks"],
@@ -93,7 +93,7 @@
             "sections": [
             {
                 "name": "Bonus #1",
-                "access_rules": ["EASY, climb, cling, carry", "NORMAL, cling, climb, carry", "HARD, climb, cling, carry"],
+                "access_rules": ["EASY, $CanClimb, $CanCling, $CanCarry","NORMAL, $CanClimb, $CanCling, $CanCarry","HARD, $CanClimb, $CanCling, $CanCarry"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
@@ -101,7 +101,7 @@
             },
             {
                 "name": "Banana Bunch #3 (Inside Bonus #1)",
-                "access_rules": ["EASY, climb, carry", "NORMAL, climb, carry", "HARD, climb, carry"],
+                "access_rules": ["EASY, $CanClimb, $CanCarry","NORMAL, $CanClimb, $CanCarry","HARD, $CanClimb, $CanCarry"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -121,7 +121,7 @@
             "sections": [
                 {
                 "name": "Bonus #2",
-                "access_rules": ["EASY, climb, cling, barrelkannons, controllablebarrels, exclamationbarrels, cartwheel", "NORMAL, climb, controllablebarrels, cling, cartwheel", "NORMAL, climb, controllablebarrels, cling, teamattack, diddy, dixie", "NORMAL, climb, controllablebarrels, barrelkannons, cartwheel", "NORMAL, climb, controllablebarrels, barrelkannons, teamattack, diddy, dixie", "HARD, climb, controllablebarrels, cling, cartwheel", "HARD, climb, controllablebarrels, cling, teamattack, diddy, dixie", "HARD, climb, controllablebarrels, barrelkannons, cartwheel", "HARD, climb, controllablebarrels, barrelkannons, teamattack, diddy, dixie"],
+                "access_rules": ["EASY, $CanClimb, $CanCling, $CanUseKannons, $CanUseControllableBarrels, $CanCartwheel","NORMAL, $CanClimb, $CanUseControllableBarrels, $CanCling, $CanCartwheel","NORMAL, $CanClimb, $CanUseControllableBarrels, $CanCling, $CanTeamAttack","NORMAL, $CanClimb, $CanUseControllableBarrels, $CanUseKannons, $CanCartwheel","NORMAL, $CanClimb, $CanUseControllableBarrels, $CanUseKannons, $CanTeamAttack","HARD, $CanClimb, $CanUseControllableBarrels, $CanCling, $CanCartwheel","HARD, $CanClimb, $CanUseControllableBarrels, $CanCling, $CanTeamAttack","HARD, $CanClimb, $CanUseControllableBarrels, $CanCling, $HasBothKongs","HARD, $CanClimb, $CanUseControllableBarrels, $CanUseKannons, $CanCartwheel","HARD, $CanClimb, $CanUseControllableBarrels, $CanUseKannons, $CanTeamAttack","HARD, $CanClimb, $CanUseControllableBarrels, $CanUseKannons, $HasBothKongs"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
@@ -141,7 +141,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #1 (Above Klobber)",
-                "access_rules": ["EASY, climb", "NORMAL, climb", "HARD, climb"],
+                "access_rules": ["EASY, $CanClimb","NORMAL, $CanClimb","HARD, $CanClimb"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -161,7 +161,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #1 (Above Klinger)",
-                "access_rules": ["EASY, climb", "NORMAL, climb", "HARD, climb"],
+                "access_rules": ["EASY, $CanClimb","NORMAL, $CanClimb","HARD, $CanClimb"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -181,7 +181,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #2 (Behind Krook)",
-                "access_rules": ["EASY, climb", "NORMAL, climb", "HARD, climb"],
+                "access_rules": ["EASY, $CanClimb","NORMAL, $CanClimb","HARD, $CanClimb"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -201,7 +201,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #2 (Near midpoint)",
-                "access_rules": ["EASY, climb, cling, barrelkannons, controllablebarrels, exclamationbarrels", "NORMAL, climb, cling", "NORMAL, climb, controllablebarrels, barrelkannons", "HARD, climb, cling", "HARD, climb, controllablebarrels, barrelkannons"],
+                "access_rules": ["EASY, $CanClimb, $CanCling, $CanUseKannons, $CanUseControllableBarrels","NORMAL, $CanClimb, $CanCling","NORMAL, $CanClimb, $CanUseKannons, $CanUseControllableBarrels","HARD, $CanClimb, $CanCling","HARD, $CanClimb, $CanUseKannons, $CanUseControllableBarrels"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -221,7 +221,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #4 (After Mini-Neckys path)",
-                "access_rules": ["EASY, climb, cling, barrelkannons, controllablebarrels, exclamationbarrels", "NORMAL, climb, cling", "NORMAL, climb, controllablebarrels, barrelkannons", "HARD, climb, cling", "HARD, climb, controllablebarrels, barrelkannons"],
+                "access_rules": ["EASY, $CanClimb, $CanCling, $CanUseKannons, $CanUseControllableBarrels","NORMAL, $CanClimb, $CanCling","NORMAL, $CanClimb, $CanUseKannons, $CanUseControllableBarrels","HARD, $CanClimb, $CanCling","HARD, $CanClimb, $CanUseKannons, $CanUseControllableBarrels"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -241,7 +241,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #3 (Left bottom Mini-Necky spot)",
-                "access_rules": ["EASY, climb, cling, barrelkannons, controllablebarrels, exclamationbarrels", "NORMAL, climb, cling", "NORMAL, climb, controllablebarrels, barrelkannons", "HARD, climb, cling", "HARD, climb, controllablebarrels, barrelkannons"],
+                "access_rules": ["EASY, $CanClimb, $CanCling, $CanUseKannons, $CanUseControllableBarrels","NORMAL, $CanClimb, $CanCling","NORMAL, $CanClimb, $CanUseKannons, $CanUseControllableBarrels","HARD, $CanClimb, $CanCling","HARD, $CanClimb, $CanUseKannons, $CanUseControllableBarrels"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -261,7 +261,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #4 (Top right Mini-Necky spot)",
-                "access_rules": ["EASY, climb, cling, barrelkannons, controllablebarrels, exclamationbarrels", "NORMAL, climb, cling", "NORMAL, climb, controllablebarrels, barrelkannons", "HARD, climb, cling", "HARD, climb, controllablebarrels, barrelkannons"],
+                "access_rules": ["EASY, $CanClimb, $CanCling, $CanUseKannons, $CanUseControllableBarrels","NORMAL, $CanClimb, $CanCling","NORMAL, $CanClimb, $CanUseKannons, $CanUseControllableBarrels","HARD, $CanClimb, $CanCling","HARD, $CanClimb, $CanUseKannons, $CanUseControllableBarrels"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],

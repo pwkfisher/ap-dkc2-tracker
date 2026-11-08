@@ -8,7 +8,7 @@
         "sections": [
             {
                 "name": "Clear",
-                "access_rules": ["EASY, squitter", "NORMAL, squitter", "HARD, squitter"],
+                "access_rules": ["EASY, $HasSquitter","NORMAL, $HasSquitter","HARD, $HasSquitter"],
                 "chest_unopened_img": "images/checks/clear_disabled.png",
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
@@ -28,7 +28,7 @@
             "sections": [
                 {
                 "name": "DK Coin",
-                "access_rules": ["EASY, squitter, barrelkannons", "NORMAL, squitter, barrelkannons", "NORMAL, squitter, teamattack, diddy, dixie", "HARD, squitter"],
+                "access_rules": ["EASY, $HasSquitter, $CanUseKannons","NORMAL, $HasSquitter, $CanTeamAttack","NORMAL, $HasSquitter, $CanUseKannons","HARD, $HasSquitter"],
                 "chest_unopened_img": "images/checks/dkcoin_disabled.png",
                 "chest_opened_img": "images/checks/dkcoin.png",
                 "visibility_rules": ["dkcoinchecks"],
@@ -48,7 +48,7 @@
             "sections": [
                 {
                 "name": "KONG",
-                "access_rules": ["EASY, squitter, teamattack, dixie, diddy", "NORMAL, squitter, teamattack, diddy, dixie", "HARD, squitter, cartwheel, diddy", "HARD, squitter, teamattack, diddy, dixie", "HARD, squitter, dixie, helicopterspin"],
+                "access_rules": ["EASY, $HasSquitter, $CanTeamAttack","NORMAL, $HasSquitter, $CanTeamAttack","HARD, $HasSquitter, $CanTeamAttack","HARD, $HasSquitter, $CanCartwheel","HARD, $HasSquitter, $CanHover"],
                 "chest_unopened_img": "images/checks/kong_disabled.png",
                 "chest_opened_img": "images/checks/kong.png",
                 "visibility_rules": ["kongchecks"],
@@ -87,7 +87,7 @@
             "sections": [
                 {
                 "name": "Bonus #1",
-                "access_rules": ["EASY, squitter", "NORMAL, squitter", "HARD, squitter"],
+                "access_rules": ["EASY, $HasSquitter","NORMAL, $HasSquitter","HARD, $HasSquitter"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
@@ -107,7 +107,7 @@
             "sections": [
                 {
                 "name": "Bonus #2",
-                "access_rules": ["EASY, squitter", "NORMAL, squitter", "HARD, squitter"],
+                "access_rules": ["EASY, $HasSquitter","NORMAL, $HasSquitter","HARD, $HasSquitter"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
@@ -127,7 +127,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #1 (Above K)",
-                "access_rules": ["EASY, teamattack, dixie, diddy", "NORMAL, teamattack, diddy, dixie", "HARD, teamattack, diddy, dixie", "HARD, diddy, cartwheel", "HARD, dixie, helicopterspin"],
+                "access_rules": ["EASY, $CanTeamAttack","NORMAL, $CanTeamAttack","NORMAL, $CanCartwheel","HARD, $CanTeamAttack","HARD, $CanCartwheel","HARD, $CanHover"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -147,7 +147,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #2 (Chest after K)",
-                "access_rules": ["EASY, teamattack, dixie, diddy, carry", "NORMAL, teamattack, diddy, dixie, carry", "HARD, teamattack, diddy, dixie, carry", "HARD, diddy, cartwheel, carry", "HARD, dixie, helicopterspin, carry"],
+                "access_rules": ["EASY, $CanTeamAttack, $CanCarry","NORMAL, $CanTeamAttack, $CanCarry","NORMAL, $CanCartwheel, $CanCarry","HARD, $CanCarry, $CanTeamAttack","HARD, $CanCarry, $CanCartwheel","HARD, $CanCarry, $CanHover"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -167,7 +167,7 @@
             "sections": [
                 {
                 "name": "Green Balloon #1 (Chest below Zinger)",
-                "access_rules": ["EASY, teamattack, dixie, diddy, carry, barrelkannons", "NORMAL, teamattack, diddy, dixie, carry, barrelkannons", "HARD, carry, teamattack, diddy, dixie", "HARD, carry, barrelkannons"],
+                "access_rules": ["EASY, $CanTeamAttack, $CanCarry, $CanUseKannons","NORMAL, $CanCarry, $CanTeamAttack","NORMAL, $CanCarry, $CanUseKannons","HARD, $CanCarry, $CanTeamAttack","HARD, $CanCarry, $CanUseKannons"],
                 "chest_unopened_img": "images/checks/swanky2_disabled.png",
                 "chest_opened_img": "images/checks/swanky2.png",
                 "visibility_rules": ["balloonsanity"],
@@ -187,7 +187,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #1 (Pit)",
-                "access_rules": ["EASY, cartwheel", "NORMAL, cartwheel", "HARD"],
+                "access_rules": ["EASY, $CanCartwheel","NORMAL, $CanTeamAttack","NORMAL, $CanCartwheel","HARD"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -207,7 +207,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #2 (Behind Zinger)",
-                "access_rules": ["EASY, carry", "NORMAL, carry", "HARD"],
+                "access_rules": ["EASY, $CanCarry","NORMAL, $CanCarry","HARD"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -227,7 +227,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #3 (Below Zinger)",
-                "access_rules": ["EASY, squitter", "NORMAL, squitter", "HARD, squitter"],
+                "access_rules": ["EASY, $HasSquitter","NORMAL, $HasSquitter","HARD, $HasSquitter"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -247,7 +247,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #3 (Wall after Kaboings)",
-                "access_rules": ["EASY, squitter", "NORMAL, squitter", "HARD, squitter"],
+                "access_rules": ["EASY, $HasSquitter","NORMAL, $HasSquitter","HARD, $HasSquitter"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -267,7 +267,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #4 (Above midpoint)",
-                "access_rules": ["EASY, squitter", "NORMAL, squitter", "HARD, squitter"],
+                "access_rules": ["EASY, $HasSquitter","NORMAL, $HasSquitter","HARD, $HasSquitter"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -287,7 +287,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #5 (Next to Red Zinger)",
-                "access_rules": ["EASY, squitter", "NORMAL, squitter", "HARD, squitter"],
+                "access_rules": ["EASY, $HasSquitter","NORMAL, $HasSquitter","HARD, $HasSquitter"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -307,7 +307,7 @@
             "sections": [
                 {
                 "name": "Green Balloon #2 (After goal)",
-                "access_rules": ["EASY, squitter, teamattack, dixie, diddy", "NORMAL, squitter, teamattack, diddy, dixie", "HARD, teamattack, diddy, dixie, squitter"],
+                "access_rules": ["EASY, $HasSquitter, $CanTeamAttack","NORMAL, $HasSquitter, $CanTeamAttack","HARD, $HasSquitter, $CanTeamAttack"],
                 "chest_unopened_img": "images/checks/swanky2_disabled.png",
                 "chest_opened_img": "images/checks/swanky2.png",
                 "visibility_rules": ["balloonsanity"],

@@ -8,7 +8,8 @@
         "sections": [
             {
                 "name": "Clear",
-                "access_rules": ["EASY, carry, rambi", "NORMAL", "HARD"],
+                "access_rules": ["EASY","NORMAL","HARD"
+],
                 "chest_unopened_img": "images/checks/clear_disabled.png",
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
@@ -28,7 +29,7 @@
             "sections": [
                 {
                 "name": "DK Coin",
-                "access_rules": ["EASY, carry, rambi, teamattack, dixie, diddy", "NORMAL, carry, teamattack, dixie, diddy", "HARD, carry", "HARD, diddy, dixie"],
+                "access_rules": ["EASY, $CanCarry, $CanTeamAttack","NORMAL, $CanCarry, $CanTeamAttack","HARD, $HasBothKongs","HARD, $CanCarry, $CanCartwheel"],
                 "chest_unopened_img": "images/checks/dkcoin_disabled.png",
                 "chest_opened_img": "images/checks/dkcoin.png",
                 "visibility_rules": ["dkcoinchecks"],
@@ -48,7 +49,7 @@
             "sections": [
                 {
                 "name": "KONG",
-                "access_rules": ["EASY, carry, rambi", "NORMAL, carry, teamattack, dixie, diddy", "HARD, carry", "HARD, diddy, dixie"],
+                "access_rules": ["EASY, $CanCarry","NORMAL, $CanCarry","HARD, $CanCarry","HARD, $HasBothKongs"],
                 "chest_unopened_img": "images/checks/kong_disabled.png",
                 "chest_opened_img": "images/checks/kong.png",
                 "visibility_rules": ["kongchecks"],
@@ -87,7 +88,7 @@
             "sections": [
                 {
                 "name": "Bonus #1",
-                "access_rules": ["EASY, carry, rambi", "NORMAL, carry, rambi", "HARD, carry", "HARD, rambi"],
+                "access_rules": ["EASY, $CanCarry, $HasRambi","EASY, $CanTeamAttack, $HasRambi","NORMAL, $CanCarry, $HasRambi","HARD, $CanCarry","HARD, $HasRambi"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
@@ -107,7 +108,7 @@
             "sections": [
                 {
                 "name": "Bonus #2",
-                "access_rules": ["EASY, carry, rambi", "NORMAL", "HARD"],
+                "access_rules": ["EASY","NORMAL","HARD"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
@@ -127,7 +128,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #1 (Start)",
-                "access_rules": [],
+                "access_rules": ["EASY","NORMAL","HARD"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -147,7 +148,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #1 (Above start)",
-                "access_rules": ["EASY, teamattack, diddy, dixie"],
+                "access_rules": ["EASY, $CanTeamAttack","NORMAL","HARD"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -167,7 +168,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #2 (Above start)",
-                "access_rules": ["EASY, teamattack, diddy, dixie"],
+                "access_rules": ["EASY, $CanTeamAttack","NORMAL","HARD"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -187,7 +188,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #2 (After K)",
-                "access_rules": ["EASY, carry", "NORMAL, carry", "HARD"],
+                "access_rules": ["EASY","NORMAL","HARD"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -207,7 +208,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #3 (Behind Zinger after Rambi)",
-                "access_rules": ["EASY, carry, rambi", "NORMAL, carry", "NORMAL, rambi", "HARD"],
+                "access_rules": ["EASY, $CanCarry","EASY, $CanTeamAttack, $HasRambi","NORMAL, $CanCarry","NORMAL, $HasRambi","HARD"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -227,7 +228,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #3 (Above Zinger)",
-                "access_rules": ["EASY, carry, rambi", "EASY, teamattack, diddy, dixie, rambi", "NORMAL", "HARD"],
+                "access_rules": ["EASY, $CanCarry, $HasRambi","EASY, $CanTeamAttack, $HasRambi","NORMAL","HARD"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -247,7 +248,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #4 (Above Kruncha)",
-                "access_rules": ["EASY, carry, rambi", "EASY, teamattack, diddy, dixie, rambi", "NORMAL", "HARD"],
+                "access_rules": ["EASY, $CanCarry, $HasRambi","EASY, $CanTeamAttack, $HasRambi","NORMAL","HARD"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -267,7 +268,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #5 (Rambi sign)",
-                "access_rules": ["EASY, carry, rambi", "NORMAL, rambi", "HARD, rambi"],
+                "access_rules": ["EASY, $CanCarry, $HasRambi","EASY, $CanTeamAttack, $HasRambi","NORMAL, $CanCarry, $HasRambi","HARD, $HasRambi"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -287,7 +288,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #6 (Behind Zinger after TNT barrel)",
-                "access_rules": ["EASY, carry, rambi", "NORMAL, carry", "HARD"],
+                "access_rules": ["EASY, $CanCarry","NORMAL, $CanCarry","HARD"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -307,7 +308,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #4 (Above Flitter)",
-                "access_rules": ["EASY, carry, rambi", "NORMAL", "HARD"],
+                "access_rules": ["EASY","NORMAL","HARD"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],

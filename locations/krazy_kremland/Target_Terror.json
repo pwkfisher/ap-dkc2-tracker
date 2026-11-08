@@ -8,7 +8,7 @@
         "sections": [
             {
                 "name": "Clear",
-                "access_rules": ["EASY, skullkart, barrelkannons", "NORMAL, skullkart, barrelkannons", "HARD, skullkart, barrelkannons"],
+                "access_rules": ["EASY, $CanUseKannons, $CanRideSkullKart","NORMAL, $CanUseKannons, $CanRideSkullKart","HARD, $CanUseKannons, $CanRideSkullKart"],
                 "chest_unopened_img": "images/checks/clear_disabled.png",
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
@@ -28,7 +28,7 @@
             "sections": [
                 {
                 "name": "DK Coin",
-                "access_rules": ["EASY, skullkart, barrelkannons", "NORMAL, skullkart, barrelkannons", "HARD, skullkart, barrelkannons"],
+                "access_rules": ["EASY, $CanUseKannons, $CanRideSkullKart","NORMAL, $CanUseKannons, $CanRideSkullKart","HARD, $CanUseKannons, $CanRideSkullKart"],
                 "chest_unopened_img": "images/checks/dkcoin_disabled.png",
                 "chest_opened_img": "images/checks/dkcoin.png",
                 "visibility_rules": ["dkcoinchecks"],
@@ -48,7 +48,7 @@
             "sections": [
                 {
                 "name": "KONG",
-                "access_rules": ["EASY, skullkart, barrelkannons", "NORMAL, skullkart, barrelkannons", "HARD, skullkart, barrelkannons"],
+                "access_rules": ["EASY, $CanUseKannons, $CanRideSkullKart","NORMAL, $CanUseKannons, $CanRideSkullKart","HARD, $CanUseKannons, $CanRideSkullKart"],
                 "chest_unopened_img": "images/checks/kong_disabled.png",
                 "chest_opened_img": "images/checks/kong.png",
                 "visibility_rules": ["kongchecks"],
@@ -87,7 +87,7 @@
             "sections": [
                 {
                 "name": "Bonus #1",
-                "access_rules": ["EASY, skullkart, barrelkannons, squawks", "NORMAL, skullkart, barrelkannons, squawks", "HARD, skullkart, barrelkannons, squawks"],
+                "access_rules": ["EASY, $CanUseKannons, $CanRideSkullKart, $HasSquawks","NORMAL, $CanUseKannons, $CanRideSkullKart, $HasSquawks","HARD, $CanUseKannons, $CanRideSkullKart, $HasSquawks"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
@@ -95,7 +95,7 @@
             },
             {
                 "name": "Banana Bunch #2 (Squawks sign on Bonus #1)",
-                "access_rules": ["EASY, skullkart, barrelkannons, squawks", "NORMAL, skullkart, barrelkannons, squawks", "HARD, skullkart, barrelkannons, squawks"],
+                "access_rules": ["EASY, $CanUseKannons, $CanRideSkullKart, $HasSquawks","NORMAL, $CanUseKannons, $CanRideSkullKart, $HasSquawks","HARD, $CanUseKannons, $CanRideSkullKart, $HasSquawks"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -115,7 +115,7 @@
             "sections": [
                 {
                 "name": "Bonus #2",
-                "access_rules": ["EASY, skullkart, barrelkannons", "NORMAL, skullkart, barrelkannons", "HARD, skullkart, barrelkannons"],
+                "access_rules": ["EASY, $CanUseKannons, $CanRideSkullKart","NORMAL, $CanUseKannons, $CanRideSkullKart","HARD, $CanUseKannons, $CanRideSkullKart"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
@@ -135,7 +135,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #1 (Start)",
-                "access_rules": ["EASY, skullkart, barrelkannons", "NORMAL, skullkart, barrelkannons", "HARD, skullkart, barrelkannons"],
+                "access_rules": ["EASY, $CanUseKannons, $CanRideSkullKart","NORMAL, $CanUseKannons, $CanRideSkullKart","HARD, $CanUseKannons, $CanRideSkullKart","HARD, $CanTeamAttack, $CanHover"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -155,7 +155,7 @@
             "sections": [
                 {
                 "name": "Red Balloon (Above last X barrel)",
-                "access_rules": ["EASY, skullkart, barrelkannons", "NORMAL, skullkart, barrelkannons", "HARD, skullkart, barrelkannons"],
+                "access_rules": ["EASY, $CanUseKannons, $CanRideSkullKart","NORMAL, $CanUseKannons, $CanRideSkullKart","HARD, $CanUseKannons, $CanRideSkullKart"],
                 "chest_unopened_img": "images/checks/swanky1_disabled.png",
                 "chest_opened_img": "images/checks/swanky1.png",
                 "visibility_rules": ["balloonsanity"],

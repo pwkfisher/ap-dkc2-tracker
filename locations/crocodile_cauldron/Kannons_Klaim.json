@@ -39,7 +39,7 @@
             "sections": [
                 {
                 "name": "KONG",
-                "access_rules": ["EASY, carry, barrelkannons", "NORMAL, carry, barrelkannons", "HARD, carry, barrelkannons"],
+                "access_rules": ["EASY, $CanCarry, $CanUseKannons","NORMAL, $CanUseKannons, $CanCarry","HARD, $CanUseKannons, $CanCarry"],
                 "chest_unopened_img": "images/checks/kong_disabled.png",
                 "chest_opened_img": "images/checks/kong.png",
                 "visibility_rules": ["kongchecks"],
@@ -78,7 +78,7 @@
             "sections": [
                 {
                 "name": "Bonus #1",
-                "access_rules": ["EASY, kongbarrels, diddy, dixie, helicopterspin", "EASY, kongbarrels, diddy, dixie, cartwheel", "NORMAL, kongbarrels, diddy, dixie, helicopterspin", "NORMAL, kongbarrels, diddy, dixie, cartwheel", "HARD, kongbarrels, diddy, dixie, cartwheel"],
+                "access_rules": ["EASY, $CanUseDiddyBarrels, $CanUseDixieBarrels, $CanHover","NORMAL, $CanUseDiddyBarrels, $CanUseDixieBarrels, $CanHover","NORMAL, $CanUseDiddyBarrels, $CanUseDixieBarrels, $CanCartwheel","HARD, $CanUseDiddyBarrels, $CanUseDixieBarrels, $CanHover","HARD, $CanUseDiddyBarrels, $CanUseDixieBarrels, $CanCartwheel"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
@@ -86,7 +86,7 @@
             },
             {
                 "name": "DK Coin",
-                "access_rules": ["EASY, helicopterspin, dixie", "NORMAL, helicopterspin, dixie", "NORMAL, cartwheel", "HARD, helicopterspin, dixie", "HARD, cartwheel"],
+                "access_rules": ["EASY, $CanHover","NORMAL, $CanHover","NORMAL, $CanCartwheel","HARD, $CanHover","HARD, $CanCartwheel"],
                 "chest_unopened_img": "images/checks/dkcoin_disabled.png",
                 "chest_opened_img": "images/checks/dkcoin.png",
                 "visibility_rules": ["dkcoinchecks"],
@@ -106,7 +106,7 @@
             "sections": [
                 {
                 "name": "Bonus #2",
-                "access_rules": ["EASY, carry, teamattack, dixie, diddy, barrelkannons", "NORMAL, barrelkannons", "HARD, barrelkannons"],
+                "access_rules": ["EASY, $CanCarry, $CanTeamAttack, $CanUseKannons","NORMAL, $CanUseKannons","HARD, $CanUseKannons"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
@@ -126,7 +126,7 @@
             "sections": [
                 {
                 "name": "Bonus #3",
-                "access_rules": ["EASY, carry, barrelkannons, helicopterspin, dixie", "NORMAL, barrelkannons", "HARD, barrelkannons"],
+                "access_rules": ["EASY, $CanCarry, $CanUseKannons, $CanHover","NORMAL, $CanUseKannons","HARD, $CanUseKannons"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
@@ -146,7 +146,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #1 (Near hook)",
-                "access_rules": ["EASY, barrelkannons, cling, dixie, helicopterspin", "NORMAL, barrelkannons", "NORMAL, teamattack, diddy, dixie", "HARD, barrelkannons", "HARD, teamattack, dixie, diddy"],
+                "access_rules": ["EASY, $CanUseKannons, $CanCling, $CanHover","NORMAL, $CanUseKannons","NORMAL, $CanTeamAttack","HARD, $CanUseKannons","HARD, $CanTeamAttack"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -166,7 +166,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #1 (After Flitter)",
-                "access_rules": ["EASY, carry, barrelkannons", "NORMAL, barrelkannons", "HARD, barrelkannons"],
+                "access_rules": ["EASY, $CanCarry, $CanUseKannons","NORMAL, $CanUseKannons","HARD, $CanUseKannons"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -186,7 +186,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #2 (Above arrow barrels)",
-                "access_rules": ["EASY, carry, barrelkannons, helicopterspin, dixie", "NORMAL, barrelkannons, cartwheel", "NORMAL, barrelkannons, helicopterspin, dixie", "HARD, barrelkannons, teamattack, diddy, dixie", "HARD, barrelkannons, cartwheel"],
+                "access_rules": ["EASY, $CanCarry, $CanUseKannons, $CanHover","NORMAL, $CanUseKannons, $CanCartwheel","NORMAL, $CanUseKannons, $CanHover","HARD, $CanUseKannons, $CanTeamAttack","HARD, $CanUseKannons, $CanCartwheel"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -206,7 +206,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #3 (Diddy barrel)",
-                "access_rules": ["EASY, carry, barrelkannons, kongbarrels, diddy", "NORMAL, barrelkannons, kongbarrels, diddy", "HARD, barrelkannons"],
+                "access_rules": ["EASY, $CanCarry, $CanUseKannons, $CanUseDiddyBarrels","NORMAL, $CanUseKannons, $CanUseDiddyBarrels","HARD, $CanUseKannons"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],

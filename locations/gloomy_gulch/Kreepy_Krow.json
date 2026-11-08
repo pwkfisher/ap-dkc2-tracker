@@ -8,7 +8,7 @@
         "sections": [
             {
                 "name": "Clear",
-                "access_rules": ["EASY, barrelkannons, climb, cling, carry, diddy, dixie", "NORMAL, barrelkannons, climb, cling, carry", "HARD, barrelkannons, climb, cling, carry"],
+                "access_rules": ["EASY, $CanUseKannons, $CanClimb, $CanCling, $CanCarry, $HasBothKongs","NORMAL, $CanUseKannons, $CanClimb, $CanCling, $CanCarry","HARD, $CanUseKannons, $CanClimb, $CanCling, $CanCarry"],
                 "chest_unopened_img": "images/checks/clear_disabled.png",
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
@@ -16,7 +16,7 @@
             },
             {
                 "name": "Defeat",
-                "access_rules": ["EASY, barrelkannons, climb, cling, carry, diddy, dixie", "NORMAL, barrelkannons, climb, cling, carry", "HARD, barrelkannons, climb, cling, carry"],
+                "access_rules": ["EASY, $CanUseKannons, $CanClimb, $CanCling, $CanCarry, $HasBothKongs","NORMAL, $CanUseKannons, $CanClimb, $CanCling, $CanCarry","HARD, $CanUseKannons, $CanClimb, $CanCling, $CanCarry"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
@@ -36,7 +36,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #1 (After second phase)",
-                "access_rules": ["EASY, barrelkannons, climb, cling, carry, diddy, dixie", "NORMAL, barrelkannons, climb, cling, carry", "HARD, barrelkannons, climb, cling, carry"],
+                "access_rules": ["EASY, $CanUseKannons, $CanClimb, $CanCling, $CanCarry, $HasBothKongs","NORMAL, $CanUseKannons, $CanClimb, $CanCling, $CanCarry","HARD, $CanCling, $CanClimb, $CanUseKannons, $CanCarry"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -56,7 +56,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #2 (After second phase)",
-                "access_rules": ["EASY, barrelkannons, climb, cling, carry, diddy, dixie", "NORMAL, barrelkannons, climb, cling, carry", "HARD, barrelkannons, climb, cling, carry"],
+                "access_rules": ["EASY, $CanUseKannons, $CanClimb, $CanCling, $CanCarry, $HasBothKongs","NORMAL, $CanUseKannons, $CanClimb, $CanCling, $CanCarry","HARD, $CanCling, $CanClimb, $CanUseKannons, $CanCarry"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],

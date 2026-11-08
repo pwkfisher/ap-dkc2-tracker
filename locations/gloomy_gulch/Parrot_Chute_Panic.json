@@ -8,7 +8,7 @@
         "sections": [
             {
                 "name": "Clear",
-                "access_rules": ["EASY, squawks", "NORMAL, squawks", "HARD, squawks", "HARD, helicopterspin, dixie, diddy, carry"],
+                "access_rules": ["EASY, $HasSquawks","NORMAL, $HasSquawks","HARD, $HasBothKongs, $CanHover, $CanCarry","HARD, $HasSquawks"],
                 "chest_unopened_img": "images/checks/clear_disabled.png",
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
@@ -28,7 +28,7 @@
             "sections": [
                 {
                 "name": "DK Coin",
-                "access_rules": ["EASY, helicopterspin, dixie", "NORMAL, helicopterspin, dixie", "NORMAL, cartwheel", "HARD, helicopterspin", "HARD, diddy"],
+                "access_rules": ["EASY, $CanHover","NORMAL, $CanCartwheel","NORMAL, $CanHover","HARD, $CanHover","HARD, $CanCartwheel"],
                 "chest_unopened_img": "images/checks/dkcoin_disabled.png",
                 "chest_opened_img": "images/checks/dkcoin.png",
                 "visibility_rules": ["dkcoinchecks"],
@@ -48,7 +48,7 @@
             "sections": [
                 {
                 "name": "KONG",
-                "access_rules": ["EASY, squawks", "NORMAL, squawks", "HARD, squawks", "HARD, helicopterspin, dixie, diddy, carry"],
+                "access_rules": ["EASY, $HasSquawks","NORMAL, $HasSquawks","HARD, $HasBothKongs, $CanHover, $CanCarry","HARD, $HasSquawks"],
                 "chest_unopened_img": "images/checks/kong_disabled.png",
                 "chest_opened_img": "images/checks/kong.png",
                 "visibility_rules": ["kongchecks"],
@@ -99,7 +99,7 @@
             "sections": [
                 {
                 "name": "Bonus #1",
-                "access_rules": ["EASY, squawks", "NORMAL, squawks", "HARD, squawks", "HARD, teamattack, diddy, dixie, helicopterspin"],
+                "access_rules": ["EASY, $HasSquawks","NORMAL, $HasSquawks","HARD, $HasSquawks","HARD, $CanTeamAttack, $CanHover"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
@@ -119,7 +119,7 @@
             "sections": [
                 {
                 "name": "Bonus #2",
-                "access_rules": ["EASY, squawks, helicopterspin, dixie", "NORMAL, squawks, cartwheel, carry", "HARD, squawks, cartwheel", "HARD, squawks, helicopterspin, dixie", "HARD, squawks, diddy, dixie"],
+                "access_rules": ["EASY, $HasSquawks, $CanHover, $CanCarry","NORMAL, $HasSquawks, $CanCartwheel, $CanCarry","HARD, $HasSquawks, $CanCartwheel","HARD, $HasSquawks, $CanHover","HARD, $HasSquawks, $HasBothKongs"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
@@ -139,7 +139,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #1 (After K)",
-                "access_rules": ["EASY, squawks, carry", "NORMAL, squawks, carry", "HARD, carry", "HARD, teamattack, diddy, dixie"],
+                "access_rules": ["EASY, $HasSquawks, $CanCarry","NORMAL, $HasSquawks, $CanCarry","HARD, $CanCarry","HARD, $CanTeamAttack"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -159,7 +159,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #2 (Between Zingers)",
-                "access_rules": ["EASY, squawks", "NORMAL, squawks", "HARD, squawks", "HARD, helicopterspin, dixie, diddy"],
+                "access_rules": ["EASY, $HasSquawks","NORMAL, $HasSquawks","HARD, $HasBothKongs, $CanHover","HARD, $HasSquawks"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -179,7 +179,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #1 (After O)",
-                "access_rules": ["EASY, squawks", "NORMAL, squawks", "HARD, squawks", "HARD, helicopterspin, dixie, diddy"],
+                "access_rules": ["EASY, $HasSquawks","NORMAL, $HasSquawks","HARD, $HasBothKongs, $CanHover","HARD, $HasSquawks"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -199,7 +199,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #3 (2-path after N)",
-                "access_rules": ["EASY, squawks", "NORMAL, squawks", "HARD, squawks", "HARD, diddy, dixie, helicopterspin, carry"],
+                "access_rules": ["EASY, $HasSquawks","NORMAL, $HasSquawks","HARD, $HasBothKongs, $CanHover, $CanCarry","HARD, $HasSquawks"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -219,7 +219,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #2 (2-path after N)",
-                "access_rules": ["EASY, squawks", "NORMAL, squawks", "HARD, squawks", "HARD, diddy, dixie, helicopterspin, carry"],
+                "access_rules": ["EASY, $HasSquawks","NORMAL, $HasSquawks","HARD, $HasBothKongs, $CanHover, $CanCarry","HARD, $HasSquawks"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -239,7 +239,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #4 (2-path after N)",
-                "access_rules": ["EASY, squawks", "NORMAL, squawks", "HARD, squawks", "HARD, diddy, dixie, helicopterspin, carry"],
+                "access_rules": ["EASY, $HasSquawks","NORMAL, $HasSquawks","HARD, $HasBothKongs, $CanHover, $CanCarry","HARD, $HasSquawks"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -259,7 +259,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #5 (Barrel)",
-                "access_rules": ["EASY, squawks, controllablebarrels, teamattack, diddy, dixie", "NORMAL, squawks, controllablebarrels, teamattack, diddy, dixie", "NORMAL, squawks, controllablebarrels, cartwheel", "NORMAL, squawks, controllablebarrels, cartwheel", "HARD, diddy, dixie, helicopterspin, carry, teamattack, controllablebarrels, cartwheel", "HARD, squawks, controllablebarrels, teamattack, diddy, dixie, cartwheel"],
+                "access_rules": ["EASY, $HasSquawks, $CanUseControllableBarrels, $CanTeamAttack","NORMAL, $HasSquawks, $CanUseControllableBarrels, $CanTeamAttack","NORMAL, $HasSquawks, $CanUseControllableBarrels, $CanCartwheel","HARD, $HasBothKongs, $CanHover, $CanCarry, $CanUseControllableBarrels, $CanTeamAttack","HARD, $HasBothKongs, $CanHover, $CanCarry, $CanUseControllableBarrels, $CanCartwheel","HARD, $HasSquawks, $CanUseControllableBarrels, $CanTeamAttack","HARD, $HasSquawks, $CanUseControllableBarrels, $CanCartwheel"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],

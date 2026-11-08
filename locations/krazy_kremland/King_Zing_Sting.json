@@ -8,7 +8,7 @@
         "sections": [
             {
                 "name": "Clear",
-                "access_rules": ["EASY, squawks, diddy, dixie", "NORMAL, squawks", "HARD, squawks"],
+                "access_rules": ["EASY, $HasSquawks, $HasBothKongs","NORMAL, $HasSquawks","HARD, $HasSquawks"],
                 "chest_unopened_img": "images/checks/clear_disabled.png",
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
@@ -16,7 +16,7 @@
             },
             {
                 "name": "Defeat",
-                "access_rules": ["EASY, squawks, diddy, dixie", "NORMAL, squawks", "HARD, squawks"],
+                "access_rules": ["EASY, $HasSquawks, $HasBothKongs","NORMAL, $HasSquawks","HARD, $HasSquawks"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],

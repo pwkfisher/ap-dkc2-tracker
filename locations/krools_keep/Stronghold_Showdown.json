@@ -8,7 +8,7 @@
         "sections": [
             {
                 "name": "Clear",
-                "access_rules": [""],
+                "access_rules": ["EASY","NORMAL","HARD"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
@@ -28,7 +28,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #1 (Above start)",
-                "access_rules": ["EASY, teamattack, diddy, dixie", "NORMAL, teamattack, diddy, dixie", "HARD, teamattack, diddy, dixie"],
+                "access_rules": ["EASY, $CanTeamAttack","NORMAL, $CanTeamAttack","HARD, $CanTeamAttack"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -48,7 +48,7 @@
             "sections": [
                 {
                 "name": "Red Balloon (Above start)",
-                "access_rules": ["EASY, teamattack, diddy, dixie", "NORMAL, teamattack, diddy, dixie", "HARD, teamattack, diddy, dixie"],
+                "access_rules": ["EASY, $CanTeamAttack","NORMAL, $CanTeamAttack","HARD, $CanTeamAttack"],
                 "chest_unopened_img": "images/checks/swanky1_disabled.png",
                 "chest_opened_img": "images/checks/swanky1.png",
                 "visibility_rules": ["balloonsanity"],
@@ -68,7 +68,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #2 (Above start)",
-                "access_rules": ["EASY, teamattack, diddy, dixie", "NORMAL, teamattack, diddy, dixie", "HARD, teamattack, diddy, dixie"],
+                "access_rules": ["EASY, $CanTeamAttack","NORMAL, $CanTeamAttack","HARD, $CanTeamAttack"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],

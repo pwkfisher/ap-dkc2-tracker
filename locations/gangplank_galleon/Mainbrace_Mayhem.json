@@ -8,7 +8,7 @@
         "sections": [
                 {
                     "name": "Clear",
-                    "access_rules": ["EASY, climb", "NORMAL, climb", "HARD, climb"],
+                    "access_rules": ["EASY, $CanClimb","NORMAL, $CanClimb","HARD, $CanClimb"],
                     "chest_unopened_img": "images/checks/clear_disabled.png",
                     "chest_opened_img": "images/checks/clear.png",
                     "item_count": 1
@@ -27,7 +27,7 @@
                 "sections": [
                     {
                     "name": "DK Coin",
-                    "access_rules": ["EASY, climb, teamattack, dixie, diddy", "NORMAL, climb, teamattack, dixie, diddy", "HARD, climb, teamattack, dixie, diddy"],
+                    "access_rules": ["EASY, $CanClimb, $CanTeamAttack","NORMAL, $CanClimb, $CanTeamAttack","HARD, $CanClimb, $CanTeamAttack"],
                     "chest_unopened_img": "images/checks/dkcoin_disabled.png",
                     "chest_opened_img": "images/checks/dkcoin.png",
                     "visibility_rules": ["dkcoinchecks"],
@@ -47,7 +47,7 @@
                 "sections": [
                     {
                     "name": "KONG",
-                    "access_rules": ["EASY, climb", "NORMAL, climb", "HARD, climb"],
+                    "access_rules": ["EASY, $CanClimb","NORMAL, $CanClimb","HARD, $CanClimb"],
                     "chest_unopened_img": "images/checks/kong_disabled.png",
                     "chest_opened_img": "images/checks/kong.png",
                     "visibility_rules": ["kongchecks"],
@@ -86,7 +86,8 @@
                 "sections": [
                     {
                     "name": "Bonus #1",
-                    "access_rules": ["EASY, climb, helicopterspin, dixie", "EASY, climb, cartwheel", "NORMAL, climb, helicopterspin, dixie", "NORMAL, climb, cartwheel", "HARD, climb, helicopterspin, dixie", "HARD, climb, cartwheel"],
+                    "access_rules": ["EASY, $CanClimb, $CanHover","EASY, $CanClimb, $CanCartwheel","NORMAL, $CanClimb, $CanHover","NORMAL, $CanClimb, $CanCartwheel","HARD, $CanClimb, $CanHover","HARD, $CanClimb, $CanCartwheel"
+],
                     "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                     "chest_opened_img": "images/checks/kremkoin.png",
                     "item_count": 1
@@ -105,7 +106,7 @@
                 "sections": [
                     {
                     "name": "Bonus #2",
-                    "access_rules": ["EASY, climb, carry", "NORMAL, climb, carry", "HARD, climb, carry"],
+                    "access_rules": ["EASY, $CanClimb, $CanCarry","NORMAL, $CanClimb, $CanCarry","HARD, $CanCarry, $CanClimb"],
                     "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                     "chest_opened_img": "images/checks/kremkoin.png",
                     "item_count": 1
@@ -124,7 +125,7 @@
                 "sections": [
                     {
                     "name": "Bonus #3",
-                    "access_rules": ["EASY, climb, teamattack, dixie, diddy", "NORMAL, climb, teamattack, dixie, diddy", "HARD, climb, teamattack, dixie, diddy"],                    
+                    "access_rules": ["EASY, $CanClimb, $CanTeamAttack","NORMAL, $CanClimb, $CanTeamAttack","HARD, $CanClimb, $CanTeamAttack"],                    
                     "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                     "chest_opened_img": "images/checks/kremkoin.png",
                     "item_count": 1
@@ -143,7 +144,7 @@
                 "sections": [
                     {
                     "name": "Banana Bunch #1 (Before Bonus #1)",
-                    "access_rules": ["EASY, climb, helicopterspin, dixie", "EASY, climb, cartwheel", "NORMAL, climb, cartwheel", "NORMAL, climb, helicopterspin, dixie", "HARD, cartwheel"],
+                    "access_rules": ["EASY, $CanClimb, $CanHover","EASY, $CanClimb, $CanCartwheel","NORMAL, $CanClimb, $CanHover","NORMAL, $CanClimb, $CanCartwheel","HARD, $CanCartwheel"],
                     "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                     "chest_opened_img": "images/checks/bananabunch.png",
                     "visibility_rules": ["bananasanity"],
@@ -163,7 +164,7 @@
                 "sections": [
                     {
                     "name": "Banana Coin #1 (Next to Klinger)",
-                    "access_rules": ["EASY, climb", "NORMAL, climb", "HARD, climb", "HARD, teamattack, diddy, dixie"],
+                    "access_rules": ["EASY, $CanClimb","NORMAL, $CanClimb","HARD, $CanClimb","HARD, $CanTeamAttack"],
                     "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                     "chest_opened_img": "images/checks/bananacoin.png",
                     "visibility_rules": ["coinsanity"],
@@ -183,7 +184,7 @@
                 "sections": [
                     {
                     "name": "Banana Coin #2 (Below Click-Clack)",
-                    "access_rules": ["EASY, climb", "NORMAL, climb", "HARD, climb", "HARD, teamattack, diddy, dixie"],
+                    "access_rules": ["EASY, $CanClimb","NORMAL, $CanClimb","HARD, $CanClimb","HARD, $CanTeamAttack"],
                     "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                     "chest_opened_img": "images/checks/bananacoin.png",
                     "visibility_rules": ["coinsanity"],
@@ -203,7 +204,7 @@
                 "sections": [
                     {
                     "name": "Green Balloon (Above banana trail on rope)",
-                    "access_rules": ["EASY, climb", "NORMAL, climb", "HARD, climb"],
+                    "access_rules": ["EASY, $CanClimb","NORMAL, $CanClimb","HARD, $CanClimb","HARD, $CanTeamAttack"],
                     "chest_unopened_img": "images/checks/swanky2_disabled.png",
                     "chest_opened_img": "images/checks/swanky2.png",
                     "visibility_rules": ["balloonsanity"],
@@ -223,7 +224,7 @@
                 "sections": [
                     {
                     "name": "Banana Bunch #2 (After Bonus #3)",
-                    "access_rules": ["EASY, climb, teamattack, dixie, diddy", "NORMAL, climb, teamattack, dixie, diddy", "HARD, climb, teamattack, dixie, diddy"],
+                    "access_rules": ["EASY, $CanClimb, $CanTeamAttack","NORMAL, $CanClimb, $CanTeamAttack","HARD, $CanClimb, $CanTeamAttack"],
                     "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                     "chest_opened_img": "images/checks/bananabunch.png",
                     "visibility_rules": ["bananasanity"],
@@ -243,7 +244,7 @@
                 "sections": [
                     {
                     "name": "Banana Coin #3 (After Bonus #3)",
-                    "access_rules": ["EASY, climb, teamattack, dixie, diddy", "NORMAL, climb, teamattack, dixie, diddy", "HARD, climb, teamattack, dixie, diddy"],
+                    "access_rules": ["EASY, $CanClimb, $CanTeamAttack","NORMAL, $CanClimb, $CanTeamAttack","HARD, $CanClimb, $CanTeamAttack"],
                     "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                     "chest_opened_img": "images/checks/bananacoin.png",
                     "visibility_rules": ["coinsanity"],
@@ -263,7 +264,7 @@
                 "sections": [
                     {
                     "name": "Banana Bunch #3 (After Bonus #3)",
-                    "access_rules": ["EASY, climb, teamattack, dixie, diddy", "NORMAL, climb, teamattack, dixie, diddy", "HARD, climb, teamattack, dixie, diddy"],
+                    "access_rules": ["EASY, $CanClimb, $CanTeamAttack","NORMAL, $CanClimb, $CanTeamAttack","HARD, $CanClimb, $CanTeamAttack"],
                     "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                     "chest_opened_img": "images/checks/bananabunch.png",
                     "visibility_rules": ["bananasanity"],

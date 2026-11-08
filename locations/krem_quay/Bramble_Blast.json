@@ -8,7 +8,7 @@
         "sections": [
             {
                 "name": "Clear",
-                "access_rules": ["EASY, barrelkannons", "NORMAL, barrelkannons", "HARD, barrelkannons"],
+                "access_rules": ["EASY, $CanUseKannons","NORMAL, $CanUseKannons","HARD, $CanUseKannons"],
                 "chest_unopened_img": "images/checks/clear_disabled.png",
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
@@ -28,7 +28,7 @@
             "sections": [
                 {
                 "name": "DK Coin",
-                "access_rules": ["EASY, barrelkannons, squawks", "NORMAL, barrelkannons, squawks", "HARD, barrelkannons, squawks"],
+                "access_rules": ["EASY, $CanUseKannons, $HasSquawks","NORMAL, $CanUseKannons, $HasSquawks","HARD, $CanUseKannons, $HasSquawks"],
                 "chest_unopened_img": "images/checks/dkcoin_disabled.png",
                 "chest_opened_img": "images/checks/dkcoin.png",
                 "visibility_rules": ["dkcoinchecks"],
@@ -48,7 +48,7 @@
             "sections": [
                 {
                 "name": "KONG",
-                "access_rules": ["EASY, barrelkannons, squawks", "NORMAL, barrelkannons, squawks", "HARD, barrelkannons, squawks"],
+                "access_rules": ["EASY, $CanUseKannons, $HasSquawks","NORMAL, $CanUseKannons, $HasSquawks","HARD, $CanUseKannons, $HasSquawks"],
                 "chest_unopened_img": "images/checks/kong_disabled.png",
                 "chest_opened_img": "images/checks/kong.png",
                 "visibility_rules": ["kongchecks"],
@@ -87,7 +87,7 @@
             "sections": [
                 {
                 "name": "Bonus #1",
-                "access_rules": ["EASY, barrelkannons", "NORMAL, barrelkannons", "HARD, barrelkannons"],
+                "access_rules": ["EASY, $CanUseKannons","NORMAL, $CanUseKannons","HARD, $CanUseKannons"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
@@ -107,7 +107,7 @@
             "sections": [
                 {
                 "name": "Bonus #2",
-                "access_rules": ["EASY, barrelkannons, squawks", "NORMAL, barrelkannons, squawks", "HARD, barrelkannons, squawks"],
+                "access_rules": ["EASY, $CanUseKannons, $HasSquawks","NORMAL, $CanUseKannons, $HasSquawks","HARD, $CanUseKannons, $HasSquawks"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
@@ -127,7 +127,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #1 (Start)",
-                "access_rules": ["EASY, teamattack, diddy, dixie", "NORMAL, teamattack, diddy, dixie", "HARD, teamattack, diddy, dixie"],
+                "access_rules": ["EASY, $CanTeamAttack","NORMAL, $CanTeamAttack","HARD, $CanTeamAttack"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -147,7 +147,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #2 (Initial barrel group)",
-                "access_rules": ["EASY, barrelkannons", "NORMAL, barrelkannons", "HARD, barrelkannons, diddy, dixie"],
+                "access_rules": ["EASY, $CanUseKannons","NORMAL, $CanUseKannons","HARD, $HasBothKongs","HARD, $CanUseKannons"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -167,7 +167,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #3 (After rotating Zinger)",
-                "access_rules": ["EASY, barrelkannons", "NORMAL, barrelkannons", "HARD, barrelkannons"],
+                "access_rules": ["EASY, $CanUseKannons","NORMAL, $CanUseKannons","HARD, $CanUseKannons"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -187,7 +187,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #1 (After rotating Zinger)",
-                "access_rules": ["EASY, barrelkannons", "NORMAL, barrelkannons", "HARD, barrelkannons"],
+                "access_rules": ["EASY, $CanUseKannons","NORMAL, $CanUseKannons","HARD, $CanUseKannons"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -207,7 +207,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #4 (After rotating Zinger)",
-                "access_rules": ["EASY, barrelkannons", "NORMAL, barrelkannons", "HARD, barrelkannons"],
+                "access_rules": ["EASY, $CanUseKannons","NORMAL, $CanUseKannons","HARD, $CanUseKannons"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -227,7 +227,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #5 (After rotating Zinger)",
-                "access_rules": ["EASY, barrelkannons", "NORMAL, barrelkannons", "HARD, barrelkannons"],
+                "access_rules": ["EASY, $CanUseKannons","NORMAL, $CanUseKannons","HARD, $CanUseKannons"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -247,7 +247,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #2 (After first big barrel maze)",
-                "access_rules": ["EASY, barrelkannons", "NORMAL, barrelkannons", "HARD, barrelkannons"],
+                "access_rules": ["EASY, $CanUseKannons","NORMAL, $CanUseKannons","HARD, $CanUseKannons"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -267,7 +267,7 @@
             "sections": [
                 {
                 "name": "Red Balloon (After N)",
-                "access_rules": ["EASY, barrelkannons", "NORMAL, barrelkannons", "HARD, barrelkannons"],
+                "access_rules": ["EASY, $CanUseKannons","NORMAL, $CanUseKannons","HARD, $CanUseKannons"],
                 "chest_unopened_img": "images/checks/swanky1_disabled.png",
                 "chest_opened_img": "images/checks/swanky1.png",
                 "visibility_rules": ["balloonsanity"],
@@ -287,7 +287,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #6 (After Click-Clack duo)",
-                "access_rules": ["EASY, barrelkannons", "NORMAL, barrelkannons", "HARD, barrelkannons"],
+                "access_rules": ["EASY, $CanUseKannons","NORMAL, $CanUseKannons","HARD, $CanUseKannons"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -307,7 +307,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #7 (Squawks area)",
-                "access_rules": ["EASY, barrelkannons, squawks", "NORMAL, barrelkannons, squawks", "HARD, barrelkannons, squawks"],
+                "access_rules": ["EASY, $CanUseKannons, $HasSquawks","NORMAL, $CanUseKannons, $HasSquawks","HARD, $CanUseKannons, $HasSquawks"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -327,7 +327,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #8 (Squawks area)",
-                "access_rules": ["EASY, barrelkannons, squawks", "NORMAL, barrelkannons, squawks", "HARD, barrelkannons, squawks"],
+                "access_rules": ["EASY, $CanUseKannons, $HasSquawks","NORMAL, $CanUseKannons, $HasSquawks","HARD, $CanUseKannons, $HasSquawks"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -347,7 +347,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #9 (Squawks sign on Bonus #2)",
-                "access_rules": ["EASY, barrelkannons, squawks", "NORMAL, barrelkannons, squawks", "HARD, barrelkannons, squawks"],
+                "access_rules": ["EASY, $CanUseKannons, $HasSquawks","NORMAL, $CanUseKannons, $HasSquawks","HARD, $CanUseKannons, $HasSquawks"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],

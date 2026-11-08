@@ -8,7 +8,7 @@
         "sections": [
             {
                 "name": "Clear",
-                "access_rules": ["NORMAL, clapper, swim, barrelkannons, cling", "EASY, clapper, swim, barrelkannons, enguarde, cling, carry", "HARD, barrelkannons, clapper, cling, enguarde", "HARD, barrelkannons, clapper, cling, swim", "HARD, barrelkannons, clapper, swim, exclamationbarrels", "HARD, barrelkannons, helicopterspin, swim, diddy, dixie, cling, enguarde", "HARD, barrelkannons, helicopterspin, swim, diddy, dixie, cling", "HARD, barrelkannons, helicopterspin, swim, diddy, dixie, exclamationbarrels"],
+                "access_rules": ["EASY, $HasClapper, $CanSwim, $CanUseKannons, $HasEnguarde, $CanCling, $CanCarry","NORMAL, $HasClapper, $CanSwim, $CanUseKannons, $CanCling","HARD, $CanUseKannons, $HasClapper, $CanCling, $HasEnguarde","HARD, $CanUseKannons, $HasClapper, $CanCling, $CanSwim","HARD, $CanUseKannons, $CanHover, $CanSwim","HARD, $HasBothKongs, $HasClapper, $CanCling, $HasEnguarde","HARD, $HasBothKongs, $HasClapper, $CanCling, $CanSwim","HARD, $HasBothKongs, $CanHover, $CanSwim"],
                 "chest_unopened_img": "images/checks/clear_disabled.png",
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
@@ -28,7 +28,7 @@
             "sections": [
                 {
                 "name": "DK Coin",
-                "access_rules": ["NORMAL, teamattack, diddy, dixie", "EASY, clapper, cling, cartwheel, teamattack, diddy, dixie", "HARD, teamattack, diddy, dixie, cling", "HARD, teamattack, diddy, dixie, clapper", "HARD, teamattack, diddy, dixie, helicopterspin, swim"],
+                "access_rules": ["EASY, $CanTeamAttack, $CanCling, $CanCartwheel","NORMAL, $CanTeamAttack, $CanCling","HARD, $CanTeamAttack, $CanCling","HARD, $CanTeamAttack, $HasClapper","HARD, $HasBothKongs, $CanHover, $CanSwim"],
                 "chest_unopened_img": "images/checks/dkcoin_disabled.png",
                 "chest_opened_img": "images/checks/dkcoin.png",
                 "visibility_rules": ["dkcoinchecks"],
@@ -48,7 +48,7 @@
             "sections": [
                 {
                 "name": "KONG",
-                "access_rules": ["NORMAL, clapper, swim, barrelkannons, cling", "EASY, clapper, swim, barrelkannons, enguarde, cling, carry, teamattack, diddy, dixie, helicopterspin", "HARD, barrelkannons, clapper, cling, enguarde", "HARD, barrelkannons, clapper, cling, swim", "HARD, barrelkannons, clapper, swim, exclamationbarrels, teamattack, diddy, dixie", "HARD, barrelkannons, helicopterspin, swim, diddy, dixie, cling, enguarde", "HARD, barrelkannons, helicopterspin, swim, diddy, dixie, cling", "HARD, barrelkannons, helicopterspin, swim, diddy, dixie, exclamationbarrels, teamattack"],
+                "access_rules": ["EASY, $HasClapper, $CanSwim, $CanUseKannons, $HasEnguarde, $CanCling, $CanCarry, $CanTeamAttack, $CanHover","NORMAL, $HasClapper, $CanSwim, $CanUseKannons, $CanCling","HARD, $CanUseKannons, $HasClapper, $CanCling, $HasEnguarde","HARD, $CanUseKannons, $HasClapper, $CanCling, $CanSwim","HARD, $CanUseKannons, $CanHover, $CanSwim","HARD, $HasBothKongs, $HasClapper, $CanCling, $HasEnguarde","HARD, $HasBothKongs, $HasClapper, $CanCling, $CanSwim","HARD, $HasBothKongs, $CanHover, $CanSwim"],
                 "chest_unopened_img": "images/checks/kong_disabled.png",
                 "chest_opened_img": "images/checks/kong.png",
                 "visibility_rules": ["kongchecks"],
@@ -93,7 +93,7 @@
             "sections": [
                 {
                 "name": "Bonus #1",
-                "access_rules": ["NORMAL, teamattack, diddy, dixie, cling", "EASY, teamattack, diddy, dixie, cling, cartwheel", "HARD, teamattack, diddy, dixie, cling"],
+                "access_rules": ["EASY, $CanTeamAttack, $CanCling, $CanCartwheel","NORMAL, $CanTeamAttack, $CanCling","HARD, $CanTeamAttack"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
@@ -113,7 +113,7 @@
             "sections": [
                 {
                 "name": "Bonus #2",
-                "access_rules": ["NORMAL, clapper, swim, barrelkannons, enguarde", "EASY, clapper, swim, barrelkannons, enguarde", "HARD, clapper, barrelkannons, enguarde"],
+                "access_rules": ["EASY, $HasClapper, $CanSwim, $CanUseKannons, $HasEnguarde","NORMAL, $HasClapper, $CanSwim, $CanUseKannons, $HasEnguarde","HARD, $HasEnguarde, $CanUseKannons, $HasClapper","HARD, $HasEnguarde, $CanUseKannons, $CanHover, $CanSwim","HARD, $HasEnguarde, $HasBothKongs, $HasClapper","HARD, $HasEnguarde, $HasBothKongs, $CanHover, $CanSwim"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
@@ -133,7 +133,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #1 (Below Zinger duo)",
-                "access_rules": ["EASY, clapper", "NORMAL, clapper", "HARD, clapper", "HARD, helicopterspin, dixie, swim"],
+                "access_rules": ["EASY, $HasClapper","NORMAL, $HasClapper","HARD, $HasClapper","HARD, $CanHover, $CanSwim"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -153,7 +153,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #1 (Behind Shuri)",
-                "access_rules": ["EASY, clapper, swim, barrelkannons, enguarde", "NORMAL, clapper, swim, barrelkannons", "HARD, barrelkannons, clapper, swim", "HARD, barrelkannons, clapper, enguarde", "HARD, barrelkannons, helicopterspin, dixie, swim", "HARD, barrelkannons, helicopterspin, swim, enguarde"],
+                "access_rules": ["EASY, $HasClapper, $CanSwim, $CanUseKannons, $HasEnguarde","NORMAL, $HasClapper, $CanSwim, $CanUseKannons","HARD, $CanUseKannons, $HasClapper, $HasEnguarde","HARD, $CanUseKannons, $HasClapper, $CanSwim","HARD, $CanUseKannons, $CanHover, $CanSwim","HARD, $HasBothKongs, $HasClapper, $HasEnguarde","HARD, $HasBothKongs, $HasClapper, $CanSwim","HARD, $HasBothKongs, $CanHover, $CanSwim"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -173,7 +173,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #2 (Behind Shuri)",
-                "access_rules": ["EASY, clapper, swim, barrelkannons, enguarde", "NORMAL, clapper, swim, barrelkannons", "HARD, barrelkannons, clapper, swim", "HARD, barrelkannons, clapper, enguarde", "HARD, barrelkannons, helicopterspin, dixie, swim", "HARD, barrelkannons, helicopterspin, swim, enguarde"],
+                "access_rules": ["EASY, $HasClapper, $CanSwim, $CanUseKannons, $HasEnguarde","NORMAL, $HasClapper, $CanSwim, $CanUseKannons","HARD, $CanUseKannons, $HasClapper, $HasEnguarde","HARD, $CanUseKannons, $HasClapper, $CanSwim","HARD, $CanUseKannons, $CanHover, $CanSwim","HARD, $HasBothKongs, $HasClapper, $HasEnguarde","HARD, $HasBothKongs, $HasClapper, $CanSwim","HARD, $HasBothKongs, $CanHover, $CanSwim"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -193,7 +193,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #3 (Behind Shuri)",
-                "access_rules": ["EASY, clapper, swim, barrelkannons, enguarde", "NORMAL, clapper, swim, barrelkannons", "HARD, barrelkannons, clapper, swim", "HARD, barrelkannons, clapper, enguarde", "HARD, barrelkannons, helicopterspin, dixie, swim", "HARD, barrelkannons, helicopterspin, swim, enguarde"],
+                "access_rules": ["EASY, $HasClapper, $CanSwim, $CanUseKannons, $HasEnguarde","NORMAL, $HasClapper, $CanSwim, $CanUseKannons","HARD, $CanUseKannons, $HasClapper, $HasEnguarde","HARD, $CanUseKannons, $HasClapper, $CanSwim","HARD, $CanUseKannons, $CanHover, $CanSwim","HARD, $HasBothKongs, $HasClapper, $HasEnguarde","HARD, $HasBothKongs, $HasClapper, $CanSwim","HARD, $HasBothKongs, $CanHover, $CanSwim"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -213,7 +213,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #2 (Next to Bonus #2 entrance)",
-                "access_rules": ["EASY, clapper, swim, barrelkannons, enguarde", "NORMAL, clapper, swim, barrelkannons", "HARD, barrelkannons, clapper, swim", "HARD, barrelkannons, clapper, enguarde", "HARD, barrelkannons, helicopterspin, dixie, swim", "HARD, barrelkannons, helicopterspin, swim, enguarde"],
+                "access_rules": ["EASY, $HasClapper, $CanSwim, $CanUseKannons, $HasEnguarde","NORMAL, $HasClapper, $CanSwim, $CanUseKannons","HARD, $CanUseKannons, $HasClapper, $HasEnguarde","HARD, $CanUseKannons, $HasClapper, $CanSwim","HARD, $CanUseKannons, $CanHover, $CanSwim","HARD, $HasBothKongs, $HasClapper, $HasEnguarde","HARD, $HasBothKongs, $HasClapper, $CanSwim","HARD, $HasBothKongs, $CanHover, $CanSwim"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -233,7 +233,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #4 (Enguarde sign)",
-                "access_rules": ["EASY, clapper, swim, barrelkannons, enguarde", "NORMAL, clapper, swim, barrelkannons, enguarde", "HARD, barrelkannons, clapper, enguarde", "HARD, barrelkannons, helicopterspin, swim, enguarde"],
+                "access_rules": ["EASY, $HasClapper, $CanSwim, $CanUseKannons, $HasEnguarde","NORMAL, $HasClapper, $CanSwim, $CanUseKannons, $HasEnguarde","HARD, $HasEnguarde, $CanUseKannons, $HasClapper","HARD, $HasEnguarde, $CanUseKannons, $CanHover, $CanSwim","HARD, $HasEnguarde, $HasBothKongs, $HasClapper","HARD, $HasEnguarde, $HasBothKongs, $CanHover, $CanSwim"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -253,7 +253,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #3 (Below ! Barrel)",
-                "access_rules": ["EASY, clapper, swim, barrelkannons, enguarde, exclamationbarrels, teamattack, diddy, dixie", "NORMAL, clapper, swim, barrelkannons, teamattack, diddy, dixie, exclamationbarrels", "HARD, barrelkannons, clapper, swim, teamattack, diddy, dixie, exclamationbarrels", "HARD, barrelkannons, clapper, swim, diddy, dixie", "HARD, barrelkannons, clapper, enguarde, teamattack, diddy, dixie, exclamationbarrels", "HARD, barrelkannons, clapper, enguarde, diddy, dixie", "HARD, barrelkannons, helicopterspin, dixie, swim, teamattack, diddy, exclamationbarrels", "HARD, barrelkannons, helicopterspin, dixie, swim, diddy", "HARD, barrelkannons, helicopterspin, dixie, swim, enguarde, teamattack, diddy, exclamationbarrels"],
+                "access_rules": ["EASY, $HasClapper, $CanSwim, $CanUseKannons, $HasEnguarde, $CanTeamAttack, $CanBeInvincible","NORMAL, $HasClapper, $CanSwim, $CanUseKannons, $CanTeamAttack, $CanBeInvincible","HARD, $CanUseKannons, $HasClapper, $CanCling, $HasEnguarde","HARD, $CanUseKannons, $HasClapper, $CanCling, $CanSwim","HARD, $CanUseKannons, $CanHover, $CanSwim","HARD, $HasBothKongs, $HasClapper, $CanCling, $HasEnguarde","HARD, $HasBothKongs, $HasClapper, $CanCling, $CanSwim","HARD, $HasBothKongs, $CanHover, $CanSwim"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -273,7 +273,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #4 (Below ! Barrel)",
-                "access_rules": ["EASY, clapper, swim, barrelkannons, enguarde, exclamationbarrels, teamattack, diddy, dixie", "NORMAL, clapper, swim, barrelkannons, teamattack, diddy, dixie, exclamationbarrels", "HARD, barrelkannons, clapper, swim, teamattack, diddy, dixie, exclamationbarrels", "HARD, barrelkannons, clapper, swim, diddy, dixie", "HARD, barrelkannons, clapper, enguarde, teamattack, diddy, dixie, exclamationbarrels", "HARD, barrelkannons, clapper, enguarde, diddy, dixie", "HARD, barrelkannons, helicopterspin, dixie, swim, teamattack, diddy, exclamationbarrels", "HARD, barrelkannons, helicopterspin, dixie, swim, diddy", "HARD, barrelkannons, helicopterspin, dixie, swim, enguarde, teamattack, diddy, exclamationbarrels"],
+                "access_rules": ["EASY, $HasClapper, $CanSwim, $CanUseKannons, $HasEnguarde, $CanTeamAttack, $CanBeInvincible","NORMAL, $HasClapper, $CanSwim, $CanUseKannons, $CanTeamAttack, $CanBeInvincible","HARD, $CanUseKannons, $HasClapper, $CanCling, $HasEnguarde","HARD, $CanUseKannons, $HasClapper, $CanCling, $CanSwim","HARD, $CanUseKannons, $CanHover, $CanSwim","HARD, $HasBothKongs, $HasClapper, $CanCling, $HasEnguarde","HARD, $HasBothKongs, $HasClapper, $CanCling, $CanSwim","HARD, $HasBothKongs, $CanHover, $CanSwim"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -293,7 +293,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #5 (Below ! Barrel)",
-                "access_rules": ["EASY, clapper, swim, barrelkannons, enguarde, exclamationbarrels, teamattack, diddy, dixie", "NORMAL, clapper, swim, barrelkannons, teamattack, diddy, dixie, exclamationbarrels", "HARD, barrelkannons, clapper, swim, teamattack, diddy, dixie, exclamationbarrels", "HARD, barrelkannons, clapper, swim, diddy, dixie", "HARD, barrelkannons, clapper, enguarde, teamattack, diddy, dixie, exclamationbarrels", "HARD, barrelkannons, clapper, enguarde, diddy, dixie", "HARD, barrelkannons, helicopterspin, dixie, swim, teamattack, diddy, exclamationbarrels", "HARD, barrelkannons, helicopterspin, dixie, swim, diddy", "HARD, barrelkannons, helicopterspin, dixie, swim, enguarde, teamattack, diddy, exclamationbarrels"],
+                "access_rules": ["EASY, $HasClapper, $CanSwim, $CanUseKannons, $HasEnguarde, $CanTeamAttack, $CanBeInvincible","NORMAL, $HasClapper, $CanSwim, $CanUseKannons, $CanTeamAttack, $CanBeInvincible","HARD, $CanUseKannons, $HasClapper, $CanCling, $HasEnguarde","HARD, $CanUseKannons, $HasClapper, $CanCling, $CanSwim","HARD, $CanUseKannons, $CanHover, $CanSwim","HARD, $HasBothKongs, $HasClapper, $CanCling, $HasEnguarde","HARD, $HasBothKongs, $HasClapper, $CanCling, $CanSwim","HARD, $HasBothKongs, $CanHover, $CanSwim"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],

@@ -10,7 +10,7 @@
         "sections": [
             {
                 "name": "Clear",
-                "access_rules": ["EASY, carry, cling, diddy, dixie", "HARD, carry, cling", "NORMAL, carry, cling"],
+                "access_rules": ["EASY, $CanCling, $CanCarry, $HasBothKongs","NORMAL, $CanCling, $CanCarry","HARD, $CanCling, $CanCarry"],
                 "chest_unopened_img": "images/checks/clear_disabled.png",
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
@@ -18,7 +18,7 @@
             },
             {
                 "name": "Defeat",
-                "access_rules": ["EASY, carry, cling, diddy, dixie", "HARD, carry, cling", "NORMAL, carry, cling"],
+                "access_rules": ["EASY, $CanCling, $CanCarry, $HasBothKongs","NORMAL, $CanCling, $CanCarry","HARD, $CanCling, $CanCarry"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
@@ -38,7 +38,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #1 (Top left corner)",
-                "access_rules": ["EASY, carry, cling, diddy, dixie, helicopterspin", "NORMAL, cling, carry, helicopterspin, dixie", "HARD, cling, carry, helicopterspin, dixie"],
+                "access_rules": ["EASY, $CanCling, $CanCarry, $HasBothKongs, $CanHover","NORMAL, $CanCling, $CanCarry, $CanHover","HARD, $CanCling, $CanHover, $CanCarry"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -58,7 +58,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #2 (Top left corner)",
-                "access_rules": ["EASY, carry, cling, diddy, dixie, helicopterspin", "NORMAL, cling, carry, helicopterspin, dixie", "HARD, cling, carry, helicopterspin, dixie"],
+                "access_rules": ["EASY, $CanCling, $CanCarry, $HasBothKongs, $CanHover","NORMAL, $CanCling, $CanCarry, $CanHover","HARD, $CanCling, $CanHover, $CanCarry"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],

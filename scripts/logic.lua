@@ -1285,3 +1285,100 @@ function animalanticsvisibility()
     end
 end
 
+--New Logic functions for logic update.
+
+function HasDiddy()
+    return has("diddy")
+end
+
+function HasDixie()
+    return has("dixie")
+end
+
+function CanClimb()
+    return has("climb")
+end
+
+function CanCarry()
+    return has("carry")
+end
+
+function CanCling()
+    return has("cling")
+end
+
+function CanCartwheel()
+    return has("cartwheel")
+end
+
+function CanSwim()
+    return has("swim")
+end
+
+function HasRambi()
+    return has("rambi")
+end
+
+function HasSquawks()
+    return has("squawks")
+end
+
+function HasEnguarde()
+    return has("enguarde")
+end
+
+function HasSquitter()
+    return has("squitter")
+end
+
+function HasRattly()
+    return has("rattly")
+end
+
+function HasClapper()
+    return has("clapper")
+end
+
+function HasGlimmer()
+    return has("glimmer")
+end
+
+function CanRideSkullKart()
+    return has("skullkart")
+end
+
+function CanUseKannons()
+    return has("barrelkannons")
+end
+
+function CanBeInvincible()
+    return has("exclamationbarrels")
+end
+
+function CanUseControllableBarrels()
+    return has("controllablebarrels")
+end
+
+function CanUseWarpBarrels()
+    return has("warpbarrels")
+end
+
+function HasBothKongs()
+    return has("diddy") and has("dixie")
+end
+
+function CanTeamAttack()
+    return has("diddy") and has("dixie") and has("teamattack")
+end
+
+function CanHover()
+    return has("dixie") and has("helicopterspin")
+end
+
+function CanUseDiddyBarrels()
+    return has("diddy") and has("kongbarrels")
+end
+
+function CanUseDixieBarrels()
+    return has("dixie") and has("kongbarrels")
+end

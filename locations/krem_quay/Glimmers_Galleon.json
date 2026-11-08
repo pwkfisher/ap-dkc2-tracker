@@ -8,7 +8,7 @@
         "sections": [
             {
                 "name": "Clear",
-                "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
+                "access_rules": ["EASY, $CanSwim, $HasGlimmer","NORMAL, $CanSwim","HARD, $CanSwim"],
                 "chest_unopened_img": "images/checks/clear_disabled.png",
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
@@ -28,7 +28,7 @@
             "sections": [
                 {
                 "name": "DK Coin",
-                "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
+                "access_rules": ["EASY, $CanSwim, $HasGlimmer","NORMAL, $CanSwim","HARD, $CanSwim"],
                 "chest_unopened_img": "images/checks/dkcoin_disabled.png",
                 "chest_opened_img": "images/checks/dkcoin.png",
                 "visibility_rules": ["dkcoinchecks"],
@@ -48,7 +48,7 @@
             "sections": [
                 {
                 "name": "KONG",
-                "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
+                "access_rules": ["EASY, $CanSwim, $HasGlimmer","NORMAL, $CanSwim","HARD, $CanSwim"],
                 "chest_unopened_img": "images/checks/kong_disabled.png",
                 "chest_opened_img": "images/checks/kong.png",
                 "visibility_rules": ["kongchecks"],
@@ -87,7 +87,7 @@
             "sections": [
                 {
                 "name": "Bonus #1",
-                "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
+                "access_rules": ["EASY, $CanSwim, $HasGlimmer","NORMAL, $CanSwim","HARD, $CanSwim"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
@@ -107,7 +107,7 @@
             "sections": [
                 {
                 "name": "Bonus #2",
-                "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
+                "access_rules": ["EASY, $CanSwim, $HasGlimmer","NORMAL, $CanSwim","HARD, $CanSwim"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
@@ -127,7 +127,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #1 (Hidden passage on top left corner)",
-                "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
+                "access_rules": ["EASY, $CanSwim, $HasGlimmer","NORMAL, $CanSwim","HARD, $CanSwim"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -147,7 +147,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #2 (Hidden passage on top left corner)",
-                "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
+                "access_rules": ["EASY, $CanSwim, $HasGlimmer","NORMAL, $CanSwim","HARD, $CanSwim"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -167,7 +167,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #1 (Hidden passage above Bonus #1 entrance)",
-                "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
+                "access_rules": ["EASY, $CanSwim, $HasGlimmer","NORMAL, $CanSwim","HARD, $CanSwim"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -187,7 +187,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #2 (Hidden passage above Bonus #1 entrance)",
-                "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
+                "access_rules": ["EASY, $CanSwim, $HasGlimmer","NORMAL, $CanSwim","HARD, $CanSwim"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -207,7 +207,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #3 (Hidden passage above Bonus #1 entrance)",
-                "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
+                "access_rules": ["EASY, $CanSwim, $HasGlimmer","NORMAL, $CanSwim","HARD, $CanSwim"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -227,7 +227,7 @@
             "sections": [
                 {
                 "name": "Red Balloon (Alone banana above Glimmer spawn)",
-                "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
+                "access_rules": ["EASY, $CanSwim, $HasGlimmer","NORMAL, $CanSwim","HARD, $CanSwim"],
                 "chest_unopened_img": "images/checks/swanky1_disabled.png",
                 "chest_opened_img": "images/checks/swanky1.png",
                 "visibility_rules": ["balloonsanity"],
@@ -247,7 +247,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #4 (Above green Flotsam duo)",
-                "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
+                "access_rules": ["EASY, $CanSwim, $HasGlimmer","NORMAL, $CanSwim","HARD, $CanSwim"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -267,7 +267,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #3 (Middle crates after left banana arrow)",
-                "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
+                "access_rules": ["EASY, $CanSwim, $HasGlimmer","NORMAL, $CanSwim","HARD, $CanSwim"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -287,7 +287,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #5 (Next to Lockjaw near up banana arrow)",
-                "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
+                "access_rules": ["EASY, $CanSwim, $HasGlimmer","NORMAL, $CanSwim","HARD, $CanSwim"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -307,7 +307,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #4 (Hidden passage near Lockjaw duo)",
-                "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
+                "access_rules": ["EASY, $CanSwim, $HasGlimmer","NORMAL, $CanSwim","HARD, $CanSwim"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -327,7 +327,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #6 (Hidden passage near Lockjaw duo)",
-                "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
+                "access_rules": ["EASY, $CanSwim, $HasGlimmer","NORMAL, $CanSwim","HARD, $CanSwim"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -347,7 +347,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #7 (Hidden passage near Lockjaw duo)",
-                "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
+                "access_rules": ["EASY, $CanSwim, $HasGlimmer","NORMAL, $CanSwim","HARD, $CanSwim"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -367,7 +367,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #5 (Hidden passage near Lockjaw duo)",
-                "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
+                "access_rules": ["EASY, $CanSwim, $HasGlimmer","NORMAL, $CanSwim","HARD, $CanSwim"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -387,7 +387,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #8 (Near Lockjaw and blue Flotsam duo)",
-                "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
+                "access_rules": ["EASY, $CanSwim, $HasGlimmer","NORMAL, $CanSwim","HARD, $CanSwim"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -407,7 +407,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #6 (Near Lockjaw and blue Flotsam duo)",
-                "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
+                "access_rules": ["EASY, $CanSwim, $HasGlimmer","NORMAL, $CanSwim","HARD, $CanSwim"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -427,7 +427,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #9 (Near exploding Puftup after midpoint)",
-                "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
+                "access_rules": ["EASY, $CanSwim, $HasGlimmer","NORMAL, $CanSwim","HARD, $CanSwim"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -447,7 +447,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #10 (Near exploding Puftup before N)",
-                "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
+                "access_rules": ["EASY, $CanSwim, $HasGlimmer","NORMAL, $CanSwim","HARD, $CanSwim"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -467,7 +467,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #11 (Near exploding Puftup before N)",
-                "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
+                "access_rules": ["EASY, $CanSwim, $HasGlimmer","NORMAL, $CanSwim","HARD, $CanSwim"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -487,7 +487,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #12 (Next to N)",
-                "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
+                "access_rules": ["EASY, $CanSwim, $HasGlimmer","NORMAL, $CanSwim","HARD, $CanSwim"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -507,7 +507,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #7 (Hidden passage near Shuri and blue Flotsam)",
-                "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
+                "access_rules": ["EASY, $CanSwim, $HasGlimmer","NORMAL, $CanSwim","HARD, $CanSwim"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -527,7 +527,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #8 (Hidden passage near Shuri and blue Flotsam)",
-                "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
+                "access_rules": ["EASY, $CanSwim, $HasGlimmer","NORMAL, $CanSwim","HARD, $CanSwim"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -547,7 +547,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #13 (All way up after multiple Shuri section)",
-                "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
+                "access_rules": ["EASY, $CanSwim, $HasGlimmer","NORMAL, $CanSwim","HARD, $CanSwim"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -567,7 +567,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #9 (Next to G)",
-                "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
+                "access_rules": ["EASY, $CanSwim, $HasGlimmer","NORMAL, $CanSwim","HARD, $CanSwim"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -587,7 +587,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #14 (Next to G)",
-                "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
+                "access_rules": ["EASY, $CanSwim, $HasGlimmer","NORMAL, $CanSwim","HARD, $CanSwim"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -607,7 +607,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #10 (Before exit barrel)",
-                "access_rules": ["EASY, swim, glimmer", "NORMAL, swim", "HARD, swim"],
+                "access_rules": ["EASY, $CanSwim, $HasGlimmer","NORMAL, $CanSwim","HARD, $CanSwim"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],

@@ -8,7 +8,7 @@
         "sections": [
             {
                 "name": "Clear",
-                "access_rules": ["EASY, carry, diddy, dixie", "NORMAL, carry", "HARD, carry"],
+                "access_rules": ["EASY, $CanCarry, $HasBothKongs","NORMAL, $CanCarry","HARD, $CanCarry"],
                 "chest_unopened_img": "images/checks/clear_disabled.png",
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
@@ -16,7 +16,7 @@
             },
             {
                 "name": "Defeat",
-                "access_rules": ["EASY, carry, diddy, dixie", "NORMAL, carry", "HARD, carry"],
+                "access_rules": ["EASY, $CanCarry, $HasBothKongs","NORMAL, $CanCarry","HARD, $CanCarry"],
                 "chest_unopened_img": "images/checks/kremkoin_disabled.png",
                 "chest_opened_img": "images/checks/kremkoin.png",
                 "visibility_rules": [],
@@ -36,7 +36,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #1 (Above nest)",
-                "access_rules": ["EASY, teamattack, diddy, dixie", "NORMAL, teamattack, diddy, dixie", "HARD"],
+                "access_rules": ["EASY, $CanTeamAttack","NORMAL, $CanTeamAttack","HARD"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -56,7 +56,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #2 (Above nest)",
-                "access_rules": ["EASY, teamattack, diddy, dixie", "NORMAL, teamattack, diddy, dixie", "HARD"],
+                "access_rules": ["EASY, $CanTeamAttack","NORMAL, $CanTeamAttack","HARD"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],

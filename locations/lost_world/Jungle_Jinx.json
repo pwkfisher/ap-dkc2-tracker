@@ -10,7 +10,7 @@
         "sections": [
             {
                 "name": "Clear",
-                "access_rules": ["EASY, cartwheel, barrelkannons", "NORMAL, cartwheel, barrelkannons", "HARD, barrelkannons", "HARD, helicopterspin, dixie"],
+                "access_rules": ["EASY, $CanCartwheel, $CanUseKannons","NORMAL, $CanCartwheel, $CanUseKannons","HARD, $CanUseKannons","HARD, $CanHover"],
                 "chest_unopened_img": "images/checks/clear_disabled.png",
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
@@ -30,10 +30,10 @@
             "sections": [
                 {
                 "name": "DK Coin",
-                "access_rules": ["EASY, cartwheel, teamattack, diddy, dixie", "NORMAL, cartwheel, teamattack, diddy, dixie", "HARD, teamattack, diddy, dixie, cartwheel", "HARD, teamattack, diddy, dixie, helicopterspin"],
+                "access_rules": ["EASY, $CanCartwheel, $CanTeamAttack","NORMAL, $CanCartwheel, $CanTeamAttack","HARD, $CanTeamAttack, $CanCartwheel","HARD, $CanTeamAttack, $CanHover"],
                 "chest_unopened_img": "images/checks/dkcoin_disabled.png",
                 "chest_opened_img": "images/checks/dkcoin.png",
-                "visibility_rules": [],
+                "visibility_rules": ["dkcoinchecks"],
                 "item_count": 1
             }
         ],
@@ -50,7 +50,7 @@
             "sections": [
                 {
                 "name": "KONG",
-                "access_rules": ["EASY, cartwheel, barrelkannons, carry", "NORMAL, cartwheel, barrelkannons, carry", "HARD, cartwheel, barrelkannons, carry", "HARD, cartwheel, barrelkannons, diddy, dixie", "HARD, cartwheel, helicopterspin, dixie, diddy", "HARD, cartwheel, helicopterspin, dixie, carry"],
+                "access_rules": ["EASY, $CanCartwheel, $CanUseKannons, $CanCarry","NORMAL, $CanCartwheel, $CanUseKannons, $CanCarry","HARD, $CanHover, $CanCarry","HARD, $CanHover, $HasBothKongs","HARD, $CanCartwheel, $CanUseKannons, $CanCarry","HARD, $CanCartwheel, $CanUseKannons, $HasBothKongs"],
                 "chest_unopened_img": "images/checks/kong_disabled.png",
                 "chest_opened_img": "images/checks/kong.png",
                 "visibility_rules": ["kongchecks"],
@@ -89,7 +89,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #1 (Start)",
-                "access_rules": [],
+                "access_rules": ["EASY","NORMAL","HARD"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -109,7 +109,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #2 (Above Zinger)",
-                "access_rules": [],
+                "access_rules": ["EASY","NORMAL","HARD"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -129,7 +129,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #1 (Between Zingers)",
-                "access_rules": ["EASY, helicopterspin, dixie", "NORMAL, helicopterspin, dixie", "HARD"],
+                "access_rules": ["EASY, $CanHover","NORMAL, $CanHover","HARD"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -149,7 +149,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #2 (Above Zinger)",
-                "access_rules": ["EASY, cartwheel", "NORMAL, cartwheel", "HARD"],
+                "access_rules": ["EASY, $CanCartwheel","NORMAL, $CanCartwheel","HARD"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -169,7 +169,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #3 (Arrow barrel)",
-                "access_rules": ["EASY, cartwheel, barrelkannons", "NORMAL, cartwheel, barrelkannons", "HARD, helicopterspin, dixie", "HARD, barrelkannons"],
+                "access_rules": ["EASY, $CanCartwheel, $CanUseKannons","NORMAL, $CanCartwheel, $CanUseKannons","HARD, $CanHover","HARD, $CanUseKannons"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -189,7 +189,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #4 (On top of banana trail)",
-                "access_rules": ["EASY, cartwheel, teamattack, diddy, dixie, barrelkannons", "NORMAL, cartwheel, barrelkannons, teamattack, diddy, dixie", "HARD, helicopterspin, dixie", "HARD, barrelkannons"],
+                "access_rules": ["EASY, $CanCartwheel, $CanUseKannons, $CanTeamAttack","NORMAL, $CanCartwheel, $CanUseKannons, $CanTeamAttack","HARD, $CanHover","HARD, $CanUseKannons"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
@@ -209,7 +209,7 @@
             "sections": [
                 {
                 "name": "Banana Coin #5 (Banana trail before Klobber)",
-                "access_rules": ["EASY, cartwheel, barrelkannons", "NORMAL, cartwheel, barrelkannons", "HARD, helicopterspin, dixie", "HARD, barrelkannons"],
+                "access_rules": ["EASY, $CanCartwheel, $CanUseKannons","NORMAL, $CanCartwheel, $CanUseKannons","HARD, $CanHover","HARD, $CanUseKannons"],
                 "chest_unopened_img": "images/checks/bananacoin_disabled.png",
                 "chest_opened_img": "images/checks/bananacoin.png",
                 "visibility_rules": ["coinsanity"],
